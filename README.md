@@ -9,7 +9,7 @@ Most PMs use AI the same way they use Google: one-off questions, zero context. T
 - **Context over prompting.** AI is only as good as the context you give it. PM OS organizes your company knowledge, writing styles, stakeholder profiles, and past decisions so every output sounds like it came from someone who actually works there.
 - **Workflows, not chat.** 59 slash commands cover the full PM loop: strategy, research, PRDs, metrics, meetings, launches, and retrospectives. Each one builds on the others.
 - **Ship the draft, then iterate.** Documents are living artifacts. A 1-page PRD that ships Monday beats a 10-page spec that ships never.
-- **Auto-updating skills.** 15 skills from external repos auto-update weekly via GitHub Actions, so you always have the latest PM frameworks.
+- **Auto-updating skills.** 16 skills from external repos auto-update weekly via GitHub Actions, so you always have the latest PM frameworks.
 
 ## What You Get
 
@@ -105,11 +105,34 @@ When you ask Claude to draft a PRD, it automatically:
 - Follows your PRD template
 - Includes real examples from your library
 
-### 5. Connect Your Tools (MCPs)
+## MCP Integrations (Model Context Protocol)
 
-Connect Model Context Protocol (MCP) servers for real-time data access from your tools.
+MCPs connect Claude to your tools for real-time data access.
 
-**Common PM Tools to Connect:**
+### Currently Connected
+
+| MCP | Purpose | Example Queries |
+|-----|---------|-----------------|
+| **New Relic** | Observability, NRQL, alerts, logs | "Show error rate for checkout service" |
+| **Atlassian** | Jira/Confluence | "Create a ticket for login bug" |
+| **Bedrock Retrieval** | Knowledge base search | "Search our docs for auth flow" |
+| **Google Search** | Web search | "Research competitor X pricing" |
+
+### Query Routing
+
+Claude automatically routes queries to the right MCP:
+
+| Query Pattern | Routes To |
+|---------------|-----------|
+| Metrics, funnels, retention | Analytics MCPs |
+| Tasks, tickets, epics | Jira/Linear |
+| Observability, errors, logs | New Relic |
+| Competitor intel | Web Search |
+| Internal docs | Confluence/Bedrock |
+
+### Connect More Tools
+
+**Common PM Tools:**
 - **Analytics**: Amplitude, Mixpanel, Posthog, Pendo, Heap
 - **Project Management**: Linear, Jira, Asana, ClickUp
 - **User Research**: Dovetail, UserTesting, Maze
