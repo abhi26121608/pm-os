@@ -7,8 +7,9 @@ Your AI-powered copilot for modern product management. Built for Claude Code and
 Most PMs use AI the same way they use Google: one-off questions, zero context. This system works differently.
 
 - **Context over prompting.** AI is only as good as the context you give it. PM OS organizes your company knowledge, writing styles, stakeholder profiles, and past decisions so every output sounds like it came from someone who actually works there.
-- **Workflows, not chat.** 41 slash commands cover the full PM loop: strategy, research, PRDs, metrics, meetings, launches, and retrospectives. Each one builds on the others.
+- **Workflows, not chat.** 59 slash commands cover the full PM loop: strategy, research, PRDs, metrics, meetings, launches, and retrospectives. Each one builds on the others.
 - **Ship the draft, then iterate.** Documents are living artifacts. A 1-page PRD that ships Monday beats a 10-page spec that ships never.
+- **Auto-updating skills.** 15 skills from external repos auto-update weekly via GitHub Actions, so you always have the latest PM frameworks.
 
 ## What You Get
 
@@ -64,7 +65,7 @@ pm-operating-system/
 ├── CLAUDE.md                    # Master instructions for Claude
 │
 ├── .claude/                     # Claude Code configuration
-│   └── skills/                  # 41 registered slash commands
+│   └── skills/                  # 59 registered slash commands
 │
 ├── setup/                       # Installation and configuration
 ├── context-library/             # Your company/product context
@@ -95,7 +96,7 @@ Unlike ChatGPT or regular Claude:
 ### Three Layers of Context
 
 1. **Project Knowledge** (`context-library/`) - Company info, writing styles, stakeholder profiles that apply across all your work
-2. **Skills** (`.claude/skills/`) - 41 registered slash commands for recurring tasks
+2. **Skills** (`.claude/skills/`) - 59 registered slash commands for recurring tasks
 3. **Sub-Agents** (`sub-agents/`) - Specialized reviewers for different perspectives
 
 When you ask Claude to draft a PRD, it automatically:
@@ -158,7 +159,7 @@ Claude will automatically route your question to the right tool and return resul
 - [ ] Customize the slash commands for your workflow
 - [ ] Add example PRDs from your company to `context-library/example-prds/`
 
-## Available Slash Commands (41 Total)
+## Available Slash Commands (59 Total)
 
 Type `/` in Claude Code to see autocomplete menu with all commands.
 
@@ -241,6 +242,27 @@ Please review [prd-file.md] from the perspective of an engineer, designer, and e
 | One-shot responses | Evolves PRDs through 6 stages |
 | No file system access | Creates/edits files directly in your project |
 | Single perspective | Multi-agent reviews (engineer, designer, exec, legal) |
+
+## Auto-Updating Skills
+
+15 of the 59 skills come from external repositories and auto-update weekly:
+
+| Source Repo | Skills |
+|-------------|--------|
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | opportunity-solution-tree, pre-mortem, swot-analysis, porters-five-forces, lean-canvas, user-personas, prioritization-frameworks, market-sizing, growth-loops, ideal-customer-profile, beachhead-segment, sql-queries, interview-guide, retention-analysis, competitive-battlecard |
+
+**How it works:**
+- GitHub Actions runs every Monday at 9am UTC
+- Checks source repos for updates to tracked skills
+- Creates a Pull Request if any changes are found
+- You review and merge to keep skills current
+
+**Manual update:**
+```bash
+./scripts/update-external-skills.sh
+```
+
+**Configuration:** `.github/external-skills.json`
 
 ## Support & Updates
 
