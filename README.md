@@ -245,11 +245,11 @@ Please review [prd-file.md] from the perspective of an engineer, designer, and e
 
 ## Auto-Updating Skills
 
-15 of the 59 skills come from external repositories and auto-update weekly:
+16 of the 59 skills come from external repositories and auto-update weekly:
 
 | Source Repo | Skills |
 |-------------|--------|
-| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | opportunity-solution-tree, pre-mortem, swot-analysis, porters-five-forces, lean-canvas, user-personas, prioritization-frameworks, market-sizing, growth-loops, ideal-customer-profile, beachhead-segment, sql-queries, interview-guide, retention-analysis, competitive-battlecard |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | ab-test-analysis, beachhead-segment, competitive-battlecard, competitor-analysis, growth-loops, ideal-customer-profile, lean-canvas, market-sizing, opportunity-solution-tree, porters-five-forces, pre-mortem, prioritization-frameworks, sql-queries, stakeholder-map, swot-analysis, user-personas |
 
 **How it works:**
 - GitHub Actions runs every Monday at 9am UTC
