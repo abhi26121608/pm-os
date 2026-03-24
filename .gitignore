@@ -14,3 +14,7 @@ __pycache__/
 
 # Specific large files
 context-library/Internal Docs- New Relic/Agentic Integrations/[Running Deck] Weekly Tech Partner Marketing Sync.pptx
+
+# Internal/confidential docs (keep local, don't push)
+*-INTERNAL.md
+*-internal.md
