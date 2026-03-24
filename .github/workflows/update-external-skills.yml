@@ -1,0 +1,107 @@
+name: Update External Skills
+
+on:
+  schedule:
+    # Run every Monday at 9am UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  update-skills:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update skills from external sources
+        id: update
+        run: |
+          set -e
+
+          # Read external skills config
+          CONFIG_FILE=".github/external-skills.json"
+          SKILLS_DIR=".claude/skills"
+          UPDATED_SKILLS=""
+
+          # Process each source
+          for source in $(jq -r '.sources[].repo' "$CONFIG_FILE"); do
+            echo "Processing source: $source"
+
+            # Clone the source repo
+            TEMP_DIR=$(mktemp -d)
+            git clone --depth 1 "https://github.com/$source.git" "$TEMP_DIR"
+
+            # Get skills for this source
+            SKILLS=$(jq -r --arg repo "$source" '.sources[] | select(.repo == $repo) | .skills[] | "\(.source)|\(.target)"' "$CONFIG_FILE")
+
+            while IFS='|' read -r src_path tgt_name; do
+              if [ -n "$src_path" ] && [ -n "$tgt_name" ]; then
+                SRC_FULL="$TEMP_DIR/$src_path"
+                TGT_FULL="$SKILLS_DIR/$tgt_name"
+
+                if [ -d "$SRC_FULL" ]; then
+                  # Check if content changed
+                  if [ -d "$TGT_FULL" ]; then
+                    # Compare SKILL.md files
+                    if ! diff -q "$SRC_FULL/SKILL.md" "$TGT_FULL/SKILL.md" > /dev/null 2>&1; then
+                      echo "Updating: $tgt_name"
+                      rm -rf "$TGT_FULL"
+                      cp -r "$SRC_FULL" "$TGT_FULL"
+                      UPDATED_SKILLS="$UPDATED_SKILLS $tgt_name"
+                    fi
+                  else
+                    echo "Adding new: $tgt_name"
+                    cp -r "$SRC_FULL" "$TGT_FULL"
+                    UPDATED_SKILLS="$UPDATED_SKILLS $tgt_name"
+                  fi
+                else
+                  echo "Warning: Source not found: $src_path"
+                fi
+              fi
+            done <<< "$SKILLS"
+
+            # Cleanup
+            rm -rf "$TEMP_DIR"
+          done
+
+          # Update lastUpdated in config
+          jq --arg date "$(date +%Y-%m-%d)" '.lastUpdated = $date' "$CONFIG_FILE" > tmp.json && mv tmp.json "$CONFIG_FILE"
+
+          # Set output
+          if [ -n "$UPDATED_SKILLS" ]; then
+            echo "updated=true" >> $GITHUB_OUTPUT
+            echo "skills=$UPDATED_SKILLS" >> $GITHUB_OUTPUT
+          else
+            echo "updated=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.update.outputs.updated == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update external skills from upstream"
+          title: "Update External Skills"
+          body: |
+            ## Automated Skill Update
+
+            The following skills were updated from upstream sources:
+            ${{ steps.update.outputs.skills }}
+
+            **Source:** [phuryn/pm-skills](https://github.com/phuryn/pm-skills)
+
+            Please review the changes before merging.
+          branch: automated/update-external-skills
+          delete-branch: true
+          labels: |
+            automated
+            skills-update
+
+      - name: No updates needed
+        if: steps.update.outputs.updated == 'false'
+        run: echo "All skills are up to date!"
