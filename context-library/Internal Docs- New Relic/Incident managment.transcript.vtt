@@ -1,0 +1,730 @@
+WEBVTT
+
+1
+00:00:01.850 --> 00:00:08.710
+Anu Kumari: Hey everyone, my name is Ano, and today I'm here before you all presenting a demo on the incident management feature.
+
+2
+00:00:09.440 --> 00:00:28.229
+Anu Kumari: Now, one of the biggest challenges faced by our SREs is the manual toil and the operational tasks that they have to bear when managing incidents, toggling across multiple screens, documents, dashboards, observability tools, all while letting the time tick on the meantime to resolve.
+
+3
+00:00:29.090 --> 00:00:33.050
+Anu Kumari: Now, Neuralink incident management is the perfect solution for you, because
+
+4
+00:00:33.400 --> 00:00:36.929
+Anu Kumari: It's powered by the observability data.
+
+5
+00:00:37.040 --> 00:00:52.020
+Anu Kumari: And it lets engineers focus primarily on mitigating and resolving the incident without worrying about collating, gathering every context, information that they would need in order to resolve their incidents faster.
+
+6
+00:00:52.380 --> 00:00:57.280
+Anu Kumari: So, without much ado, let's get into the demo of the incident management.
+
+7
+00:00:57.810 --> 00:01:00.290
+Anu Kumari: I'm gonna be sharing my screen.
+
+8
+00:01:00.760 --> 00:01:01.870
+Anu Kumari: Now…
+
+9
+00:01:02.630 --> 00:01:12.289
+Anu Kumari: Before I get into the details of the demo, let me talk about the three fundamental building blocks of the incident management feature, which are the incident profile.
+
+10
+00:01:12.600 --> 00:01:17.139
+Anu Kumari: Incident Command Center, or also called as the ICC, and the metrics.
+
+11
+00:01:17.790 --> 00:01:29.780
+Anu Kumari: Now, what is the incident profile, and what value does it add to our customers? Well, incident profile solves 3 very unique and key problems for our customers, which is,
+
+12
+00:01:30.150 --> 00:01:34.759
+Anu Kumari: The problem of inconsistent data associated with every incident.
+
+13
+00:01:35.570 --> 00:01:53.750
+Anu Kumari: Second is the manual toil, again, which the engineers have to undergo configuring a Zoom link, Slack channel, every time when the incident gets created. And third is the operational, dirty operational data, right? Because…
+
+14
+00:01:53.870 --> 00:02:02.469
+Anu Kumari: When you have inconsistencies in the way you are tracking your key timestamps, key moments during an incident lifecycle.
+
+15
+00:02:02.780 --> 00:02:05.610
+Anu Kumari: You will never be able to rely on the metrics
+
+16
+00:02:05.840 --> 00:02:12.780
+Anu Kumari: Created off of it, and your execs and leadership will never be in a position to take critical decisions based on that data.
+
+17
+00:02:13.960 --> 00:02:27.509
+Anu Kumari: Incident Profile solves all these three problems for you, because it lets the org admins in the organization decide on what incident template would work the best for their organization.
+
+18
+00:02:27.580 --> 00:02:34.009
+Anu Kumari: And this incident profile acts as a DNA or a blueprint, which is…
+
+19
+00:02:34.280 --> 00:02:41.029
+Anu Kumari: Accessed and kind of inherited by all the incidents which get created into the org.
+
+20
+00:02:41.500 --> 00:02:47.820
+Anu Kumari: So, for the sake of this demo, I'm gonna be going over this already created incident profile.
+
+21
+00:02:47.930 --> 00:02:59.159
+Anu Kumari: I'm gonna click on Incident, sorry, the Edit Configuration button, and what I see before me is all of the details which I entered when I was creating this incident profile.
+
+22
+00:02:59.190 --> 00:03:10.460
+Anu Kumari: Now, let me also call out that this is a one-time thing, and the idea is, once the org admin takes the pain of going over, configuring this whole incident profile.
+
+23
+00:03:11.010 --> 00:03:34.349
+Anu Kumari: users who are responsible for creating and managing incidents will simply kind of use every decision taken here, and that'll show up in the incident template, so they don't have to worry about configuring the incident management process again, and this is a one-time thing which will be done by the org admin. Now, say, for example, you know, you want to create a specific profile for securities incidents.
+
+24
+00:03:34.430 --> 00:03:50.899
+Anu Kumari: And given that it's a security incident, you may not want everybody else in the organization to know about that incident or access the incident Slack channel. So all of that can also be something defined and configured in the incident profile. So let me take you through all of it.
+
+25
+00:03:51.960 --> 00:04:11.420
+Anu Kumari: Now, I give a profile name and description here. I can click on next, and go over all of the key timestamps, key moments, you know, that I want to capture in the incident template across the three phases of the incident lifecycle, which is active phase, retrospective phase, and the closing phase.
+
+26
+00:04:11.760 --> 00:04:17.620
+Anu Kumari: I can either click on next, or I can also navigate across the tabs from the left-hand side.
+
+27
+00:04:17.760 --> 00:04:19.580
+Anu Kumari: Now, in here.
+
+28
+00:04:19.760 --> 00:04:32.849
+Anu Kumari: I would be selecting all the fields that I would want to show up in the incident template, so, you know, all of the basic details, like your incident ID, title, description, severity.
+
+29
+00:04:33.020 --> 00:04:41.100
+Anu Kumari: etc. And then, towards the bottom, I also have the opportunity and the flexibility to add detection methods
+
+30
+00:04:41.100 --> 00:05:05.970
+Anu Kumari: tags, you know, if I want to link my, incident, if I want to link any specific tags to my incident for better reporting, I can configure all of that in the incident profile here. So I basically click on add and keep adding as many values as I want, and every value which gets added under the detection method, tags, or region will show up as options under, you know, drop-down values in the ICC UI,
+
+31
+00:05:05.970 --> 00:05:07.649
+Anu Kumari: Incident Command Center UI.
+
+32
+00:05:08.780 --> 00:05:28.690
+Anu Kumari: Next is configuring roles and owners. So, what kind of users would you want, or what kind of roles and privileges will the users have who will be managing incidents? So, incident commander is something which is a mandatory role, but you can choose to have or not have communication manager, tech leads, etc.
+
+33
+00:05:28.690 --> 00:05:48.880
+Anu Kumari: And then, you also have a way to configure your teams, right? So when an incident occurs, right, you need to know which was the team responsible for that incident. So maybe if the payment service is the one for which there is an incident, right, open, and the payment service is owned by the payments team.
+
+34
+00:05:48.880 --> 00:05:55.280
+Anu Kumari: So, payments team becomes the key team, and because the payment service is down, it might be, you know, impacting the checkout.
+
+35
+00:05:55.280 --> 00:06:03.190
+Anu Kumari: Service, or any other service for that matter. And all of those teams would become the key teams, or the impacted teams.
+
+36
+00:06:03.190 --> 00:06:16.410
+Anu Kumari: Now, there are two ways through which you can, you know, configure the Teams part in your incident profile. You can resort to NR Teams if you're already a customer of New Relic, using the New Relic Teams feature.
+
+37
+00:06:16.410 --> 00:06:24.760
+Anu Kumari: And we would, get or, you know, auto-capture all of the team's information from the New Relic teams. If not.
+
+38
+00:06:24.870 --> 00:06:37.400
+Anu Kumari: Then, we would ask you, or request you, to add the team names manually out here, so that we can populate those values in the… under the team section when you are trying to choose, the owning and key teams for your incident.
+
+39
+00:06:39.200 --> 00:06:55.119
+Anu Kumari: This is the most interesting piece, because this is, you know, one of these, you know, key problems which… or key issues which Incident Profile solves, where I was talking about how, for every instant, engineers have to spend some time doing all of these basic configurations. So…
+
+40
+00:06:55.310 --> 00:06:57.639
+Anu Kumari: In here,
+
+41
+00:06:58.200 --> 00:07:22.320
+Anu Kumari: when I created this profile, I already completed the Slack configuration. You can see that it's connected here. I already did the Zoom configuration and also the conference configuration, and all of this is, by default, gonna be available to me every time when somebody's going to create an incident in the org, right? So they need not worry about configuring a Slack channel or a Zoom link that gets auto-created every time a new incident gets created.
+
+42
+00:07:23.440 --> 00:07:24.590
+Anu Kumari: Now…
+
+43
+00:07:26.020 --> 00:07:48.650
+Anu Kumari: Confluence is basically used, to export, or, you know, there is… you need a location where you would be publishing all of your retro documents, and you might want to push them to a Confluence location, so you can do the Confluence configuration. Zoom is basically required for teams to come together and, you know, do their retrospective meetings to understand and discuss.
+
+44
+00:07:48.650 --> 00:07:49.510
+Anu Kumari: on…
+
+45
+00:07:49.510 --> 00:08:13.939
+Anu Kumari: what… why did the incident occur in the first place? What can they do better in the future? And then you have the Slack, right? So, Slack is, you know, mostly used by organizations to, kind of collaborate throughout the incident lifecycle, right from the time it got created, so that team members can come, they can, you know, hypothesize, why the incident happened in the first place.
+
+46
+00:08:13.980 --> 00:08:17.800
+Anu Kumari: Resolve it, mitigate it, and then finally go to closure.
+
+47
+00:08:19.360 --> 00:08:31.360
+Anu Kumari: Next is the resolution fields. So once you have been able to resolve your incident, you want to capture in your incident template as to what led to the incident in the first place.
+
+48
+00:08:31.360 --> 00:08:45.319
+Anu Kumari: And also, why, did the incident get caused, right? Like, what was the cause of the incident, right? So, you can add values, again, for the resolution category and the triggering event, depending on
+
+49
+00:08:45.710 --> 00:08:56.489
+Anu Kumari: whatever values you think are specific to your org, based on your preferences and choices. And again, all of these values are gonna show up in the incident template.
+
+50
+00:08:56.490 --> 00:09:06.059
+Anu Kumari: Similarly, you can choose to have or not have resolution summary, lessons learned, root cause summary as part of your resolution, or a retrospective field.
+
+51
+00:09:06.940 --> 00:09:15.080
+Anu Kumari: And lastly, when you go to review and save, you will see a preview of every choice that you made across each of…
+
+52
+00:09:15.080 --> 00:09:35.379
+Anu Kumari: the steps in the configuration of your profile, and if you want to edit something about any particular section, you can simply click on the edit button, you would be taken to that section. You can make your choices again there, and you would be, again, going to review and save, click on the finish button, and the profile gets created for you.
+
+53
+00:09:36.560 --> 00:09:37.350
+Anu Kumari: No.
+
+54
+00:09:37.540 --> 00:09:51.209
+Anu Kumari: Once the profile has been created, anybody in your org who has the required role to be able to create an incident can simply go to the Incident Command Center and should be able to see the declare an incident button here.
+
+55
+00:09:51.610 --> 00:10:07.549
+Anu Kumari: Now, if you see here, there are a bunch of incidents which already got created, and these incidents are all linked to this profile, so they would be inheriting, the incident template based on the choices made in the incident profile.
+
+56
+00:10:07.550 --> 00:10:13.880
+Anu Kumari: And it's gonna be the same set of data, communication channels, configuration details for each of the incidents in here.
+
+57
+00:10:14.040 --> 00:10:26.669
+Anu Kumari: Now, depending on, you know, what view works the best for you, you can choose to opt for any of the view options here, as to how you would want to see your incident list page. And then.
+
+58
+00:10:26.780 --> 00:10:30.319
+Anu Kumari: If you want to declare an incident, you can simply click here.
+
+59
+00:10:30.770 --> 00:10:35.180
+Anu Kumari: And… Give a name to this incident.
+
+60
+00:10:36.250 --> 00:10:37.720
+Anu Kumari: And,
+
+61
+00:10:39.630 --> 00:10:47.270
+Anu Kumari: For now, I'll just let the severity be SF5, and I can create an incident. I can always update the severity in the future.
+
+62
+00:10:47.530 --> 00:10:57.720
+Anu Kumari: Now, what you see is that as soon as you created an incident, a Slack channel and a Zoom meeting link automatically got created for this incident.
+
+63
+00:10:59.310 --> 00:11:10.229
+Anu Kumari: Then, we also see that the focus point right now is on investigating under the key moments section. Now, the key moments is the same section which you
+
+64
+00:11:10.230 --> 00:11:23.089
+Anu Kumari: It corresponds to the incident lifecycle and the phases tab in the incident profile, where you basically decide on what key moments would you want to be captured as part of the incident template.
+
+65
+00:11:24.180 --> 00:11:33.590
+Anu Kumari: Then you have this, left… sorry, the right-hand side panel, which is kind of a permanent panel across
+
+66
+00:11:33.760 --> 00:11:58.710
+Anu Kumari: each of the tabs, you know, irrespective of whichever tab you go to into the incident ICC UI, this tab is, this panel is kind of a permanent thing, and it keeps, it shows very critical information about, the incident, right? So, let's talk about the communication channel in here. So, depending on whether you chose, given that, you know, in the case of the profile, there was a Slack, Zoom, and Conference configuration
+
+67
+00:11:58.710 --> 00:12:05.100
+Anu Kumari: that I did. So under the communication section, I should be able to see Slack and Zoom, and that you can already see.
+
+68
+00:12:06.180 --> 00:12:30.820
+Anu Kumari: And, yeah, talking about the roles, so I opted for, you know, communication manager, tech lead, and responders, and all of that is showing up here. Now, let me add or assign roles to other members in the team. Let me see if I'm able to add them. Yes, so I can add a communication manager here. I can also choose owning and key teams here.
+
+69
+00:12:33.370 --> 00:12:38.299
+Anu Kumari: And… you would see all of that, show up in the UI.
+
+70
+00:12:38.570 --> 00:12:39.760
+Anu Kumari: Now…
+
+71
+00:12:40.050 --> 00:12:46.909
+Anu Kumari: I can also add, issues and related incidents, so if there is a need, if I feel that, you know, there is
+
+72
+00:12:47.070 --> 00:12:53.579
+Anu Kumari: already an incident which could be linked to this incident, so I can simply go… And,
+
+73
+00:12:53.970 --> 00:12:58.359
+Anu Kumari: look for an incident, and I can simply link it here.
+
+74
+00:12:58.800 --> 00:12:59.730
+Anu Kumari: Right?
+
+75
+00:12:59.930 --> 00:13:06.489
+Anu Kumari: And the incidents got linked, I mean, I was able to, add related incidents to this particular incident.
+
+76
+00:13:06.610 --> 00:13:16.799
+Anu Kumari: And now, let me also talk about the New Relic AI-empowered feature here, which is the summarize incident. So, if I click on it.
+
+77
+00:13:16.850 --> 00:13:33.600
+Anu Kumari: I will actually have AI do the work for me to generate a smart summary for me. Now, this feature can basically be used by all our execs and, you know, folks from the senior leadership who want to come, you know, quickly get an understanding of where are we with the incident, and
+
+78
+00:13:33.600 --> 00:13:45.519
+Anu Kumari: NR AI does the wonder here, because it synthesizes the information about the incident on the UI and in the incident Slack channel, and kind of populates this quick summary for you.
+
+79
+00:13:46.470 --> 00:13:53.049
+Anu Kumari: Now, let's go back to, let's go to the Slack channel and see what's happening there.
+
+80
+00:13:53.420 --> 00:13:54.600
+Anu Kumari: So…
+
+81
+00:13:54.880 --> 00:14:15.649
+Anu Kumari: This is the incident Slack channel that got created the moment I created the incident, right? So if you can see here, I am the incident commander, Anshith is the communication manager. I was able to add key teams and owning teams in the UI, and it's all showing up as is in the, Slack also.
+
+82
+00:14:15.650 --> 00:14:26.680
+Anu Kumari: I can also access the Zoom meeting link, and incident management will actually take me to the ICC UI, you know, the incident in the ICC UI.
+
+83
+00:14:26.770 --> 00:14:28.220
+Anu Kumari: And,
+
+84
+00:14:29.950 --> 00:14:49.339
+Anu Kumari: You will also keep receiving a lot of updates depending on what kind of actions you're taking on the incident from the UI. So, say, if you're adding a new communication manager, if you're adding owning teams and key teams information, all that is going to show up in the Slack as well, as an update from the New Relic app.
+
+85
+00:14:49.350 --> 00:14:52.200
+Anu Kumari: And now, if I want to…
+
+86
+00:14:53.220 --> 00:15:01.250
+Anu Kumari: add any more details or update any information about this incident from the modal, I can simply go here.
+
+87
+00:15:01.950 --> 00:15:19.619
+Anu Kumari: And maybe I want to remove this key team, right? Or maybe I want to choose a region. Now, let me tell you, all of the information or values that you see in the dropdown is something which you configured in the profile, right? So you can… so I just go ahead and choose these two regions for now, and I click on update.
+
+88
+00:15:19.860 --> 00:15:25.129
+Anu Kumari: Now, the moment I do that, right, I would be able to see these updates happening here.
+
+89
+00:15:25.330 --> 00:15:39.060
+Anu Kumari: Now, in a live incident, right, where you will have a lot many members on this incident Slack channel, all of this information and communication comes in very handy when you know what's exactly happening on the incident, right?
+
+90
+00:15:39.590 --> 00:15:46.270
+Anu Kumari: Now, let's go back to the ICC UI to see how all of the changes that I made here reflects in the UI.
+
+91
+00:15:46.380 --> 00:15:50.430
+Anu Kumari: So if I go here, what you would see is that
+
+92
+00:15:50.580 --> 00:15:58.150
+Anu Kumari: I was able to change the key teams from 2 to 1, and that's showing or reflecting correctly in the UI.
+
+93
+00:15:58.320 --> 00:16:06.370
+Anu Kumari: Also, if I go to the details tab here, I can see the regions impacted. Now, let's go back to the summary tab again.
+
+94
+00:16:06.660 --> 00:16:10.720
+Anu Kumari: Now, one thing that I want to call out here is,
+
+95
+00:16:11.250 --> 00:16:22.369
+Anu Kumari: that you can always choose to edit the key moments from the summary tab, and I'll also tell you why this is important.
+
+96
+00:16:22.850 --> 00:16:32.700
+Anu Kumari: This is very, very important, so that you have all of your key moments, you know, following a certain chronological order, so that
+
+97
+00:16:32.760 --> 00:16:49.049
+Anu Kumari: you can calculate… so this can be… so this can actually become the auditable source of truth for all your metrics calculation, right? So you are able to capture every, incident state change with precision on the UI,
+
+98
+00:16:49.050 --> 00:17:05.920
+Anu Kumari: And this is going to be the basis, or the base of all your metrics calculation. And users, you know, can come to this section anytime in their experience, and can actually update or add, you know, edit or add key moments from in here.
+
+99
+00:17:07.890 --> 00:17:12.350
+Anu Kumari: Let's, move to the next tab, which is the timeline tab.
+
+100
+00:17:12.450 --> 00:17:24.110
+Anu Kumari: So this particular tab actually tells you about every action, key decision, communication that is happening on the incident, and kind of automatically builds
+
+101
+00:17:24.200 --> 00:17:39.160
+Anu Kumari: a timeline view with every timeline entry for every action, decision, communication, in a chronological manner, so that you know exactly, you know, what has happened on the incident right from the time it got declared, right? So if you see here.
+
+102
+00:17:39.160 --> 00:17:49.009
+Anu Kumari: the incident got declared, and the communication manager was updated to unsheet. Now, if I go… if I go ahead and I, you know, update the severity,
+
+103
+00:17:49.570 --> 00:18:08.170
+Anu Kumari: And if I come back here, I'll see that, you know, the severity update is being recorded as a timeline entry. If I make any changes to any of the incident management, incident commander or communication manager roles, all of that is also automatically start showing up in the investigation timeline also.
+
+104
+00:18:09.230 --> 00:18:10.380
+Anu Kumari: Now…
+
+105
+00:18:11.100 --> 00:18:24.230
+Anu Kumari: Let's also move, you know, let's also talk about the one feature which I wanted to cover after having talked about the timeline tab. So this particular feature that you see on the top, the last update.
+
+106
+00:18:24.230 --> 00:18:33.910
+Anu Kumari: basically, this lets anybody who has access to the ICC UI and is working on a certain incident be able to add, you know.
+
+107
+00:18:33.910 --> 00:18:40.809
+Anu Kumari: Meaningful updates, which they would want to kind of broadcast to everybody who is working on this incident.
+
+108
+00:18:40.930 --> 00:18:54.930
+Anu Kumari: And you can edit the date and the timestamp from here, and when you save, right, so you know exactly who made what announcement, right? And this is also something which gets added to the timeline.
+
+109
+00:18:55.570 --> 00:19:03.829
+Anu Kumari: Right? So imagine for longer-running incidents, right, which span across hours, and at times even two to three days.
+
+110
+00:19:03.830 --> 00:19:20.539
+Anu Kumari: The timeline entries can be huge in number, and, you know, it could be a very huge vertical scroll, but with the help of this feature, you would… it would take you just a few seconds to understand what was the last key decision made, and by whom, and how long before did that happen.
+
+111
+00:19:21.130 --> 00:19:39.890
+Anu Kumari: Now, moving on, let's move to the details tab. So in here, again, you know, we kind of let the users capture basic fundamental details about the incident, such as, you know, if there are any tags that you would want to link to the incident, or if there is any detection source which you think should be
+
+112
+00:19:40.260 --> 00:19:41.790
+Anu Kumari: added.
+
+113
+00:19:41.880 --> 00:19:51.809
+Anu Kumari: To this incident, and you know, you may want to add your customer impact. Regions is something which I already added. Now, let me also call out that every…
+
+114
+00:19:51.810 --> 00:20:02.769
+Anu Kumari: value in the drop-down that you see here is something which you configured, or the org admin configured for you when configuring the incident profile, right? Now…
+
+115
+00:20:03.410 --> 00:20:06.749
+Anu Kumari: Let's, go ahead and,
+
+116
+00:20:07.310 --> 00:20:20.499
+Anu Kumari: try to move to the other tab, but before doing that, let me also go back to Slack and show you what else you can do, you know, in terms of an action on the incident right from Slack.
+
+117
+00:20:20.700 --> 00:20:24.639
+Anu Kumari: Now, there are a bunch of, flash commands
+
+118
+00:20:25.320 --> 00:20:32.029
+Anu Kumari: That you should be able to see. And these commands basically help you perform
+
+119
+00:20:32.030 --> 00:20:46.179
+Anu Kumari: Intended actions, so you have the command name and the definition, and you can use these commands to basically be able to add a timeline entry, to resolve the incident, to declare an incident.
+
+120
+00:20:46.540 --> 00:20:55.590
+Anu Kumari: Or, you know, even, you know, take over as an IC if you're not the IC, right? So all of these, so maybe, you know, I'll try just adding
+
+121
+00:20:56.090 --> 00:21:00.060
+Anu Kumari: An incident, timeline entry from here.
+
+122
+00:21:01.060 --> 00:21:05.710
+Anu Kumari: say… Roll back 2.
+
+123
+00:21:07.040 --> 00:21:23.220
+Anu Kumari: And let us see what happens. So the moment I executed that command, I was able to update the timeline with this entry rollback to, and let's see what happens on the UI. So in the timeline, we got another entry created whenever I executed that command.
+
+124
+00:21:23.260 --> 00:21:32.499
+Anu Kumari: Now, incident management feature has been built in a way where there is complete parity between every action
+
+125
+00:21:32.540 --> 00:21:51.519
+Anu Kumari: That you can perform from the ICC UI versus what you can do from Slack. So, you know, changing or editing or updating the name of the incident, adding a timeline entry, resolving the incident, you know, adding or dropping issue links, you know, updating the roles.
+
+126
+00:21:51.520 --> 00:21:53.320
+Anu Kumari: teams.
+
+127
+00:21:53.320 --> 00:22:13.219
+Anu Kumari: everything is something which can be done both from the ICC UI and Slack. So, you know, organizations, depending on, what is a more comfortable practice in their organization, they can choose to resort to using only the UI, or a combination of both, or, you know, just Slack to be able to manage their incidents.
+
+128
+00:22:14.240 --> 00:22:24.380
+Anu Kumari: Now, finally, after I've filled out all of this information, right, let's go to the resolution tab. So, here is a validation, so you cannot…
+
+129
+00:22:24.380 --> 00:22:35.659
+Anu Kumari: go to the resolution tab directly. We expect you to be marking your incident as resolved first, and that, again, is something, you know, which has been, you know, done to ensure that
+
+130
+00:22:35.660 --> 00:22:53.049
+Anu Kumari: users are kind of following the practice of incident management and locking all the details so that, you know, we are able to capture a good amount of information about incidents on our UI, and they are following the chronological order of all the incident states, right?
+
+131
+00:22:53.270 --> 00:22:55.690
+Anu Kumari: So, here…
+
+132
+00:22:55.960 --> 00:23:09.740
+Anu Kumari: when the user is now finally marked the incident as resolved, I can go and access the resolution tab. Now, in here, again, you know, I can choose whatever triggering event or resolution category,
+
+133
+00:23:09.910 --> 00:23:12.980
+Anu Kumari: I want to add, and
+
+134
+00:23:14.340 --> 00:23:22.700
+Anu Kumari: I can just, add some, content here… Under each of them.
+
+135
+00:23:22.960 --> 00:23:37.040
+Anu Kumari: I can also add action items, right? So, given that the incident is now in the resolved state, it is expected that, you know, you would have figured out what the triggering event for this incident was, or what the resolution category was.
+
+136
+00:23:37.260 --> 00:23:42.649
+Anu Kumari: And again, these are mandatory fields, which has to be included in the incident template.
+
+137
+00:23:42.750 --> 00:24:00.639
+Anu Kumari: You can choose, you know, TOEFL information, the resolution summary, or you can also skip them. You can also add action items if you want to track any specific actions that was called out in the retrospective meeting, and you can simply
+
+138
+00:24:01.380 --> 00:24:05.650
+Anu Kumari: add a link of a Jira ticket in here.
+
+139
+00:24:09.390 --> 00:24:12.670
+Anu Kumari: And you can, save the action.
+
+140
+00:24:13.170 --> 00:24:14.150
+Anu Kumari: Right?
+
+141
+00:24:14.300 --> 00:24:19.230
+Anu Kumari: And now, while I have done all of this, I want to move to the third…
+
+142
+00:24:19.380 --> 00:24:34.509
+Anu Kumari: most important stage, which is to generate the retrospective, right? So I would click on this, and this is yet again another important key feature where New Relic AI comes to shine again, where
+
+143
+00:24:34.720 --> 00:24:41.339
+Anu Kumari: Our agent is actually gonna synthesize all of the information in the incident Slack channel.
+
+144
+00:24:41.530 --> 00:24:43.730
+Anu Kumari: And it will also have…
+
+145
+00:24:43.790 --> 00:25:02.500
+Anu Kumari: the access to the Zoom transcript, right? So the Zoom meeting, the retrospective meeting which was conducted. The agent will also have access to that transcript, and he'll be able to synthesize all of this information, and we'll be able to generate a smart retrospective summary for you, which otherwise would take hours for engineers to kind of
+
+146
+00:25:02.520 --> 00:25:04.520
+Anu Kumari: Build, create.
+
+147
+00:25:04.800 --> 00:25:13.060
+Anu Kumari: And, you know, AI, our agent, is just gonna build it for you in a few minutes' time, and we'll see that exactly happening in action.
+
+148
+00:25:13.880 --> 00:25:17.410
+Anu Kumari: Now, I have decided to publish this
+
+149
+00:25:17.780 --> 00:25:30.399
+Anu Kumari: retro to a conference location. This is a preview of the template as to what details will the retro contain, and I can simply go ahead and generate on retro.
+
+150
+00:25:31.570 --> 00:25:44.929
+Anu Kumari: Now, this is gonna take us a few minutes, so maybe I want to switch back to Slack to see what's happening there. And for anybody who is working on this incident and is, you know, on the Slack channel, they would see that
+
+151
+00:25:44.950 --> 00:25:55.950
+Anu Kumari: the generate retrospective report is something in action. You know, there are a few steps which have already been completed, and we are halfway through generating the retro.
+
+152
+00:25:55.950 --> 00:26:07.310
+Anu Kumari: I can go back to the UI, I can, you know, navigate across different tabs, and if I come to resolution, I still see that it is gonna take us a few more minutes to generate the retro.
+
+153
+00:26:08.230 --> 00:26:16.419
+Anu Kumari: You know, meanwhile, I can, you know, add any more updates or timeline entries, and I should be able to see them reflect.
+
+154
+00:26:19.470 --> 00:26:31.770
+Anu Kumari: Now, let me go back to resolution here. Before that, let's see what's happening on Slack. So what I see on Slack is that your retrospective report is ready, and here is the link to the report.
+
+155
+00:26:31.770 --> 00:26:51.210
+Anu Kumari: I also see the timeline update that I just made, and before that, one thing that I missed to call out was the resolution summary. So every time when the incident gets resolved, there is a post-resolved summary that gets generated in Slack that talks about everything, you know, that has happened on the incident, right from the time it was declared, created.
+
+156
+00:26:51.210 --> 00:26:55.549
+Anu Kumari: Do the timeline entries, the root cause analysis.
+
+157
+00:26:55.620 --> 00:26:59.240
+Anu Kumari: Follow-up actions, resolution steps, everything.
+
+158
+00:27:00.290 --> 00:27:11.309
+Anu Kumari: Now, let's go back to the UI. So what you see here is that the retrospective is published, and here is the link to the conference document. So let me click on this.
+
+159
+00:27:11.960 --> 00:27:24.359
+Anu Kumari: And as soon as I do that, I can see that here is the retrospective document that got generated, for me in just, you know, a matter of a few minutes.
+
+160
+00:27:24.490 --> 00:27:41.299
+Anu Kumari: And this retrospective document contains every critical information about the timeline, the retrospective exercise, recordings to the Zoom meeting, the action items, the incident timeline, root cause summary, everything. One thing noteworthy here is that
+
+161
+00:27:41.460 --> 00:27:42.520
+Anu Kumari: you know.
+
+162
+00:27:42.790 --> 00:27:52.809
+Anu Kumari: this report also contains suggested action items. So if, for instance, you weren't able to manually, you know, add any action items to your incident.
+
+163
+00:27:53.350 --> 00:28:10.050
+Anu Kumari: New Relic AI is going to do the work for you, given that it has access to the Zoom transcript, it is going to identify action items that you should be tracking, and it will start showing them as suggested actions in the retro document. And you can always choose to create a JIRA ticket or track that separately out of the ICC.
+
+164
+00:28:11.100 --> 00:28:28.680
+Anu Kumari: Now, let's go back to the UI. So right now, the incident got created, I was able to resolve it, finally I have been able to generate the retros successfully, and now I may want to simply close the incident. So I go in here and click on Closed.
+
+165
+00:28:29.170 --> 00:28:43.860
+Anu Kumari: Now, before I can close the incident, I have to fill out all of these key moments. And this is, the reason, you know, I was kind of talking about this edit key moments option in the beginning, because
+
+166
+00:28:44.750 --> 00:28:56.120
+Anu Kumari: And that, to me, you know, that brings me to the perfect segue, and the last topic for today's demo, which is going to be metrics. Now, like I said, key moments are very, very essential for
+
+167
+00:28:56.340 --> 00:29:10.610
+Anu Kumari: Incident management to ensure that all of the metrics are being calculated correctly and accurately, and that can only happen if the key moments are calculated… the timestamps for each of the key moments is being captured with precision.
+
+168
+00:29:11.160 --> 00:29:22.390
+Anu Kumari: Now, here is an opportunity for the user, because now that they are out of the worry of resolving the incident, they can take time to go over all the key timestamps and understand
+
+169
+00:29:22.390 --> 00:29:33.719
+Anu Kumari: when did what happened? So, when did the risk get introduced? When did I, you know, when was the incident detected? When was it out of impact? And I can go ahead
+
+170
+00:29:33.840 --> 00:29:42.829
+Anu Kumari: and add values, you know, depending on, what I feel to be… should be the appropriate time that I should be capturing in the UI here.
+
+171
+00:29:43.000 --> 00:29:52.510
+Anu Kumari: And once I am able to provide all of the key timestamps, I can click on save, and if now I go and try to close the incident, I should be able to do that.
+
+172
+00:29:53.810 --> 00:29:57.640
+Anu Kumari: Now, there are a bunch of other… Yeah.
+
+173
+00:29:57.780 --> 00:30:01.900
+Anu Kumari: Now let me try… Closing? Yes.
+
+174
+00:30:02.110 --> 00:30:16.850
+Anu Kumari: So, there are a few more fields, but these are recommendations. I can still proceed to closing the incident without filling out those fields. And now, finally, what you see is that the incident got closed, and if I go to Slack, it shows that the incident was
+
+175
+00:30:17.000 --> 00:30:21.530
+Anu Kumari: The incident state was changed from resolved to closed by Anu.
+
+176
+00:30:22.700 --> 00:30:23.890
+Anu Kumari: Now…
+
+177
+00:30:24.130 --> 00:30:32.339
+Anu Kumari: Let's go to metrics, which is the last fundamental block that I was talking about when we started with the demo of incident management.
+
+178
+00:30:32.490 --> 00:30:47.520
+Anu Kumari: Now, incident metrics is a bunch of auto-calculated metrics, which would get calculated the moment you mark your incident as resolved, right? And what you see here is
+
+179
+00:30:47.670 --> 00:31:04.519
+Anu Kumari: a trend or, you know, a distribution of incidents across severity. You see all your entity X's, such as your mean time to detect, mean time to resolve, investigate, etc. Trend lines, you know, which show how you have been doing in terms of incident management over the last week.
+
+180
+00:31:05.160 --> 00:31:18.289
+Anu Kumari: And every critical information which your execs and your leadership is going to require to be able to understand where is the system suffering, and where is it doing well, and what they should be focusing on.
+
+181
+00:31:18.800 --> 00:31:29.859
+Anu Kumari: So with that, I come towards the end of the incident management demo. I hope this was helpful, and please let me know if you have any questions or feedback for me.
+
+182
+00:31:30.000 --> 00:31:32.509
+Anu Kumari: And, thank you, everyone.
+

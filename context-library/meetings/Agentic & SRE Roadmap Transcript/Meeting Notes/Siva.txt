@@ -1,0 +1,837 @@
+[Siva Balakrishnan] 22:02:59
+Hello?
+
+[Abhishek Pandey] 22:03:03
+Hi, Seva, good morning.
+
+[Siva Balakrishnan] 22:03:05
+You know, good evening. How are you every day.
+
+[Abhishek Pandey] 22:03:06
+I'm doing great, Seva. How about yourself?
+
+[Siva Balakrishnan] 22:03:10
+Good, good. Welcome on board!
+
+[Abhishek Pandey] 22:03:11
+Thank you, thank you, thank you for taking out the time and talking to me, I appreciate it.
+
+[Siva Balakrishnan] 22:03:16
+No problem, no room. Uh, yeah, I was…
+
+[Abhishek Pandey] 22:03:18
+Yeah.
+
+[Siva Balakrishnan] 22:03:18
+So I haven't have been able to meet last week.
+
+[Abhishek Pandey] 22:03:20
+Yeah, that's okay. Uh, maybe I can quickly introduce myself.
+
+[Abhishek Pandey] 22:03:24
+For your reference. As you know, I'm Abhisheikh, I worked in India for 3 years after completing my engineering.
+
+[Siva Balakrishnan] 22:03:25
+Yeah.
+
+[Abhishek Pandey] 22:03:30
+I was in the data science all that while.
+
+[Abhishek Pandey] 22:03:33
+After that, I moved to US, to Dallas specifically, for my master's in ML.
+
+[Abhishek Pandey] 22:03:38
+Did that, worked in the US for 5 years, then I moved back to India last year itself.
+
+[Abhishek Pandey] 22:03:43
+Due to visa issues, um, so I've been a data scientist or data science manager for a long time.
+
+[Abhishek Pandey] 22:03:47
+But I pivoted to product in my last role in the US.
+
+[Abhishek Pandey] 22:03:51
+After that, uh, when I moved back to India, I worked again as a PM for a very small-scale startup.
+
+[Abhishek Pandey] 22:03:58
+Where we were trying to build some sort of agentic solutions in the kids' world.
+
+[Abhishek Pandey] 22:04:02
+Uh, and then one and a half months back, I've joined New Relic now, I've joined Camden's team.
+
+[Abhishek Pandey] 22:04:08
+Um, my roadmap is still not very defined, but I'm supposed to look at agentic AI…
+
+[Abhishek Pandey] 22:04:13
+capabilities here at New Relic, so it's still very broad, uh, but yeah, I thought I'll…
+
+[Abhishek Pandey] 22:04:18
+meet up with you, get to know you and your team better, and what you're working on.
+
+[Siva Balakrishnan] 22:04:22
+Awesome. Awesome. First of all just want to let them on board.
+
+[Abhishek Pandey] 22:04:25
+Thank you.
+
+[Siva Balakrishnan] 22:04:25
+I'm based in Austin, Texas, so where… where did you do your master's in, uh, UTD?
+
+[Abhishek Pandey] 22:04:27
+Oh,
+
+[Abhishek Pandey] 22:04:30
+Yeah, UT Dallas, right.
+
+[Siva Balakrishnan] 22:04:32
+Oh, okay, that's great, nice list.
+
+[Abhishek Pandey] 22:04:34
+How long have you been in Austin for?
+
+[Siva Balakrishnan] 22:04:38
+Um, I just, in 2 years, uh, you know, I've seen now,
+
+[Abhishek Pandey] 22:04:40
+Oh, got it.
+
+[Siva Balakrishnan] 22:04:42
+Um, and before that, I was in Portland, Oregon, uh, for the…
+
+[Abhishek Pandey] 22:04:46
+Oh, Portland. That's a great transition, like, in terms of weather, at least.
+
+[Siva Balakrishnan] 22:04:47
+Yes.
+
+[Siva Balakrishnan] 22:04:49
+Yeah, yeah, yeah.
+
+[Siva Balakrishnan] 22:04:52
+Yes, it is, it is.
+
+[Abhishek Pandey] 22:04:53
+Yeah, yeah. Nice. And by the way, congratulations for your promotion.
+
+[Siva Balakrishnan] 22:04:54
+Skip, good.
+
+[Siva Balakrishnan] 22:04:57
+Well, yeah, thank you, I appreciate it. Yeah, thanks.
+
+[Abhishek Pandey] 22:04:59
+Yeah, yeah.
+
+[Siva Balakrishnan] 22:05:01
+Good, good. Um, yeah, so…
+
+[Siva Balakrishnan] 22:05:04
+Are you based in which city in India?
+
+[Abhishek Pandey] 22:05:06
+I'm based out of Delhi, Seva.
+
+[Abhishek Pandey] 22:05:08
+Yeah.
+
+[Siva Balakrishnan] 22:05:10
+Okay, cool. Uh, yeah, um, so…
+
+[Siva Balakrishnan] 22:05:16
+I'm responsible for engineering side of the ops business.
+
+[Abhishek Pandey] 22:05:20
+Yeah.
+
+[Siva Balakrishnan] 22:05:21
+Which includes from change tracking,
+
+[Siva Balakrishnan] 22:05:24
+Yeah, no, it begs, and prediction…
+
+[Siva Balakrishnan] 22:05:28
+All the way to notifications, uh, systems, um, portfolio of my data.
+
+[Abhishek Pandey] 22:05:31
+Got it.
+
+[Siva Balakrishnan] 22:05:36
+Um, so we have been…
+
+[Siva Balakrishnan] 22:05:39
+dolloping agentic solution in development for the last year, like we have everybody else in the industry.
+
+[Abhishek Pandey] 22:05:45
+Okay.
+
+[Siva Balakrishnan] 22:05:47
+Um, so we have…
+
+[Siva Balakrishnan] 22:05:49
+Uh, we had done our agentic journey
+
+[Siva Balakrishnan] 22:05:53
+Um, in… is multifold.
+
+[Siva Balakrishnan] 22:05:56
+So we're trying to…
+
+[Siva Balakrishnan] 22:05:59
+build, uh, specialized reagent for domain-specific use cases, for example.
+
+[Siva Balakrishnan] 22:06:04
+We are actively building an SRE agent,
+
+[Siva Balakrishnan] 22:06:07
+Which can help, um, reduce the entity all and take over the SRE task of an incident management processes.
+
+[Siva Balakrishnan] 22:06:17
+Um, we…
+
+[Siva Balakrishnan] 22:06:18
+we've been building, um, FinAP agent for our…
+
+[Siva Balakrishnan] 22:06:23
+Um, we're not part of the business building and automation, so throughout that.
+
+[Siva Balakrishnan] 22:06:29
+Um, so that's what we call a specialized agents, like those…
+
+[Abhishek Pandey] 22:06:31
+Right.
+
+[Siva Balakrishnan] 22:06:33
+Speak agents. And that's one category of things that's inactive, and then we are also…
+
+[Siva Balakrishnan] 22:06:39
+doing our agentic integrations with other agents in the industry.
+
+[Siva Balakrishnan] 22:06:46
+Um, they built an integration with the GitHub Copilot,
+
+[Abhishek Pandey] 22:06:50
+Yeah.
+
+[Siva Balakrishnan] 22:06:50
+So that maybe they can use New Relic when… within their ecosystem.
+
+[Siva Balakrishnan] 22:06:56
+Um, to understand how my code is coding, so without leaving VS Code,
+
+[Siva Balakrishnan] 22:07:01
+You can be able to get the insight off from Neural Act within the system, so that's the agent-to-agent call talking through.
+
+[Abhishek Pandey] 22:07:07
+Got it.
+
+[Siva Balakrishnan] 22:07:08
+We did the same thing with, uh…
+
+[Siva Balakrishnan] 22:07:10
+Uh, for this industry, in this particular, it's moving super fast.
+
+[Abhishek Pandey] 22:07:15
+Yeah.
+
+[Siva Balakrishnan] 22:07:15
+Enough that things getting absolute by the time of regaling it, right? Like, just going there.
+
+[Abhishek Pandey] 22:07:21
+Yeah.
+
+[Siva Balakrishnan] 22:07:21
+Um, the… we did GEA GitHub, and now it is, uh, absoluted.
+
+[Siva Balakrishnan] 22:07:28
+So we need the same level of integration with all the three players, so we did with Gemini,
+
+[Siva Balakrishnan] 22:07:33
+And we did with our Amazon Cube business as well.
+
+[Siva Balakrishnan] 22:07:36
+Uh, so that was the… mainly the agentic, uh, um…
+
+[Siva Balakrishnan] 22:07:42
+journey of the integration perspective.
+
+[Siva Balakrishnan] 22:07:44
+And now we released our MCP server, our own MCP server,
+
+[Siva Balakrishnan] 22:07:48
+Uh, we go, um, all… I don't know, 56 tools under the MCP Server exposed through that.
+
+[Abhishek Pandey] 22:07:48
+Good day
+
+[Abhishek Pandey] 22:07:54
+Got it.
+
+[Siva Balakrishnan] 22:07:55
+So, and then we are building a lot of agentic workflow inside the product itself. For example, we're building smart alerts that checks out a thresholding pieces, all of those things inside the workflow, right? It's not showed as the agent, but it's agent that flows within the system.
+
+[Abhishek Pandey] 22:08:13
+Right.
+
+[Siva Balakrishnan] 22:08:13
+Perfect. Um, so it depends on… so there's, uh, majorly two major categories, I would say. Specialized agent,
+
+[Siva Balakrishnan] 22:08:23
+generic agent that you build.
+
+[Siva Balakrishnan] 22:08:25
+And then the integration of those agents and the ecosystem, between ServiceNows and all of them.
+
+[Abhishek Pandey] 22:08:30
+Yep.
+
+[Siva Balakrishnan] 22:08:32
+Uh, so when we actually initially, um, looking to hiring you,
+
+[Siva Balakrishnan] 22:08:38
+Were you looking for a person to cover
+
+[Siva Balakrishnan] 22:08:43
+Our agent pick portfolio of, um, integrating our agents with the third-party agents,
+
+[Siva Balakrishnan] 22:08:49
+Exposing out MCP server, bringing down business with that, and then building, um…
+
+[Siva Balakrishnan] 22:08:55
+a smaller the agent through that flows to Miriam.
+
+[Abhishek Pandey] 22:08:58
+Got it. Okay.
+
+[Siva Balakrishnan] 22:08:59
+So that's where we start over there, um…
+
+[Siva Balakrishnan] 22:09:03
+I don't know, I don't want to buy the ocean. Does it give you…
+
+[Siva Balakrishnan] 22:09:06
+context.
+
+[Abhishek Pandey] 22:09:06
+Yeah, yeah, sure, Shosha gives a lot of context, for sure.
+
+[Abhishek Pandey] 22:09:10
+And, uh, where are you?
+
+[Abhishek Pandey] 22:09:13
+Where do you think, uh, we are with these things right now, Siva? Because…
+
+[Abhishek Pandey] 22:09:17
+Uh, so I was exploring the SRE agent, right, which is…
+
+[Abhishek Pandey] 22:09:20
+supposed to go down on the floor in Feb.
+
+[Abhishek Pandey] 22:09:24
+Uh, but do you think in terms of the capabilities that these agents should have, right, do you think we are there?
+
+[Abhishek Pandey] 22:09:31
+Or there is still a lot of catching up game that we need to, uh, take care of, uh, build.
+
+[Abhishek Pandey] 22:09:36
+more capabilities around it.
+
+[Siva Balakrishnan] 22:09:39
+Yeah, we are very much active development, so I won't call it we are done, or we have minimum functionality available right now.
+
+[Abhishek Pandey] 22:09:47
+Yeah.
+
+[Siva Balakrishnan] 22:09:48
+Uh, so we… we took a journey of building an agentic platform,
+
+[Siva Balakrishnan] 22:09:54
+who's saying, build the… do the building blocks,
+
+[Siva Balakrishnan] 22:09:58
+of, like, memory, orchestration, so long-term memories, and authentication modules, and whatso, and syncing between different systems.
+
+[Abhishek Pandey] 22:10:04
+Yeah.
+
+[Siva Balakrishnan] 22:10:07
+Um, and then automate workflow automation. So we've done those pieces.
+
+[Siva Balakrishnan] 22:10:12
+and develop the agent at the same time using those features in the platform. That didn't go really well, uh, from… because of building the lack of readiness of the platform and…
+
+[Abhishek Pandey] 22:10:22
+Yeah.
+
+[Siva Balakrishnan] 22:10:22
+prior to utilization of it, not having the car. And we tried with the no-code,
+
+[Siva Balakrishnan] 22:10:28
+Um, aspect from the agent, so that you can configure an YAML file,
+
+[Siva Balakrishnan] 22:10:32
+And the platform does everything behind the scenes based on the YAML file.
+
+[Siva Balakrishnan] 22:10:36
+That didn't go much higher. So, the last few weeks, we pivoted, and writing, actually, Python agent.
+
+[Abhishek Pandey] 22:10:42
+Oh.
+
+[Siva Balakrishnan] 22:10:42
+to do the stuff that we wanted to do,
+
+[Siva Balakrishnan] 22:10:44
+Um, because then they can have more fine-tuned control
+
+[Siva Balakrishnan] 22:10:48
+I mean, we're still building on the line chain aspect of it, but we have more control over it.
+
+[Siva Balakrishnan] 22:10:54
+Uh, so that is where the Teams is right now doing.
+
+[Siva Balakrishnan] 22:10:58
+And we are expecting, through the first version of that will be available next week.
+
+[Abhishek Pandey] 22:11:02
+Okay.
+
+[Siva Balakrishnan] 22:11:03
+Um, as well. So, um, yeah, it's going to be a super tight till now, till the February, to get the…
+
+[Abhishek Pandey] 22:11:11
+Sure.
+
+[Siva Balakrishnan] 22:11:11
+communicate what we needed to go on the floor, but…
+
+[Siva Balakrishnan] 22:11:15
+But we… we… we…
+
+[Siva Balakrishnan] 22:11:16
+we have bringing some customers, early customers daily on to validate as well, and stuff.
+
+[Abhishek Pandey] 22:11:21
+Got it. Yeah, that makes sense. And, uh, maybe one more question. Uh, so I was comparing
+
+[Abhishek Pandey] 22:11:27
+The Datadogs agent, right? Their watchdog, their Bits agent, right?
+
+[Abhishek Pandey] 22:11:32
+Uh, it has, like, crazy capabilities, at least… at least that's what they claim, and that's what they say.
+
+[Abhishek Pandey] 22:11:39
+Uh, yeah, yeah, on paper.
+
+[Abhishek Pandey] 22:11:42
+And, uh, at least by seeing it, I felt, you know, that we are playing the catching up game, like,
+
+[Abhishek Pandey] 22:11:48
+They did something, they rolled it out, right? We are now trying to chase them in the race.
+
+[Siva Balakrishnan] 22:11:48
+Yeah, yeah.
+
+[Abhishek Pandey] 22:11:54
+Where, at least initially, we are gonna lose for sure, right? So, how do you, uh…
+
+[Abhishek Pandey] 22:11:59
+take those things, like…
+
+[Siva Balakrishnan] 22:12:01
+Yeah, uh, we… indeed, we are catching up on these things.
+
+[Siva Balakrishnan] 22:12:06
+And that's an intentional choice that we made not to throw something over the wall. We did that for the…
+
+[Abhishek Pandey] 22:12:12
+Right.
+
+[Siva Balakrishnan] 22:12:14
+Uh, we're exempting integration. So, we try to capture the momentum with Microsoft Gemini. We are, you know, the first ones to integrate with
+
+[Siva Balakrishnan] 22:12:23
+All of those big players took out a thing out there.
+
+[Siva Balakrishnan] 22:12:27
+Um, so that's the stretch, but for SRE,
+
+[Siva Balakrishnan] 22:12:30
+I think the high… when I say what's on the paper, the hype is that it's going to be
+
+[Siva Balakrishnan] 22:12:35
+solving the real-world problem,
+
+[Siva Balakrishnan] 22:12:37
+But all of those bits and all of those other agents out there, the Solar AI, incidentable, those all of them,
+
+[Siva Balakrishnan] 22:12:46
+They don't have the richness of
+
+[Siva Balakrishnan] 22:12:50
+Um, integration data that we have, the domain data that we have on that.
+
+[Abhishek Pandey] 22:12:53
+Right.
+
+[Siva Balakrishnan] 22:12:56
+Uh, so that is going to be our strategic win play on it, to say, no, AI washing, when it actually does it actually the…
+
+[Siva Balakrishnan] 22:13:05
+Well, I have, uh, real solutions to the problem.
+
+[Siva Balakrishnan] 22:13:07
+Um, so that's going to be how our differentiator.
+
+[Abhishek Pandey] 22:13:12
+Yeah.
+
+[Siva Balakrishnan] 22:13:12
+And then we have differentiators also. We are moving towards a prevention.
+
+[Siva Balakrishnan] 22:13:17
+Rather than the salary, uh, the solving just the incident, whatever.
+
+[Siva Balakrishnan] 22:13:23
+Those two are our key play strategy at this point.
+
+[Siva Balakrishnan] 22:13:27
+Uh, but for a while, yeah, you arrived. So, we're going to be just catch up, and in some areas, we're gonna lose, some areas we gain stuff.
+
+[Abhishek Pandey] 22:13:34
+Got it, got it. And, uh, sorry if my questions are, like, off the hook, and…
+
+[Siva Balakrishnan] 22:13:39
+No, no.
+
+[Siva Balakrishnan] 22:13:42
+It was a fair question, and it's a bad one.
+
+[Abhishek Pandey] 22:13:44
+Uh, I just have another question around the SRE agent itself, uh, since I've been trying to explore it.
+
+[Abhishek Pandey] 22:13:51
+So, I met with a couple of teams, right?
+
+[Abhishek Pandey] 22:13:54
+And they specialize specifically on the ML side of things, and this SRE agent,
+
+[Abhishek Pandey] 22:14:00
+more than the algorithmic world, it's more of the…
+
+[Abhishek Pandey] 22:14:04
+it more connects with the ML world, right?
+
+[Abhishek Pandey] 22:14:07
+Where we need to manage context better, right? For it to respond better.
+
+[Abhishek Pandey] 22:14:12
+And things like that. Uh, do you think an involvement of a hardcore ML team?
+
+[Abhishek Pandey] 22:14:18
+would probably, uh…
+
+[Abhishek Pandey] 22:14:21
+push things…
+
+[Abhishek Pandey] 22:14:23
+In terms of development time as well, and in terms of…
+
+[Abhishek Pandey] 22:14:27
+accuracy of whatever we are trying to…
+
+[Abhishek Pandey] 22:14:30
+produce in the SRO. That's the wrong notion in my head.
+
+[Abhishek Pandey] 22:14:34
+And again, sorry, this is coming from whatever shot.
+
+[Siva Balakrishnan] 22:14:36
+No, no, no.
+
+[Abhishek Pandey] 22:14:36
+time I've spent here.
+
+[Siva Balakrishnan] 22:14:39
+No, no, no, my question.
+
+[Siva Balakrishnan] 22:14:42
+The ML team will help with accuracy part of it, and stability, but not timeline perspective.
+
+[Abhishek Pandey] 22:14:49
+Okay.
+
+[Siva Balakrishnan] 22:14:49
+I don't think the timeline's gonna help anyway to…
+
+[Siva Balakrishnan] 22:14:53
+It's probably a wrong approach. It'll go through… if we rush it up too much, it'll be, like, more of a washing type of solutions, like,
+
+[Siva Balakrishnan] 22:15:02
+the LMS and answer for everything, and we try to do the model developments and stuff.
+
+[Siva Balakrishnan] 22:15:06
+So, for example, we're developing…
+
+[Siva Balakrishnan] 22:15:09
+a small language models for a critic agent, which will analyze the tools, results, which will analyze the…
+
+[Abhishek Pandey] 22:15:12
+G'day.
+
+[Siva Balakrishnan] 22:15:16
+Uh, tools and locations, the plans, and all the stuff.
+
+[Siva Balakrishnan] 22:15:20
+That makes sense. We will do small language model…
+
+[Siva Balakrishnan] 22:15:24
+answering two-fold. Yes, we need it, but not for the time frame, but for the accuracy in the longer run.
+
+[Abhishek Pandey] 22:15:28
+Got it. Sure.
+
+[Siva Balakrishnan] 22:15:31
+Accuracy and shorter time.
+
+[Siva Balakrishnan] 22:15:33
+We need a more deterministic workflows, that what we do best at New Relax to determine
+
+[Siva Balakrishnan] 22:15:40
+hey, how is my tracing looks? How does my logs look? What can I be extracted from change tracking events?
+
+[Siva Balakrishnan] 22:15:46
+So that kind of insights is going to be much more helpful.
+
+[Abhishek Pandey] 22:15:50
+Yeah.
+
+[Siva Balakrishnan] 22:15:50
+And then doing the prediction on looking at the data,
+
+[Siva Balakrishnan] 22:15:55
+We should… the ML team will definitely come. We are going to do that, but it's just…
+
+[Abhishek Pandey] 22:15:57
+Yeah, got it.
+
+[Siva Balakrishnan] 22:15:59
+A bit of a longer-term strategy than the short-term.
+
+[Abhishek Pandey] 22:16:02
+Got it, yeah, yeah, that's where, that's fair, that makes sense. Okay.
+
+[Abhishek Pandey] 22:16:06
+Uh, cool, uh, that is good.
+
+[Abhishek Pandey] 22:16:08
+Um, maybe my last question to you, um, while I'm a very small piece in this whole puzzle, right, how can I…
+
+[Abhishek Pandey] 22:16:17
+add any sort of value, maybe, to any of your teams or any of your products, right?
+
+[Siva Balakrishnan] 22:16:21
+Yeah, there's a very good question, so it brings the questions to…
+
+[Abhishek Pandey] 22:16:21
+I…
+
+[Siva Balakrishnan] 22:16:26
+Um, Cameron, like, meet on a regular basis, but we didn't get a chance to think about just specifically for you.
+
+[Abhishek Pandey] 22:16:34
+Yeah.
+
+[Siva Balakrishnan] 22:16:34
+Uh, what are you working on?
+
+[Siva Balakrishnan] 22:16:38
+Anything now? Are you available to work on anything new? Like, I don't know whatsoever. Where are you sitting, and what you're doing right now.
+
+[Abhishek Pandey] 22:16:40
+Sure.
+
+[Abhishek Pandey] 22:16:44
+Shut up. It has been a bit tricky to catch hold of Camden. I tried to…
+
+[Siva Balakrishnan] 22:16:49
+Yeah.
+
+[Abhishek Pandey] 22:16:50
+do that, but hasn't been possible. We have just met twice till now.
+
+[Abhishek Pandey] 22:16:54
+Uh, the charter hasn't been very clear, uh…
+
+[Abhishek Pandey] 22:16:58
+He wants me to probably figure out things on the…
+
+[Abhishek Pandey] 22:17:03
+agentic AI stuff, like, you know, where we can…
+
+[Abhishek Pandey] 22:17:07
+add AI specifically throughout our product.
+
+[Abhishek Pandey] 22:17:10
+So, the direction has… hasn't been very clear till now. So, for now, what I've been doing is…
+
+[Abhishek Pandey] 22:17:15
+I'm just meeting everybody over here, like, all ML folks, all Alex, Emmanuel, everybody, end-to-end.
+
+[Abhishek Pandey] 22:17:23
+Just trying to understand what they feel about things over here, how…
+
+[Abhishek Pandey] 22:17:28
+what kind of features they would want to work on, basis their experience that they've spent the time here at New Relic.
+
+[Abhishek Pandey] 22:17:34
+So, that is pretty much about it, doing some sort of quantity intelligence, trying to understand what Datadog and Dynatrace are doing.
+
+[Abhishek Pandey] 22:17:41
+So that's, uh… that's all about it. I still don't have a vision into what I'm supposed to do.
+
+[Siva Balakrishnan] 22:17:47
+Yeah.
+
+[Abhishek Pandey] 22:17:47
+But trying to come up with some sort of a roadmap.
+
+[Abhishek Pandey] 22:17:50
+what things we can quickly do, and…
+
+[Abhishek Pandey] 22:17:52
+One thing that I've been able to do is, uh…
+
+[Abhishek Pandey] 22:17:55
+getting hold of infrastructure teams, so what I understood it as an APM tool, we are still
+
+[Abhishek Pandey] 22:18:02
+fine, but on the infra end, right?
+
+[Abhishek Pandey] 22:18:05
+Um, there is still a lot of scope, uh, to achieve things. So, for instance, within the DB team,
+
+[Abhishek Pandey] 22:18:11
+There are a couple of quick use cases that I was able to identify.
+
+[Abhishek Pandey] 22:18:15
+Where we can get a lift of 3 to 4 million if we build those
+
+[Abhishek Pandey] 22:18:21
+smaller use cases, then there are some use cases within the Kafka streaming space as well.
+
+[Abhishek Pandey] 22:18:26
+So that's what I'm doing right now. I'm focusing more on the infrastructure side, because I know
+
+[Abhishek Pandey] 22:18:31
+The APM side is still a bit sorted, uh, but nothing more than that, yeah.
+
+[Abhishek Pandey] 22:18:36
+Not very clear.
+
+[Siva Balakrishnan] 22:18:37
+No, actually, I mean, the timing is perfect. We really need a lot of help with the SRE defining
+
+[Abhishek Pandey] 22:18:43
+Yeah.
+
+[Siva Balakrishnan] 22:18:45
+Like, we are settled down very well on the high-level use cases, like, what is the use cases that you want to achieve?
+
+[Abhishek Pandey] 22:18:51
+Yep.
+
+[Siva Balakrishnan] 22:18:52
+The product counts needed on more lower-level details, like, hey, how does these two systems should work to each other? What is the workflow going to be from calling from a chat interface, calling from an automatic interface, and all of those?
+
+[Siva Balakrishnan] 22:19:08
+The cabin definitely need a lot of help in defining those pieces.
+
+[Abhishek Pandey] 22:19:12
+Yep.
+
+[Siva Balakrishnan] 22:19:12
+And the team can, um, really take advantage of it, right? So we are actually… I'm pushing Kevin, they really need somebody to…
+
+[Siva Balakrishnan] 22:19:20
+Drive deep on these things to do it, because…
+
+[Siva Balakrishnan] 22:19:23
+Um, lack of that, what we're doing is, um, I'm Cameron and I meet with the team, and then we just go for it. Here is how it should work, and then people go off for that, right? And then we say, oh, I think it's at this point.
+
+[Abhishek Pandey] 22:19:33
+Yeah.
+
+[Siva Balakrishnan] 22:19:36
+But shit, okay, that is, uh… okay, I care that, right? Like, the… and it's… it's showing us the team, and it's lack of clarity written down of specifications on specific things, like, those things on…
+
+[Abhishek Pandey] 22:19:46
+Yeah.
+
+[Siva Balakrishnan] 22:19:47
+And on a much smaller level. Um, so I might, um…
+
+[Siva Balakrishnan] 22:19:51
+I'm gonna try to meet Camden. I'm flying out to San Francisco today, so we'll meet him.
+
+[Abhishek Pandey] 22:19:55
+Okay.
+
+[Siva Balakrishnan] 22:19:56
+Um, there tomorrow morning. I'll talk to him, make sure that, uh, he's not having anything different in his mind, but…
+
+[Abhishek Pandey] 22:20:04
+Sure.
+
+[Siva Balakrishnan] 22:20:04
+Um, this area would be, you can jump in,
+
+[Siva Balakrishnan] 22:20:07
+Oh, okay. And, uh, one aspect is, is, uh, um, I mean, obviously,
+
+[Abhishek Pandey] 22:20:08
+Yeah.
+
+[Siva Balakrishnan] 22:20:14
+This cannot be available with part of our business being US and India, so the sum of the late evening classes
+
+[Siva Balakrishnan] 22:20:21
+needed to flesh out the details.
+
+[Abhishek Pandey] 22:20:22
+Yeah, yeah. Sure.
+
+[Siva Balakrishnan] 22:20:23
+those games
+
+[Siva Balakrishnan] 22:20:26
+Um, but I'll find a CRA for that, um, that will be, uh, immediately you can… we can help you.
+
+[Siva Balakrishnan] 22:20:32
+put some structure to the area that you can help.
+
+[Abhishek Pandey] 22:20:34
+Yeah, yeah, I'm good with those things. I worked in the US for a long time.
+
+[Abhishek Pandey] 22:20:39
+I am… I know how to collaborate with people easily.
+
+[Siva Balakrishnan] 22:20:43
+Yeah.
+
+[Abhishek Pandey] 22:20:43
+It's just that I need more help from people in terms of what they're expecting, and
+
+[Abhishek Pandey] 22:20:48
+the direction. Other than that, I am happy to…
+
+[Abhishek Pandey] 22:20:53
+I'll fly and help you guys with something.
+
+[Abhishek Pandey] 22:20:55
+That could be of any value.
+
+[Siva Balakrishnan] 22:20:57
+Yeah, I'll talk to Camden, and then…
+
+[Abhishek Pandey] 22:20:59
+Okay. Sure.
+

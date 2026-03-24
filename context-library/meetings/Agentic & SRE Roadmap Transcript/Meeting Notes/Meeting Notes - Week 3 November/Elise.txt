@@ -1,0 +1,1236 @@
+[Abhishek Pandey] 08:29:20
+Hello? Hi there.
+
+[Elise Sutherland] 08:33:39
+Hello!
+
+[Abhishek Pandey] 08:33:40
+Hi, Alice. Can you hear me?
+
+[Elise Sutherland] 08:33:43
+Yeah, I can hear you.
+
+[Abhishek Pandey] 08:33:45
+Hi, hi. How's it going for you?
+
+[Elise Sutherland] 08:33:47
+Well, you know, living the dream.
+
+[Elise Sutherland] 08:33:51
+How you doing?
+
+[Abhishek Pandey] 08:33:51
+Sorry for continuously bothering you. I know you've been quite occupied with things.
+
+[Abhishek Pandey] 08:33:56
+Um, but just wanted to, you know, quickly maybe chat up with you and understand things over here.
+
+[Abhishek Pandey] 08:34:02
+I joined New Relic 4 weeks back, uh…
+
+[Elise Sutherland] 08:34:03
+Yeah.
+
+[Abhishek Pandey] 08:34:05
+So, yeah, everybody has been taking your name, so I thought I'll just quickly talk to you.
+
+[Abhishek Pandey] 08:34:10
+Maybe I can, uh, quickly introduce myself first.
+
+[Elise Sutherland] 08:34:11
+Yeah.
+
+[Abhishek Pandey] 08:34:14
+For your reference. As you know, uh, I'm a Bichaykh.
+
+[Abhishek Pandey] 08:34:18
+I worked in India for 3 years, and then I moved to the US, uh, for my master's.
+
+[Abhishek Pandey] 08:34:24
+I worked as a data scientist for all 3 years.
+
+[Abhishek Pandey] 08:34:28
+my master's was in, uh, was a specialization into machine learning. After my master's, I worked for 2 years for a company as a data science manager, and then I made a move to the product side of things.
+
+[Abhishek Pandey] 08:34:39
+Um, I worked as a product manager for this company known as Progress Residential. They were the single… uh, they were the biggest single-family rental loan company in the US.
+
+[Elise Sutherland] 08:34:40
+Hmm, okay, cool.
+
+[Abhishek Pandey] 08:34:49
+Worked there for two and a half years before moving back to India last year itself, due to visa issues.
+
+[Abhishek Pandey] 08:34:54
+Um, after that, I worked here for a startup who was building voice agents for one and a half years.
+
+[Abhishek Pandey] 08:35:00
+And now I've joined New Relic, uh…
+
+[Abhishek Pandey] 08:35:02
+in Camden's team specifically.
+
+[Abhishek Pandey] 08:35:05
+Yeah, so that's a bit about me. Uh, would love to know what you have been working on. I know, um, you have great experience on the incident side of things, right?
+
+[Abhishek Pandey] 08:35:13
+Uh, so please, just, uh, would love to, uh, help understand, you know, what you're up to, what your team is doing.
+
+[Elise Sutherland] 08:35:20
+Yeah, um, do you know what product you're, like, what product line you're gonna be on?
+
+[Abhishek Pandey] 08:35:26
+for now, Camden has said that I… I'll be working on agentic integrations and building some, uh…
+
+[Abhishek Pandey] 08:35:33
+agentic capabilities for the chat.
+
+[Abhishek Pandey] 08:35:36
+side of things as well. Um, he wanted a little help with the SRE agent as well.
+
+[Abhishek Pandey] 08:35:41
+Uh, for now. So yeah, uh…
+
+[Abhishek Pandey] 08:35:43
+If you have any feedback on the SRE agent as well, that would be great.
+
+[Elise Sutherland] 08:35:49
+Awesome. Okay, cool. I love that. I am super excited to have you here.
+
+[Abhishek Pandey] 08:35:50
+Yeah.
+
+[Abhishek Pandey] 08:35:56
+Thanks.
+
+[Elise Sutherland] 08:35:57
+That is very good news. So…
+
+[Elise Sutherland] 08:35:59
+Okay, what do I do? Um…
+
+[Elise Sutherland] 08:36:01
+I do pretty much lots of everything.
+
+[Elise Sutherland] 08:36:04
+Um, my background is in incident management and problem management.
+
+[Abhishek Pandey] 08:36:08
+Yeah.
+
+[Elise Sutherland] 08:36:10
+And a little bit of change management. Um…
+
+[Abhishek Pandey] 08:36:12
+Mm-hmm.
+
+[Elise Sutherland] 08:36:13
+But not from a, like…
+
+[Elise Sutherland] 08:36:17
+like, a lot of times, incident management is, um…
+
+[Elise Sutherland] 08:36:21
+You know, mostly about the process and everything.
+
+[Elise Sutherland] 08:36:24
+I…
+
+[Elise Sutherland] 08:36:26
+started my career in incident management at American Airlines, and helped them build out their major incident management team.
+
+[Abhishek Pandey] 08:36:33
+Mm-hmm.
+
+[Elise Sutherland] 08:36:34
+So, anytime they had, like, a, you know,
+
+[Elise Sutherland] 08:36:37
+all the kiosks were down at the airports, or uh…
+
+[Elise Sutherland] 08:36:41
+you know, the…
+
+[Elise Sutherland] 08:36:43
+systems that they run, all of the, um…
+
+[Elise Sutherland] 08:36:48
+like, bag tags through or something was not working, like, that's… that's the kind of thing I got involved in.
+
+[Elise Sutherland] 08:36:54
+Um, and so, yeah, it made me really loud and obnoxious, and then I was like, okay, well…
+
+[Elise Sutherland] 08:37:01
+I gotta go do something else, um…
+
+[Elise Sutherland] 08:37:04
+And I was looking to get out of incident management, and then I landed here at New Relic, and I'm back in Incident Management!
+
+[Elise Sutherland] 08:37:11
+So…
+
+[Elise Sutherland] 08:37:12
+But now it's my thing, now I'm cool with it. Um…
+
+[Abhishek Pandey] 08:37:14
+Yeah.
+
+[Elise Sutherland] 08:37:17
+So when I started at New Relic, my main focus was around communication our incidents to customers.
+
+[Elise Sutherland] 08:37:24
+Like, hey, new relics down.
+
+[Elise Sutherland] 08:37:26
+Uh, keeping up the status page, all that kind of fun stuff.
+
+[Elise Sutherland] 08:37:29
+Um, and then I moved into the…
+
+[Elise Sutherland] 08:37:32
+actual, like, ownership of the process side, so how does engineering manage incidents?
+
+[Elise Sutherland] 08:37:37
+And, you know, still, how do we communicate them? But, um, more like the whole picture.
+
+[Elise Sutherland] 08:37:44
+And then… what, 2 years ago now, we decided, as a company, that we were gonna start building
+
+[Elise Sutherland] 08:37:50
+more incident management features.
+
+[Elise Sutherland] 08:37:53
+And they said…
+
+[Elise Sutherland] 08:37:56
+Hey, Elise, you know things about incident management, why don't you go help them? And I was like…
+
+[Elise Sutherland] 08:38:00
+Okay. So, yeah, I have the joy of owning the internal process, and also helping the
+
+[Elise Sutherland] 08:38:09
+engineering teams build features
+
+[Elise Sutherland] 08:38:11
+For us internally and for our customers.
+
+[Elise Sutherland] 08:38:15
+So yeah, most… it's…
+
+[Elise Sutherland] 08:38:17
+For the most part, it's been in the incident space. I…
+
+[Elise Sutherland] 08:38:21
+Um, org-wise, I align with SEVA B in Camden, um, so we have alerts also.
+
+[Abhishek Pandey] 08:38:25
+Okay.
+
+[Elise Sutherland] 08:38:28
+And that's probably why they pointed you to me, because
+
+[Elise Sutherland] 08:38:32
+We have AI now, too, so…
+
+[Abhishek Pandey] 08:38:33
+Yeah, yeah.
+
+[Elise Sutherland] 08:38:36
+It's fun. It's very fun.
+
+[Abhishek Pandey] 08:38:37
+Yeah, that's great. You have a long…
+
+[Abhishek Pandey] 08:38:40
+experience in the incident side of things.
+
+[Abhishek Pandey] 08:38:43
+Good to know that.
+
+[Elise Sutherland] 08:38:43
+Yeah. Yeah, and I have, um…
+
+[Elise Sutherland] 08:38:47
+So, because I…
+
+[Elise Sutherland] 08:38:49
+like, know what it's like to get paged at 2 in the morning, and I still get paged, um, I'm still on call, like…
+
+[Elise Sutherland] 08:38:56
+I volunteer as part of the on-call group, but…
+
+[Elise Sutherland] 08:38:58
+Um, because I know all of that stuff, and because I have a good relationship with a lot of the engineers,
+
+[Abhishek Pandey] 08:39:04
+Mm-hmm.
+
+[Elise Sutherland] 08:39:05
+It is helpful, because I can kind of
+
+[Elise Sutherland] 08:39:08
+encourage them to give feedback on our products, and…
+
+[Elise Sutherland] 08:39:12
+you know, things like that, and I also…
+
+[Elise Sutherland] 08:39:15
+do a lot of advocating internally, um…
+
+[Abhishek Pandey] 08:39:17
+Mm-hmm.
+
+[Elise Sutherland] 08:39:19
+both advocating to make our product better for our users, and then the reverse, advocating for our
+
+[Elise Sutherland] 08:39:26
+internal users to use our product.
+
+[Abhishek Pandey] 08:39:28
+Mm-hmm.
+
+[Elise Sutherland] 08:39:29
+Um, so yeah. I'm very…
+
+[Elise Sutherland] 08:39:33
+uh… passionate about that, I guess is the word that I would use.
+
+[Elise Sutherland] 08:39:36
+Um, so yeah, Camden and SEVA B have to deal with me, kind of, all the time, because I…
+
+[Abhishek Pandey] 08:39:37
+Got it.
+
+[Elise Sutherland] 08:39:43
+No, I don't like that. Users are not gonna like that, and they're like, why are you… why are you doing this, Elise? So…
+
+[Elise Sutherland] 08:39:49
+Yeah, um, we have a really good relationship, but I probably drive them nuts. So, yeah.
+
+[Abhishek Pandey] 08:39:54
+Got it. So, uh, have you been talking to the customers as well? Uh, to understand what they would be needing, specifically?
+
+[Abhishek Pandey] 08:40:02
+Okay, okay. Yeah, I mean…
+
+[Elise Sutherland] 08:40:03
+Yeah, so we, um…
+
+[Elise Sutherland] 08:40:05
+Uh, sorry, I was just gonna say, we did…
+
+[Elise Sutherland] 08:40:08
+like, quite a few customer interviews, probably, like, 20 customer interviews individually, and then, like,
+
+[Abhishek Pandey] 08:40:14
+Nice.
+
+[Elise Sutherland] 08:40:15
+surveys, um, for incident management.
+
+[Abhishek Pandey] 08:40:16
+Mm-hmm. Okay.
+
+[Elise Sutherland] 08:40:18
+I will say that
+
+[Elise Sutherland] 08:40:21
+Uh, Camden has been really heavy…
+
+[Elise Sutherland] 08:40:23
+on the conversation, Camden and Darmie have been really heavy in the conversation on AI for our customers.
+
+[Abhishek Pandey] 08:40:29
+Mm-hmm.
+
+[Elise Sutherland] 08:40:31
+Um…
+
+[Elise Sutherland] 08:40:32
+I…
+
+[Elise Sutherland] 08:40:35
+This is something you're gonna have to dig into, but…
+
+[Abhishek Pandey] 08:40:37
+Yeah.
+
+[Elise Sutherland] 08:40:38
+I get the impression a lot of times that those meetings happen at a higher level.
+
+[Elise Sutherland] 08:40:46
+than the actual users?
+
+[Abhishek Pandey] 08:40:47
+Yeah.
+
+[Elise Sutherland] 08:40:48
+And so the folks in the meeting are like, AI, yeah, super cool, bring us AI, like…
+
+[Elise Sutherland] 08:40:54
+solve all our problems! And…
+
+[Abhishek Pandey] 08:40:55
+Yeah.
+
+[Elise Sutherland] 08:40:57
+like, none of our users internally are like, yeah, I wanna… I want AI to tell me how to fix this, you know what I mean?
+
+[Elise Sutherland] 08:41:04
+Um, so I… I would…
+
+[Elise Sutherland] 08:41:06
+you know, wager, I guess, that there are a lot of our customers that are like that, too, where the leadership team is saying, oh my gosh, AI, it's amazing, and the…
+
+[Elise Sutherland] 08:41:15
+engineers are not buying it.
+
+[Abhishek Pandey] 08:41:18
+Okay.
+
+[Elise Sutherland] 08:41:19
+Um, so, yeah, I…
+
+[Abhishek Pandey] 08:41:20
+Interesting.
+
+[Elise Sutherland] 08:41:22
+Yeah, I have… I… I have faith in some of these features. I have concerns in…
+
+[Elise Sutherland] 08:41:29
+um… making sure that we approach them in, like, a really thoughtful way. That's kind of my…
+
+[Elise Sutherland] 08:41:34
+beef, right?
+
+[Abhishek Pandey] 08:41:34
+Right. Sure, sure. I mean, unless…
+
+[Abhishek Pandey] 08:41:39
+They are done in a thoughtful way. It could, uh, act in a negative way as well, for sure. So, yeah.
+
+[Abhishek Pandey] 08:41:44
+You have a point over there. We need to think through it.
+
+[Abhishek Pandey] 08:41:47
+rather than just being excited about AI.
+
+[Elise Sutherland] 08:41:51
+Yes.
+
+[Abhishek Pandey] 08:41:51
+Just like every other company, yeah.
+
+[Elise Sutherland] 08:41:54
+And I mean, that comes from a person… I love Gemini, like…
+
+[Elise Sutherland] 08:41:57
+I use Gemini all day long in…
+
+[Elise Sutherland] 08:42:00
+like, various parts of my job. So it's not that I'm against AI, I'm just against, like, shoving AI down an engineer's throat during an incident, you know?
+
+[Abhishek Pandey] 08:42:07
+Yeah.
+
+[Elise Sutherland] 08:42:10
+So…
+
+[Abhishek Pandey] 08:42:10
+No, no, that's a very fair point. Since I have been a data guy, I understand it, like, if you don't use it correctly, it can hurt you badly.
+
+[Elise Sutherland] 08:42:11
+So yeah.
+
+[Abhishek Pandey] 08:42:19
+So, I was talking to Bharni, um, I don't know if you've talked to her earlier or not, she's an engineering manager over here. I think they rolled out something into production, uh…
+
+[Abhishek Pandey] 08:42:29
+And it got rolled off from production, and they kept on searching for 2 days.
+
+[Abhishek Pandey] 08:42:33
+And then they came to know that the SRE agent has quietly done that, and she was a bit pissed off, like, uh…
+
+[Abhishek Pandey] 08:42:42
+I mean, I don't have much trust on the SRE agent, and if we keep doing things like that, right, uh, building customer tests would be really, really tricky. So, to your point, right?
+
+[Abhishek Pandey] 08:42:53
+Um, we need to think through it at a…
+
+[Abhishek Pandey] 08:42:56
+deeply at an architecture level as well. If you're going to implement anything, right?
+
+[Abhishek Pandey] 08:43:02
+what the edge case, corner cases would be, uh…
+
+[Abhishek Pandey] 08:43:05
+how… how… how to implement it in a correct way is a bit tricky. It's not a straightforward thing, for sure.
+
+[Elise Sutherland] 08:43:11
+Yeah.
+
+[Abhishek Pandey] 08:43:11
+And with incidents, it could be even more tricky, right? Because it's… it's an alarming situation for the customer.
+
+[Abhishek Pandey] 08:43:19
+And if we do something wrong, that…
+
+[Abhishek Pandey] 08:43:21
+It could… it could piss off the customer. So I get it, I get your point.
+
+[Abhishek Pandey] 08:43:25
+How do I understand, you know, all of this? Like, I mean, you have interviewed all the customers and people, right?
+
+[Elise Sutherland] 08:43:26
+Yeah.
+
+[Abhishek Pandey] 08:43:32
+Have you maintained any specific documentation around it, or anything?
+
+[Abhishek Pandey] 08:43:37
+that I can have it. Mm-hmm.
+
+[Elise Sutherland] 08:43:37
+Yeah. So, I…
+
+[Elise Sutherland] 08:43:42
+And personally, pretty good at maintaining documents and notes. Um…
+
+[Abhishek Pandey] 08:43:46
+Nice.
+
+[Elise Sutherland] 08:43:47
+I don't know if Camden and Darmie have kept notes of their interviews, so I'll just…
+
+[Elise Sutherland] 08:43:53
+Maybe they have, I don't know, fingers crossed, but…
+
+[Abhishek Pandey] 08:43:55
+But I'm glad I have you.
+
+[Elise Sutherland] 08:43:58
+I do what I can.
+
+[Elise Sutherland] 08:44:01
+Yeah, so let's see. I can… I'll pull the, um, incident management feedback that we've gotten.
+
+[Elise Sutherland] 08:44:08
+Um, we also get feedback
+
+[Elise Sutherland] 08:44:12
+in the product, so I can pull the queries for that.
+
+[Abhishek Pandey] 08:44:15
+Yeah. Sure.
+
+[Elise Sutherland] 08:44:17
+Um, and… let's see…
+
+[Elise Sutherland] 08:44:20
+You want…
+
+[Elise Sutherland] 08:44:22
+Feedback!
+
+[Elise Sutherland] 08:44:25
+And I'll do Incident Management. We did release kind of an AI feature in February that
+
+[Elise Sutherland] 08:44:34
+just kind of blew up.
+
+[Elise Sutherland] 08:44:36
+In a bad way. Um…
+
+[Elise Sutherland] 08:44:39
+So, I'll send you that whole thing.
+
+[Abhishek Pandey] 08:44:42
+Sure.
+
+[Elise Sutherland] 08:44:43
+Um, feedback…
+
+[Elise Sutherland] 08:44:46
+And…
+
+[Elise Sutherland] 08:44:50
+Yeah, if I find anything else, I will let you know, um, but I'll send you the… also the Confluence pages.
+
+[Abhishek Pandey] 08:44:53
+Yeah.
+
+[Elise Sutherland] 08:44:56
+Because we use Confluence to kind of store all of our docs, so you can see all the, like, daisies and change design docs and everything that all the teams have gone through.
+
+[Abhishek Pandey] 08:44:56
+Mm-hmm.
+
+[Abhishek Pandey] 08:45:05
+Sure, sure. And at a very broader level, right, what are your thoughts? What should we be doing, and…
+
+[Abhishek Pandey] 08:45:12
+Like, how should we be going about it? In terms of feature implementation,
+
+[Abhishek Pandey] 08:45:16
+If we want to implement AI, right, which is the hype over here in the company,
+
+[Abhishek Pandey] 08:45:22
+And everywhere else as well, right? Um, how should we go about it? What are some of…
+
+[Abhishek Pandey] 08:45:27
+The quick features that we can probably implement, which can, you know, really excite customer and really drive some sort of
+
+[Abhishek Pandey] 08:45:35
+Uh, traction from the customer side, and yeah.
+
+[Abhishek Pandey] 08:45:39
+Any, yeah.
+
+[Elise Sutherland] 08:45:39
+Yeah, um…
+
+[Elise Sutherland] 08:45:41
+So, we have been working on…
+
+[Elise Sutherland] 08:45:46
+really, like, just go off the top of my head. We've been working on an incident management, um,
+
+[Elise Sutherland] 08:45:52
+Slack application and UI.
+
+[Elise Sutherland] 08:45:55
+And one part of that is a, um…
+
+[Elise Sutherland] 08:46:00
+I guess it's an agent that scrapes the Slack channel from the incident.
+
+[Elise Sutherland] 08:46:05
+Um, and takes the Zoom transcript, and then generates a retro doc.
+
+[Abhishek Pandey] 08:46:07
+Mm-hmm.
+
+[Abhishek Pandey] 08:46:10
+Okay.
+
+[Elise Sutherland] 08:46:11
+So the team basically starts out with, like, okay, here's all the things we talked about during the incident, here's all the main, like, key moments.
+
+[Elise Sutherland] 08:46:21
+Um, because, you know, a lot of times during an incident, there's a lot happening, people will say, oh, after the incident, we should do this thing, or…
+
+[Elise Sutherland] 08:46:29
+Whatever, um…
+
+[Elise Sutherland] 08:46:31
+It also takes folks a really long time to pull together all those artifacts.
+
+[Elise Sutherland] 08:46:35
+Because they end up jumping from, you know, Slack, if nobody was taking good notes, then you lost everything on the Zoom.
+
+[Elise Sutherland] 08:46:44
+Um, and they're jumping into New Relic, they have to pick timestamps out of everything, so…
+
+[Elise Sutherland] 08:46:49
+That feature…
+
+[Elise Sutherland] 08:46:51
+We just went live with it internally.
+
+[Elise Sutherland] 08:46:54
+Um, and we're adding the Zoom transcript portion early next week, and folks are, like, super pumped about it.
+
+[Elise Sutherland] 08:47:03
+Um, and that was, like, an easy thing, right? It was like a… it was a…
+
+[Abhishek Pandey] 08:47:05
+Yeah.
+
+[Elise Sutherland] 08:47:07
+it's… it was harder because you have to get permission to do the Zoom transcript thing, so that added time.
+
+[Elise Sutherland] 08:47:13
+But the actual…
+
+[Elise Sutherland] 08:47:15
+functionality the team built during the hackathon.
+
+[Abhishek Pandey] 08:47:17
+Mm-hmm.
+
+[Elise Sutherland] 08:47:18
+So, like, that's an easy thing, right? But it takes engineering managers, like, hours to put these documents together.
+
+[Abhishek Pandey] 08:47:20
+Yeah.
+
+[Elise Sutherland] 08:47:24
+And it's gonna save them so much time.
+
+[Abhishek Pandey] 08:47:26
+Right, right. Uh, and when you talk about the Zoom meetings, uh,
+
+[Elise Sutherland] 08:47:28
+Um, so that's a good one.
+
+[Abhishek Pandey] 08:47:31
+Like, is it between people once the incident has happened, where they're discussing about it? Something like that?
+
+[Elise Sutherland] 08:47:31
+Mm-hmm.
+
+[Elise Sutherland] 08:47:37
+Um, so during the incident, we usually spin up a Zoom meeting.
+
+[Abhishek Pandey] 08:47:41
+Got it, got it, okay.
+
+[Elise Sutherland] 08:47:43
+So, they…
+
+[Elise Sutherland] 08:47:45
+Like, sometimes they're doing things just in Slack, but a lot of times they jump on a Zoom and they're just talking through, here's what's going on.
+
+[Abhishek Pandey] 08:47:50
+Got it.
+
+[Elise Sutherland] 08:47:51
+Um, and then they also do post…
+
+[Elise Sutherland] 08:47:54
+post-incident, like, the retro meeting, sometimes they'll do it in a Zoom as well.
+
+[Abhishek Pandey] 08:47:59
+Got it, got it. So it has all the…
+
+[Abhishek Pandey] 08:48:01
+figuring out, you know, what has happened, why it might have happened, all of those things, right?
+
+[Abhishek Pandey] 08:48:06
+Got it. So it serves as an historical data…
+
+[Elise Sutherland] 08:48:07
+Mm-hmm.
+
+[Abhishek Pandey] 08:48:10
+or an RC sort of a thing. Cool, got it.
+
+[Elise Sutherland] 08:48:12
+Yes. Yes, exactly. It's basically building their first draft of their RCA.
+
+[Abhishek Pandey] 08:48:13
+Makes sense.
+
+[Abhishek Pandey] 08:48:15
+Mm-hmm, yeah.
+
+[Elise Sutherland] 08:48:17
+It's not doing any analysis or anything like that, it's just saying,
+
+[Abhishek Pandey] 08:48:19
+Yeah, yeah.
+
+[Elise Sutherland] 08:48:21
+Here's all the things that happened, here's the, you know, you told us
+
+[Elise Sutherland] 08:48:24
+check for this later, or whatever, um…
+
+[Abhishek Pandey] 08:48:27
+Yeah.
+
+[Elise Sutherland] 08:48:27
+kind of stuff like that. So…
+
+[Elise Sutherland] 08:48:29
+Yeah, our internal teams are super excited about it. We are supposed to release the…
+
+[Elise Sutherland] 08:48:35
+Slack incident management features and the UI, um…
+
+[Elise Sutherland] 08:48:39
+Externally in February?
+
+[Elise Sutherland] 08:48:41
+For, like, a… I don't know, LP, maybe?
+
+[Abhishek Pandey] 08:48:41
+Okay.
+
+[Elise Sutherland] 08:48:48
+I will quickly tell you that
+
+[Elise Sutherland] 08:48:50
+People are gonna tell you, oh, hey, yeah, we can get that done in, you know, no time at all. I'm sure you know, that's not how it works.
+
+[Abhishek Pandey] 08:48:57
+Yeah, yeah, yeah.
+
+[Elise Sutherland] 08:48:58
+Um, so just assume that everybody is
+
+[Elise Sutherland] 08:49:02
+they have the best intentions,
+
+[Elise Sutherland] 08:49:04
+But they are always wrong.
+
+[Abhishek Pandey] 08:49:04
+Yeah.
+
+[Elise Sutherland] 08:49:08
+Always wrong. Um, like, yeah, so that's…
+
+[Abhishek Pandey] 08:49:10
+Yeah.
+
+[Elise Sutherland] 08:49:12
+that in mind. Um, okay, so yeah, that feature, people are excited about it. It's gonna be really good.
+
+[Elise Sutherland] 08:49:18
+Um, another one that I…
+
+[Elise Sutherland] 08:49:22
+I'm really trying to get people to lean into is the workflow automation feature.
+
+[Elise Sutherland] 08:49:27
+Um, I have some pretty big beefs with how it's architected, but…
+
+[Elise Sutherland] 08:49:33
+the concept is there, and it's very good.
+
+[Elise Sutherland] 08:49:36
+Um, and I think that there's a lot of value in…
+
+[Elise Sutherland] 08:49:41
+say, allowing a customer to implement a workflow that
+
+[Elise Sutherland] 08:49:44
+hey, when an incident kicks off,
+
+[Elise Sutherland] 08:49:48
+Um, call this agent.
+
+[Elise Sutherland] 08:49:50
+run these, you know,
+
+[Elise Sutherland] 08:49:53
+MCP tools from this other…
+
+[Elise Sutherland] 08:49:55
+thing.
+
+[Abhishek Pandey] 08:49:57
+Mm-hmm.
+
+[Elise Sutherland] 08:49:58
+like, uh…
+
+[Elise Sutherland] 08:50:00
+you know, reach out to…
+
+[Elise Sutherland] 08:50:02
+maybe Salesforce, and look for…
+
+[Elise Sutherland] 08:50:05
+things that have been opened in the last X number of minutes with
+
+[Elise Sutherland] 08:50:09
+these similar, uh…
+
+[Elise Sutherland] 08:50:12
+like, phrases, or something like that, right? Like, look for things that could be related, and have the… have an AI kind of scrape through data like that, especially when it's wordy.
+
+[Abhishek Pandey] 08:50:14
+Mm-hmm.
+
+[Elise Sutherland] 08:50:22
+I think that kind of thing could be helpful.
+
+[Elise Sutherland] 08:50:25
+Because the workflow would get you, like,
+
+[Elise Sutherland] 08:50:27
+Okay, incidents started, kick off the workflow.
+
+[Elise Sutherland] 08:50:31
+you know, call the MCP tools,
+
+[Elise Sutherland] 08:50:34
+have the agent kind of summarize it and turn it into something valuable, and then
+
+[Elise Sutherland] 08:50:39
+put that in the Slack channel that the engineering team's working in, so they know, hey, 10 customers have opened cases in the last 20 minutes about this thing. Here's what they're reporting.
+
+[Elise Sutherland] 08:50:50
+Um… could help engineering kind of narrow down…
+
+[Elise Sutherland] 08:50:53
+root cause sometimes, like…
+
+[Abhishek Pandey] 08:50:55
+Right.
+
+[Elise Sutherland] 08:50:55
+Sometimes symptoms data like that is helpful, so…
+
+[Elise Sutherland] 08:50:58
+That's just, like, one example, but I think there's a lot of…
+
+[Elise Sutherland] 08:51:02
+base, um, that allowing a user to add an MCP tool and or an agent to a workflow step.
+
+[Elise Sutherland] 08:51:10
+I think there's a lot of value in there.
+
+[Abhishek Pandey] 08:51:10
+Mm-hmm.
+
+[Abhishek Pandey] 08:51:12
+Alright, interesting.
+
+[Elise Sutherland] 08:51:14
+Yeah. Uh, yeah, I think those are, like,
+
+[Abhishek Pandey] 08:51:14
+Mm-hmm.
+
+[Elise Sutherland] 08:51:19
+Those are two of the ones that have been kind of sticking with me lately. The last one is that
+
+[Elise Sutherland] 08:51:24
+And they finally agreed to it, but I want the…
+
+[Elise Sutherland] 08:51:28
+I want an AI…
+
+[Elise Sutherland] 08:51:30
+tool, agent, whatever, I don't really care, to be able to respond to Slack.
+
+[Abhishek Pandey] 08:51:35
+Mm-hmm.
+
+[Elise Sutherland] 08:51:36
+Like, if I say at New Relic,
+
+[Abhishek Pandey] 08:51:37
+Yeah.
+
+[Elise Sutherland] 08:51:38
+And I'm sure you've seen this, like, it's not a fancy feature. Datadog has it, lots of… lots of places have it, but I want to say Add New Relic.
+
+[Elise Sutherland] 08:51:45
+You know, write me a status page update for this incident.
+
+[Elise Sutherland] 08:51:49
+And then it combs the Slack channel, understands, hey, this is the conversation you guys are having.
+
+[Elise Sutherland] 08:51:55
+Here's your latest status.
+
+[Elise Sutherland] 08:51:57
+Like, does this make sense?
+
+[Abhishek Pandey] 08:51:59
+Yeah, that should be…
+
+[Elise Sutherland] 08:52:01
+It's that freaking easy?
+
+[Abhishek Pandey] 08:52:01
+super straightforward, yeah.
+
+[Elise Sutherland] 08:52:03
+I've been begging them for it, they've been driving me nuts, so…
+
+[Elise Sutherland] 08:52:08
+Um, oh, and then last one, sorry.
+
+[Elise Sutherland] 08:52:11
+The other one that I have been doing…
+
+[Abhishek Pandey] 08:52:11
+Yeah.
+
+[Elise Sutherland] 08:52:14
+is… I was in an incident
+
+[Elise Sutherland] 08:52:18
+A few weeks ago, and the team, we knew what day the
+
+[Elise Sutherland] 08:52:25
+system stopped working the way that it was supposed to.
+
+[Elise Sutherland] 08:52:27
+Um, but it was, like, 2 or 3 weeks before then. And so, normally, if you get into an incident and…
+
+[Elise Sutherland] 08:52:34
+The things stopped working within a couple hours or something. You can just roll back your change, right? Because…
+
+[Elise Sutherland] 08:52:39
+It's only a couple hours, no big deal.
+
+[Abhishek Pandey] 08:52:39
+Yeah.
+
+[Elise Sutherland] 08:52:41
+But at this point, it had been, like, 3 weeks since they deployed whatever broke it, and they kept telling me, oh, it's not a change, we didn't do it, and I'm like, I'm pretty sure you did.
+
+[Abhishek Pandey] 08:52:46
+Mm-hmm.
+
+[Elise Sutherland] 08:52:51
+Um, respectfully,
+
+[Elise Sutherland] 08:52:53
+it's always a change. Um…
+
+[Abhishek Pandey] 08:52:55
+Yeah.
+
+[Elise Sutherland] 08:52:56
+So anyways, I'm… I go into Gemini, and I'm like, hey, dealing with this incident,
+
+[Elise Sutherland] 08:53:02
+Uh, here is…
+
+[Abhishek Pandey] 08:53:02
+Mm-hmm.
+
+[Elise Sutherland] 08:53:06
+you know, the… the kind of situation here, here's what we're reporting, or the issue that's happening.
+
+[Elise Sutherland] 08:53:12
+And then I found the team's repo in GitHub.
+
+[Elise Sutherland] 08:53:16
+And I just started downloading files.
+
+[Elise Sutherland] 08:53:19
+Because I couldn't do the whole repo at once, because it was huge.
+
+[Elise Sutherland] 08:53:23
+Um, so I just started downloading files and being like, Gemini, is this file related to my incident?
+
+[Abhishek Pandey] 08:53:23
+Yeah.
+
+[Elise Sutherland] 08:53:29
+And then it would, you know, evaluate, oh no, here's why I don't think it is.
+
+[Elise Sutherland] 08:53:34
+Okay, next one, here's the next one.
+
+[Elise Sutherland] 08:53:36
+kind of went through a couple and ended up finding the…
+
+[Elise Sutherland] 08:53:40
+Um, file…
+
+[Elise Sutherland] 08:53:42
+and the PR that they had changed.
+
+[Elise Sutherland] 08:53:45
+And Gemini told me why it was related, and then I gave it to the team, and they were like, yeah!
+
+[Elise Sutherland] 08:53:50
+Actually, that is!
+
+[Elise Sutherland] 08:53:52
+Um, so…
+
+[Abhishek Pandey] 08:53:53
+Interesting.
+
+[Elise Sutherland] 08:53:55
+It's very cool, and I think…
+
+[Abhishek Pandey] 08:53:56
+Yeah.
+
+[Elise Sutherland] 08:53:57
+I would love for us to be able to do…
+
+[Elise Sutherland] 08:54:01
+Have you seen what Claude does with MCP… with Jira's… not JIRA, uh, GitHub's MCP server?
+
+[Abhishek Pandey] 08:54:07
+Um, as in over here at New Relic?
+
+[Elise Sutherland] 08:54:10
+Yeah, so we have… well, just in general, yeah, I guess just in general.
+
+[Abhishek Pandey] 08:54:11
+Or in general. Mm-hmm.
+
+[Abhishek Pandey] 08:54:13
+Yeah, yeah, yeah, in general, I am aware of it.
+
+[Elise Sutherland] 08:54:15
+Okay. Okay, yeah. So…
+
+[Elise Sutherland] 08:54:18
+Now, since I have installed Claude on my computer, on VS Code,
+
+[Elise Sutherland] 08:54:23
+I don't have to download the GitHub files anymore, I can just…
+
+[Elise Sutherland] 08:54:28
+Ask Claude. And that is what I would love to do from…
+
+[Abhishek Pandey] 08:54:28
+Yeah. Yeah.
+
+[Elise Sutherland] 08:54:32
+like a Slack channel, or from New Relic, I don't really care, but I want to say, hey, you have the details of my incident,
+
+[Abhishek Pandey] 08:54:35
+Mm-hmm.
+
+[Abhishek Pandey] 08:54:39
+Yeah.
+
+[Elise Sutherland] 08:54:40
+Look at my freaking repos, right? Like, what did I do here? What did I gunk up?
+
+[Abhishek Pandey] 08:54:43
+Right.
+
+[Abhishek Pandey] 08:54:44
+Mm-hmm.
+
+[Elise Sutherland] 08:54:45
+So, yeah, that's… those are my, like…
+
+[Elise Sutherland] 08:54:49
+wish list items.
+
+[Abhishek Pandey] 08:54:51
+Sean. Yeah, those make sense, and those could be…
+
+[Elise Sutherland] 08:54:52
+Yeah.
+
+[Abhishek Pandey] 08:54:55
+easy to implement things as well, and…
+
+[Abhishek Pandey] 08:54:58
+I think they're necessary as well, to be very frank, like…
+
+[Abhishek Pandey] 08:55:01
+You'd want to have it as a customer right, quickly having a sneak peek into what's happening and what…
+
+[Abhishek Pandey] 08:55:08
+Uh, great, great. Uh, those are good insights for me.
+
+[Elise Sutherland] 08:55:08
+Mm-hmm.
+
+[Abhishek Pandey] 08:55:11
+I have taken notes. What I'll do is, I'll try to compile something, and…
+
+[Abhishek Pandey] 08:55:16
+Yeah, I mean, I might misunderstood some things, right? I'll share it with you, probably.
+
+[Abhishek Pandey] 08:55:22
+Um, just help me…
+
+[Abhishek Pandey] 08:55:24
+maybe, you know, redraft it, if that is needed, right?
+
+[Abhishek Pandey] 08:55:28
+Because I wanted to take a note of all the things that you are aware of.
+
+[Abhishek Pandey] 08:55:32
+And you will be sharing some documentations with me as well, right? Related to the customer conversations that we have had.
+
+[Elise Sutherland] 08:55:38
+Yes. Yep, I'll send you all the links I got.
+
+[Abhishek Pandey] 08:55:40
+Great. Okay.
+
+[Abhishek Pandey] 08:55:41
+Okay. Can we meet sometime next week as well, Ellis, like…
+
+[Abhishek Pandey] 08:55:45
+whenever you are free, uh, let me know, I can book a call, because till that time, I'd study all of these things, right? And I'll try to come with some sort of ideation, you know, what we can work on.
+
+[Abhishek Pandey] 08:55:57
+Uh, and then, if you're good with it, right, I can probably…
+
+[Elise Sutherland] 08:55:58
+Hmm?
+
+[Abhishek Pandey] 08:56:03
+have it in my roadmap sort of a thing, right?
+
+[Abhishek Pandey] 08:56:06
+Couple of things in my quick wins that we can implement quickly, couple of things in the longer term.
+
+[Abhishek Pandey] 08:56:11
+Yeah.
+
+[Elise Sutherland] 08:56:12
+Yeah, that sounds good. Um…
+
+[Elise Sutherland] 08:56:16
+Okay, yeah, that… I'm… I'm good with that. I can do, um…
+
+[Elise Sutherland] 08:56:20
+like, if morning… well, if nights are better for you, or, like, afternoons are better for you, let me know.
+
+[Abhishek Pandey] 08:56:25
+Oh, anything works for me.
+
+[Elise Sutherland] 08:56:26
+Or if this is good… yeah, okay.
+
+[Abhishek Pandey] 08:56:29
+like, what works for you the best, because you're occupied, right? Yeah, I understand it.
+
+[Abhishek Pandey] 08:56:34
+I can manage.
+
+[Elise Sutherland] 08:56:35
+Awesome. Okay, yeah. Yeah, that sounds good. Um, I will send you all the stuff I have.
+
+[Elise Sutherland] 08:56:40
+Um,
+
+[Abhishek Pandey] 08:56:40
+Okay.
+
+[Elise Sutherland] 08:56:43
+It would be…
+
+[Elise Sutherland] 08:56:46
+Good to know if Camden wants you pulled into the SRE agent conversations, like, officially.
+
+[Abhishek Pandey] 08:56:52
+Mm-hmm.
+
+[Elise Sutherland] 08:56:53
+Um, because if so, I would love to pull you into them.
+
+[Abhishek Pandey] 08:56:57
+Yeah, yeah, yeah, please, please go ahead and do that. He needs a helping hand with it, because he's into too many things right now.
+
+[Abhishek Pandey] 08:57:04
+Um, and for me to be able to provide any sort of insight, right, I need to understand
+
+[Elise Sutherland] 08:57:04
+Yes.
+
+[Abhishek Pandey] 08:57:09
+how it's performing right now, what it is supposed to do, what kind of data is being fed into it right now.
+
+[Abhishek Pandey] 08:57:17
+Um, so yeah, I mean, please feel free to do that.
+
+[Abhishek Pandey] 08:57:20
+That should not be an issue. Yeah, yeah.
+
+[Elise Sutherland] 08:57:20
+Awesome. Okay, I will just… I'm probably just gonna, like, spam you with a bunch
+

@@ -1,0 +1,1873 @@
+Date: Thu, 19 Mar 2026 16:17:27 +0000 (UTC)
+Message-ID: <1887204930.103.1773937047716@5804d88201fb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_102_1698163368.1773937047716"
+
+------=_Part_102_1698163368.1773937047716
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>2026-03-12 SRE Agent MCP Server Tools</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>2026-03-12 SRE Agent MCP Server Tools</h1>
+    <div class=3D"Section1">
+        <div class=3D"confluence-information-macro confluence-information-m=
+acro-information">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"208a5c460754">This document lists tools available to the SRE=
+ agent organized by MCP server. It includes exact queries, data sourcing, a=
+nd service URLs that are accurate as of 2026-03-12. There is a current work=
+ in progress for <a class=3D"external-link" href=3D"https://source.datanerd=
+.us/Alerting/sre-agent-mcp-server/pull/530" rel=3D"nofollow">SRE MCP</a> an=
+d <a class=3D"external-link" href=3D"https://source.datanerd.us/Alerting/ch=
+ange-analyzer/pull/139" rel=3D"nofollow">Change Analyzer</a> to fully migra=
+te all NRDB queries to be performed via NerdGraph instead of via <code>inte=
+rnal-dirac</code>.</p>
+</div>
+</div>
+<h4 local-id=3D"c6c549b4556d" id=3D"id-2026-03-12SREAgentMCPServerTools-Rep=
+os"><strong>Repos</strong></h4>
+<ul local-id=3D"84ac81a7-60af-4f7a-82f6-0de0c3b6c0de">
+<li local-id=3D"6c97cc21-740e-4547-8cbf-34f8740908ff">
+<p local-id=3D"f87ef33883e6"><a class=3D"external-link" href=3D"https://sou=
+rce.datanerd.us/Alerting/sre-orchestration-service" rel=3D"nofollow">sre-or=
+chestration-service</a> =E2=80=94 Orchestration layer + agent/tool configs<=
+/p></li>
+<li local-id=3D"e38fd758-b405-4620-9378-df604e499eaa">
+<p local-id=3D"cb86075f9e7c"><a class=3D"external-link" href=3D"https://sou=
+rce.datanerd.us/Alerting/sre-agent" rel=3D"nofollow">sre-agent-mcp-server</=
+a> =E2=80=94 SRE agent=E2=80=99s analysis, entity, utility, and remediation=
+ MCP tools</p></li>
+<li local-id=3D"ac358083-8da6-4f74-9302-ddc81b0c659c">
+<p local-id=3D"14af098d72ae"><a class=3D"external-link" href=3D"https://sou=
+rce.datanerd.us/Alerting/change-analyzer" rel=3D"nofollow">change-analyzer<=
+/a> =E2=80=94 Deployment impact analysis tools</p></li>
+<li local-id=3D"8c5439f8-4ba1-48e9-91f6-2f4408bbf072">
+<p local-id=3D"0bd7c17013b6"><a class=3D"external-link" href=3D"https://sou=
+rce.datanerd.us/AIR/mcp-server" rel=3D"nofollow">mcp-server</a> =E2=80=94 N=
+ew Relic AI MCP server (change events, alert recommendations)</p></li>
+</ul>
+<hr local-id=3D"93eebafb-1b70-4632-aede-ea0f3bd82801">
+<h2 local-id=3D"350ec222ec29" id=3D"id-2026-03-12SREAgentMCPServerTools-sre=
+-agent-server(Analysis)">sre-agent-server (Analysis)</h2>
+<p local-id=3D"3286835d1754"><strong>Config:</strong> <code>sre_agent_analy=
+sis_tool:v0.0.1.json</code></p>
+<p local-id=3D"b5f529e294e1"><strong>Base URL:</strong> <code>${SRE_AGENT_M=
+CP_SERVER_BASE_URL}/server/analysis/mcp/</code></p>
+<p local-id=3D"c4632e1eab09"></p>
+<h3 local-id=3D"9006bc4191c1" id=3D"id-2026-03-12SREAgentMCPServerTools-gen=
+erate_entity_error_group_reports">generate_entity_error_group_reports</h3>
+<p local-id=3D"4a99d0306636">Fetches error groups from Errors Inbox, priori=
+tized by user impact and current state.</p>
+<ul local-id=3D"7fd21652-6622-421a-b5c4-e8b3c5ba5fdd">
+<li local-id=3D"f2fd4d19-15ad-4bcb-a197-278a8d556305">
+<p local-id=3D"6b62e6c59666"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Errors Inbox API</p></li>
+<li local-id=3D"03eef3f5-ab06-4032-89a6-84168614c6bb">
+<p local-id=3D"fce987faef0c"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code> (E.g. - <code>https://nerd-graph.staging-service.nr-ops.=
+net/graphql</code>)</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query E=
+rrorGroupsQuery(
+  $entityGuids: [EntityGuid!]!
+  $states: [ErrorsInboxErrorGroupState!]
+  $timeWindow: TimeWindowInput
+) {
+  actor {
+    errorsInbox {
+      errorGroups(
+        entityGuids: $entityGuids
+        timeWindow: $timeWindow
+        filter: { states: $states }
+      ) {
+        results {
+          message
+          eventsQuery
+          firstSeenAt
+          lastSeenAt
+          name
+          id
+          issueType
+          usersImpacted { totalCount }
+          state
+          source
+          url
+        }
+        totalCount
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"43a6fd2c-738b-40cd-a440-4e63ba283ecd">
+<h3 local-id=3D"30083c08cdd8" id=3D"id-2026-03-12SREAgentMCPServerTools-ana=
+lyze_garbage_collection_metrics">analyze_garbage_collection_metrics</h3>
+<p local-id=3D"8111893be585">GC and memory metrics with language-specific N=
+RQL queries. Performs anomaly detection on results.</p>
+<ul local-id=3D"1ac00e54-e11d-4ac8-8d30-9a5b537ac273">
+<li local-id=3D"c22afadf-e308-4b40-a9bf-24beb867993c">
+<p local-id=3D"1155da6dda32"><strong>Data source:</strong> Dirac (NRQL) + b=
+ork-sniffer (anomaly detection)</p></li>
+<li local-id=3D"a3abb2df-707f-45ea-a679-04af2cd3c1cd">
+<p local-id=3D"f67ed61afa0e"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code> (default: <code>https://nrql-query-gateway.staging-servic=
+e.nr-ops.net/api/1/query</code>)</p></li>
+</ul>
+<p local-id=3D"8a39b0c93c76"><strong>Java GC queries:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Non-=
+Heap memory usage
+SELECT filter(average(apm.service.java.memory.pool) * 1000 * 1000, WHERE us=
+ageType =3D 'Used')
+  / filter(average(apm.service.java.memory.pool) * 1000 * 1000, WHERE usage=
+Type =3D 'Max') as 'Non-Heap memory usage'
+FROM Metric
+WHERE heapType IS NOT NULL AND heapType NOT LIKE 'Heap' AND entity.guid =3D=
+ '{entity_guid}'
+
+-- Heap memory usage
+SELECT average(apm.service.memory.heap.used) / max(apm.service.memory.heap.=
+max) AS 'Heap memory usage'
+FROM Metric
+WHERE entity.guid =3D '{entity_guid}'
+
+-- GC CPU Time
+SELECT average(newrelic.timeslice.value) as 'GC CPU Time'
+FROM Metric
+WHERE metricTimesliceName =3D 'GC/G1 Young Generation' AND entity.guid =3D =
+'{entity_guid}'
+</pre>
+</div>
+</div>
+<p local-id=3D"428606cc6365"><strong>Go GC queries:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Paus=
+e Time
+SELECT average(newrelic.timeslice.value) * 1000 as 'Average', max(newrelic.=
+timeslice.value) * 1000 as 'Max'
+FROM Metric
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName =3D 'GC/Syste=
+m/Pauses'
+FACET host
+
+-- Pause Frequency
+SELECT count(newrelic.timeslice.value) as 'Pauses'
+FROM Metric
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName =3D 'GC/Syste=
+m/Pauses'
+FACET host
+
+-- Pause Time (% of wall clock time)
+SELECT average(newrelic.timeslice.value) as 'Pause fraction'
+FROM Metric
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName =3D 'GC/Syste=
+m/Pause Fraction'
+FACET host
+</pre>
+</div>
+</div>
+<p local-id=3D"6595cd3f572f"><strong>Default GC query (other languages):</s=
+trong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+sum(newrelic.timeslice.value) AS 'Sum',
+       average(newrelic.timeslice.value) AS 'Average',
+       count(newrelic.timeslice.value) AS 'Count'
+FROM Metric
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName LIKE 'GC/%'
+FACET metricTimesliceName
+</pre>
+</div>
+</div>
+<hr local-id=3D"6d2cb4bf-fed7-4833-9773-ad25efcb04e6">
+<h3 local-id=3D"377ad4113fbc" id=3D"id-2026-03-12SREAgentMCPServerTools-ana=
+lyze_entity_thread_metrics">analyze_entity_thread_metrics</h3>
+<p local-id=3D"602fc0e640dd">Thread state, CPU, and memory analysis. Langua=
+ge-aware (Java, Go, .NET, Ruby).</p>
+<ul local-id=3D"621e7eb6-fed9-4c4b-9802-be3b1b9e816a">
+<li local-id=3D"6b67a1eb-8d5f-426c-af4e-0ea2ad72382b">
+<p local-id=3D"13a8e5caa658"><strong>Data source:</strong> Dirac (NRQL) + b=
+ork-sniffer (anomaly detection)</p></li>
+<li local-id=3D"77616272-da16-437c-8f56-20a7c3dc7606">
+<p local-id=3D"3d125ce02a54"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+</ul>
+<p local-id=3D"92d962070c6c"><strong>Generic thread queries (all languages)=
+:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Bloc=
+ked/Waited thread counts
+SELECT sum(newrelic.timeslice.value) AS 'Threads/Count/%'
+FROM Metric WITH METRIC_FORMAT 'Threads/Count/{thread}/{state}'
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName LIKE 'Threads=
+/Count/%'
+  AND state IN ('BlockedCount', 'WaitedCount')
+FACET host, thread, state
+
+-- Thread summary by state
+SELECT sum(newrelic.timeslice.value) AS 'Threads/SummaryState/%/Count'
+FROM Metric WITH METRIC_FORMAT 'Threads/SummaryState/{state}/Count'
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName LIKE 'Threads=
+/SummaryState/%/Count'
+FACET host, state
+
+-- CPU time by thread
+SELECT sum(newrelic.timeslice.value) AS 'Threads/TotalTime/%/CpuTime'
+FROM Metric WITH METRIC_FORMAT 'Threads/TotalTime/{thread}/CpuTime'
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName LIKE 'Threads=
+/TotalTime/%/CpuTime'
+FACET host, thread
+</pre>
+</div>
+</div>
+<p local-id=3D"0ec04471e47a"><strong>Java-specific:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Thre=
+ad count
+SELECT filter(average(newrelic.timeslice.value),
+  where metricTimesliceName =3D 'JmxBuiltIn/Threads/Thread Count') as 'Thre=
+adCount'
+FROM Metric WHERE entity.guid =3D '{entity_guid}'
+FACET host, `host.displayName` OR `instanceName`
+
+-- Thread pool metrics
+SELECT filter(average(newrelic.timeslice.value), where metricTimesliceName =
+=3D 'JmxBuiltIn/ThreadPool/0/Max') as 'Max',
+       filter(average(newrelic.timeslice.value), where metricTimesliceName =
+=3D 'JmxBuiltIn/ThreadPool/0/Idle') as 'Idle',
+       filter(average(newrelic.timeslice.value), where metricTimesliceName =
+=3D 'JmxBuiltIn/ThreadPool/0/Active') as 'Active'
+FROM Metric WHERE entity.guid =3D '{entity_guid}'
+FACET host, `host.displayName` OR `instanceName`
+</pre>
+</div>
+</div>
+<p local-id=3D"61c18728363d"><strong>Go-specific:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+average(newrelic.timeslice.value) AS `Go/Runtime/Goroutines`
+FROM Metric
+WHERE entity.guid =3D '{entity_guid}' AND metricTimesliceName =3D 'Go/Runti=
+me/Goroutines'
+FACET host
+</pre>
+</div>
+</div>
+<p local-id=3D"dc7676159bbe"><strong>.NET-specific:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Thre=
+ad pool states
+SELECT average(newrelic.timeslice.value) AS 'Worker threads'
+FROM Metric WITH METRIC_FORMAT 'Threadpool/{threadPool}/{state}'
+WHERE entity.guid =3D '{entity_guid}'
+FACET host, threadPool, state
+
+-- Thread throughput
+SELECT average(newrelic.timeslice.value) AS 'Threads throughput'
+FROM Metric WITH METRIC_FORMAT 'Threadpool/Throughput/{state}'
+WHERE entity.guid =3D '{entity_guid}'
+FACET host, state
+</pre>
+</div>
+</div>
+<p local-id=3D"be63dda2d092"><strong>Ruby-specific:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+(filter(count(newrelic.timeslice.value), WHERE metricTimesliceName =3D 'Rub=
+yVM/Threads/all')
+  / count(apm.service.instance.count)) as 'Threads per Instance'
+FROM Metric WHERE entity.guid =3D '{entity_guid}'
+FACET host, `host.displayName` OR `instanceName`
+</pre>
+</div>
+</div>
+<hr local-id=3D"86ecf91a-02c2-46e2-b9ec-a07993e09fef">
+<h3 local-id=3D"de509d4290e9" id=3D"id-2026-03-12SREAgentMCPServerTools-ana=
+lyze_entity_golden_metrics">analyze_entity_golden_metrics</h3>
+<p local-id=3D"f954ac195826">Golden signal analysis =E2=80=94 throughput, r=
+esponse time, error rate, Apdex. Includes anomaly detection.</p>
+<ul local-id=3D"9081227e-7215-4f48-a710-708916851792">
+<li local-id=3D"b4855f07-3041-4dc8-b033-86fac895f31b">
+<p local-id=3D"a8a333d3fbc4"><strong>Data source:</strong> Dirac (NRQL time=
+series), NerdGraph (Entity Platform - golden signal definitions), bork-snif=
+fer (anomalies)</p></li>
+<li local-id=3D"3444795c-a060-4c10-8ad9-c8b9b35f1ec8">
+<p local-id=3D"a20eae79e17b"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+</ul>
+<p local-id=3D"3cb11ba55983">The NRQL is constructed dynamically from the e=
+ntity's <code>golden_metrics.multi_nrql</code> property (fetched via the <c=
+ode>EntitiesQuery</code> NerdGraph query below). The entity GUID filter is =
+appended:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{entity=
+.golden_metrics.multi_nrql} WHERE entity.guid =3D '{entity_guid}'</pre>
+</div>
+</div>
+<p local-id=3D"faa66100f8c7">The golden metrics definition comes from this =
+NerdGraph query (<code>entities.graphql</code>):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query E=
+ntitiesQuery($guids: [EntityGuid]!) {
+  actor {
+    entities(guids: $guids) {
+      goldenMetrics {
+        metrics {
+          name
+          unit
+          definition { select, from, where, facet }
+        }
+      }
+    }
+  }
+}</pre>
+</div>
+</div>
+<hr local-id=3D"394103fd-a48e-401b-99fc-90c70e9124a1">
+<h3 local-id=3D"8fe0649507d7" id=3D"id-2026-03-12SREAgentMCPServerTools-ana=
+lyze_entity_kafka_metrics">analyze_entity_kafka_metrics</h3>
+<p local-id=3D"fd8b97e481e0">Consumer lag, producer throughput, message lat=
+ency, partition balance.</p>
+<ul local-id=3D"c1a1c284-75fd-4ae9-8e02-ee21429863c1">
+<li local-id=3D"5b83214e0b55">
+<p local-id=3D"78d2e159b2cc"><strong>Data source:</strong> Dirac (NRQL), bo=
+rk-sniffer (anomalies)</p></li>
+<li local-id=3D"c483f153-13fb-4877-8e5f-2a8946468346">
+<p local-id=3D"dae67c79f321"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Prod=
+ucer and consumer metrics
+SELECT average(`producer-metrics.request-rate`) as ProducerRequestRate,
+       average(`producer-metrics.request-latency-avg`) as ProducerRequestLa=
+tency,
+       average(`producer-metrics.io-wait-time-ns-avg`) as ProducerIoWaitTim=
+e,
+       average(`consumer-fetch-manager-metrics.records-consumed-rate`) as C=
+onsumerRecordsConsumedRate,
+       average(`consumer-fetch-manager-metrics.fetch-latency-avg`) as Consu=
+merFetchLatency,
+       average(`consumer-metrics.io-ratio`) as ConsumerIoRatio,
+       average(`consumer-metrics.time-between-poll-avg`) as ConsumerTimeBet=
+weenPoll
+FROM KafkaMetrics
+WHERE entityGuid =3D '{entity_guid}'
+FACET clusterName
+
+-- Internal Kafka metrics (timeslice-based)
+SELECT filter(average(newrelic.timeslice.value), WHERE
+    (type =3D 'producer' AND metric =3D 'request-rate') OR
+    (type =3D 'producer' AND metric =3D 'request-latency-avg') OR
+    (type =3D 'consumer-fetch-manager' AND metric =3D 'records-consumed-rat=
+e') OR
+    (type =3D 'consumer-fetch-manager' AND metric =3D 'fetch-latency-avg') =
+OR
+    (type =3D 'producer' AND metric =3D 'io-wait-time-ns-avg') OR
+    (type =3D 'consumer' AND metric =3D 'io-ratio') OR
+    (type =3D 'consumer' AND metric =3D 'time-between-poll-avg')
+  ) AS filteredMetrics
+FROM Metric
+WHERE entityGuid =3D '{entity_guid}'
+WITH METRIC_FORMAT 'Custom/KafkaClients/{type}-metrics/client/{clientId}/{m=
+etric}'
+FACET type, clientId, metric
+
+-- External Kafka metrics (MessageBroker-based)
+SELECT filter(average(newrelic.timeslice.value), WHERE
+    (type =3D 'producer' AND metric =3D 'request-rate') OR
+    (type =3D 'consumer-fetch-manager' AND metric =3D 'records-consumed-rat=
+e') OR
+    ...same filter set...
+  ) AS filteredMetrics
+FROM Metric
+WHERE entityGuid =3D '{entity_guid}'
+WITH METRIC_FORMAT 'MessageBroker/Kafka/Internal/{type}-metrics/client/{cli=
+entId}/{metric}'
+FACET type, clientId, metric
+
+-- Consumer lag (CLM)
+SELECT max(secondsLag) as maxSecondsLag, max(offsetLag) as maxOffsetLag
+FROM KafkaConsumerLag
+WHERE {dynamic_where_clause}
+FACET group, consumerId, topic, topicPartition</pre>
+</div>
+</div>
+<hr local-id=3D"77675b9e-0fa6-493e-a8b8-5bd25e0de6ad">
+<h3 local-id=3D"84d6a7cc8ff0" id=3D"id-2026-03-12SREAgentMCPServerTools-ana=
+lyze_entity_application_logs">analyze_entity_application_logs</h3>
+<p local-id=3D"984389c6d66e">Log error pattern detection and anomaly identi=
+fication. Max query window: 24 hours.</p>
+<ul local-id=3D"80c3c2bc-64e6-466a-93a4-8512d286a6a3">
+<li local-id=3D"c7ed978b-c336-4346-ba6e-e64b2e07d218">
+<p local-id=3D"00b63c47410c"><strong>Data source:</strong> Dirac (NRQL)</p>=
+</li>
+<li local-id=3D"aeaf551f-8265-43e7-aef3-e3d043b3da1f">
+<p local-id=3D"28497dcc915e"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+* FROM Log WHERE entity.guid =3D '{entity_guid}'</pre>
+</div>
+</div>
+<hr local-id=3D"4ff81dee-6f4c-4228-a134-d73344809cf2">
+<h3 local-id=3D"1f99ae0e14b4" id=3D"id-2026-03-12SREAgentMCPServerTools-lis=
+t_top_transactions">list_top_transactions</h3>
+<p local-id=3D"4b3ef81cd341">Top transactions ranked by configurable criter=
+ia.</p>
+<ul local-id=3D"2c509c62-09c9-4993-9000-e0515ca48a30">
+<li local-id=3D"a097c8ce-c96a-48a6-a504-500a51c6d93e">
+<p local-id=3D"cac6523c90a0"><strong>Data source:</strong> Dirac (NRQL)</p>=
+</li>
+<li local-id=3D"7cbf48c8-d59f-433a-b580-636ddd8a4e33">
+<p local-id=3D"6dbffbe438b5"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- "mos=
+t time consuming" (default)
+SELECT rate(sum(apm.service.transaction.duration), 1 minute) FROM Metric WH=
+ERE entityGuid =3D '{entity_guid}' FACET transactionName
+
+-- "slowest average response time"
+SELECT average(convert(apm.service.transaction.duration, unit, 'ms')) FROM =
+Metric WHERE entityGuid =3D '{entity_guid}' FACET transactionName
+
+-- "highest error rate"
+SELECT clamp_max(count(apm.service.transaction.error.count) / count(apm.ser=
+vice.transaction.duration), 1) FROM Metric WHERE entityGuid =3D '{entity_gu=
+id}' FACET transactionName
+
+-- "throughput"
+SELECT rate(count(apm.service.transaction.duration), 1 minute) FROM Metric =
+WHERE entityGuid =3D '{entity_guid}' FACET transactionName
+
+-- "apdex"
+SELECT apdex(apm.service.transaction.apdex) FROM Metric WHERE entityGuid =
+=3D '{entity_guid}' FACET transactionName
+</pre>
+</div>
+</div>
+<hr local-id=3D"cb3d8bc0-152f-4ac0-b76b-bd74fd107bad">
+<h3 local-id=3D"2e9199e0770f" id=3D"id-2026-03-12SREAgentMCPServerTools-get=
+_transaction_analysis">get_transaction_analysis</h3>
+<p local-id=3D"81e8e7ccc0ad">Overview metrics: total count, avg duration, p=
+95, error rate, throughput/min.</p>
+<ul local-id=3D"ed653e34-ffb4-423c-a91e-25b21724f929">
+<li local-id=3D"60ce80ba-acc7-4620-88a0-21f8852d36f4">
+<p local-id=3D"1e0566ce8bb8"><strong>Data source:</strong> Dirac (NRQL) + b=
+ork-sniffer (anomaly detection)</p></li>
+<li local-id=3D"e68583b7-5e81-4378-9b0d-c685880a7b3b">
+<p local-id=3D"9aac1fb47ff6"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Over=
+view (Metric event type)
+SELECT count(apm.service.transaction.duration) as 'count',
+       average(apm.service.transaction.duration) as 'average.duration',
+       percentile(apm.service.transaction.duration, 95) as 'percentile.dura=
+tion',
+       sum(apm.service.error.count['count']) / count(apm.service.transactio=
+n.duration) as 'Error Rate %',
+       rate(count(apm.service.transaction.duration), 1 minute) as 'Throughp=
+ut per min'
+FROM Metric WHERE entity.guid =3D '{entity_guid}'
+
+-- Error transactions (Transaction event type)
+SELECT count(*) as 'count',
+       average(duration) as 'average.duration',
+       percentile(duration, 95) as 'percentile.duration',
+       percentage(count(*), WHERE error is true) as 'Error Rate %',
+       rate(count(*), 1 minute) as 'Throughput per min'
+FROM Transaction
+WHERE entityGuid =3D '{entity_guid}' AND error IS true
+ORDER BY timestamp DESC
+</pre>
+</div>
+</div>
+<hr local-id=3D"051a2ddb-52ad-4f92-8913-c8702c656e43">
+<h3 local-id=3D"5f934c9dfb01" id=3D"id-2026-03-12SREAgentMCPServerTools-get=
+_alerts_by_entity_guid">get_alerts_by_entity_guid</h3>
+<p local-id=3D"dfb18e3c5abe">Alert incident events for a specific entity wi=
+thin a time range.</p>
+<ul local-id=3D"6658525a-994a-4c81-80d3-ba611b8e708c">
+<li local-id=3D"f2ffbe6f-54f1-4ce6-9aa8-3a0e52db2600">
+<p local-id=3D"b2a2326e53ad"><strong>Data source:</strong> NerdGraph (NRQL =
+via NerdGraph wrapper)</p></li>
+<li local-id=3D"ffba5c64-51d6-45ee-add3-75ddfda35232">
+<p local-id=3D"174ec0e935c4"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+policyId, policyName, conditionId, conditionName, title, targetName,
+       nrqlQuery, nrqlEventType, event, incidentId, incidentLink, runbookUr=
+l
+FROM NrAiIncident
+WHERE entity.guid =3D '{entity_guid}'</pre>
+</div>
+</div>
+<hr local-id=3D"fbdebb53-9473-43a7-81c2-0919399f4a8b">
+<h3 local-id=3D"397b3fd4b390" id=3D"id-2026-03-12SREAgentMCPServerTools-get=
+_alerts_by_issue_id">get_alerts_by_issue_id</h3>
+<p local-id=3D"e1e6ab0dd337">Alert incidents associated with a specific iss=
+ue. Two-step query: resolves issue =E2=86=92 incidents =E2=86=92 events.</p=
+>
+<ul local-id=3D"904671bc-a1a6-47f6-8c34-d65c87689fb5">
+<li local-id=3D"c9f0d971-ffde-4521-82f3-2e28f34afa59">
+<p local-id=3D"0f7d631b5e73"><strong>Data source:</strong> NerdGraph (NRQL =
+via NerdGraph wrapper)</p></li>
+<li local-id=3D"71cd8803-c052-4b97-9c69-b9b525fb1744">
+<p local-id=3D"c69d24fe43a8"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- Step=
+ 1: Resolve incident IDs from issue
+SELECT incidentIds FROM NrAiIssue WHERE issueId =3D '{issue_id}'
+
+-- Step 2: Fetch alert events (same SELECT as get_alerts_by_entity_guid)
+SELECT policyId, policyName, conditionId, conditionName, title, targetName,
+       nrqlQuery, nrqlEventType, event, incidentId, incidentLink, runbookUr=
+l
+FROM NrAiIncident
+WHERE incidentId IN ({resolved_incident_ids})</pre>
+</div>
+</div>
+<hr local-id=3D"6364766b-2610-468f-af9b-3bf5448af76a">
+<h3 local-id=3D"bfab2b484fd4" id=3D"id-2026-03-12SREAgentMCPServerTools-get=
+_alerts_by_policy_condition_ids">get_alerts_by_policy_condition_ids</h3>
+<p local-id=3D"571fc5cf016a">Alert incidents filtered by policy ID, conditi=
+on ID, or both.</p>
+<ul local-id=3D"89be2ffb-6d7b-45e6-b7e3-d88f19c1f889">
+<li local-id=3D"8bde0197-35bc-45d3-84c3-e5276bc47e0b">
+<p local-id=3D"ba18a343e67e"><strong>Data source:</strong> NerdGraph (NRQL =
+via NerdGraph wrapper)</p></li>
+<li local-id=3D"4c1c1a1e-c854-4db4-9bb2-42e1528f335d">
+<p local-id=3D"8db5b968150e"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+policyId, policyName, conditionId, conditionName, title, targetName,
+       nrqlQuery, nrqlEventType, event, incidentId, incidentLink, runbookUr=
+l
+FROM NrAiIncident
+WHERE policyId =3D {policy_id} AND conditionId =3D {condition_id}</pre>
+</div>
+</div>
+<hr local-id=3D"ff8f8fe2-0641-4fe5-bf14-11bace3c8f90">
+<h3 local-id=3D"14109b2e0ae0" id=3D"id-2026-03-12SREAgentMCPServerTools-get=
+_entity_trace_call_graph">get_entity_trace_call_graph</h3>
+<p local-id=3D"a07031d1b49a">Distributed tracing call graph showing upstrea=
+m/downstream dependencies. Returns visualization URL.</p>
+<ul local-id=3D"6e417ebc-71e3-406f-bb42-d8fcdd08b944">
+<li local-id=3D"4dcbbf81-fdd5-48a3-bc75-e43db21a24da">
+<p local-id=3D"12be651a7387"><strong>Data source:</strong> <a class=3D"exte=
+rnal-link" href=3D"https://source.datanerd.us/distributed-tracing/distribut=
+ed-tracing-service" rel=3D"nofollow">distributed-tracing-service</a> (REST =
+API)</p></li>
+<li local-id=3D"eeb42fc5-f0aa-4f7a-ae90-626f61038e75">
+<p local-id=3D"40921df33a40"><strong>URL:</strong> <code>${DISTRIBUTED_TRAC=
+ING_ENDPOINT}/api/v2/entity/graph</code> (default: <code>https://staging-di=
+stributed-tracing-service.vip.cf.nr-ops.net/api/v2/entity/graph</code>)</p>=
+</li>
+<li local-id=3D"8572d13b-eb5f-4a40-892d-dfb8a6924462">
+<p local-id=3D"dfbd6f539123"><strong>Method:</strong> <code>POST</code></p>=
+</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "durationMs": 1200000,
+  "entityGuid": "{entity_guid}",
+  "startTimeMs": "{start_time_ms}",
+  "limit": 100,
+  "filter": {}
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"13cd9414-874b-4fe5-bad9-8d57257b0902">
+<h3 local-id=3D"19f1052a5bb2" id=3D"id-2026-03-12SREAgentMCPServerTools-int=
+elligent_causal_analysis">intelligent_causal_analysis</h3>
+<p local-id=3D"1f34138b7a25">Graph-based root cause analysis on a New Relic=
+ issue. Returns ranked causes with confidence scores.</p>
+<ul local-id=3D"dd0fb14b-6580-4c07-9ee5-a69547a42730">
+<li local-id=3D"c4626b19-a246-4ef0-852f-b09d462faf18">
+<p local-id=3D"645861d5523a"><strong>Data source:</strong> <a class=3D"exte=
+rnal-link" href=3D"https://source.datanerd.us/causal-engine" rel=3D"nofollo=
+w">causal-engine</a> (REST API)</p></li>
+<li local-id=3D"6ff867bd-87f5-468c-9745-3c7accac770c">
+<p local-id=3D"5da383ec0a6c"><strong>URL:</strong> <code>${IRCA_ENDPOINT}/v=
+1/causal-analysis</code> (default: <code>https://causal-engine.staging-serv=
+ice.nr-ops.net/v1/causal-analysis</code>)</p></li>
+<li local-id=3D"c5ef3065-db27-43ed-a6dd-956b42ceb5d3">
+<p local-id=3D"f69237e71dce"><strong>Method:</strong> <code>POST</code></p>=
+</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "accountId": "{issue_account_id}",
+  "issueId": "{issue_id}",
+  "entityId": "{entity_guid}",
+  "issueStartTimeMs": "{start_time_ms}",
+  "maxDepth": 3
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"75b8169d-cfca-48a0-b652-f4b9ef632147">
+<h3 local-id=3D"7ece9694ea1e" id=3D"id-2026-03-12SREAgentMCPServerTools-cau=
+sal_analysis">causal_analysis</h3>
+<p local-id=3D"f27df42eda83">Comprehensive RCA that orchestrates <strong>3 =
+parallel analysis tasks</strong> across multiple external services, gated b=
+y feature flags. Combines NRQL-based analysis, graph-based intelligent RCA,=
+ and entity relationship traversal with anomaly detection.</p>
+<h4 local-id=3D"6ae12c797301" id=3D"id-2026-03-12SREAgentMCPServerTools-Cal=
+lFlow">Call Flow</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">causal_=
+analysis()
+=E2=94=82
+=E2=94=9C=E2=94=80=E2=86=92 featureflag-api (check 3 flags)
+=E2=94=82
+=E2=94=9C=E2=94=80=E2=86=92 Task 1: entity_relationship_analysis()
+=E2=94=82   =E2=94=9C=E2=94=80=E2=86=92 NerdGraph (entity_relationship_trav=
+ersal query)
+=E2=94=82   =E2=94=9C=E2=94=80=E2=86=92 traverse_causal_graph()
+=E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=86=92 Dirac (NRQL golden metr=
+ics per entity)
+=E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=86=92 bork-sniffer (anomaly d=
+etection on timeseries)
+=E2=94=82   =E2=94=82   =E2=94=94=E2=94=80=E2=86=92 Pearson correlation ana=
+lysis (local)
+=E2=94=82   =E2=94=94=E2=94=80 Returns: CausalGraphCandidate objects
+=E2=94=82
+=E2=94=9C=E2=94=80=E2=86=92 Task 2: perform_causal_analysis()
+=E2=94=82   =E2=94=94=E2=94=80=E2=86=92 root-causeinator-api (/api/v4/rca)
+=E2=94=82
+=E2=94=94=E2=94=80=E2=86=92 Task 3: run_irca_graph_analysis()
+    =E2=94=94=E2=94=80=E2=86=92 causal-engine (/v1/causal-analysis)
+</pre>
+</div>
+</div>
+<p local-id=3D"5c9cffbfad2e">All 3 tasks run concurrently gated by feature =
+flags (<code>entity_relationship_analysis</code>, <code>sre_causal_analysis=
+</code>, <code>intelligent_causal_analysis</code>).</p>
+<h4 local-id=3D"ab268cc87856" id=3D"id-2026-03-12SREAgentMCPServerTools-Ent=
+ityRelationshipAnalysis">Entity Relationship Analysis</h4>
+<p local-id=3D"976a6b642f57">Traverses entity relationships, fetches golden=
+ metrics for each entity, and runs anomaly detection.</p>
+<p local-id=3D"4b115057af18"><strong>Step 1 =E2=80=94 Fetch entity graph:</=
+strong></p>
+<ul local-id=3D"307e46bcacbe">
+<li local-id=3D"365d57c650fa">
+<p local-id=3D"4f996c3eeda1">NerdGraph <code>EntityRelationshipTraversal</c=
+ode> query (same as <code>fetch_related_entities</code>)</p></li>
+</ul>
+<p local-id=3D"d7b786462ddc"><strong>Step 2 =E2=80=94 Fetch golden metrics =
+per entity:</strong></p>
+<ul local-id=3D"5406ea1bdba9">
+<li local-id=3D"b38eb4de4134">
+<p local-id=3D"9687b6ebe6b9"><strong>Source</strong>: Dirac (NRQL)</p></li>
+<li local-id=3D"73f4fdfa267a">
+<p local-id=3D"a65cd3b2c155"><strong>URL:</strong> <code>${NRDB_ENDPOINT}/a=
+pi/1/query</code></p></li>
+<li local-id=3D"95e5f9e2f347">
+<p local-id=3D"38d937e4b3de">Uses each entity's <code>golden_metrics</code>=
+ definition</p></li>
+</ul>
+<p local-id=3D"110b403b3cf5"><strong>Step 3 =E2=80=94 Anomaly detection:</s=
+trong></p>
+<ul local-id=3D"0cb40266fc25">
+<li local-id=3D"664ab0557b89">
+<p local-id=3D"312cf272174a"><strong>Source</strong>: <a class=3D"external-=
+link" href=3D"https://source.datanerd.us/bork-sniffer/bork-sniffer" rel=3D"=
+nofollow">bork-sniffer</a> (REST API)</p></li>
+<li local-id=3D"e01f003e-7633-41d2-b0b6-2ed221d7ec9f">
+<p local-id=3D"f18b777ad9fe"><strong>URL:</strong> <code>${ANOMALY_DETECTIO=
+N_ENDPOINT}/v5/anomaly-detection</code> (default: <code>https://bork-sniffe=
+r.staging-service.nr-ops.net/v5/anomaly-detection</code>)</p></li>
+<li local-id=3D"bed6799c-a14c-4880-a03c-21d78ec12853">
+<p local-id=3D"38850f581694"><strong>Method:</strong> <code>POST</code></p>=
+</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "timeSeries": [
+    {
+      "id": "{metric_name}",
+      "trainingData": [
+        { "value": 0.0, "beginTimeMillis": 0, "endTimeMillis": 0 }
+      ],
+      "evaluationData": [
+        { "value": 0.0, "beginTimeMillis": 0, "endTimeMillis": 0 }
+      ]
+    }
+  ],
+  "anomalyWindowSize": "{window_size}",
+  "anomalyOccurrenceThreshold": "{threshold}"
+}
+</pre>
+</div>
+</div>
+<p local-id=3D"a3fe85ba1d0f"><strong>Step 4 =E2=80=94 Correlation:</strong>=
+ Local Pearson correlation analysis across anomalous metrics to identify ca=
+usal relationships.</p>
+<h4 local-id=3D"db2928712ca5" id=3D"id-2026-03-12SREAgentMCPServerTools-Tas=
+k2:NRQL-basedRCA">Task 2: NRQL-based RCA</h4>
+<p local-id=3D"151ea956c57e">Sends user-supplied NRQL query to root-causein=
+ator for focused analysis.</p>
+<ul local-id=3D"578c9945-cd60-4ec9-8d32-9524dc7da21b">
+<li local-id=3D"a6f232d8-acf9-4085-aee7-a2865860dda2">
+<p local-id=3D"611ce585a5c3"><strong>Service:</strong> <a class=3D"external=
+-link" href=3D"https://source.datanerd.us/root-causeinator/root-causeinator=
+-api" rel=3D"nofollow">root-causeinator</a> (REST API)</p></li>
+<li local-id=3D"bc1776c6-1d7d-4466-85c1-5f1072b24cdc">
+<p local-id=3D"90b6e1556dd8"><strong>URL:</strong> <code>${CAUSAL_ANALYSIS_=
+ENDPOINT}/api/v4/rca</code> (default: <code>https://root-causeinator-api.st=
+aging-service.newrelic.com/api/v4/rca</code>)</p></li>
+<li local-id=3D"4cdb03c3-098c-4849-812c-37c0deca09ff">
+<p local-id=3D"37221290d5b5"><strong>Method:</strong> <code>POST</code></p>=
+</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "guid": "{entity_guid}",
+  "focus": {
+    "type": "NRQL",
+    "nrql": "{user_supplied_nrql}",
+    "facet": []
+  },
+  "timeWindow": {
+    "startTimeMs": "{start_time_ms}",
+    "endTimeMs": "{end_time_ms}"
+  },
+  "hops": "{hops}"
+}
+</pre>
+</div>
+</div>
+<h4 local-id=3D"9b5f9ad0bb9d" id=3D"id-2026-03-12SREAgentMCPServerTools-Tas=
+k3:Graph-basedIntelligentRCA">Task 3: Graph-based Intelligent RCA</h4>
+<p local-id=3D"830aea63e28d">Same call as <code>intelligent_causal_analysis=
+</code> =E2=80=94 delegates to causal-engine.</p>
+<ul local-id=3D"08a183c8-6b0c-40c9-a346-58e6d86fbc6e">
+<li local-id=3D"89efa050-8d0f-42ee-9273-f88128857e3e">
+<p local-id=3D"bef9a910901a"><strong>Service:</strong> <a class=3D"external=
+-link" href=3D"https://source.datanerd.us/causal-engine" rel=3D"nofollow">c=
+ausal-engine</a> (REST API)</p></li>
+<li local-id=3D"02793551-6e2a-44ec-b8ad-50c7b6f9735f">
+<p local-id=3D"6bdbb3d03769"><strong>URL:</strong> <code>${CAUSAL_ENGINE_EN=
+DPOINT}/v1/causal-analysis</code> (default: <code>https://causal-engine.sta=
+ging-service.nr-ops.net/v1/causal-analysis</code>)</p></li>
+<li local-id=3D"2cd1b8ea-63cb-40a2-b1d2-39bb29b40d77">
+<p local-id=3D"2e34ddae61b0"><strong>Method:</strong> <code>POST</code></p>=
+</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "accountId": "{issue_account_id}",
+  "issueId": "{issue_id}",
+  "entityId": "{entity_guid}",
+  "issueStartTimeMs": "{start_time_ms}",
+  "maxDepth": 3
+}
+</pre>
+</div>
+</div>
+<h4 local-id=3D"2abff0089ae2" id=3D"id-2026-03-12SREAgentMCPServerTools-Fea=
+tureFlagGating">Feature Flag Gating</h4>
+<ul local-id=3D"b7a80d77-1ef9-4a10-a0e0-6e6cd709970d">
+<li local-id=3D"97c80f24-cd19-4058-97bd-e5d1d8e18ae7">
+<p local-id=3D"4c39505df89f"><strong>Service:</strong> <a class=3D"external=
+-link" href=3D"https://source.datanerd.us/featureflag/featureflag-api" rel=
+=3D"nofollow">featureflag-api</a> (REST API)</p></li>
+<li local-id=3D"468884d1-16f7-4119-a937-1482e80da591">
+<p local-id=3D"8725b7223fda"><strong>URL:</strong> <code>${FEATURE_FLAG_SER=
+VICE_ENDPOINT}</code> (default: <code>https://featureflag-api.staging-servi=
+ce.nr-ops.net</code>)</p></li>
+</ul>
+<p local-id=3D"c8904c6ba405">Flags evaluated: <code>entity_relationship_ana=
+lysis</code>, <code>sre_causal_analysis</code>, <code>intelligent_causal_an=
+alysis</code></p>
+<hr local-id=3D"17e4e574-29e0-46db-b72c-9f8b0647e191">
+<h3 local-id=3D"08091f729514" id=3D"id-2026-03-12SREAgentMCPServerTools-Exc=
+ludedTools">Excluded Tools</h3>
+<p local-id=3D"6fcce4ac9596">These tools exist on the server but are <stron=
+g>not</strong> exposed to the SRE agent:</p>
+<ul local-id=3D"3f0434d6-306f-4490-b791-e5f763531285">
+<li local-id=3D"628e8953-40f1-4ddb-af33-5aaf1365688e">
+<p local-id=3D"6f1e6f42e17b"><code>list_entity_vulnerabilities</code></p></=
+li>
+<li local-id=3D"b9beabfe-6a22-41ef-8a45-e7e9c4e13c10">
+<p local-id=3D"66439f45dabd"><code>forecast_metrics</code></p></li>
+<li local-id=3D"3886f4ce-a397-4dfb-ab81-054dd677ddc3">
+<p local-id=3D"fb0f9c57e812"><code>get_alert_incident_events</code></p></li=
+>
+<li local-id=3D"d2430197-2228-406a-9392-d7bd2be2e398">
+<p local-id=3D"5122f83ed109"><code>analyze_otel_collector_metrics</code></p=
+></li>
+</ul>
+<hr local-id=3D"e1ab6359-65c7-4851-8f36-3229e6c1dcfe">
+<h2 local-id=3D"9370cb4d5e34" id=3D"id-2026-03-12SREAgentMCPServerTools-sre=
+-agent-server(Entity)">sre-agent-server (Entity)</h2>
+<p local-id=3D"5a3fcff6a31d"><strong>Config:</strong> <code>sre_agent_entit=
+y_tool:v0.0.1.json</code></p>
+<p local-id=3D"28530d1d43de"><strong>Base URL:</strong> <code>${SRE_AGENT_M=
+CP_SERVER_BASE_URL}/server/general/mcp/</code></p>
+<h3 local-id=3D"a6c333534b00" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_entity">fetch_entity</h3>
+<p local-id=3D"31a209081957">Lookup entities by GUID (exact) or name patter=
+n (fuzzy). Supports domain/type filtering.</p>
+<ul local-id=3D"a83d5fa3-7a62-48aa-b59d-76e69d219f76">
+<li local-id=3D"0277ac32-3a5f-448c-aa02-3bae891ed462">
+<p local-id=3D"a9ac773befa6"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Entity Search API</p></li>
+<li local-id=3D"9348df10-0446-4885-a4e6-e23180be6463">
+<p local-id=3D"e34129efe688"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+</ul>
+<p local-id=3D"f6c11dbede18">Builds a multi-aliased GraphQL query dynamical=
+ly with these search variants:</p>
+<ul local-id=3D"21ee8395-0989-446c-ac82-5ee81e33ff42">
+<li local-id=3D"fd3ec0af-19d3-432d-8dad-1491e7e04e0e">
+<p local-id=3D"25ae064e686b"><code>exact</code>: <code>name =3D '{pattern}'=
+ OR domainId =3D '{pattern}'</code></p></li>
+<li local-id=3D"6c30a785-3261-4e76-ae51-c5da5882c66b">
+<p local-id=3D"fb6730d6669a"><code>fuzzy</code>: <code>name LIKE '{pattern}=
+'</code> (with optional domain/type)</p></li>
+<li local-id=3D"eade684f-c8e4-4e95-8a9c-52b14d2c308a">
+<p local-id=3D"022bdbc2f020"><code>fuzzyPreferred</code>: <code>name LIKE '=
+{pattern}' AND (domain IN ('APM') AND type IN ('APPLICATION') OR ...)</code=
+></p></li>
+</ul>
+<p local-id=3D"3c6dd609718b">Entity search results fragment (<code>raw_quer=
+ies.py</code>):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query S=
+REAgentMultiEntitySearch {
+  actor {
+    exact: entitySearch(query: "name =3D '{pattern}' OR domainId =3D '{patt=
+ern}'") {
+      results {
+        entities {
+          domain, permalink, name, guid, type, alertSeverity, accountId, re=
+porting
+          goldenMetrics {
+            metrics { name, unit, definition { select, from, where, facet }=
+ }
+          }
+          tags { key, values }
+        }
+      }
+    }
+    fuzzy: entitySearch(query: "name LIKE '{pattern}'") { ...same fragment.=
+.. }
+    fuzzyPreferred: entitySearch(query: "name LIKE '{pattern}' AND domain I=
+N ('APM') AND type IN ('APPLICATION')") { ...same fragment... }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"333cb2a7-8070-45cf-83cc-d84385d86093">
+<h3 local-id=3D"2d23cea78443" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_related_entities">fetch_related_entities</h3>
+<p local-id=3D"091e96545404">Discovers entities 1 hop away in the relations=
+hip graph.</p>
+<ul local-id=3D"38221caa-3261-4b53-ac6f-bd391ac72c4b">
+<li local-id=3D"b3220491-1c0b-4a8c-a995-17551178ced8">
+<p local-id=3D"6532b361b750"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Entity Relationship Traversal API</p></li>
+<li local-id=3D"6e2f008d-369b-4a0c-b979-afc8e12b7f01">
+<p local-id=3D"d3c9aa094cae"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query E=
+ntityRelationshipTraversal(
+  $entityGuid: EntityGuid!
+  $hops: Int
+  $hopFilters: [EntityRelationshipTraversalFilter!]
+  $cursor: String
+) {
+  actor {
+    entity(guid: $entityGuid) {
+      accountId, domain, type, name, permalink, guid
+      goldenMetrics { metrics { name, unit, definition { select, from, wher=
+e, facet } } }
+      tags { key, values }
+      relationshipTraversal(hops: $hops, hopFilters: {default: $hopFilters}=
+, cursor: $cursor) {
+        nextCursor
+        results {
+          type
+          source {
+            guid
+            entity { guid, name, alertSeverity, accountId, domain, type, en=
+tityType, reporting, account { id, name } }
+          }
+          target {
+            guid
+            entity { guid, name, alertSeverity, accountId, domain, type, en=
+tityType, reporting, account { id, name } }
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<p local-id=3D"5efe7d35ac1a"><strong>Default exclusion filters:</strong> AI=
+OPS/CONDITION, AIOPS/ISSUE, EXT/KEY_TRANSACTION, EXT/SERVICE_LEVEL, EXT/TEA=
+M, NR1/WORKLOAD, REF/REPOSITORY, SYNTH/SECURE_CRED, SYNTH/PRIVATE_LOCATION,=
+ VIZ/DASHBOARD</p>
+<hr local-id=3D"cb98bbac-2d22-466f-b10a-6dbefa2cd326">
+<h3 local-id=3D"97e44062472a" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_entity_types">fetch_entity_types</h3>
+<p local-id=3D"bc692af39df2">Complete catalog of New Relic entity types wit=
+h domain, type, and metric definitions.</p>
+<ul local-id=3D"20777912-4373-4ad7-8280-8977606e56b6">
+<li local-id=3D"9640e563-b003-4c29-a92c-3fc5bcbc1c8e">
+<p local-id=3D"b9e949c30a09"><strong>Data source:</strong> NerdGraph</p></l=
+i>
+<li local-id=3D"d410400f-8a8b-4159-b3cb-20677fe804e3">
+<p local-id=3D"c92405b081d4"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query E=
+ntityTypesQuery {
+  actor {
+    entityTypes {
+      domain
+      type
+      summaryMetricDefinitions { title, unit }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"616664b4-67e0-4918-93a5-d6a673c65f3e">
+<h2 local-id=3D"28dd75c58163" id=3D"id-2026-03-12SREAgentMCPServerTools-sre=
+-agent-server(Utilities)">sre-agent-server (Utilities)</h2>
+<p local-id=3D"b4d8c8367a99"><strong>Config:</strong> <code>sre_agent_utili=
+ties_tool:v0.0.1.json</code></p>
+<p local-id=3D"6f1bf891a0d6"><strong>Base URL:</strong> <code>${SRE_AGENT_M=
+CP_SERVER_BASE_URL}/server/general/mcp/</code></p>
+<p local-id=3D"77b54f49bf1c">Time conversion helpers. <strong>No external A=
+PI calls</strong> =E2=80=94 all local processing.</p>
+<h3 local-id=3D"d0d695e3fb64" id=3D"id-2026-03-12SREAgentMCPServerTools-con=
+vert_time_period_to_epoch_ms">convert_time_period_to_epoch_ms</h3>
+<p local-id=3D"807b52e95868">Parses natural language time expressions to ep=
+och milliseconds.</p>
+<ul local-id=3D"ff50edf2-6754-4bb2-a4c4-93896f7991aa">
+<li local-id=3D"3da6fef9-47e9-4df8-80b3-55cb3740ff73">
+<p local-id=3D"4e5effe8df42"><strong>Data source:</strong> Local NLP parsin=
+g</p></li>
+<li local-id=3D"304e7a83-c843-48f5-a940-4c4947269729">
+<p local-id=3D"4b8872d4ac7d"><strong>Supported formats:</strong> Relative (=
+"30 minutes ago"), named ("yesterday at 3pm"), ISO datetime, epoch passthro=
+ugh, timezone-aware</p></li>
+</ul>
+<h3 local-id=3D"dade5b45b837" id=3D"id-2026-03-12SREAgentMCPServerTools-con=
+vert_epoch_ms_timestamps_to_datetime_range">convert_epoch_ms_timestamps_to_=
+datetime_range</h3>
+<p local-id=3D"7acd1fb90b51">Converts epoch millisecond timestamps to human=
+-readable datetime strings.</p>
+<ul local-id=3D"52d3221a-bc87-441c-aa68-153e0d23ebf5">
+<li local-id=3D"159d9fdd-7b44-4684-bdf1-26563c93648e">
+<p local-id=3D"b353b24c87d3"><strong>Data source:</strong> Local formatting=
+</p></li>
+<li local-id=3D"1bc89e2e-ea07-4717-8868-971bd0db68d1">
+<p local-id=3D"943c556a59dd"><strong>Output format:</strong> <code>MM/DD/YY=
+ HH:MM:SS</code> with timezone support (abbreviations or IANA names)</p></l=
+i>
+</ul>
+<hr local-id=3D"72fb6fec-b329-4be6-a49f-47103c8f3107">
+<h2 local-id=3D"7d96432e49bb" id=3D"id-2026-03-12SREAgentMCPServerTools-sre=
+-agent-server(Remediation)">sre-agent-server (Remediation)</h2>
+<p local-id=3D"269abbd26c20"><strong>Config:</strong> <code>sre_agent_remed=
+iation_tool:v0.0.1.json</code></p>
+<p local-id=3D"4ee50b35cc06"><strong>Base URL:</strong> <code>${SRE_AGENT_M=
+CP_SERVER_BASE_URL}/server/remediation/mcp/</code></p>
+<h3 local-id=3D"0f3aa09aa388" id=3D"id-2026-03-12SREAgentMCPServerTools-get=
+_workflow_list">get_workflow_list</h3>
+<p local-id=3D"e2b7ac81953d">Lists available remediation workflows for an a=
+ccount. Two-step NerdGraph process.</p>
+<ul local-id=3D"fd8b42f0-c716-481b-a34b-5e928f0751c6">
+<li local-id=3D"ee92b68e-5019-49d8-baee-b3509046c940">
+<p local-id=3D"7503f537b557"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Entity Search + Workflow Automation API</p></li>
+<li local-id=3D"33fa2c04-f274-495a-a4d1-06ef0c021117">
+<p local-id=3D"ff402289ba80"><strong>URL:</strong> <code>${NERDGRAPH_ENDPOI=
+NT}/graphql</code></p></li>
+<li local-id=3D"d97d56d0-0bf4-45ac-a75a-152b5e2d126d">
+<p local-id=3D"56d1dbb726f3"><strong>Query def:</strong> <code>workflows.gr=
+aphql</code></p></li>
+</ul>
+<p local-id=3D"936b4249cf4b"><strong>Step 1: Discover workflows via entity =
+search</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query G=
+etSREAgentWorkflows($query: String) {
+  actor {
+    entitySearch(query: $query) {
+      results { entities { name } }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<p local-id=3D"7e59c853337a">Query parameter: <code>"tags.nerdEnabled =3D '=
+true' and type =3D 'WORKFLOW_AUTOMATION' and domain =3D 'WORKFLOWAUTO' and =
+accountId =3D {account_id}"</code></p>
+<p local-id=3D"b2e281cf4a45"><strong>Step 2: Fetch workflow details</strong=
+></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query F=
+etchWorkflowDetailsByName($accountId: Int!, $workflowName: String!) {
+  actor {
+    account(id: $accountId) {
+      workflowAutomation {
+        workflow(name: $workflowName) {
+          definition { description, yaml, version, name }
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"c5eb28d5-47ba-4036-bbc6-88b72666e435">
+<h2 local-id=3D"45fd5b90cc22" id=3D"id-2026-03-12SREAgentMCPServerTools-cha=
+nge-analyzer">change-analyzer</h2>
+<p local-id=3D"4bc40b4bc318"><strong>Config:</strong> <code>change_analyzer=
+_mcp_tool:v0.0.1.json</code></p>
+<p local-id=3D"1d7a79e3d9db"><strong>Base URL:</strong> <code>${CHANGE_ANAL=
+YZER_MCP_SERVER_BASE_URL}/mcp</code></p>
+<p local-id=3D"fabf674bc7e3"><strong>Source:</strong> <a class=3D"external-=
+link" href=3D"https://source.datanerd.us/Alerting/change-analyzer" rel=3D"n=
+ofollow">change-analyzer</a></p>
+<p local-id=3D"cc5cef602359">All tools take an entity GUID + start time in =
+epoch ms.</p>
+<h3 local-id=3D"6d9166cc7c64" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_deployment_metadata_analysis">fetch_deployment_metadata_analysis</h3>
+<p local-id=3D"d0cd5bfc9edc">Examines change event data from the last 30 da=
+ys to identify deviations from historical patterns.</p>
+<ul local-id=3D"edfdce4a-9cb5-47b8-949f-f8ee75afeb70">
+<li local-id=3D"c5f0a9a2-10f1-468d-a116-ee137a6351e5">
+<p local-id=3D"4f05fd42efb8"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Change Tracking API</p></li>
+<li local-id=3D"33401807-726e-481c-ad31-22b92d26ee62">
+<p local-id=3D"e5775e9148a8"><strong>URL:</strong> <code>${NERDGRAPH_BASE_U=
+RI}/graphql</code> (default: <code>https://nerd-graph.staging-service.nr-op=
+s.net/graphql</code>)</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query C=
+hangeTrackingSearchQuery(
+  $entityGuids: [EntityGuid!],
+  $timeWindow: ChangeTrackingTimeWindowInputWithDefaults,
+  $accountIds: [Int!],
+  $limit: Int,
+  $query: String,
+  $nrdbEventTypes: [ChangeTrackingNrdbEventType!]
+) {
+  actor {
+    changeTracking {
+      changeTrackingSearch(filter: {
+        entityGuids: $entityGuids,
+        timeWindow: $timeWindow,
+        accountIds: $accountIds,
+        limit: $limit,
+        query: $query,
+        nrdbEventTypes: $nrdbEventTypes
+      }) {
+        changeEvents {
+          ... on ChangeTrackingDeploymentEvent {
+            changeTrackingId, timestamp, user, category, type, categoryAndT=
+ype,
+            description, shortDescription, changelog, commit, deepLink, gro=
+upId,
+            customAttributes,
+            entity { guid, name, type, accountId }
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<p local-id=3D"d9379a332f09">Query filter: <code>"eventType() =3D 'Deployme=
+nt' OR (eventType() =3D 'ChangeTrackingEvent' AND category =3D 'Deployment'=
+)"</code></p>
+<hr local-id=3D"dba025f4-fd53-40b0-a69b-92e740e9c092">
+<h3 local-id=3D"bf4fa5a94090" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_performance_analysis">fetch_performance_analysis</h3>
+<p local-id=3D"310223dc75c5">Golden metrics, transaction behavior, and infr=
+astructure anomaly analysis around a change event.</p>
+<p local-id=3D"9d795e8a9a38"><strong>Time window:</strong> 1 hour post-chan=
+ge with 1 hour prior baseline</p>
+<p local-id=3D"2ea0a75ae61d"></p>
+<p local-id=3D"7f6e54270389">Calls multiple data sources:</p>
+<p local-id=3D"1298e2918938"><strong>A. Golden Signals =E2=80=94 </strong><=
+a class=3D"external-link" href=3D"https://source.datanerd.us/golden-signal-=
+service" rel=3D"nofollow"><strong>golden-signal-service</strong></a><strong=
+> (Thrift RPC)</strong></p>
+<ul local-id=3D"865c7e6e-c8ed-4a82-b5a4-ba1cf6f657ba">
+<li local-id=3D"df4d3ece-3536-4d0d-bb1d-2f3a1df8e5a4">
+<p local-id=3D"a089a0d1fe07"><strong>URL:</strong> <code>${GOLDENSIGNALSTOR=
+AGE_API_ENDPOINT}</code> (default: <code>https://staging-golden-signal-serv=
+ice.vip.cf.nr-ops.net/golden_signal_service/v1</code>)</p></li>
+<li local-id=3D"3a26c48a-15c7-4fb8-b568-1ff45965db85">
+<p local-id=3D"dac54f734b8d"><strong>Constraint:</strong> Last 90 minutes o=
+nly; falls back to NRQL for older data</p></li>
+</ul>
+<p local-id=3D"76f90d5f457a"><strong>B. Golden Signals fallback =E2=80=94 D=
+irac (NRQL)</strong></p>
+<ul local-id=3D"b95ffe18-2b47-49ef-b074-67e44112dd56">
+<li local-id=3D"add2aa1f-27a9-4e80-8a55-a1ad7c8e1866">
+<p local-id=3D"19f5ed325538"><strong>URL:</strong> <code>${DIRAC_BASE_URI}/=
+api/1/query</code> (default: <code>https://nrql-query-gateway.staging-servi=
+ce.nr-ops.net/api/1/query</code>)</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{golden=
+_metric_definition} WHERE entity.guid =3D '{entity_guid}' SINCE {startTimeM=
+s} UNTIL {endTimeMs}</pre>
+</div>
+</div>
+<p local-id=3D"d7dddf45bdb5"><strong>C. Entity metadata =E2=80=94 NerdGraph=
+</strong></p>
+<ul local-id=3D"091569c1-12f5-4320-8860-2e6cafa4c40b">
+<li local-id=3D"229827c4-3479-4328-833b-6df9f344a9e0">
+<p local-id=3D"417970d22863"><strong>URL:</strong> <code>${NERDGRAPH_BASE_U=
+RI}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query E=
+ntitiesQuery($guids: [EntityGuid]!) {
+  actor {
+    entities(guids: $guids) {
+      accountId, domain, type, name, permalink, guid, alertSeverity
+      goldenMetrics { metrics { name, metricName, definition { select, from=
+, where } } }
+      tags { key, values }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"e08973ea-1ff9-4256-a640-ac99b6461707">
+<h3 local-id=3D"29f3245ea695" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_alerts_analysis">fetch_alerts_analysis</h3>
+<p local-id=3D"1379911fdb84">Examines alert incidents around a deployment t=
+o determine if it triggered new alerts.</p>
+<ul local-id=3D"2c9c83ef-f76b-450c-a9c8-7c4c65113df7">
+<li local-id=3D"b0dc94ea-1661-46ef-883b-d38e57c64245">
+<p local-id=3D"2614ca34e9ae"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 AI Issues Incidents API</p></li>
+<li local-id=3D"a3aa9174-9525-4f95-b030-22dc2046ed1b">
+<p local-id=3D"b758b2a1b20a"><strong>URL:</strong> <code>${NERDGRAPH_BASE_U=
+RI}/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query A=
+lertIncidents(
+  $accountId: Int!,
+  $incidentIds: [ID!],
+  $entityGuids: [EntityGuid!],
+  $startTime: EpochMilliseconds!,
+  $endTime: EpochMilliseconds!,
+  $cursor: String
+) {
+  actor {
+    account(id: $accountId) {
+      aiIssues {
+        incidents(
+          filter: { ids: $incidentIds, entityGuids: $entityGuids }
+          timeWindow: { endTime: $endTime, startTime: $startTime }
+          cursor: $cursor
+        ) {
+          incidents {
+            incidentId, issueId, closedAt, createdAt, description,
+            entityGuids, entityNames, entityTypes, priority, state,
+            timestamp, updatedAt,
+            account { id, name }
+          }
+          nextCursor
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"a37290e1-3f1c-48c1-8d47-911773f7c8df">
+<h2 local-id=3D"4ce6148f7e90" id=3D"id-2026-03-12SREAgentMCPServerTools-nr-=
+mcp-server(ChangeEvents)">nr-mcp-server (Change Events)</h2>
+<p local-id=3D"63b64c9cdae6"><strong>Config:</strong> <code>nrai_mcp_tool:v=
+0.0.1.json</code></p>
+<p local-id=3D"746434998fb3"><strong>Base URL:</strong> <code>${NR_MCP_SERV=
+ER_MCP_URL}</code></p>
+<p local-id=3D"41ecdfa20430"><strong>Source:</strong> <a class=3D"external-=
+link" href=3D"https://source.datanerd.us/AIR/mcp-server/blob/master/src/new=
+_relic_mcp/tools/basic_tools.py" rel=3D"nofollow">mcp-server/src/new_relic_=
+mcp/tools/basic_tools.py</a></p>
+<h3 local-id=3D"6a7afaf8e3f6" id=3D"id-2026-03-12SREAgentMCPServerTools-lis=
+t_change_events">list_change_events</h3>
+<p local-id=3D"b04d5f2cf493">Retrieves deployment and change event history =
+for an entity.</p>
+<ul local-id=3D"5c51d54e-3416-4483-9004-faaf92fe46c0">
+<li local-id=3D"66bf54e9-ef50-4fb5-8c4b-db09da4e9c46">
+<p local-id=3D"e6a0e9afe7c8"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Change Tracking API</p></li>
+<li local-id=3D"44e29db3-c153-475b-93f4-9afb37a2d0e8">
+<p local-id=3D"b65efcd5d87c"><strong>URL:</strong> <code>${NERD_GRAPH_HOST}=
+/graphql</code> (default: <code>https://api.newrelic.com/graphql</code>)</p=
+></li>
+<li local-id=3D"efda4a32-be9a-4281-9106-f2260495a5f9">
+<p local-id=3D"d6af8752bd61"><strong>Query def:</strong> <code>queries.py</=
+code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query G=
+etChangeTrackingEvents(
+  $EntityGUIDs: [EntityGuid!]
+  $StartTime: EpochMilliseconds!
+  $EndTime: EpochMilliseconds!
+  $NrdbEventTypes: [ChangeTrackingNrdbEventType!]
+) {
+  actor {
+    changeTracking {
+      changeTrackingSearch(
+        filter: {
+          entityGuids: $EntityGUIDs
+          timeWindow: { startTime: $StartTime, endTime: $EndTime }
+          nrdbEventTypes: $NrdbEventTypes
+        }
+      ) {
+        changeEvents {
+          category, categoryAndType, changeTrackingId, customAttributes,
+          description, groupId, shortDescription, timestamp, type, user
+          entity { guid, name }
+          ... on ChangeTrackingDeploymentEvent { changelog, commit, deepLin=
+k, version }
+          ... on ChangeTrackingFeatureFlagEvent { featureFlagId }
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<p local-id=3D"438f5ef92529"><code>NrdbEventTypes</code> hardcoded as: <cod=
+e>["CHANGE_TRACKING_EVENT", "DEPLOYMENT"]</code></p>
+<hr local-id=3D"4cc0ed54-9cc0-445a-900f-bfda053ce0a8">
+<h2 local-id=3D"017b2edfa384" id=3D"id-2026-03-12SREAgentMCPServerTools-nr-=
+mcp-server(Mitigation)">nr-mcp-server (Mitigation)</h2>
+<p local-id=3D"856346d9af10"><strong>Config:</strong> <code>nrai_mcp_mitiga=
+tion_tool:v0.0.1.json</code></p>
+<p local-id=3D"37d43003f00b"><strong>Base URL:</strong> <code>${NR_MCP_SERV=
+ER_MCP_URL}</code></p>
+<p local-id=3D"ced16f1d9892"><strong>Source:</strong> <a class=3D"external-=
+link" href=3D"https://source.datanerd.us/AIR/mcp-server/blob/main/src/new_r=
+elic_mcp/tools/declarative_tools_configs/" rel=3D"nofollow">mcp-server/src/=
+new_relic_mcp/tools/declarative_tools_configs/</a></p>
+<p local-id=3D"c80dbe1a5876"></p>
+<h3 local-id=3D"456987e31336" id=3D"id-2026-03-12SREAgentMCPServerTools-ale=
+rt_condition_recommendation_tool">alert_condition_recommendation_tool</h3>
+<p local-id=3D"a70c41766ae7">Recommends alert conditions by entity domain/t=
+ype with optional name or search filters.</p>
+<ul local-id=3D"901c16af-d0c0-47da-aef3-0d592f97010d">
+<li local-id=3D"92e17161-e150-4828-99d5-8d77f01347bf">
+<p local-id=3D"a7b801de8f54"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Alerts AskAI API</p></li>
+<li local-id=3D"9c58465a-ca13-4f78-8b55-4935846c5344">
+<p local-id=3D"4ef32e0cfe2d"><strong>URL:</strong> <code>${NERD_GRAPH_HOST}=
+/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query G=
+etRecommendedConditionsAskAi(
+  $entity_domain: String,
+  $entity_names: [String],
+  $entity_type: String,
+  $operator: String,
+  $search_string: String
+) {
+  actor {
+    account(id: {accountId}) {
+      alerts {
+        recommendConditionsAskAi(
+          entityDomain: $entity_domain
+          entityNames: $entity_names
+          entityType: $entity_type
+          operator: $operator
+          searchString: $search_string
+        ) {
+          recommendations {
+            card {
+              actions { ... }
+              body { ... }
+              type, version
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"423095bb-2077-4886-b369-519bdca5fe85">
+<h3 local-id=3D"8c43291a7ba1" id=3D"id-2026-03-12SREAgentMCPServerTools-fet=
+ch_alert_condition_recommendations">fetch_alert_condition_recommendations</=
+h3>
+<p local-id=3D"2b455d5ddcb5">Generates entity-specific alert condition reco=
+mmendations with ready-to-use NRQL queries.</p>
+<ul local-id=3D"ac60c250-7031-4ef9-af5d-8688034be1dc">
+<li local-id=3D"2bfaa02b-3aec-497e-90ab-d647a4e8a929">
+<p local-id=3D"9c4019ce46d3"><strong>Data source:</strong> NerdGraph =E2=80=
+=94 Alerts Recommend Conditions API</p></li>
+<li local-id=3D"08dbde76-1ef3-4fbe-a21c-d47c0353c3e0">
+<p local-id=3D"73b4bf64812b"><strong>URL:</strong> <code>${NERD_GRAPH_HOST}=
+/graphql</code></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">query r=
+ecommendConditions($accountId: Int!, $entityGuid: EntityGuid!) {
+  actor {
+    account(id: $accountId) {
+      alerts {
+        recommendConditions(recommend: { entityGuids: [$entityGuid] }) {
+          recommendations {
+            condition { name, nrql }
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"022cae6c-aa30-4ee2-96b4-41058f5cc3e5">
+<h2 local-id=3D"1d5dfab46fa4" id=3D"id-2026-03-12SREAgentMCPServerTools-End=
+pointReference">Endpoint Reference</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e6=
+0e278d-93d8-47a5-987b-7bde2405b364" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"0eb5ccfe-c304-4966-937d-c676de821ea8">
+<th data-local-id=3D"e85d091e-e3cf-4833-91a6-8d6ec5b685eb" class=3D"conflue=
+nceTh">
+<p local-id=3D"be7b451b2bf4">Service</p></th>
+<th data-local-id=3D"0482718a-511f-41fa-8a57-80c2bce1a98a" class=3D"conflue=
+nceTh">
+<p local-id=3D"eeef933dc5bf">Env Var</p></th>
+<th data-local-id=3D"3eefeffa-4284-4ccc-a2ff-ffcd7ae74c46" class=3D"conflue=
+nceTh">
+<p local-id=3D"fc224a2aad2f">Default URL</p></th>
+<th data-local-id=3D"8cea0024-164e-4f2a-ae44-4ee9c830a765" class=3D"conflue=
+nceTh">
+<p local-id=3D"042a1b3f46a2">Used By</p></th>
+</tr>
+<tr data-local-id=3D"45a3818a-568d-48bb-afb4-a4355aa025cb">
+<td data-local-id=3D"0c91fac1-e897-4039-a20e-6112441f54d8" class=3D"conflue=
+nceTd">
+<p local-id=3D"b4df691288f0"><strong>NerdGraph</strong></p></td>
+<td data-local-id=3D"02338002-7319-4616-b135-51acd0124ecc" class=3D"conflue=
+nceTd">
+<p local-id=3D"9dde0b22e279"><code>NERDGRAPH_ENDPOINT</code></p></td>
+<td data-local-id=3D"03c0f52b-e2ed-445c-bb8e-3c630bbb95d4" class=3D"conflue=
+nceTd">
+<p local-id=3D"752c4098ee74"><code>https://nerd-graph.staging-service.nr-op=
+s.net/graphql</code></p></td>
+<td data-local-id=3D"cdc2eb5b-1975-4f69-a96f-e98ce7642f37" class=3D"conflue=
+nceTd">
+<p local-id=3D"91e5d86c70bb">sre-agent-mcp-server (all NerdGraph tools)</p>=
+</td>
+</tr>
+<tr data-local-id=3D"2739a0cd-1bc6-44b0-bb0a-28bc8c7cc872">
+<td data-local-id=3D"01295aca-6055-49d5-ae6a-bba95bcaffab" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c7bf6734ed8"><strong>NerdGraph</strong></p></td>
+<td data-local-id=3D"62c47d84-fbf3-40a9-895d-acebeb9a6849" class=3D"conflue=
+nceTd">
+<p local-id=3D"a67b97930bd2"><code>NERDGRAPH_BASE_URI</code></p></td>
+<td data-local-id=3D"a4c5b60b-d56b-447b-be4f-55b062bad006" class=3D"conflue=
+nceTd">
+<p local-id=3D"7fa3e5dd146d"><code>https://nerd-graph.staging-service.nr-op=
+s.net/graphql</code></p></td>
+<td data-local-id=3D"78104c80-34de-48d4-855d-6d269c18c1a7" class=3D"conflue=
+nceTd">
+<p local-id=3D"77804dcb7495">change-analyzer</p></td>
+</tr>
+<tr data-local-id=3D"9a802e14-22ce-4d10-a66d-655913c05bd5">
+<td data-local-id=3D"2b61c70d-ea8f-41c1-8eaa-b685372f3388" class=3D"conflue=
+nceTd">
+<p local-id=3D"a8e1e043f907"><strong>NerdGraph</strong></p></td>
+<td data-local-id=3D"c06d0c94-8a97-4f86-a976-dd8e2ea9cfd0" class=3D"conflue=
+nceTd">
+<p local-id=3D"359a16b9c42f"><code>NERD_GRAPH_HOST</code></p></td>
+<td data-local-id=3D"fc09c00a-9a74-4a3c-b368-4a9aef87df30" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d1838feef0e"><code>https://api.newrelic.com/graphql</code><=
+/p></td>
+<td data-local-id=3D"dfcab52a-cd96-4630-be0f-583a0e71ebc3" class=3D"conflue=
+nceTd">
+<p local-id=3D"ef92d0eda4c6">nr-mcp-server</p></td>
+</tr>
+<tr data-local-id=3D"f9c66255-89ae-4146-8d3a-633eefabe6af">
+<td data-local-id=3D"4a0017f7-92cf-48bb-99d0-039991cd10d7" class=3D"conflue=
+nceTd">
+<p local-id=3D"7b7630614bae"><strong>Dirac (NRQL)</strong></p></td>
+<td data-local-id=3D"712fce75-7309-496c-9d25-890207e75f48" class=3D"conflue=
+nceTd">
+<p local-id=3D"9a2f105ea11b"><code>NRDB_ENDPOINT</code></p></td>
+<td data-local-id=3D"52942965-ab5b-413e-b8fc-ab03fd003388" class=3D"conflue=
+nceTd">
+<p local-id=3D"b8c2797831d0"><code>https://nrql-query-gateway.staging-servi=
+ce.nr-ops.net/api/1/query</code></p></td>
+<td data-local-id=3D"28e9916c-1b5f-4acf-82aa-eaf0bc4a2ea3" class=3D"conflue=
+nceTd">
+<p local-id=3D"46ef2fabf223">sre-agent-mcp-server (all NRQL tools)</p></td>
+</tr>
+<tr data-local-id=3D"0b295265-318b-44ca-8a7b-35717bcfbd91">
+<td data-local-id=3D"5cd86212-0129-4f6c-b3b2-d6c0a34827fc" class=3D"conflue=
+nceTd">
+<p local-id=3D"4a224ba73737"><strong>Dirac (NRQL)</strong></p></td>
+<td data-local-id=3D"b67e577d-5097-45dd-a3b1-f3b017c5a642" class=3D"conflue=
+nceTd">
+<p local-id=3D"b1af196d7f0c"><code>DIRAC_BASE_URI</code></p></td>
+<td data-local-id=3D"b8c355a6-358d-4111-afe1-1cf1ee6af343" class=3D"conflue=
+nceTd">
+<p local-id=3D"8f1d5534f524"><code>https://nrql-query-gateway.staging-servi=
+ce.nr-ops.net/api/1/query</code></p></td>
+<td data-local-id=3D"648b7280-2170-4ea1-8796-0c59e72758ce" class=3D"conflue=
+nceTd">
+<p local-id=3D"71528e1b11d8">change-analyzer</p></td>
+</tr>
+<tr data-local-id=3D"871b7ef1-7bf6-48f1-9c89-00ac03c8fa0f">
+<td data-local-id=3D"1771ad7e-1624-42ae-967b-2948b95b1944" class=3D"conflue=
+nceTd">
+<p local-id=3D"ea8b48f38e24"><strong>Golden Signal Storage</strong></p></td=
+>
+<td data-local-id=3D"8ff6c3aa-a6b5-4e31-ad9d-017410fc4caf" class=3D"conflue=
+nceTd">
+<p local-id=3D"1416672371fe"><code>GOLDENSIGNALSTORAGE_API_ENDPOINT</code><=
+/p></td>
+<td data-local-id=3D"b1cb2fe5-f2b5-431d-8342-c7d42d8eb135" class=3D"conflue=
+nceTd">
+<p local-id=3D"b8bea37d704f"><code>https://staging-golden-signal-service.vi=
+p.cf.nr-ops.net/golden_signal_service/v1</code></p></td>
+<td data-local-id=3D"233fcfba-3baa-48f5-b212-cb20decde007" class=3D"conflue=
+nceTd">
+<p local-id=3D"98851d48de38">change-analyzer (performance analysis)</p></td=
+>
+</tr>
+<tr data-local-id=3D"9555a451-a872-4170-9847-6ddfd6d48230">
+<td data-local-id=3D"24f7c2ec-0080-4f16-976c-0085059d3de6" class=3D"conflue=
+nceTd">
+<p local-id=3D"8acbac6fa077"><strong>Distributed Tracing</strong></p></td>
+<td data-local-id=3D"65c238fb-893b-47ec-ab4f-73c596bb859f" class=3D"conflue=
+nceTd">
+<p local-id=3D"b28481621e56"><code>DISTRIBUTED_TRACING_ENDPOINT</code></p><=
+/td>
+<td data-local-id=3D"4c716724-7cee-46fc-bf18-e347baa3de4f" class=3D"conflue=
+nceTd">
+<p local-id=3D"36afdbb037bf"><code>https://staging-distributed-tracing-serv=
+ice.vip.cf.nr-ops.net</code></p></td>
+<td data-local-id=3D"0cc8a417-7e1f-4ae6-b133-fa2a1a7ee126" class=3D"conflue=
+nceTd">
+<p local-id=3D"0135c608f10a">sre-agent-mcp-server (<code>get_entity_trace_c=
+all_graph</code>)</p></td>
+</tr>
+<tr data-local-id=3D"247eb762-d96f-49bb-a0c0-3c19d915660e">
+<td data-local-id=3D"d20496ff-1257-4d02-908d-43dee6402e9d" class=3D"conflue=
+nceTd">
+<p local-id=3D"7ae07a6c8bb6"><strong>Causal Engine (iRCA)</strong></p></td>
+<td data-local-id=3D"9f5f7068-90ee-4a27-8a14-b13f7c61fb7b" class=3D"conflue=
+nceTd">
+<p local-id=3D"a5c393c91669"><code>IRCA_ENDPOINT</code></p></td>
+<td data-local-id=3D"4a4ec60e-aa75-4f9d-b24c-4fc04c044b30" class=3D"conflue=
+nceTd">
+<p local-id=3D"8caebe5aaeb1"><code>https://causal-engine.staging-service.nr=
+-ops.net</code></p></td>
+<td data-local-id=3D"a537d970-3866-4c70-b233-7213a312a30a" class=3D"conflue=
+nceTd">
+<p local-id=3D"8387b60a6603">sre-agent-mcp-server (<code>intelligent_causal=
+_analysis</code>, <code>causal_analysis</code>)</p></td>
+</tr>
+<tr data-local-id=3D"ccb65426-cdbd-4dfa-81d0-f955bec8a5fd">
+<td data-local-id=3D"13375397-c047-4641-bde2-acb4dfc9a52b" class=3D"conflue=
+nceTd">
+<p local-id=3D"9492cf71c03e"><strong>Root Causeinator</strong></p></td>
+<td data-local-id=3D"8b43d759-89d3-4252-8412-b621ee599faa" class=3D"conflue=
+nceTd">
+<p local-id=3D"28d0963a7ef9"><code>CAUSAL_ANALYSIS_ENDPOINT</code></p></td>
+<td data-local-id=3D"b68d3672-05ec-4c23-ab2b-1732fe66d4da" class=3D"conflue=
+nceTd">
+<p local-id=3D"328b8ce8c533"><code>https://root-causeinator-api.staging-ser=
+vice.newrelic.com</code></p></td>
+<td data-local-id=3D"37038097-6e0b-4e3b-bf25-f623d90ed3e9" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4cdd8b3a3b9">sre-agent-mcp-server: <code>causal_analysis</c=
+ode> (Task 2: NRQL-based RCA)</p></td>
+</tr>
+<tr data-local-id=3D"04e6730aecbd">
+<td data-local-id=3D"f836bd59-4fb4-407c-abdd-2820eb105b56" class=3D"conflue=
+nceTd">
+<p local-id=3D"627ed8cc0be8"><strong>bork-sniffer</strong></p></td>
+<td data-local-id=3D"007b307b-108f-476a-aafa-0a33c19354e8" class=3D"conflue=
+nceTd">
+<p local-id=3D"e9aca49fe78d"><code>ANOMALY_DETECTION_ENDPOINT</code></p></t=
+d>
+<td data-local-id=3D"8bd253db-f76e-48b3-8e4b-c129d899397a" class=3D"conflue=
+nceTd">
+<p local-id=3D"cb5597b02e58"><code>https://bork-sniffer.staging-service.nr-=
+ops.net</code></p></td>
+<td data-local-id=3D"53691d01-b942-4cf5-94b3-0b8494d04307" class=3D"conflue=
+nceTd">
+<p local-id=3D"c009cf165090">sre-agent-mcp-server: <code>analyze_garbage_co=
+llection_metrics</code>, <code>analyze_entity_golden_metrics</code>, <code>=
+analyze_entity_kafka_metrics</code>, <code>analyze_entity_thread_metrics</c=
+ode>, <code>causal_analysis</code></p></td>
+</tr>
+<tr data-local-id=3D"0ce664ac1716">
+<td data-local-id=3D"d957b162-ee03-47c6-a5ef-ab5f7cc474dc" class=3D"conflue=
+nceTd">
+<p local-id=3D"c7dcfbd6567d"><strong>Feature Flag API</strong></p></td>
+<td data-local-id=3D"b3924fb1-c583-4cb9-9ac1-69deea095c18" class=3D"conflue=
+nceTd">
+<p local-id=3D"625934e54a4b"><code>FEATURE_FLAG_SERVICE_ENDPOINT</code></p>=
+</td>
+<td data-local-id=3D"a43f1798-45e7-4454-943c-f6628a99c6b8" class=3D"conflue=
+nceTd">
+<p local-id=3D"59ec7af59399"><code>https://featureflag-api.staging-service.=
+nr-ops.net</code></p></td>
+<td data-local-id=3D"233800ba-c332-4542-8ea7-270703798341" class=3D"conflue=
+nceTd">
+<p local-id=3D"53a8b3d7f03d">All services - Gates access to features to ena=
+ble testing without impacting mainline release</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_102_1698163368.1773937047716--

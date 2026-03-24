@@ -1,0 +1,16 @@
+.env
+.env.*
+.DS_Store
+*.log
+node_modules/
+__pycache__/
+.claude/settings.local.json
+
+# Large media files (GitHub limit: 100MB)
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Specific large files
+context-library/Internal Docs- New Relic/Agentic Integrations/[Running Deck] Weekly Tech Partner Marketing Sync.pptx

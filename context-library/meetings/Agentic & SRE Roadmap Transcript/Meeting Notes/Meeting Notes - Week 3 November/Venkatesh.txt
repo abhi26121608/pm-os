@@ -1,0 +1,735 @@
+[Venkatesh Velliangiri] 11:09:55
+Yeah, that would help.
+
+[Venkatesh Velliangiri] 11:10:00
+Uh, so, you know, uh…
+
+[Venkatesh Velliangiri] 11:10:02
+you should read our documentation. I'll share you some resources on what is available in our product.
+
+[Venkatesh Velliangiri] 11:10:09
+EA monitoring standpoint.
+
+[Venkatesh Velliangiri] 11:10:11
+Right? So…
+
+[Abhi] 11:10:11
+Yeah.
+
+[Venkatesh Velliangiri] 11:10:13
+That's what we do. We have to work together a little, uh…
+
+[Abhi] 11:10:16
+Sure.
+
+[Venkatesh Velliangiri] 11:10:17
+I… I… so, the, uh, the product leader for Agentic Platform is Dharmandra.
+
+[Abhi] 11:10:23
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:10:24
+if you haven't spoken to him, you should start.
+
+[Abhi] 11:10:26
+Yeah, I met him yesterday.
+
+[Venkatesh Velliangiri] 11:10:27
+that kind of…
+
+[Venkatesh Velliangiri] 11:10:28
+Yeah, so Dharmandra is one. I would… I'm AI monitoring.
+
+[Venkatesh Velliangiri] 11:10:32
+Cameron's doing all of NRAI.
+
+[Venkatesh Velliangiri] 11:10:35
+work, right? So, V3…
+
+[Venkatesh Velliangiri] 11:10:38
+to, uh, sort of…
+
+[Venkatesh Velliangiri] 11:10:40
+stay close to make sure the experience is good, and we build the right things.
+
+[Abhi] 11:10:45
+Sure.
+
+[Venkatesh Velliangiri] 11:10:45
+That's… that's how I see it.
+
+[Abhi] 11:10:48
+How do you see the current state of
+
+[Abhi] 11:10:51
+whatever agency capabilities we have in-house right now,
+
+[Abhi] 11:10:55
+Um, do you see any problems, any, uh…
+
+[Abhi] 11:11:00
+Anythings, any improvements that we should be making, or working towards it.
+
+[Abhi] 11:11:03
+Um, what are your thoughts on that?
+
+[Venkatesh Velliangiri] 11:11:03
+I don't think we have super… I don't think we have shipped it to customers yet, right?
+
+[Abhi] 11:11:07
+Right, right.
+
+[Venkatesh Velliangiri] 11:11:09
+Yeah, so we're still building it. We don't know if we are…
+
+[Venkatesh Velliangiri] 11:11:12
+what we are building will eventually be mass-adapted by our customers, right? So that's not a theory right now.
+
+[Abhi] 11:11:17
+Right.
+
+[Venkatesh Velliangiri] 11:11:19
+So, you know…
+
+[Venkatesh Velliangiri] 11:11:22
+Uh, that me would be the right person to comment on.
+
+[Venkatesh Velliangiri] 11:11:25
+the direction we are going and why we are going in that direction.
+
+[Venkatesh Velliangiri] 11:11:29
+And when will we know that we have succeeded?
+
+[Venkatesh Velliangiri] 11:11:31
+Right? My charter is to make sure that you guys can operate well.
+
+[Abhi] 11:11:35
+And I…
+
+[Venkatesh Velliangiri] 11:11:35
+Right? You guys have the best visibility into how, what agents that you build,
+
+[Venkatesh Velliangiri] 11:11:41
+outperforming. So, the new product that we are building is called Agent 360.
+
+[Abhi] 11:11:45
+Okay.
+
+[Venkatesh Velliangiri] 11:11:46
+But as the name indicates,
+
+[Venkatesh Velliangiri] 11:11:47
+your agent doesn't exist in isolation.
+
+[Venkatesh Velliangiri] 11:11:51
+it has apps running underneath it through tools.
+
+[Abhi] 11:11:53
+Right.
+
+[Venkatesh Velliangiri] 11:11:55
+that damage we serve it, right? So, when response is slow, or when response is bad, you need to know what happened underneath it at the tool level.
+
+[Abhi] 11:11:56
+Right.
+
+[Venkatesh Velliangiri] 11:12:04
+Right? So our job is to help you connect the dots all the way down to the database or our URL.
+
+[Venkatesh Velliangiri] 11:12:10
+you know, VectorDB, to make sure that you understand what's happening. That's the chatter for us.
+
+[Abhi] 11:12:16
+Got it.
+
+[Venkatesh Velliangiri] 11:12:16
+Uh, so I, I moved into this charter after a year. I was actually managing
+
+[Venkatesh Velliangiri] 11:12:21
+Digital experience monitoring.
+
+[Venkatesh Velliangiri] 11:12:25
+Uh, which is our browser, uh, mobile monitoring, and we have what's called a synthetics.
+
+[Abhi] 11:12:28
+Okay.
+
+[Venkatesh Velliangiri] 11:12:32
+Which is… yeah, it's synthetic monitoring, right?
+
+[Venkatesh Velliangiri] 11:12:35
+Uh, so… there was a reorg, and I got moved into AI monitoring, because we want to prioritize this. There's a lot of…
+
+[Venkatesh Velliangiri] 11:12:43
+traction in this space, there's a lot of customer demand.
+
+[Venkatesh Velliangiri] 11:12:48
+And you should also sync with Moran, who's the PM who reports to me.
+
+[Abhi] 11:12:51
+Okay.
+
+[Venkatesh Velliangiri] 11:12:53
+Moran Schwartz, he is based out of Israel.
+
+[Venkatesh Velliangiri] 11:12:56
+You should have a chat with him on what we have actually built.
+
+[Abhi] 11:12:59
+Sure, yeah.
+
+[Venkatesh Velliangiri] 11:13:00
+Right? And I was having a chat with Aklesh yesterday, trying to understand
+
+[Venkatesh Velliangiri] 11:13:06
+how they would adopt REA monitoring internally. They are our customer zero, right? You guys are our customer zero.
+
+[Abhi] 11:13:12
+All right.
+
+[Venkatesh Velliangiri] 11:13:13
+So, uh, maybe I can loop you into that conversation.
+
+[Abhi] 11:13:17
+Yeah, yeah.
+
+[Venkatesh Velliangiri] 11:13:18
+You can start understanding…
+
+[Venkatesh Velliangiri] 11:13:21
+the moving pieces.
+
+[Abhi] 11:13:22
+Yeah, that would help a lot, for sure.
+
+[Venkatesh Velliangiri] 11:13:24
+Yeah.
+
+[Abhi] 11:13:25
+And I'm meeting Aklesh after our call, so, uh, I can probably…
+
+[Abhi] 11:13:29
+Try and understand, uh, something from his perspective as well.
+
+[Venkatesh Velliangiri] 11:13:34
+Okay.
+
+[Abhi] 11:13:34
+Yeah. Makes sense. Uh, so I'll connect with the PM that you have. Um, as you said, right, can you please share a couple of resources with me so that I get better understanding of, uh, what you guys are up to?
+
+[Abhi] 11:13:48
+And when it comes to the data part, so, uh…
+
+[Abhi] 11:13:52
+Is it, like, uh, so as you said, right, you are using traces specifically to understand, you know, what might be happening, what might be breaking.
+
+[Abhi] 11:13:59
+But there are some other components of the data as well, right, that we have.
+
+[Abhi] 11:14:05
+As in, it could be alerts data as well, right? Whatever is happening on the alert side of things.
+
+[Abhi] 11:14:10
+Or it could be just simply logs as well.
+
+[Abhi] 11:14:13
+So, is there a separate team for all of these different components that are managing these?
+
+[Venkatesh Velliangiri] 11:14:18
+Yeah. Yeah, yeah.
+
+[Abhi] 11:14:19
+Okay.
+
+[Venkatesh Velliangiri] 11:14:20
+So, Tracy is my team.
+
+[Venkatesh Velliangiri] 11:14:22
+Logs, you have to talk to one, uh…
+
+[Venkatesh Velliangiri] 11:14:26
+Boris. Search Foreis.
+
+[Abhi] 11:14:27
+Boris.
+
+[Venkatesh Velliangiri] 11:14:28
+B-O-R-A-S, Boris.
+
+[Abhi] 11:14:30
+Just a moment…
+
+[Venkatesh Velliangiri] 11:14:34
+various landscape.
+
+[Abhi] 11:14:37
+Okay. Yeah.
+
+[Venkatesh Velliangiri] 11:14:40
+Metrics and events, it's not a single team, it's shared. I mean, every product…
+
+[Venkatesh Velliangiri] 11:14:45
+that we have, whether you have a Python monitoring, Java monitoring, whatever it is.
+
+[Abhi] 11:14:46
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:14:51
+They are all metrics and events, right? So, there's no centralized team.
+
+[Abhi] 11:14:54
+Okay.
+
+[Venkatesh Velliangiri] 11:14:55
+But logs is a specialized business, as it is, because the separate SKU that we sell.
+
+[Abhi] 11:14:58
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:15:00
+So it has an arc for it, so logs, you need to talk to…
+
+[Venkatesh Velliangiri] 11:15:05
+Boris, and I really encourage… would encourage you to go through Rookie Relix. Did you finish Rookie Relix already?
+
+[Abhi] 11:15:06
+Sure.
+
+[Abhi] 11:15:09
+Yeah, yeah, um, I finished it last week itself, so I do have some sort of understanding about things.
+
+[Venkatesh Velliangiri] 11:15:16
+Yeah. So…
+
+[Abhi] 11:15:16
+Yeah.
+
+[Venkatesh Velliangiri] 11:15:19
+Yeah, so that's a good place to start.
+
+[Abhi] 11:15:21
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:15:22
+You should try having a sample app all the time.
+
+[Abhi] 11:15:26
+Okay.
+
+[Venkatesh Velliangiri] 11:15:26
+And whenever you have to explore a new capability, instrument in application,
+
+[Venkatesh Velliangiri] 11:15:32
+to serve that capability, to enable that capability, and go through it yourself.
+
+[Abhi] 11:15:37
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:15:38
+This is one thing that many of the new PMs don't do enough.
+
+[Venkatesh Velliangiri] 11:15:41
+And they operate at a 1,000 feet level.
+
+[Abhi] 11:15:41
+Mm-hmm.
+
+[Abhi] 11:15:43
+Yeah.
+
+[Venkatesh Velliangiri] 11:15:43
+Uh, when it comes to, uh, capabilities that they don't want.
+
+[Abhi] 11:15:47
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:15:48
+Right? So let's say you are an NRAI, you should really have a good understanding of our melt stack, right? What data we collect, what do we persist?
+
+[Venkatesh Velliangiri] 11:15:55
+How long we persist?
+
+[Venkatesh Velliangiri] 11:15:57
+Right? And what are the limitations of our centralized platform? NRDB is powerful,
+
+[Abhi] 11:15:59
+And I…
+
+[Venkatesh Velliangiri] 11:16:02
+But there are a bunch of things it can't do.
+
+[Abhi] 11:16:05
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:16:05
+Right? You'll realize all of them only when you use it enough. You write your own local statements, you try to get a lot of data.
+
+[Abhi] 11:16:08
+And later.
+
+[Venkatesh Velliangiri] 11:16:12
+you'll realize what's possible and not possible. That's very hard to put in course content.
+
+[Abhi] 11:16:15
+Sure.
+
+[Abhi] 11:16:17
+Yeah.
+
+[Venkatesh Velliangiri] 11:16:18
+Because this is very tacit knowledge that you have to seek for yourself, so I would encourage you to use our product a lot.
+
+[Abhi] 11:16:24
+Mm-hmm, sure. And, uh, when it comes to the dummy data, right, which I can probably use to explore, how can I go about that?
+
+[Abhi] 11:16:32
+I mean, would love to explore with some real data, or…
+
+[Venkatesh Velliangiri] 11:16:36
+Yeah. So…
+
+[Venkatesh Velliangiri] 11:16:38
+What I do is that I have a JavaScript application that I have spun off during the Rookie Relic program.
+
+[Venkatesh Velliangiri] 11:16:44
+Right? So I use that a lot.
+
+[Abhi] 11:16:44
+Okay, okay.
+
+[Venkatesh Velliangiri] 11:16:47
+I, uh, I have a simple Java process that I run on my laptop.
+
+[Venkatesh Velliangiri] 11:16:53
+Uh, using Eclipse. And I just instrumented whatever way… The application has no intent.
+
+[Abhi] 11:16:57
+Gotcha. Okay.
+
+[Venkatesh Velliangiri] 11:16:59
+Except to just send data.
+
+[Abhi] 11:17:01
+Yeah, yeah, I get it. Okay.
+
+[Venkatesh Velliangiri] 11:17:01
+Right? So, so I write my own apps to send the data I want, so that I can…
+
+[Venkatesh Velliangiri] 11:17:06
+troubleshoot through it.
+
+[Abhi] 11:17:08
+Right, right.
+
+[Venkatesh Velliangiri] 11:17:10
+Uh, so if whatever programming language you are comfortable with just get started with it.
+
+[Abhi] 11:17:12
+Yeah. Sure, um, I can get started in Python then.
+
+[Venkatesh Velliangiri] 11:17:16
+You are a data scientist, you would know Python, right? So a Python agent is pretty easy to start with.
+
+[Abhi] 11:17:18
+Yeah, yeah, yeah.
+
+[Abhi] 11:17:20
+Yeah, pretty comfortable with Python.
+
+[Abhi] 11:17:22
+Got it, yeah, that's a good idea. I was thinking about it, but I think it makes sense.
+
+[Abhi] 11:17:27
+Perfect, perfect. Um, any other thing that you've, uh, any other advice, I'd say, that you, uh,
+
+[Abhi] 11:17:34
+I think I should be having.
+
+[Venkatesh Velliangiri] 11:17:34
+Who's your engineering partner? Who's your engineering counterpart?
+
+[Abhi] 11:17:37
+Um, I haven't…
+
+[Abhi] 11:17:39
+I don't know it yet, like, uh, Camden hasn't…
+
+[Abhi] 11:17:43
+talk to me about it yet, but I've been talking to everyone. Emmanuel…
+
+[Abhi] 11:17:47
+Um, all the machine learning guys as well, like,
+
+[Venkatesh Velliangiri] 11:17:53
+Yeah.
+
+[Abhi] 11:17:53
+What's their name? Srikant.
+
+[Abhi] 11:17:56
+Uh, and then Akhilesh, I'll be talking just now.
+
+[Abhi] 11:17:59
+So I'm not sure who is my engineering partner, but I'm just trying to talk to everyone, from Ravi…
+
+[Venkatesh Velliangiri] 11:18:04
+Hmm.
+
+[Abhi] 11:18:05
+to Aquilesh, to Emmanuel, everybody.
+
+[Abhi] 11:18:08
+Just trying to understand, yeah.
+
+[Venkatesh Velliangiri] 11:18:11
+I think that glitch was…
+
+[Venkatesh Velliangiri] 11:18:13
+Mentioning some name on who manages the…
+
+[Venkatesh Velliangiri] 11:18:18
+NRA UA layer.
+
+[Abhi] 11:18:19
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:18:20
+Uh, maybe when you… when you speak to me,
+
+[Abhi] 11:18:22
+Barney? No.
+
+[Venkatesh Velliangiri] 11:18:23
+Barney, yeah.
+
+[Abhi] 11:18:24
+Man, yeah. Yeah, I chatted with her, uh…
+
+[Venkatesh Velliangiri] 11:18:24
+Yeah.
+
+[Abhi] 11:18:27
+Yesterday only, she gave pretty decent insights, yeah.
+
+[Venkatesh Velliangiri] 11:18:30
+Yeah. So, my…
+
+[Venkatesh Velliangiri] 11:18:33
+advice would be to…
+
+[Venkatesh Velliangiri] 11:18:37
+uh… just know the balance.
+
+[Abhi] 11:18:40
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:18:41
+Uh, our engineering teams are also…
+
+[Venkatesh Velliangiri] 11:18:46
+Our customers, in some say?
+
+[Abhi] 11:18:46
+Yeah, yeah.
+
+[Venkatesh Velliangiri] 11:18:47
+Because we were building for engineers.
+
+[Abhi] 11:18:49
+Late.
+
+[Venkatesh Velliangiri] 11:18:50
+And our teams use our own observability product.
+
+[Abhi] 11:18:55
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:18:56
+at varying levels. Not all the teams are experts in our own product.
+
+[Venkatesh Velliangiri] 11:18:59
+By the way, right? Contrary to…
+
+[Abhi] 11:19:00
+Great.
+
+[Venkatesh Velliangiri] 11:19:02
+category to, uh, our expectations, our own engineering teams don't use our product a lot.
+
+[Venkatesh Velliangiri] 11:19:07
+Right? So…
+
+[Abhi] 11:19:08
+Yeah.
+
+[Abhi] 11:19:09
+Yeah.
+
+[Venkatesh Velliangiri] 11:19:10
+Uh,
+
+[Venkatesh Velliangiri] 11:19:12
+Just be very careful about the trade-offs you make.
+
+[Venkatesh Velliangiri] 11:19:15
+Uh, because oftentimes, we get worked into a corner where we want to ship something that's really not polished.
+
+[Abhi] 11:19:15
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:19:22
+Right? So, so early on, you establish a very high bar for Polish.
+
+[Abhi] 11:19:27
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:19:39
+Momentum is to push down, because…
+
+[Venkatesh Velliangiri] 11:19:45
+I…
+
+[Venkatesh Velliangiri] 11:19:46
+uh, you know, uh…
+
+[Venkatesh Velliangiri] 11:19:48
+Do you tend to miss out on polish?
+
+[Abhi] 11:19:49
+Mm-hmm. Sure, sure.
+
+[Venkatesh Velliangiri] 11:19:51
+Hello?
+
+[Abhi] 11:19:52
+Yeah.
+
+[Venkatesh Velliangiri] 11:19:53
+So that's…
+
+[Venkatesh Velliangiri] 11:20:00
+I've noticed, uh…
+
+[Venkatesh Velliangiri] 11:20:01
+Uh…
+
+[Venkatesh Velliangiri] 11:20:03
+for a long time.
+
+[Venkatesh Velliangiri] 11:20:04
+So just know what's the…
+
+[Venkatesh Velliangiri] 11:20:09
+uh, you know
+
+[Venkatesh Velliangiri] 11:20:10
+state of your team, and, uh, you know…
+
+[Abhi] 11:20:17
+Venkates, I'm losing you. Hello.
+
+[Abhi] 11:20:21
+Is it my internet?
+
+[Abhi] 11:20:33
+Hello.
+
+[Venkatesh Velliangiri] 11:20:34
+Hello? Yeah. Is it better now?
+
+[Abhi] 11:20:36
+Um, yeah. Yeah, yeah, a little better, yeah.
+
+[Venkatesh Velliangiri] 11:20:41
+Yeah. Sorry, it was my internet. I'm working from home today.
+
+[Abhi] 11:20:43
+Oh, okay.
+
+[Abhi] 11:20:45
+Yeah, likewise.
+
+[Venkatesh Velliangiri] 11:20:47
+Yeah. Are you in Hyderabad or Bangalore?
+
+[Abhi] 11:20:49
+Uh, I'm supposed to be in Hyderabad, but right now, I'm in Jaipur. It's my sister is getting, uh… it's her wedding on Saturday, on the weekend.
+
+[Abhi] 11:20:58
+So I'm at home right now. Yeah, yeah.
+
+[Venkatesh Velliangiri] 11:20:59
+Okay. Okay. It would help if… I'm based out of Hyderabad.
+
+[Abhi] 11:21:02
+And you are based out of Hyderabad?
+
+[Abhi] 11:21:07
+Oh, nice.
+
+[Venkatesh Velliangiri] 11:21:08
+So, the permanent plan is for you to work out of higher pad? Is that… The… the understanding?
+
+[Abhi] 11:21:11
+Yes. Yes.
+
+[Abhi] 11:21:14
+Yeah, yeah, right.
+
+[Venkatesh Velliangiri] 11:21:15
+Okay, it would… it would help, because the collaboration tax here is very, very high.
+
+[Venkatesh Velliangiri] 11:21:21
+It's, it's, it's really hard to do it online.
+
+[Abhi] 11:21:21
+Right.
+
+[Abhi] 11:21:23
+Mm-hmm.
+
+[Venkatesh Velliangiri] 11:21:24
+is what I have realized. I used to work for an organization which was 100% remote.
+
+[Abhi] 11:21:29
+Yeah.
+
+[Venkatesh Velliangiri] 11:21:29
+Right? But… but… the way we work in New Relic, it just… it just gets awfully harder if you are trying to do it.
+
+[Venkatesh Velliangiri] 11:21:37
+remote. Very few people do it well. Dami is the only one who is able to do it. I don't know how.
+
+[Venkatesh Velliangiri] 11:21:44
+But yeah, it gets harder. If you don't have FaceTime with engineers.
+
+[Abhi] 11:21:48
+And… do we have, like, more of the engineering team in Hyderabad, or…?
+
+[Abhi] 11:21:52
+More of it is in Bangalore right now.
+
+[Venkatesh Velliangiri] 11:21:54
+Mostly Hyderabad. Mostly Hyderabad. Yeah.
+
+[Abhi] 11:21:54
+mostly Hadava. Got it, got it.
+
+[Abhi] 11:21:57
+Okay, okay. Um, I should be back soon, um, would love to catch up with you in person as well.
+
+[Venkatesh Velliangiri] 11:22:05
+Chairman, just hit me up whenever you have a question, right?
+
+[Abhi] 11:22:05
+Yeah.
+
+[Abhi] 11:22:07
+Sure thing, sure. Um, and I'll touch base with your PM as well, just to understand where you guys are.
+
+[Abhi] 11:22:13
+And I'll probably ping you again after I have some better understanding and if I have more questions.
+
+[Venkatesh Velliangiri] 11:22:15
+Yeah.
+

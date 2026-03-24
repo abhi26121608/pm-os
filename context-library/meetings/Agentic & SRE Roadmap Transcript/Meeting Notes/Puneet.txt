@@ -1,0 +1,1347 @@
+[Puneet Sharma] 10:39:44
+integrated. For example, SRE agent, and that's where the LX name came into picture.
+
+[Abhishek Pandey] 10:39:45
+I was like…
+
+[Puneet Sharma] 10:39:51
+Insights, and Caleb is the one who Alex reports to. They are the one who's responsible for building this whole SRE agent.
+
+[Puneet Sharma] 10:40:00
+Um… one thing which we feel you're required to get a clarity, clarity on,
+
+[Abhishek Pandey] 10:40:07
+Yeah.
+
+[Puneet Sharma] 10:40:08
+Like, which world you want to work on.
+
+[Puneet Sharma] 10:40:10
+whole thing.
+
+[Abhishek Pandey] 10:40:11
+Uh, it will be the second world, uh, from whatever I've understood till now.
+
+[Puneet Sharma] 10:40:15
+It will be the second world, right? Which one?
+
+[Abhishek Pandey] 10:40:16
+Yeah.
+
+[Puneet Sharma] 10:40:17
+Which, okay, now it makes sense, and the reason I was bringing these two worlds…
+
+[Puneet Sharma] 10:40:22
+At one point of time, this charter also got divided. So earlier, it was, like, me was the one who was handling a couple of things on the AI.
+
+[Abhishek Pandey] 10:40:25
+Got it.
+
+[Abhishek Pandey] 10:40:29
+Yeah.
+
+[Puneet Sharma] 10:40:29
+a gay platform world.
+
+[Puneet Sharma] 10:40:32
+less AI Opt, and Camden was the one who was handling a couple of things. Like, so there's a mixture of both.
+
+[Puneet Sharma] 10:40:37
+What has happened, Tarmy has moved to this whole platform world, and Camden is moving to this whole, uh…
+
+[Puneet Sharma] 10:40:42
+customer-facing second world of it.
+
+[Abhishek Pandey] 10:40:43
+Got it.
+
+[Puneet Sharma] 10:40:45
+Will you reporting to Camden Second World makes more sense.
+
+[Abhishek Pandey] 10:40:48
+Right.
+
+[Puneet Sharma] 10:40:49
+Okay, so we are on the same page there.
+
+[Abhishek Pandey] 10:40:50
+Sure.
+
+[Puneet Sharma] 10:40:51
+coming on your, um…
+
+[Puneet Sharma] 10:40:53
+things which I feel, right? So, one is, in that case, if this… it's going to be second world completely,
+
+[Puneet Sharma] 10:41:00
+Um, you can get ideas from many… ideas in the sense how their platform works.
+
+[Puneet Sharma] 10:41:05
+Which mannequin title, she can tell, Aklesh can tell, Ravi can tell, right? Dharmi can also help, right?
+
+[Abhishek Pandey] 10:41:12
+Yeah.
+
+[Puneet Sharma] 10:41:12
+These are 5 people who becomes your partner.
+
+[Puneet Sharma] 10:41:15
+Kind of a thing, which can tell you, like, oh, that's all been supported in this world, that's not supported in this world.
+
+[Puneet Sharma] 10:41:22
+et cetera, et cetera.
+
+[Puneet Sharma] 10:41:24
+But the world, uh…
+
+[Puneet Sharma] 10:41:28
+Can you give me a minute, Doug?
+
+[Abhishek Pandey] 10:41:29
+Yeah, yeah, please take your time.
+
+[Puneet Sharma] 10:41:41
+Okay, um…
+
+[Puneet Sharma] 10:41:44
+So, the second, uh, yeah, coming back, right? So, so that's one word, right, which I would say is in Dharmi preview, so he will be able to guide you on that particular one.
+
+[Abhishek Pandey] 10:41:52
+Sure.
+
+[Puneet Sharma] 10:41:53
+Coming to this one, uh…
+
+[Puneet Sharma] 10:41:56
+SRE agent is the first agent.
+
+[Puneet Sharma] 10:41:58
+Right, which we have written.
+
+[Puneet Sharma] 10:42:01
+Uh, they can be…
+
+[Puneet Sharma] 10:42:04
+many more agents which can come up. DB is one of them, APCA is one of them, FinOps agent was also in the discussion at one point in time. Not sure what the state of those agents, but yeah.
+
+[Abhishek Pandey] 10:42:05
+Right.
+
+[Puneet Sharma] 10:42:11
+So now, this agentic world is something which we do have a team in AIOps under Shivabi. You know Shivabi, right?
+
+[Abhishek Pandey] 10:42:17
+Yeah, yeah. Right.
+
+[Puneet Sharma] 10:42:20
+So, um, so there's a team which is in Caleb's preview, under Shivabi, which is the one who's responsible for this agent take hold.
+
+[Abhishek Pandey] 10:42:24
+Okay.
+
+[Abhishek Pandey] 10:42:27
+Got it.
+
+[Puneet Sharma] 10:42:28
+Monday is going to be an agentic platform team also.
+
+[Puneet Sharma] 10:42:31
+Not… not that platform team. The team which is going to integrate New Relic World with the MCP servers of different world, for example, Zira.
+
+[Abhishek Pandey] 10:42:38
+Gotcha. Yeah.
+
+[Puneet Sharma] 10:42:40
+I think, for example, ServiceNow.
+
+[Puneet Sharma] 10:42:41
+GitHub, whatever it is, right? XYZ, MCB servers, which are out there.
+
+[Abhishek Pandey] 10:42:45
+partner integration more.
+
+[Puneet Sharma] 10:42:46
+Python integration, that's right.
+
+[Abhishek Pandey] 10:42:47
+Yeah, yeah, okay.
+
+[Puneet Sharma] 10:42:50
+So yeah, so I failed…
+
+[Puneet Sharma] 10:42:52
+That's the area which becomes your concentrated area.
+
+[Puneet Sharma] 10:42:56
+So, I feel you're the one who's going to bridge the gap. That's, okay, that's all my perspective, okay? I'm not sure…
+
+[Abhishek Pandey] 10:43:01
+Yeah, yeah, sure.
+
+[Puneet Sharma] 10:43:03
+I'm just saying what my… what I feel is going to help you, right?
+
+[Abhishek Pandey] 10:43:06
+Yeah.
+
+[Puneet Sharma] 10:43:07
+As I know, New Relic is a bit chaotic to start with, very honestly speaking, I also face that many people are still facing that.
+
+[Puneet Sharma] 10:43:13
+is a bit chaotic to start with.
+
+[Abhishek Pandey] 10:43:16
+Yeah.
+
+[Puneet Sharma] 10:43:16
+Uh, sometimes you have to find your own area of concentrated, so…
+
+[Puneet Sharma] 10:43:21
+But once you get that, then you can obviously go deeper down in it.
+
+[Abhishek Pandey] 10:43:25
+Right.
+
+[Puneet Sharma] 10:43:26
+Uh, what's angle, seh?
+
+[Puneet Sharma] 10:43:29
+So, from my perspective, it's mostly around, you have to…
+
+[Puneet Sharma] 10:43:33
+go, like, partner integrations, right? What all things are there.
+
+[Puneet Sharma] 10:43:36
+Uh, how our own MCP server can do better.
+
+[Puneet Sharma] 10:43:40
+Right? Which I believe we are doing, right?
+
+[Abhishek Pandey] 10:43:41
+Yeah.
+
+[Puneet Sharma] 10:43:42
+What are the capabilities you require to make this partner world?
+
+[Puneet Sharma] 10:43:47
+more efficient. Uh…
+
+[Puneet Sharma] 10:43:51
+And, uh, what are the gaps which are there? And that gap's required to be fulfilled by this NRA platform T.
+
+[Abhishek Pandey] 10:43:57
+Right, right.
+
+[Puneet Sharma] 10:43:58
+That's why I think your platform team becomes your partner.
+
+[Puneet Sharma] 10:44:01
+Anyway, I said, these are the possible, these are the things which are not possible, and…
+
+[Puneet Sharma] 10:44:05
+And, uh, you can have your own discussions with them.
+
+[Abhishek Pandey] 10:44:07
+Who are the key folks in the platform team?
+
+[Puneet Sharma] 10:44:10
+So, I think you know all the names. Sri Kant is one of them, Manny is one of them, and Aklesh is one of them. And all of them reports to Ravi.
+
+[Abhishek Pandey] 10:44:11
+Pony?
+
+[Abhishek Pandey] 10:44:13
+Trikan? Okay. Okay, got it, okay.
+
+[Puneet Sharma] 10:44:18
+Raviour-based, right, with that particular area.
+
+[Abhishek Pandey] 10:44:18
+Take care.
+
+[Abhishek Pandey] 10:44:20
+Got it, okay.
+
+[Puneet Sharma] 10:44:23
+So, um, they are the one who's going to tell you how… so I feel your initial
+
+[Puneet Sharma] 10:44:29
+concentrated point.
+
+[Puneet Sharma] 10:44:31
+Can we understanding how our platform works?
+
+[Abhishek Pandey] 10:44:33
+Yeah.
+
+[Puneet Sharma] 10:44:35
+Once you get an overview of that, then you can say what all things we are planning next on our MCB servers, internal, like, New Relic MCP MCB server.
+
+[Puneet Sharma] 10:44:45
+Last, uh, what all other empty river we want to integrate with.
+
+[Abhishek Pandey] 10:44:49
+Right. True.
+
+[Puneet Sharma] 10:44:50
+So your whole agent integration will be coming under Shiva B at one point of time.
+
+[Abhishek Pandey] 10:44:54
+Got it, got it. Uh…
+
+[Puneet Sharma] 10:44:55
+So that actually can be a good charter for you.
+
+[Abhishek Pandey] 10:44:58
+And who is leading the MCP server side of things, specifically?
+
+[Puneet Sharma] 10:45:01
+Got, uh… the thing is, right, till now, the problem was, um…
+
+[Puneet Sharma] 10:45:07
+There was lots of overlap,
+
+[Abhishek Pandey] 10:45:08
+Yeah.
+
+[Puneet Sharma] 10:45:09
+Uh, which is there between NRAI team.
+
+[Puneet Sharma] 10:45:13
+an AIOps team.
+
+[Abhishek Pandey] 10:45:14
+Okay.
+
+[Puneet Sharma] 10:45:14
+So, it… I'm again saying, right, it started very chaotic.
+
+[Puneet Sharma] 10:45:18
+The new relic, SRE agent was something which was working as a hero team initially.
+
+[Puneet Sharma] 10:45:23
+Where some people from Shiva's B team was working on it, some folks from Wei team was working on it.
+
+[Puneet Sharma] 10:45:28
+Now, the responsibility and the division has started happening.
+
+[Abhishek Pandey] 10:45:32
+Okay.
+
+[Puneet Sharma] 10:45:32
+It's not super, super clear.
+
+[Puneet Sharma] 10:45:35
+So, I don't have an exact name. Who's the one who's working on this MCB server, or who has worked on that MC server, and what's the future state of it.
+
+[Puneet Sharma] 10:45:43
+What I can suggest to you, maybe go over and choose our documentation, and talk with Sri Kant, which you're anyways doing Manny and Akilish.
+
+[Puneet Sharma] 10:45:50
+To get the initial release, and they will be knowing, right, who has worked on it in the past, and what's the future of it.
+
+[Abhishek Pandey] 10:45:55
+Got it, okay.
+
+[Puneet Sharma] 10:45:56
+What's the future of it? Then we will be the perfect person to tell you that.
+
+[Abhishek Pandey] 10:46:00
+Sure. Makes sense.
+
+[Abhishek Pandey] 10:46:02
+group, yeah.
+
+[Puneet Sharma] 10:46:03
+So, that's…
+
+[Puneet Sharma] 10:46:06
+that I feel is going to be your targeting.
+
+[Abhishek Pandey] 10:46:08
+Yeah, and this is super helpful, very, very structured.
+
+[Abhishek Pandey] 10:46:11
+some sort of direction. It helps a lot, yeah.
+
+[Abhishek Pandey] 10:46:15
+Uh, what are you… what is your charter, Puneet? What are you working on?
+
+[Puneet Sharma] 10:46:18
+My chapter, good question. I didn't need to introduce myself, I just realized.
+
+[Puneet Sharma] 10:46:22
+So yeah, um…
+
+[Puneet Sharma] 10:46:25
+Whether you're working in Gurdam earlier, OU and Ola?
+
+[Puneet Sharma] 10:46:27
+Sorry, OU, you said?
+
+[Abhishek Pandey] 10:46:29
+Yeah, so that was back in 2015, yeah. OAO…
+
+[Abhishek Pandey] 10:46:33
+the first office of OUN Space IT Park.
+
+[Abhishek Pandey] 10:46:36
+Sector 49, yeah.
+
+[Puneet Sharma] 10:46:36
+Yeah, yeah. Yeah, I went to that office once, huh?
+
+[Abhishek Pandey] 10:46:39
+Okay.
+
+[Puneet Sharma] 10:46:41
+Okay, so that's why I know, uh…
+
+[Abhishek Pandey] 10:46:42
+So even in the US, after I graduated,
+
+[Abhishek Pandey] 10:46:45
+I don't know how, but I joined OO again.
+
+[Puneet Sharma] 10:46:49
+Okay.
+
+[Abhishek Pandey] 10:46:49
+Like, yeah, they were setting up a team. It was a crazy team. Everybody's from Harvard, Stanford,
+
+[Puneet Sharma] 10:46:55
+Oh, one, okay?
+
+[Abhishek Pandey] 10:46:55
+Anywhere you look, you will just find a Harvard or a Stanford, or bare minimum McKinsey folks.
+
+[Abhishek Pandey] 10:47:01
+So, I was graduating, I got…
+
+[Abhishek Pandey] 10:47:05
+an opportunity of a BA, senior BA over there.
+
+[Abhishek Pandey] 10:47:08
+And as soon as I joined, within 3 months, I was put on furlough.
+
+[Puneet Sharma] 10:47:08
+Mm-hmm.
+
+[Abhishek Pandey] 10:47:12
+the COVID thing happened, eh.
+
+[Abhishek Pandey] 10:47:15
+They reduce their team from 950 to 110 people, yeah.
+
+[Abhishek Pandey] 10:47:19
+It was crazy, yeah.
+
+[Abhishek Pandey] 10:47:21
+But they were able to save the business.
+
+[Abhishek Pandey] 10:47:24
+Uh, it's still working well over there in the US, their business.
+
+[Abhishek Pandey] 10:47:28
+Yeah. Oh, you were there as well?
+
+[Abhishek Pandey] 10:47:30
+By any chance?
+
+[Puneet Sharma] 10:47:31
+But, no, no, no, I was not there. So, one of my friends used to be there, and there was a mall next to it, I don't recall the mall name now.
+
+[Abhishek Pandey] 10:47:33
+Okay.
+
+[Abhishek Pandey] 10:47:38
+Oh, yeah, yeah, yeah. There was a mall next to it.
+
+[Puneet Sharma] 10:47:40
+We went for a lunch and all those stuff, huh?
+
+[Abhishek Pandey] 10:47:43
+Got it, got it.
+
+[Puneet Sharma] 10:47:43
+That's why I know that OA office is there.
+
+[Abhishek Pandey] 10:47:45
+Okay.
+
+[Puneet Sharma] 10:47:47
+Okay, uh…
+
+[Puneet Sharma] 10:47:49
+Okay, for me, right, so, uh…
+
+[Puneet Sharma] 10:47:53
+So, I belong to Kuragamond Delhi, right?
+
+[Abhishek Pandey] 10:47:57
+Okay.
+
+[Abhishek Pandey] 10:47:59
+Okay.
+
+[Puneet Sharma] 10:48:00
+Uh, then…
+
+[Puneet Sharma] 10:48:02
+I've been to different companies, different places, so Bangalore, Bidha, Mumbai, Bidha, Hyderabad, then I went back to Delhi again, then again back to Azerbat, so this is my second time in Larabad now.
+
+[Puneet Sharma] 10:48:12
+Bharat Brahman kar
+
+[Abhishek Pandey] 10:48:12
+Okay.
+
+[Puneet Sharma] 10:48:17
+Yeah, so we've done that, um…
+
+[Abhishek Pandey] 10:48:17
+Okay.
+
+[Puneet Sharma] 10:48:20
+In New Relic Chrome last one and a half years, sir?
+
+[Abhishek Pandey] 10:48:22
+Okay.
+
+[Puneet Sharma] 10:48:23
+You must have already seen, so I report to Oledge, work very closely with Shivabi. So, Shivabi is kind of my doctorate manager.
+
+[Abhishek Pandey] 10:48:29
+Okay.
+
+[Puneet Sharma] 10:48:31
+I am part of this whole incident response part. So what they have done?
+
+[Abhishek Pandey] 10:48:35
+Got it.
+
+[Puneet Sharma] 10:48:37
+whole incident, uh, like, whole alerting pipeline got divided into two things, right? Incident detection and incident response.
+
+[Puneet Sharma] 10:48:42
+The three teams who does engine response belongs to India.
+
+[Puneet Sharma] 10:48:46
+And so there are three things. One is, uh, the…
+
+[Abhishek Pandey] 10:48:46
+Got it.
+
+[Puneet Sharma] 10:48:49
+III team, which to issue page, plus correlation, which Anshul is working.
+
+[Abhishek Pandey] 10:48:54
+And she lives around, yeah.
+
+[Puneet Sharma] 10:48:55
+Uh, the second one is Incident Management Team, where Anu is working closely with us.
+
+[Abhishek Pandey] 10:49:00
+Great.
+
+[Puneet Sharma] 10:49:00
+And last one is workload notification team, which Anuv was working, I think Anshul will take over, but yeah, it's…
+
+[Abhishek Pandey] 10:49:04
+Yeah, right.
+
+[Puneet Sharma] 10:49:05
+hybrid mode between both of them.
+
+[Puneet Sharma] 10:49:07
+Right, so these are the three teams which are in India.
+
+[Abhishek Pandey] 10:49:09
+Got it.
+
+[Puneet Sharma] 10:49:10
+I'm reading those things, and uh…
+
+[Puneet Sharma] 10:49:17
+Yeah, man, I think mostly that. It's, uh, just talking about New Relic, so I…
+
+[Puneet Sharma] 10:49:23
+I resonate what you were saying, right? You have joined, and they were very vague things which has been discussed with you till now, right, with Charter and all those stuff, so I understand that.
+
+[Puneet Sharma] 10:49:32
+The thing… and the problem is very, um…
+
+[Puneet Sharma] 10:49:35
+I know it's a problem for you, for sure.
+
+[Puneet Sharma] 10:49:37
+Right? In the sense, like, you have, like, Kokarab, to do.
+
+[Puneet Sharma] 10:49:42
+But, uh, I think it's, uh, it's…
+
+[Puneet Sharma] 10:49:45
+The problem is, the bigger set of a problem is…
+
+[Puneet Sharma] 10:49:49
+Uh, India is there.
+
+[Puneet Sharma] 10:49:51
+I mean, it's there from last, um…
+
+[Abhishek Pandey] 10:49:53
+Two years, yeah.
+
+[Puneet Sharma] 10:49:54
+Two years now, kind of thing.
+
+[Puneet Sharma] 10:49:55
+Uh, but, uh, 2 years is not complete. Like, the engineering team was not there there, kind of a thing.
+
+[Abhishek Pandey] 10:50:00
+Okay.
+
+[Puneet Sharma] 10:50:01
+In fact, last year went into all hiring, hiring.
+
+[Puneet Sharma] 10:50:06
+Um, so now this year is a year where we say, yeah, engineering team is there, but for New Relic,
+
+[Puneet Sharma] 10:50:11
+on a bigger level, or the cultural level, or whatever you want to call it out.
+
+[Puneet Sharma] 10:50:16
+India is still very new.
+
+[Puneet Sharma] 10:50:19
+they are still, uh, working on a couple of things, how to get India and more autonomicity, how India can…
+
+[Puneet Sharma] 10:50:26
+grow, uh, without any dependencies on US and all those stuff, right?
+
+[Abhishek Pandey] 10:50:29
+Yeah.
+
+[Puneet Sharma] 10:50:29
+So those things are still getting defined, and for any company, generally take time, right? GC center setup, setup is one part of it.
+
+[Abhishek Pandey] 10:50:34
+Yeah.
+
+[Puneet Sharma] 10:50:36
+But having that easy center completely autonomous takes lots of effort.
+
+[Puneet Sharma] 10:50:41
+So, in fact, the last one…
+
+[Puneet Sharma] 10:50:44
+probably one and a half years, right? It was kind of the time I joined till now.
+
+[Puneet Sharma] 10:50:48
+Uh, our CTO is mostly traveling every quarter.
+
+[Puneet Sharma] 10:50:51
+It comes, he see what, what, uh…
+
+[Puneet Sharma] 10:50:55
+what areas we are working on, where we are struggling, participant discussions and all.
+
+[Puneet Sharma] 10:51:00
+There were different, uh…
+
+[Puneet Sharma] 10:51:02
+There were lots of discussions which happened within, because it was his goal to have India completely ready.
+
+[Puneet Sharma] 10:51:07
+So, the engineering's a major.
+
+[Puneet Sharma] 10:51:09
+uh, major, like, team size in India, as of today.
+
+[Abhishek Pandey] 10:51:11
+Yep.
+
+[Puneet Sharma] 10:51:13
+So, I understand the situation, it will take some more time, I would say.
+
+[Puneet Sharma] 10:51:18
+So, yeah, um, it might be frustrating, to be honest.
+
+[Puneet Sharma] 10:51:25
+But I feel at once you know your charter, once you understand this is an area which you're required to deliver,
+
+[Puneet Sharma] 10:51:30
+Then there are damn lots of opportunity to do that.
+
+[Puneet Sharma] 10:51:34
+So, AI was super, super new.
+
+[Abhishek Pandey] 10:51:37
+Yeah.
+
+[Puneet Sharma] 10:51:37
+a new vehicle. So, how many amigos?
+
+[Abhishek Pandey] 10:51:45
+It doesn't work.
+
+[Abhishek Pandey] 10:51:48
+At all. Uh…
+
+[Abhishek Pandey] 10:51:51
+Manage Kiable SQL query generator while I'm at, there is something. It doesn't work.
+
+[Puneet Sharma] 10:51:56
+an RQL generator.
+
+[Abhishek Pandey] 10:51:56
+Yeah, and our queue world generator. It doesn't work at all. And I built something similar, so while I was doing this startup,
+
+[Abhishek Pandey] 10:52:03
+Just to make some money on the sides, I was consulting as well. So, we built all of these things there. We built an analytics platform all together.
+
+[Abhishek Pandey] 10:52:11
+So I was just thinking why we haven't been able to crack it here, like, because…
+
+[Puneet Sharma] 10:52:15
+Yeah.
+
+[Abhishek Pandey] 10:52:16
+There is no lack of data, right? We have so much data, good amount of data.
+
+[Abhishek Pandey] 10:52:20
+Uh, yeah, so things are broken, I feel. Even the SRE agent isn't in the shape in which it is supposed to be.
+
+[Abhishek Pandey] 10:52:27
+I don't know how the film launches.
+
+[Abhishek Pandey] 10:52:30
+going to be like, what they are gonna…
+
+[Abhishek Pandey] 10:52:33
+market it as, but it is not there at all.
+
+[Abhishek Pandey] 10:52:35
+from whatever I've seen till now.
+
+[Puneet Sharma] 10:52:35
+That's right.
+
+[Abhishek Pandey] 10:52:38
+Sorry?
+
+[Puneet Sharma] 10:52:39
+They say, but you tried SRE agent?
+
+[Abhishek Pandey] 10:52:40
+Yeah, yeah, I did, I did. I… I had a very candid chat with Alex, and…
+
+[Abhishek Pandey] 10:52:46
+many. So, they showed a couple of things to me, and it just doesn't work.
+
+[Puneet Sharma] 10:52:47
+Uh-huh.
+
+[Abhishek Pandey] 10:52:52
+The way it is supposed to work, yeah.
+
+[Puneet Sharma] 10:52:53
+That's cool. That's what I'm saying, right? A PR may go…
+
+[Puneet Sharma] 10:52:59
+AI world is there, everyone is moving towards AI, which is completely good.
+
+[Puneet Sharma] 10:53:03
+Including New Relic. An AI world is not going anywhere, uh, the corrections might happen at one point.
+
+[Abhishek Pandey] 10:53:04
+Yeah.
+
+[Puneet Sharma] 10:53:10
+But it's this time, the way it's coming, it's, like, A-level is supposed to remain.
+
+[Abhishek Pandey] 10:53:15
+I guess…
+
+[Puneet Sharma] 10:53:16
+Blooming into, uh…
+
+[Puneet Sharma] 10:53:18
+the productivity area, right? I'm using Claude, uh…
+
+[Puneet Sharma] 10:53:22
+Nowadays, for, like, doing analysis on reports, etc., etc.
+
+[Abhishek Pandey] 10:53:26
+Yeah.
+
+[Puneet Sharma] 10:53:27
+Super awesome, super, super awesome.
+
+[Abhishek Pandey] 10:53:29
+Right.
+
+[Puneet Sharma] 10:53:29
+And this is not the world, right? I was trying GitHub Copilot in my previous company.
+
+[Puneet Sharma] 10:53:34
+kind of one and a half, two years back.
+
+[Puneet Sharma] 10:53:37
+But it was not doing great results, right? It was actually rocking the actual fuels into the code.
+
+[Puneet Sharma] 10:53:44
+is about to say Lagren.
+
+[Abhishek Pandey] 10:53:46
+Last one-year coffee transition via Matlav.
+
+[Puneet Sharma] 10:53:48
+cost me a position away.
+
+[Abhishek Pandey] 10:53:48
+crazy transition, I would say.
+
+[Puneet Sharma] 10:53:51
+Agreed, completely agree. To present our question here.
+
+[Abhishek Pandey] 10:53:52
+Yeah.
+
+[Puneet Sharma] 10:53:56
+Yeah, I think AI into product will still require to be cracked.
+
+[Abhishek Pandey] 10:54:00
+Right.
+
+[Puneet Sharma] 10:54:01
+I feel… that's why I was mentioning, right? There will be challenges, and there will be…
+
+[Puneet Sharma] 10:54:05
+great work which you can do in New Relic.
+
+[Abhishek Pandey] 10:54:07
+Right.
+
+[Puneet Sharma] 10:54:08
+It just made me or initial setup may time lag nihal, eh? Very transparently, but I feel there are areas which…
+
+[Puneet Sharma] 10:54:14
+required to be interested.
+
+[Abhishek Pandey] 10:54:15
+Yeah, yeah, for sure. And I just feel Matlam method experience used Karpom, because I understand the
+
+[Abhishek Pandey] 10:54:21
+engineering world as well, to an extent, but it's not a big deal for me to understand
+
+[Abhishek Pandey] 10:54:26
+Deeply. Feasibility level pay.
+
+[Abhishek Pandey] 10:54:31
+But, yeah, it is just that…
+
+[Abhishek Pandey] 10:54:34
+whatever I think of
+
+[Abhishek Pandey] 10:54:37
+In terms of idea, quite a few things are…
+
+[Abhishek Pandey] 10:54:40
+already being done, method for the overlap bhi moja lagaki, acha. Dothin team iske varian mein already so training hai.
+
+[Abhishek Pandey] 10:54:48
+ambiguity, but anyways, I think…
+
+[Abhishek Pandey] 10:54:51
+And be able to figure it out soon.
+
+[Abhishek Pandey] 10:54:53
+Yeah.
+
+[Puneet Sharma] 10:54:53
+Yeah, man, I think it will take some time, uh…
+
+[Puneet Sharma] 10:54:58
+So I think in the meantime, it's a good opportunity for you to understand the both worlds, platform world.
+
+[Abhishek Pandey] 10:55:04
+Yeah.
+
+[Puneet Sharma] 10:55:05
+plus this whole, uh, agentic kind of a world, which we are, like, the plat… the partner world.
+
+[Abhishek Pandey] 10:55:10
+Right.
+
+[Puneet Sharma] 10:55:11
+Maybe you will be able to define the charter, because, uh…
+
+[Puneet Sharma] 10:55:14
+Currently, everyone is busy for Feb.
+
+[Abhishek Pandey] 10:55:17
+Yeah.
+
+[Puneet Sharma] 10:55:18
+No one has a bandwidth or a thought process to think what's come next.
+
+[Puneet Sharma] 10:55:24
+So it actually can be a very good opportunity for you.
+
+[Abhishek Pandey] 10:55:27
+Sure.
+
+[Puneet Sharma] 10:55:27
+From then, you have that time, right? You're not related to the 5 event as of today.
+
+[Abhishek Pandey] 10:55:31
+Right.
+
+[Puneet Sharma] 10:55:32
+And so that bandwidth and a mental piece, I can call it.
+
+[Puneet Sharma] 10:55:35
+Okay, next Kersak there.
+
+[Abhishek Pandey] 10:55:35
+Yeah. Um, and quickly, Bunit, I know Patchmaribate, uh, in your world, right, hum up
+
+[Abhishek Pandey] 10:55:42
+I won't take much of your time, maybe 30 minutes.
+
+[Abhishek Pandey] 10:55:49
+Just from ideation perspective, yeah.
+
+[Puneet Sharma] 10:55:49
+Yeah, sure. Here, I can tell you, in fact, now, 5 minutes are going to be enough, I'll tell you why. Why 5 minutes? And we can extend it also, right? I don't have the next meeting, so don't worry about it. If you have, we can meet later, too.
+
+[Abhishek Pandey] 10:55:53
+Okay, yeah, sure.
+
+[Abhishek Pandey] 10:55:56
+Yeah.
+
+[Abhishek Pandey] 10:55:58
+Yeah, sure.
+
+[Puneet Sharma] 10:56:01
+Uh, so yeah, if I see the three teams which I talked about.
+
+[Puneet Sharma] 10:56:06
+Uh, workflow notification is very much as a team which required to deliver on notifications and all those, so it has very less to do with UI, it's very deterministic, right?
+
+[Abhishek Pandey] 10:56:14
+Yeah, yeah.
+
+[Puneet Sharma] 10:56:15
+Figured as a Slack pay, notification base, though.
+
+[Abhishek Pandey] 10:56:17
+Correct.
+
+[Puneet Sharma] 10:56:21
+Uh, other two teams, uh… can be AI, right? And I, like, let's divide my… let me divide them, right?
+
+[Abhishek Pandey] 10:56:21
+Got it.
+
+[Puneet Sharma] 10:56:29
+responsibilities hai.
+
+[Puneet Sharma] 10:56:34
+They are the one who is in the golden path of that alert pipeline.
+
+[Puneet Sharma] 10:56:40
+?
+
+[Puneet Sharma] 10:56:43
+The Yike… Honeike reason… well, the bandwidth be near? Reason B?
+
+[Puneet Sharma] 10:56:46
+There's an SLA which we sign with our customers,
+
+[Abhishek Pandey] 10:56:48
+Got it.
+
+[Puneet Sharma] 10:56:50
+the data is entering into New Relic, and the data is exiting New Relic as a notification. 3 minutes has to be the SLA.
+
+[Abhishek Pandey] 10:56:57
+Got it. Huh.
+
+[Abhishek Pandey] 10:57:00
+Got it, yeah.
+
+[Puneet Sharma] 10:57:01
+So yeah, so that's one part of it. So III, the first part of which is all related to the alerts. It's, uh, we can't do anything out there.
+
+[Puneet Sharma] 10:57:09
+correlation.
+
+[Puneet Sharma] 10:57:11
+is, uh… so that… okay, let me divide coderation also too, right? So, 8th, okay, deterministic correlation.
+
+[Puneet Sharma] 10:57:17
+What's up, Kara?
+
+[Abhishek Pandey] 10:57:17
+Mm-hmm.
+
+[Abhishek Pandey] 10:57:20
+Great.
+
+[Puneet Sharma] 10:57:22
+Oscar, it takes those actions accordingly.
+
+[Puneet Sharma] 10:57:25
+Not a big deal. The second part of it is a non-deterministic part.
+
+[Abhishek Pandey] 10:57:26
+And they…
+
+[Puneet Sharma] 10:57:29
+In which, uh, RBM correlation jahamm kera is noise reduction.
+
+[Puneet Sharma] 10:57:36
+But at one point in time, we'll go to noise reduction, and we have the data of the customers, right? For a particular customer, I'm saying.
+
+[Puneet Sharma] 10:57:42
+We can take care of y correlation kar rule banana, get aapka itinaw noise reduction horosakta.
+
+[Puneet Sharma] 10:57:49
+four-year rule, Kansa rule, kahase ayga ya ML balsa y aya.
+
+[Abhishek Pandey] 10:57:52
+Correct. This may just take short as a perspective, so…
+
+[Abhishek Pandey] 10:57:56
+When we are talking about correlation, right, uh, there is a broader perspective as well.
+
+[Abhishek Pandey] 10:58:02
+specific areas may correlate karnehi koshish karne, right?
+
+[Abhishek Pandey] 10:58:08
+So, the whole system, the systems are connected, right? The systems are not built
+
+[Abhishek Pandey] 10:58:13
+at an independent level, right?
+
+[Abhishek Pandey] 10:58:16
+Maybe this, uh, thus alerts, yeah, thus issues Johorne, right? Das mein sep,
+
+[Abhishek Pandey] 10:58:26
+But these 6 separate teams are trying to solve for these things separately, right?
+
+[Abhishek Pandey] 10:58:32
+Though, there could be a correlation at that level as well, uh, if…
+
+[Abhishek Pandey] 10:58:36
+if I… if my understanding is correct,
+
+[Abhishek Pandey] 10:58:38
+And then in that way, we can reduce the work of all of these teams, you know, who are trying to work on, you know, same cheesecake biche.
+
+[Abhishek Pandey] 10:58:48
+can maybe, um, DB may help other Lord thai se multiple touchpoints affected, or nodes affected, eh, but…
+
+[Abhishek Pandey] 10:58:55
+Since the teams are working in silos, and there is no visibility into key, who are QA,
+
+[Abhishek Pandey] 10:59:01
+Uh, they are all solving for it separately. Does it make sense in any way?
+
+[Abhishek Pandey] 10:59:05
+Yeah. Okay.
+
+[Puneet Sharma] 10:59:05
+It completely makes sense, and in fact, we want to do that. That's just part of it.
+
+[Abhishek Pandey] 10:59:08
+Got it.
+
+[Puneet Sharma] 10:59:09
+Um, so the correlation… okay, now the different areas which we talked about, right?
+
+[Puneet Sharma] 10:59:17
+Uh, is…
+
+[Puneet Sharma] 10:59:19
+So there is issue issues, the alert world, which we just talked about.
+
+[Abhishek Pandey] 10:59:22
+Yeah.
+
+[Puneet Sharma] 10:59:23
+there is Logging World, there is Infrastructure World, right? These are… and the APM world, right? Distributed training.
+
+[Abhishek Pandey] 10:59:28
+Yeah.
+
+[Puneet Sharma] 10:59:30
+These are the 3 or 4 types of data which comes into New Relic.
+
+[Abhishek Pandey] 10:59:34
+Yeah.
+
+[Puneet Sharma] 10:59:35
+When that data is coming to New Relic, we want to correlate across all of them.
+
+[Puneet Sharma] 10:59:41
+people can create alerts on lock, people can create on APM, people can create alerts on infrastructure, things, right?
+
+[Abhishek Pandey] 10:59:41
+At any time
+
+[Abhishek Pandey] 10:59:46
+Chris's.
+
+[Puneet Sharma] 10:59:51
+Uh, but obviously, we will be starting small, we were doing only issues issues to start with.
+
+[Abhishek Pandey] 10:59:55
+Yeah.
+
+[Puneet Sharma] 10:59:56
+Obviously, it's expanding it more in the coming future. So yeah, that use case is definitely there, that's one.
+
+[Puneet Sharma] 11:00:02
+Uh, the second part of it, now, that use case is also divided into two things, right? One is your rule valid part,
+
+[Abhishek Pandey] 11:00:08
+Got it.
+
+[Puneet Sharma] 11:00:09
+The second part of it is your ML part.
+
+[Puneet Sharma] 11:00:13
+Right? ML can't be running on, uh…
+
+[Puneet Sharma] 11:00:22
+Mill can't be running in the actual pipeline, where we are saying, okay, humane, um…
+
+[Puneet Sharma] 11:00:27
+Logo colored beh nah, within a fixed time period.
+
+[Puneet Sharma] 11:00:31
+So, but what our competitors are doing, what I've seen, and I could, like, maybe I've read half, there could be other part of it also.
+
+[Puneet Sharma] 11:00:40
+Es que, um…
+
+[Puneet Sharma] 11:00:41
+From ML Engineering, we, as we have the data from all of them,
+
+[Puneet Sharma] 11:00:45
+We can say, if you create this rule, then your noise reduction will happen, right? So this suggests the rules.
+
+[Puneet Sharma] 11:00:51
+Based on the data which they already have.
+
+[Abhishek Pandey] 11:00:54
+Correct, correct.
+
+[Puneet Sharma] 11:00:55
+The suggested rule engine kind of unkah hojate. And once you accept that, obviously, that becomes an actual rule in your ecosystem.
+
+[Abhishek Pandey] 11:01:00
+Yes, correct.
+
+[Puneet Sharma] 11:01:01
+So, a couple of these things, and obviously, uh…
+
+[Abhishek Pandey] 11:01:04
+And you're talking about Datadoc, is it?
+
+[Puneet Sharma] 11:01:06
+Nate, I'm Big Panda.
+
+[Abhishek Pandey] 11:01:08
+Bitcoin, okay.
+
+[Puneet Sharma] 11:01:16
+Also, yeah, I think…
+
+[Puneet Sharma] 11:01:17
+And so I was talking about Bigfander, and they do this, like, maybe they talk is also doing it, because I went into one of the competitors, they are big in this domain, by the way, correlation.
+
+[Abhishek Pandey] 11:01:24
+Okay.
+
+[Puneet Sharma] 11:01:26
+They're super big in this particular winner.
+
+[Puneet Sharma] 11:01:29
+Um, so yeah, I was going over that. So I feel that is one of the areas which you can do the correlation correlation part.
+
+[Puneet Sharma] 11:01:36
+Oh, sorry, email part into the III world.
+
+[Abhishek Pandey] 11:01:36
+Correct. Coral, yeah.
+
+[Puneet Sharma] 11:01:40
+The other world is going to be the incident management team.
+
+[Puneet Sharma] 11:01:43
+The incident management team kiagarti hai, um…
+
+[Puneet Sharma] 11:01:47
+the whole incident management as a process, right? You know that, ITSMA. I mean, very first stage of ITSMA.
+
+[Abhishek Pandey] 11:01:49
+Yeah.
+
+[Puneet Sharma] 11:01:59
+So, uskender, uh, we are…
+
+[Puneet Sharma] 11:02:05
+integrating kind of a thing with SR agent. We kind of invoke SR agent from incident management.
+
+[Abhishek Pandey] 11:02:11
+Mm-hmm.
+
+[Puneet Sharma] 11:02:14
+And there can be other agents which can be also invoked. For example, there can be a security agent for security, uh…
+
+[Puneet Sharma] 11:02:22
+incident, right?
+
+[Puneet Sharma] 11:02:23
+They can be DB agents, or DB kind of incidents, right? So, Sri Kan Boltata, that can…
+
+[Puneet Sharma] 11:02:29
+All bank related to incident management.
+
+[Puneet Sharma] 11:02:31
+So the bridge between this incident management and the agent-tech world, and eventually go into the agent tech platform world is something which you can be the custodian of.
+
+[Abhishek Pandey] 11:02:40
+Right, right.
+
+[Puneet Sharma] 11:02:41
+So, that is one. The other thing which we integrate with is… okay, now this agent… the incident management world, right, also goes in the domain of KR…
+
+[Puneet Sharma] 11:02:51
+Okay, eventually the reason we are creating incident management, or correlation, or any other product, is that Kempta incident car response time,
+
+[Puneet Sharma] 11:02:58
+Uh, meantime, to resolve Kam Hojay?
+
+[Puneet Sharma] 11:03:02
+they are different areas. For example, there is a product called IRC. I'm not sure you have heard of.
+
+[Abhishek Pandey] 11:03:03
+Right. Perfect.
+
+[Abhishek Pandey] 11:03:08
+IRC, yeah, yeah, I have.
+
+[Puneet Sharma] 11:03:09
+Right? Go… maybe go deeper into this. That is also sim what Emil is going to be involved in that particular one.
+
+[Puneet Sharma] 11:03:17
+But once we do that, so in that case, your incident management role can get correlated to this world, plus the alert world, which I just talked about.
+
+[Abhishek Pandey] 11:03:24
+Yeah, yeah.
+
+[Puneet Sharma] 11:03:26
+they contact different, different domains to do that.
+
+[Puneet Sharma] 11:03:33
+As a future state, I'm saying.
+
+[Abhishek Pandey] 11:03:38
+Yeah.
+
+[Puneet Sharma] 11:03:38
+will be requiring, if there are any zero which has been already created for this particular one. So we can contract, uh, we have an integration with Agentic platform.
+
+[Puneet Sharma] 11:03:46
+So, the partner agentic platform.
+
+[Puneet Sharma] 11:03:50
+which talks with their MCP servers.
+
+[Puneet Sharma] 11:03:52
+to link your Ziras to that incident management node.
+
+[Abhishek Pandey] 11:03:55
+Got it.
+
+[Puneet Sharma] 11:03:55
+random ideas, hai.
+
+[Puneet Sharma] 11:03:59
+Right? What I'm saying, I'm not saying this is something which is super pricey. There can be 100 others which can be super pricey, what I'm saying.
+
+[Abhishek Pandey] 11:04:06
+Yeah.
+
+[Puneet Sharma] 11:04:06
+Uh, these are the sum of the areas which no one is currently owning.
+
+[Puneet Sharma] 11:04:12
+And that's where I feel you can be a good partner on.
+
+[Puneet Sharma] 11:04:17
+Like, your ownership ID un area school, Agilei Danikili.
+
+[Abhishek Pandey] 11:04:17
+Sure, sure.
+
+[Abhishek Pandey] 11:04:21
+No, this makes sense, uh…
+
+[Abhishek Pandey] 11:04:23
+contesting ILL, think about all of this.
+
+[Puneet Sharma] 11:04:25
+Sure.
+
+[Abhishek Pandey] 11:04:26
+In a unified perspective, uh…
+
+[Abhishek Pandey] 11:04:28
+Makes sense.
+
+[Puneet Sharma] 11:04:30
+The word which you said, right? That's something which is missing in your relic, is uniform.
+
+[Abhishek Pandey] 11:04:33
+Yeah. Yeah.
+
+[Puneet Sharma] 11:04:35
+Right?
+
+[Puneet Sharma] 11:04:39
+Unification karnekali ja na bhod importantein, because from customer point of view, right, and I always say that to anyone.
+
+[Abhishek Pandey] 11:04:45
+Yep.
+
+[Puneet Sharma] 11:04:45
+Customer goes to New Relic, what I was going AI ops ya, NI platform.
+
+[Abhishek Pandey] 11:04:49
+Ah, of course.
+
+[Abhishek Pandey] 11:04:52
+Yeah.
+
+[Puneet Sharma] 11:04:52
+only knows from New Relic, so it has to be a user journey, which is required to define across the…
+
+[Puneet Sharma] 11:04:58
+platform, not just for a team.
+
+[Abhishek Pandey] 11:05:00
+Hamila Benef that is not existing, which I feel Thora will be lacking her platform pay, so…
+
+[Abhishek Pandey] 11:05:05
+Customer experience is not going to be good.
+
+[Abhishek Pandey] 11:05:08
+Uh, but yeah, makes sense
+

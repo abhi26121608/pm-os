@@ -1,0 +1,1635 @@
+[Glenn Thomas] 19:33:15
+revolve around GitHub, to be honest.
+
+[Abhishek Pandey] 19:33:18
+Yeah.
+
+[Glenn Thomas] 19:33:19
+Um…
+
+[Glenn Thomas] 19:33:20
+But, uh, there are a few things that are, I think,
+
+[Glenn Thomas] 19:33:25
+and directional that need attention and… and…
+
+[Glenn Thomas] 19:33:29
+Probably not immediately, but down the road a little bit.
+
+[Abhishek Pandey] 19:33:31
+Mm-hmm.
+
+[Abhishek Pandey] 19:33:33
+Sure.
+
+[Glenn Thomas] 19:33:33
+So one of them is, um, if you think about
+
+[Glenn Thomas] 19:33:37
+what we do as a company, right? We…
+
+[Glenn Thomas] 19:33:41
+ingest telemetry from all kinds of different systems, and we make sense of it.
+
+[Abhishek Pandey] 19:33:46
+Yeah.
+
+[Glenn Thomas] 19:33:47
+Right? Alert on it, uh, report on it, whatnot.
+
+[Glenn Thomas] 19:33:52
+But when it comes to taking action, we can tell you what needs to happen.
+
+[Glenn Thomas] 19:33:57
+But we can't actually implement what happens.
+
+[Abhishek Pandey] 19:34:00
+Right.
+
+[Glenn Thomas] 19:34:00
+We need… we need, uh, systems that have the right access
+
+[Glenn Thomas] 19:34:06
+and the right capability,
+
+[Glenn Thomas] 19:34:08
+to actually carry out the actions. Those systems in the past have been people.
+
+[Abhishek Pandey] 19:34:13
+Mm-hmm.
+
+[Glenn Thomas] 19:34:13
+Right? We tell you what to do, and you go off and do all the manual steps.
+
+[Abhishek Pandey] 19:34:17
+Right.
+
+[Glenn Thomas] 19:34:19
+With GitHub, uh, we've gotten to the point where anything that has to do with code
+
+[Glenn Thomas] 19:34:24
+is something that we can instruct GitHub Copilot Coding Agent to actually address. We can give it good enough instructions
+
+[Glenn Thomas] 19:34:34
+That it can look at it and say, okay, I know what to do.
+
+[Abhishek Pandey] 19:34:37
+Right.
+
+[Glenn Thomas] 19:34:38
+I know how to create this PR.
+
+[Abhishek Pandey] 19:34:40
+Mm-hmm.
+
+[Glenn Thomas] 19:34:42
+Um, that's great for all the things that have to do with code that gets released.
+
+[Glenn Thomas] 19:34:46
+But there's a lot of things that we deal with, a lot of problems, a lot of challenges we deal with that…
+
+[Glenn Thomas] 19:34:50
+have nothing to do with code. They have to do with environment.
+
+[Glenn Thomas] 19:34:55
+So, uh, the two in major environments…
+
+[Glenn Thomas] 19:34:59
+or obviously AWS and Microsoft.
+
+[Abhishek Pandey] 19:35:02
+Yeah.
+
+[Glenn Thomas] 19:35:03
+Um, for the on-prem world,
+
+[Glenn Thomas] 19:35:06
+There really is no good solution, right? It's the people.
+
+[Glenn Thomas] 19:35:10
+Whoever owns that, whoever runs it,
+
+[Glenn Thomas] 19:35:13
+Uh, they're the ones that are gonna have to…
+
+[Glenn Thomas] 19:35:16
+execute the manual steps, or…
+
+[Glenn Thomas] 19:35:18
+If we provide them systems like Fleet Manager,
+
+[Glenn Thomas] 19:35:21
+the automated steps to, you know, to…
+
+[Abhishek Pandey] 19:35:21
+Mm-hmm.
+
+[Glenn Thomas] 19:35:25
+semi-automated steps to get the work done.
+
+[Glenn Thomas] 19:35:28
+But for Microsoft and AWS,
+
+[Glenn Thomas] 19:35:31
+Uh, there's… for AWS, there's the DevOps agent, and for Microsoft, there's the SRE agent.
+
+[Abhishek Pandey] 19:35:34
+Right.
+
+[Abhishek Pandey] 19:35:37
+SRE agent, yeah.
+
+[Glenn Thomas] 19:35:39
+We don't today do anything with the SRE Agent other than enable it to talk to our MCP server.
+
+[Abhishek Pandey] 19:35:47
+Yeah, that's what I wanted to ask. Are we just doing this, like, enabling the MCP?
+
+[Abhishek Pandey] 19:35:53
+Uh, and that's pretty much about it.
+
+[Glenn Thomas] 19:35:58
+That is.
+
+[Glenn Thomas] 19:36:00
+But… two things need to happen.
+
+[Abhishek Pandey] 19:36:03
+Yeah.
+
+[Glenn Thomas] 19:36:04
+We need to figure out the…
+
+[Glenn Thomas] 19:36:07
+system of record challenge.
+
+[Glenn Thomas] 19:36:11
+Um…
+
+[Glenn Thomas] 19:36:14
+In all likelihood, it's, uh, it's gonna be… remain… continue to be GitHub issues.
+
+[Glenn Thomas] 19:36:19
+But, um…
+
+[Glenn Thomas] 19:36:22
+The reality is that other… people use other systems. JIRA, for instance, could be a system of record.
+
+[Abhishek Pandey] 19:36:27
+Yeah.
+
+[Glenn Thomas] 19:36:28
+However we do it,
+
+[Glenn Thomas] 19:36:31
+Whatever actors we want to act upon our intelligence that we put into the system of record,
+
+[Glenn Thomas] 19:36:39
+They have to be able to read their system of record.
+
+[Glenn Thomas] 19:36:43
+So, and that's easy for, uh, uh…
+
+[Glenn Thomas] 19:36:47
+get him Copilot Coding agent to read GitHub issues, because it's all the same system.
+
+[Abhishek Pandey] 19:36:52
+Right.
+
+[Glenn Thomas] 19:36:52
+So the next trick is to figure out how to enable
+
+[Glenn Thomas] 19:36:58
+Microsoft Azure.
+
+[Glenn Thomas] 19:37:01
+SRE agent.
+
+[Glenn Thomas] 19:37:04
+Do we read GitHub issues?
+
+[Glenn Thomas] 19:37:06
+or to read JIRA?
+
+[Abhishek Pandey] 19:37:08
+Yeah.
+
+[Glenn Thomas] 19:37:09
+or to read some other system,
+
+[Glenn Thomas] 19:37:11
+Uh, or all of the above.
+
+[Glenn Thomas] 19:37:14
+In order to get work.
+
+[Glenn Thomas] 19:37:16
+for us to give them work and assign work,
+
+[Glenn Thomas] 19:37:20
+to be done, we need the same mechanisms that we have in GitHub.
+
+[Glenn Thomas] 19:37:26
+We haven't explored that yet, but there's some… there's some exploration that needs to happen, and that's something that our team can do.
+
+[Glenn Thomas] 19:37:33
+Um, but that's… I think, the next step.
+
+[Glenn Thomas] 19:37:38
+towards automating, uh, the, the, uh, the actions that we uncover.
+
+[Abhishek Pandey] 19:37:45
+Yep.
+
+[Glenn Thomas] 19:37:45
+to actors that could actually do something about it.
+
+[Abhishek Pandey] 19:37:49
+Sure.
+
+[Abhishek Pandey] 19:37:52
+Uh, so one quick question on this, uh…
+
+[Abhishek Pandey] 19:37:55
+Glenn, and this is a fantastic point, right? Like…
+
+[Abhishek Pandey] 19:37:59
+making multiple systems interact with each other, not just exposing the MCP, right? That would make…
+
+[Abhishek Pandey] 19:38:06
+these third-party agents, I think, super powerful, right, to actually achieve something good.
+
+[Abhishek Pandey] 19:38:11
+Uh… what I think is, so we have been trying to build our own internal agents as well, right?
+
+[Abhishek Pandey] 19:38:20
+So, at some point, these third-party agents will compete with our internal agents as well, right?
+
+[Glenn Thomas] 19:38:27
+It's not correct.
+
+[Abhishek Pandey] 19:38:28
+No? Yeah. Yeah, okay, so please help me with that.
+
+[Glenn Thomas] 19:38:29
+that's not… that's not… that's not correct.
+
+[Abhishek Pandey] 19:38:32
+Okay.
+
+[Glenn Thomas] 19:38:32
+That's a misconception that a lot of people have.
+
+[Glenn Thomas] 19:38:37
+Um… let me put it this way.
+
+[Glenn Thomas] 19:38:40
+our domain is telemetry.
+
+[Abhishek Pandey] 19:38:44
+Correct.
+
+[Glenn Thomas] 19:38:44
+And we're really good at figuring out what the problem is,
+
+[Glenn Thomas] 19:38:48
+from that telemetry, but we're really poor at executing on that, on that… on that intelligence.
+
+[Abhishek Pandey] 19:38:49
+Right?
+
+[Glenn Thomas] 19:38:56
+to fix things.
+
+[Abhishek Pandey] 19:38:57
+Perfect, yeah.
+
+[Glenn Thomas] 19:38:59
+Uh, if you think about, uh, these other agents,
+
+[Glenn Thomas] 19:39:04
+they may have some piece of the pie from the telemetry standpoint. So, for instance,
+
+[Glenn Thomas] 19:39:09
+If you think of Microsoft, they've got Azure Monitor.
+
+[Glenn Thomas] 19:39:16
+We gathered, uh, telemetry from Azure Monitor as well.
+
+[Glenn Thomas] 19:39:22
+But that's not our only source.
+
+[Abhishek Pandey] 19:39:24
+Right.
+
+[Glenn Thomas] 19:39:25
+Right? We have, uh, language agents, we have infrastructure agents, we have browser agents, we have…
+
+[Glenn Thomas] 19:39:33
+Uh, uh,
+
+[Abhishek Pandey] 19:39:34
+database agents, yeah.
+
+[Glenn Thomas] 19:39:35
+Synthetics, we've got all these different systems.
+
+[Glenn Thomas] 19:39:39
+that feed into telling us what's going on.
+
+[Abhishek Pandey] 19:39:41
+Right.
+
+[Glenn Thomas] 19:39:42
+They don't have that.
+
+[Glenn Thomas] 19:39:44
+So they only have whatever is in Azure Monitor and however exposed Azure Monitor is, which…
+
+[Glenn Thomas] 19:39:49
+at times is limited.
+
+[Glenn Thomas] 19:39:53
+Um, try to do tracing analysis from stuff that's in Azure Monitor.
+
+[Glenn Thomas] 19:39:58
+actually quite challenging to do. Whereas our trace analysis is very detailed, because we're down at the language level.
+
+[Glenn Thomas] 19:40:06
+So, I don't think it's fair to say that their SRE agents will be… come or compete with, or become as good as our SRE agent?
+
+[Glenn Thomas] 19:40:16
+There may be some things that their SRA agent is really good at.
+
+[Abhishek Pandey] 19:40:20
+True.
+
+[Glenn Thomas] 19:40:21
+Um, but in likelihood, all likelihood,
+
+[Glenn Thomas] 19:40:25
+Our SRE agents are going to have at least enough data to have more of the big picture.
+
+[Abhishek Pandey] 19:40:30
+Right.
+
+[Glenn Thomas] 19:40:31
+So, um…
+
+[Glenn Thomas] 19:40:34
+We shouldn't be… I personally don't think we should be afraid of integrating with their
+
+[Glenn Thomas] 19:40:41
+SRE agents.
+
+[Glenn Thomas] 19:40:43
+for the intelligence component of it.
+
+[Glenn Thomas] 19:40:46
+not the data, right? We should never…
+
+[Abhishek Pandey] 19:40:48
+Sure.
+
+[Glenn Thomas] 19:40:50
+never share data or exposed to them our degree of data.
+
+[Abhishek Pandey] 19:40:56
+Yeah, that should only happen through an MCP, like, if I understand it correctly, right?
+
+[Glenn Thomas] 19:41:01
+Correct.
+
+[Abhishek Pandey] 19:41:02
+Like, they're exposing of the data. It shouldn't be the… we are exposing the API, right? And they have access to everything.
+
+[Abhishek Pandey] 19:41:08
+That is when it will become
+
+[Abhishek Pandey] 19:41:12
+a bit tricky, for sure. So yeah, I totally agree with you on that.
+
+[Glenn Thomas] 19:41:15
+That way, we already get paid, right?
+
+[Abhishek Pandey] 19:41:16
+Of course. Yeah, right, right.
+
+[Abhishek Pandey] 19:41:18
+For sure. Yeah, that makes a lot of sense, and helps me…
+
+[Abhishek Pandey] 19:41:23
+conceptualize it a bit.
+
+[Glenn Thomas] 19:41:26
+I think the same is true for the AWS DevOps agent as well.
+
+[Abhishek Pandey] 19:41:26
+clearer.
+
+[Abhishek Pandey] 19:41:30
+Right. Correct.
+
+[Glenn Thomas] 19:41:32
+And there will be other, uh, third-party, uh, strategic vendors that have
+
+[Glenn Thomas] 19:41:40
+Uh, agents.
+
+[Abhishek Pandey] 19:41:40
+Right.
+
+[Glenn Thomas] 19:41:41
+And each in their own domain will be king.
+
+[Glenn Thomas] 19:41:47
+But… we've got… we've got the more complete package
+
+[Glenn Thomas] 19:41:51
+at least as far as, uh…
+
+[Glenn Thomas] 19:41:54
+Telling what's wrong?
+
+[Glenn Thomas] 19:41:56
+And diagnosing what needs to be done.
+
+[Abhishek Pandey] 19:41:58
+Sure.
+
+[Abhishek Pandey] 19:42:03
+And when you pick these agents, uh, Glenn, or…
+
+[Abhishek Pandey] 19:42:06
+specific partnerships, right?
+
+[Abhishek Pandey] 19:42:08
+Uh, is it always coming from the customer side as well, that they are interested in using the…
+
+[Abhishek Pandey] 19:42:14
+Microsoft, uh…
+
+[Abhishek Pandey] 19:42:17
+SRE agent or something like that.
+
+[Glenn Thomas] 19:42:19
+I think it becomes… I think it becomes even bigger, right? Because, think of it… think of it this way.
+
+[Glenn Thomas] 19:42:24
+If I've got an agent in, uh, ServiceNow,
+
+[Abhishek Pandey] 19:42:28
+Yep.
+
+[Glenn Thomas] 19:42:30
+Can ServiceNow, uh, alter Azure…
+
+[Glenn Thomas] 19:42:34
+environments.
+
+[Glenn Thomas] 19:42:35
+No.
+
+[Abhishek Pandey] 19:42:36
+Yeah, it can.
+
+[Glenn Thomas] 19:42:38
+But they're really good at the processes.
+
+[Glenn Thomas] 19:42:43
+that ServiceNow is known for, right?
+
+[Glenn Thomas] 19:42:46
+And we're really good at the telemetry for troubleshooting, and Azure SRE is really good at the…
+
+[Glenn Thomas] 19:42:53
+Uh, you know, fixing…
+
+[Abhishek Pandey] 19:42:53
+execution part? Yeah.
+
+[Glenn Thomas] 19:42:56
+fixing the actual environmental systems.
+
+[Abhishek Pandey] 19:42:58
+Right.
+
+[Glenn Thomas] 19:42:58
+So, the three of us…
+
+[Glenn Thomas] 19:43:02
+should be able to work together.
+
+[Glenn Thomas] 19:43:04
+to actually provide a better experience for the user, a more automated experience for the user, if it's done right.
+
+[Abhishek Pandey] 19:43:11
+Fair.
+
+[Glenn Thomas] 19:43:11
+Right? And a lot of that hinges around
+
+[Glenn Thomas] 19:43:14
+What is the system of record? We can't live in an ephemeral world.
+
+[Glenn Thomas] 19:43:22
+something has to be written down, some… something has to be recorded
+
+[Glenn Thomas] 19:43:27
+In order for us to do asynchronous work.
+
+[Glenn Thomas] 19:43:30
+In order for the work to actually continue between systems,
+
+[Glenn Thomas] 19:43:35
+You gotta have some trigger, and typically that trigger is,
+
+[Glenn Thomas] 19:43:39
+I just created a system of record.
+
+[Abhishek Pandey] 19:43:41
+Hmm.
+
+[Glenn Thomas] 19:43:42
+Okay? I have an event that fires when a system of record is created,
+
+[Glenn Thomas] 19:43:47
+to go and look at it, especially if it's assigned to me.
+
+[Abhishek Pandey] 19:43:51
+Right?
+
+[Glenn Thomas] 19:43:53
+So, it becomes a mechanism to disconnect the systems so that they're not… they don't have to operate synchronously. When you operate synchronously, you expend
+
+[Glenn Thomas] 19:44:04
+Enormous amounts of men of energy and memory.
+
+[Glenn Thomas] 19:44:08
+to keep state, and you become a lot more fragile.
+
+[Abhishek Pandey] 19:44:12
+Right.
+
+[Glenn Thomas] 19:44:14
+If you miss that window,
+
+[Glenn Thomas] 19:44:17
+Right? If something happens and something gets dropped…
+
+[Glenn Thomas] 19:44:20
+You lose everything, and you have to start over from scratch.
+
+[Glenn Thomas] 19:44:24
+If you record it, now you've got persistence, now you've got, uh, now I can restart it if something goes wrong for some reason.
+
+[Abhishek Pandey] 19:44:33
+Right, yeah, fair.
+
+[Abhishek Pandey] 19:44:35
+That makes a lot of sense.
+
+[Abhishek Pandey] 19:44:38
+Okay.
+
+[Glenn Thomas] 19:44:38
+Whether that's a database, whether it's a system like GitHub Issues,
+
+[Glenn Thomas] 19:44:43
+Whatever it is, we just need to do… and there probably will need to be multiple.
+
+[Glenn Thomas] 19:44:48
+Uh, to fit the various actors.
+
+[Glenn Thomas] 19:44:51
+that's, I think, the next stage. We need to figure out what's… what things are we capable of writing to, and what advantage does it give us
+
+[Abhishek Pandey] 19:44:59
+Right.
+
+[Glenn Thomas] 19:45:00
+We're automating with third parties.
+
+[Abhishek Pandey] 19:45:03
+Right. And, um…
+
+[Abhishek Pandey] 19:45:06
+I really want to be a part of this particular thing, right, where we are exploring, you know,
+
+[Abhishek Pandey] 19:45:10
+how we can utilize
+
+[Abhishek Pandey] 19:45:14
+these third-party agents in the best way, right? The power, right?
+
+[Abhishek Pandey] 19:45:17
+What all do we need to connect, and what is it that we need to finally come up with?
+
+[Abhishek Pandey] 19:45:23
+Uh, do you already have some sort of insight into… around the… at least the Microsoft
+
+[Abhishek Pandey] 19:45:28
+SRE agent, or that exploration needs to happen.
+
+[Glenn Thomas] 19:45:33
+that exploration needs to happen as well.
+
+[Abhishek Pandey] 19:45:34
+Got it, okay, okay.
+
+[Glenn Thomas] 19:45:35
+We haven't really explored how well
+
+[Glenn Thomas] 19:45:40
+uh… and they should… I mean, because…
+
+[Glenn Thomas] 19:45:43
+Microsoft purchased GitHub, right? But…
+
+[Abhishek Pandey] 19:45:44
+Yeah.
+
+[Glenn Thomas] 19:45:46
+they should work really well together, you would think.
+
+[Abhishek Pandey] 19:45:48
+For sure, yeah.
+
+[Glenn Thomas] 19:45:48
+But we don't… we never tried.
+
+[Glenn Thomas] 19:45:51
+Uh, to see, can the SRE agent…
+
+[Glenn Thomas] 19:45:54
+Uh, does the SRE agent have enough rights and permissions and capability?
+
+[Abhishek Pandey] 19:46:00
+Yeah.
+
+[Glenn Thomas] 19:46:00
+to be able to read from
+
+[Glenn Thomas] 19:46:02
+GitHub issues.
+
+[Glenn Thomas] 19:46:04
+And is that the right choice?
+
+[Glenn Thomas] 19:46:08
+for the majority of our customers.
+
+[Abhishek Pandey] 19:46:12
+Right.
+
+[Glenn Thomas] 19:46:13
+Or is there some other thing that's easier for, uh…
+
+[Glenn Thomas] 19:46:18
+uh… get a Copilot, or…
+
+[Glenn Thomas] 19:46:20
+for SRE agent to read from.
+
+[Glenn Thomas] 19:46:23
+It would be more natural for that, for that environment.
+
+[Glenn Thomas] 19:46:26
+We also don't want to have too many records, right? We don't want to create something in GitHub issues and then create something in another system, and then create something in another system.
+
+[Abhishek Pandey] 19:46:27
+Great.
+
+[Abhishek Pandey] 19:46:34
+Yeah.
+
+[Glenn Thomas] 19:46:35
+So, alright, if you have 5 different things,
+
+[Glenn Thomas] 19:46:37
+And that's… that… that becomes a problem. It's better to have one location,
+
+[Abhishek Pandey] 19:46:42
+Yeah, one central location.
+
+[Glenn Thomas] 19:46:44
+But we still need to figure out, is that…
+
+[Glenn Thomas] 19:46:48
+is that doable?
+
+[Abhishek Pandey] 19:46:49
+Right. Yep, yep.
+
+[Glenn Thomas] 19:46:50
+Right?
+
+[Glenn Thomas] 19:46:52
+I think that's where we're at.
+
+[Abhishek Pandey] 19:46:55
+Got it, yeah, makes a lot of sense.
+
+[Abhishek Pandey] 19:46:57
+Uh, and has there been any process till now around the partner integration?
+
+[Abhishek Pandey] 19:47:02
+Like, how does the product team carries it out, or…
+
+[Abhishek Pandey] 19:47:04
+there hasn't been any process laid out around it till now.
+
+[Glenn Thomas] 19:47:09
+So that's a great question.
+
+[Glenn Thomas] 19:47:12
+A little history.
+
+[Abhishek Pandey] 19:47:14
+Yep.
+
+[Glenn Thomas] 19:47:15
+is that, uh…
+
+[Glenn Thomas] 19:47:19
+Our product teams, uh, as you probably well know,
+
+[Glenn Thomas] 19:47:24
+Um, have a process for laying out for the company
+
+[Glenn Thomas] 19:47:29
+the set of things that they're gonna do.
+
+[Glenn Thomas] 19:47:31
+And they do this…
+
+[Abhishek Pandey] 19:47:31
+Mm-hmm.
+
+[Glenn Thomas] 19:47:34
+fairly in advance, at least a quarter in advance.
+
+[Glenn Thomas] 19:47:38
+usually a year in advance, or at least 3 quarters in advance.
+
+[Glenn Thomas] 19:47:42
+Right? Here are the things we're going to do, here's the quarter that we're going to do them in.
+
+[Abhishek Pandey] 19:47:47
+Yeah.
+
+[Glenn Thomas] 19:47:48
+And then they're held to those, right?
+
+[Glenn Thomas] 19:47:50
+for performance purposes,
+
+[Abhishek Pandey] 19:47:51
+Right.
+
+[Glenn Thomas] 19:47:53
+They're held to those, uh, and if they don't make those, then they're, you know,
+
+[Glenn Thomas] 19:47:58
+There are consequences.
+
+[Abhishek Pandey] 19:47:59
+Mm-hmm.
+
+[Glenn Thomas] 19:47:59
+So everyone's motivated to…
+
+[Glenn Thomas] 19:48:02
+pull off that schedule that they've…
+
+[Glenn Thomas] 19:48:05
+carved out for themselves that they've defined.
+
+[Glenn Thomas] 19:48:07
+certainly there's flexibility to change it, but usually that…
+
+[Glenn Thomas] 19:48:11
+change has to come from above.
+
+[Glenn Thomas] 19:48:13
+It usually doesn't come from within.
+
+[Abhishek Pandey] 19:48:13
+Yeah.
+
+[Glenn Thomas] 19:48:17
+Because that, when you come from within, then that… that invites scrutiny.
+
+[Glenn Thomas] 19:48:21
+And, uh, oftentimes, uh,
+
+[Glenn Thomas] 19:48:26
+punishment.
+
+[Glenn Thomas] 19:48:29
+Right? So…
+
+[Abhishek Pandey] 19:48:30
+Yep.
+
+[Glenn Thomas] 19:48:32
+With that in mind,
+
+[Glenn Thomas] 19:48:33
+Imagine, uh, AWS comes up with something new,
+
+[Glenn Thomas] 19:48:37
+It's kind of a Skunk Works project.
+
+[Glenn Thomas] 19:48:39
+They haven't said a whole lot to the world about it, because…
+
+[Glenn Thomas] 19:48:43
+they're secretive that way, and that's… that's…
+
+[Glenn Thomas] 19:48:45
+you know, one of the things that we look forward to every year at reInvent, what's… what's gonna be new now, right?
+
+[Abhishek Pandey] 19:48:50
+Yeah.
+
+[Glenn Thomas] 19:48:51
+So, a few weeks, maybe a month… maybe a month or two before re-invent,
+
+[Glenn Thomas] 19:48:58
+Which is middle of the year. Uh, they come out to their partners and say, hey, we've got this great opportunity, if you can do this in the next 3 weeks.
+
+[Glenn Thomas] 19:49:06
+you got stage with us and be a recognized partner.
+
+[Abhishek Pandey] 19:49:08
+Yeah. Mm-hmm.
+
+[Glenn Thomas] 19:49:11
+What does that do to our product teams? It makes them pull their hair out, right? There's like, what… what are you… are you on drugs? There's no way!
+
+[Abhishek Pandey] 19:49:18
+Yeah.
+
+[Glenn Thomas] 19:49:18
+I can't hit that date, and even if I could hit that date, I wouldn't…
+
+[Glenn Thomas] 19:49:23
+sacrifice all my existing schedule
+
+[Abhishek Pandey] 19:49:26
+Yeah.
+
+[Glenn Thomas] 19:49:26
+to hit Crazy Date.
+
+[Glenn Thomas] 19:49:27
+We don't work that way. We can do that in two quarters.
+
+[Abhishek Pandey] 19:49:29
+Right.
+
+[Abhishek Pandey] 19:49:33
+Right.
+
+[Glenn Thomas] 19:49:33
+What does AWS say?
+
+[Glenn Thomas] 19:49:37
+Okay, no skin off our nose, we'll go talk to your competitors, and they'll all… they'll all be there.
+
+[Abhishek Pandey] 19:49:42
+Yeah, too many people out there, right?
+
+[Abhishek Pandey] 19:49:45
+Okay.
+
+[Glenn Thomas] 19:49:45
+So, it doesn't work to our favor to say we can't do it.
+
+[Glenn Thomas] 19:49:49
+it works to our detriment.
+
+[Abhishek Pandey] 19:49:51
+Right.
+
+[Glenn Thomas] 19:49:52
+That's because of the nature of our engineering organization, and I think it's a common problem across the industry, unless you have a team
+
+[Glenn Thomas] 19:50:02
+that doesn't have that constraint,
+
+[Glenn Thomas] 19:50:04
+that is able to pivot very quickly.
+
+[Glenn Thomas] 19:50:08
+that's able to do skunkworks-type, uh, POC-type,
+
+[Glenn Thomas] 19:50:13
+experimental-type projects, and if they fail, they're not… they're not…
+
+[Glenn Thomas] 19:50:18
+punished for it.
+
+[Abhishek Pandey] 19:50:19
+Yeah.
+
+[Glenn Thomas] 19:50:20
+In fact, they're celebrated for it, because you just…
+
+[Glenn Thomas] 19:50:24
+You just helped us dodge a bullet.
+
+[Abhishek Pandey] 19:50:26
+Right.
+
+[Glenn Thomas] 19:50:27
+We… that could have been us, you know, taking… taking the bullet there. Thank you for taking that for us.
+
+[Glenn Thomas] 19:50:33
+That's our team, right?
+
+[Abhishek Pandey] 19:50:35
+Yep.
+
+[Glenn Thomas] 19:50:35
+Our team's design is…
+
+[Glenn Thomas] 19:50:38
+be responsive.
+
+[Glenn Thomas] 19:50:40
+pivot on a dime,
+
+[Glenn Thomas] 19:50:42
+figure out what… what is… what is strategic and what is not, and then sell that strategic vision to upper management.
+
+[Glenn Thomas] 19:50:51
+So that they can reprioritize.
+
+[Abhishek Pandey] 19:50:53
+Right. Right.
+
+[Glenn Thomas] 19:50:53
+Without penalty. So then, product doesn't get dinged, they just get told.
+
+[Abhishek Pandey] 19:51:00
+Yep.
+
+[Glenn Thomas] 19:51:00
+And they're okay with that, mostly.
+
+[Glenn Thomas] 19:51:05
+as long as it comes from the top. If it comes…
+
+[Glenn Thomas] 19:51:08
+parallel, right? If I come to you and say,
+
+[Glenn Thomas] 19:51:11
+hey, can you do this? What's your natural response gonna be?
+
+[Abhishek Pandey] 19:51:14
+Yeah, it'll push back.
+
+[Glenn Thomas] 19:51:16
+I've got things to do!
+
+[Abhishek Pandey] 19:51:17
+Yeah.
+
+[Glenn Thomas] 19:51:18
+I'm not… I'm not idle.
+
+[Abhishek Pandey] 19:51:20
+Yeah.
+
+[Glenn Thomas] 19:51:21
+I have a little bit of capacity. I'll look into it.
+
+[Glenn Thomas] 19:51:25
+I like to be a good… a good corporate citizen, a good player. I'll… I'll see what I can do to shuffle some things and put it into my thing, and exceed expectations. But don't get your hopes up, because I'm already very, very booked, very busy.
+
+[Abhishek Pandey] 19:51:25
+Yeah.
+
+[Abhishek Pandey] 19:51:35
+Yeah.
+
+[Abhishek Pandey] 19:51:40
+Great.
+
+[Glenn Thomas] 19:51:42
+Am I… am I striking into truth here?
+
+[Abhishek Pandey] 19:51:43
+Yeah, yeah, you are.
+
+[Glenn Thomas] 19:51:44
+Okay.
+
+[Glenn Thomas] 19:51:49
+So, this is the kind of the history behind, uh, how we work together. Uh, we take bullets.
+
+[Glenn Thomas] 19:51:55
+And, uh, we get praised because we saved the company from…
+
+[Glenn Thomas] 19:52:01
+uh… bad things, and we identify good things, and we get them
+
+[Glenn Thomas] 19:52:06
+proven enough
+
+[Glenn Thomas] 19:52:08
+in our POCs, our demos.
+
+[Abhishek Pandey] 19:52:11
+Yeah.
+
+[Glenn Thomas] 19:52:11
+So that, uh, product then can look at it and say, okay, I can see about how much this will take, how much it will cost.
+
+[Abhishek Pandey] 19:52:20
+Yeah.
+
+[Glenn Thomas] 19:52:20
+And upper management's gonna decide whether or not I do that.
+
+[Abhishek Pandey] 19:52:25
+Right.
+
+[Glenn Thomas] 19:52:25
+I have a go-ahead? Great, we'll do it.
+
+[Abhishek Pandey] 19:52:29
+Sure. Cool.
+
+[Abhishek Pandey] 19:52:32
+Makes sense.
+
+[Abhishek Pandey] 19:52:34
+Got it.
+
+[Abhishek Pandey] 19:52:36
+Cool.
+
+[Glenn Thomas] 19:52:37
+It makes your job…
+
+[Glenn Thomas] 19:52:39
+a little challenging.
+
+[Abhishek Pandey] 19:52:40
+Yeah.
+
+[Glenn Thomas] 19:52:42
+Because you have… you have…
+
+[Glenn Thomas] 19:52:45
+two fronts now, not just one. Most have one front, which is…
+
+[Abhishek Pandey] 19:52:47
+Right.
+
+[Glenn Thomas] 19:52:50
+Uh, as a product manager, uh, what should I be working on? What should I… what should our…
+
+[Glenn Thomas] 19:52:57
+what's our group be producing?
+
+[Glenn Thomas] 19:53:00
+And, uh…
+
+[Glenn Thomas] 19:53:04
+schedule it out and, you know, keep people busy working towards those…
+
+[Glenn Thomas] 19:53:09
+approved goals.
+
+[Abhishek Pandey] 19:53:11
+Right.
+
+[Glenn Thomas] 19:53:11
+But you also have this element of, uh, sneak attack by the… by the, uh…
+
+[Glenn Thomas] 19:53:18
+partners of things they want to slip in that they throw in last minute.
+
+[Abhishek Pandey] 19:53:23
+Sure, yeah.
+
+[Glenn Thomas] 19:53:25
+Um, and so you… you have to look at both.
+
+[Abhishek Pandey] 19:53:29
+Yeah.
+
+[Glenn Thomas] 19:53:30
+But you won't have resources to do both. You'll only have resources to do the one.
+
+[Abhishek Pandey] 19:53:35
+Correct.
+
+[Glenn Thomas] 19:53:36
+And we'll… we will be your resources.
+
+[Glenn Thomas] 19:53:39
+Uh, to at least
+
+[Glenn Thomas] 19:53:41
+prove out whether or not it's a valuable exercise to move forward on the ladder.
+
+[Abhishek Pandey] 19:53:46
+Right, yeah, yeah, that makes sense.
+
+[Abhishek Pandey] 19:53:50
+Got it.
+
+[Abhishek Pandey] 19:53:53
+Cool. So, I understand it, like…
+
+[Abhishek Pandey] 19:53:55
+It won't be a fixed thing, there will be some new things coming over.
+
+[Abhishek Pandey] 19:54:01
+As the events keep coming in, right?
+
+[Abhishek Pandey] 19:54:03
+And we have to have some sort of flexibility around it.
+
+[Abhishek Pandey] 19:54:07
+And that is what I'm trying to understand as well, if…
+
+[Abhishek Pandey] 19:54:09
+If there is some sort of a process, some bandwidth gap that I can keep,
+
+[Abhishek Pandey] 19:54:14
+Uh, you know, for these kind of things specifically.
+
+[Abhishek Pandey] 19:54:19
+and make not all of these things work, maybe, but some of these things work, right?
+
+[Abhishek Pandey] 19:54:24
+But that's okay, that can be figured out.
+
+[Abhishek Pandey] 19:54:27
+How do we, uh, yeah.
+
+[Glenn Thomas] 19:54:28
+Let me… let me… let me ask you this.
+
+[Abhishek Pandey] 19:54:30
+Sure.
+
+[Glenn Thomas] 19:54:31
+Is your mandate, uh, agentic?
+
+[Abhishek Pandey] 19:54:35
+Yeah, great.
+
+[Glenn Thomas] 19:54:38
+Is it only agentic?
+
+[Abhishek Pandey] 19:54:40
+Agentic integrations for right now. I'm trying to make it agentic.
+
+[Abhishek Pandey] 19:54:45
+So, agentic could be I building an in-house database agent.
+
+[Abhishek Pandey] 19:54:50
+Or something like that as well. So I don't want it to be restricted to integrations only.
+
+[Abhishek Pandey] 19:54:54
+I'm trying for that. But right now, it's agentic integrations for me, specifically.
+
+[Abhishek Pandey] 19:55:00
+That's it.
+
+[Glenn Thomas] 19:55:00
+So, here's our challenge.
+
+[Abhishek Pandey] 19:55:03
+Yeah.
+
+[Glenn Thomas] 19:55:04
+We're not limited to agentic.
+
+[Abhishek Pandey] 19:55:06
+Yeah, I've seen it.
+
+[Glenn Thomas] 19:55:06
+That's the hot… that's the hot thing right now.
+
+[Abhishek Pandey] 19:55:09
+Right.
+
+[Glenn Thomas] 19:55:10
+We're… we're partner-focused.
+
+[Abhishek Pandey] 19:55:12
+Great.
+
+[Glenn Thomas] 19:55:13
+So all of our conversations with the partnership
+
+[Glenn Thomas] 19:55:17
+And we have them very regularly.
+
+[Glenn Thomas] 19:55:20
+Um…
+
+[Glenn Thomas] 19:55:21
+focus on whatever, uh, things we've got going, one of which is agentic.
+
+[Glenn Thomas] 19:55:29
+Um…
+
+[Glenn Thomas] 19:55:31
+So, you will not be, it sounds like, you will be the…
+
+[Abhishek Pandey] 19:55:33
+Correct.
+
+[Glenn Thomas] 19:55:37
+product person we go through for Agentic-type
+
+[Abhishek Pandey] 19:55:39
+Agentic integrations, correct.
+
+[Glenn Thomas] 19:55:41
+integrations, and there will be other, uh, uh…
+
+[Glenn Thomas] 19:55:46
+New Relic product people.
+
+[Abhishek Pandey] 19:55:48
+Right.
+
+[Glenn Thomas] 19:55:48
+That we'll work with for various other things that we're asked about.
+
+[Abhishek Pandey] 19:55:52
+Correct. That's… that's right, yeah.
+
+[Glenn Thomas] 19:55:53
+Okay, alright. Good.
+
+[Glenn Thomas] 19:55:57
+But… but my understanding is…
+
+[Abhishek Pandey] 19:55:58
+Yeah.
+
+[Abhishek Pandey] 19:56:00
+Mm-hmm.
+
+[Glenn Thomas] 19:56:01
+Correct me if I'm wrong, but my understanding is that the…
+
+[Glenn Thomas] 19:56:05
+the team that, um…
+
+[Glenn Thomas] 19:56:08
+CWB is putting together.
+
+[Abhishek Pandey] 19:56:10
+Yeah, it's for the agentic integration specifically, from what I can understand.
+
+[Glenn Thomas] 19:56:15
+Is it?
+
+[Abhishek Pandey] 19:56:16
+Yeah, that's what I know, I might be wrong.
+
+[Glenn Thomas] 19:56:19
+Okay. My understanding was that it would be…
+
+[Abhishek Pandey] 19:56:20
+Yeah.
+
+[Glenn Thomas] 19:56:24
+Uh, anything…
+
+[Abhishek Pandey] 19:56:27
+Partner integration.
+
+[Glenn Thomas] 19:56:29
+partner-related.
+
+[Abhishek Pandey] 19:56:30
+Okay.
+
+[Glenn Thomas] 19:56:31
+So it… so whereas we do demos and POCs…
+
+[Glenn Thomas] 19:56:36
+This would be a team that takes approved demos and POCs.
+
+[Abhishek Pandey] 19:56:42
+Mm-hmm.
+
+[Glenn Thomas] 19:56:43
+do limited preview, Public Preview, and production.
+
+[Abhishek Pandey] 19:56:46
+Got it. I'll…
+
+[Glenn Thomas] 19:56:47
+It would be the final delivery arm
+
+[Glenn Thomas] 19:56:51
+for anything coming from partners.
+
+[Abhishek Pandey] 19:56:53
+Got it. I'll talk to more about it, Camden, and confirm it from him.
+
+[Abhishek Pandey] 19:56:58
+Maybe, yeah.
+
+[Glenn Thomas] 19:57:00
+Camden might not know, because Camden is focused also on AI, right?
+
+[Abhishek Pandey] 19:57:04
+Right. He has asked me to talk to Shiva B as well.
+
+[Glenn Thomas] 19:57:05
+I think we need to have the car…
+
+[Glenn Thomas] 19:57:07
+Yeah, I think we need to have the conversation with CB to make sure we understand his vision for the team. If it's just agentic,
+
+[Abhishek Pandey] 19:57:08
+about it. Great.
+
+[Abhishek Pandey] 19:57:12
+Got it. Yeah.
+
+[Glenn Thomas] 19:57:14
+then part of our problem solved, part of our problem's not solved.
+
+[Abhishek Pandey] 19:57:17
+Right, agreed.
+
+[Abhishek Pandey] 19:57:20
+Makes sense. I'll get that answer from Siva B.
+
+[Abhishek Pandey] 19:57:25
+Maybe I'll try to set up a quick call. Uh, I can have you as well in that call.
+
+[Abhishek Pandey] 19:57:30
+And we can discuss it with him, yeah.
+
+[Glenn Thomas] 19:57:30
+Okay, that would be great.
+
+[Abhishek Pandey] 19:57:32
+Sure.
+
+[Glenn Thomas] 19:57:33
+include Anoush as well.
+
+[Abhishek Pandey] 19:57:35
+Anoush, yeah, yeah, sure.
+
+[Abhishek Pandey] 19:57:36
+Perfect, we'll do that. And Glenn, just one more thing. So, on the thinking part, right?
+
+[Glenn Thomas] 19:57:37
+Yep.
+
+[Abhishek Pandey] 19:57:42
+Uh… how do you guys wanna go about it, right? Uh…
+
+[Abhishek Pandey] 19:57:46
+Where we probably think through it, what all different integrations…
+
+[Abhishek Pandey] 19:57:51
+As we discussed in the very beginning, right? Uh…
+
+[Abhishek Pandey] 19:57:54
+Azure Agent interacting with GitHub as well?
+
+[Abhishek Pandey] 19:57:57
+Maybe Jira as well, and all those sort of things.
+
+[Glenn Thomas] 19:57:58
+So, I'm gonna, I'm gonna, I'm gonna let you in on a secret.
+
+[Abhishek Pandey] 19:57:59
+Yeah.
+
+[Abhishek Pandey] 19:58:03
+Sure.
+
+[Glenn Thomas] 19:58:05
+Um, it's not really a secret, but I don't know that it's widely known either.
+
+[Abhishek Pandey] 19:58:09
+Okay.
+
+[Glenn Thomas] 19:58:09
+And that is that, uh, our management
+
+[Abhishek Pandey] 19:58:13
+Mm-hmm.
+
+[Glenn Thomas] 19:58:14
+Specifically, uh, Julie.
+
+[Abhishek Pandey] 19:58:16
+Okay.
+
+[Glenn Thomas] 19:58:16
+And, to some degree, Anoush as well.
+
+[Glenn Thomas] 19:58:20
+They're both fairly new to the company.
+
+[Glenn Thomas] 19:58:24
+And it's their opinion that, uh…
+
+[Glenn Thomas] 19:58:28
+Partners should not drive…
+
+[Glenn Thomas] 19:58:32
+the priorities.
+
+[Abhishek Pandey] 19:58:34
+Got it.
+
+[Glenn Thomas] 19:58:36
+product should drive.
+
+[Abhishek Pandey] 19:58:38
+should drive it.
+
+[Glenn Thomas] 19:58:39
+The priorities.
+
+[Abhishek Pandey] 19:58:40
+Yeah, that's what I've been hearing from Anusha as well, hey…
+
+[Abhishek Pandey] 19:58:44
+We want to understand what your priority is,
+
+[Abhishek Pandey] 19:58:47
+And probably, you know, merge our roadmap.
+
+[Abhishek Pandey] 19:58:50
+to… according to your priorities and all those things.
+
+[Glenn Thomas] 19:58:51
+Right, right. You're hearing the same and seeing the same thing.
+
+[Abhishek Pandey] 19:58:52
+Yeah.
+
+[Glenn Thomas] 19:58:55
+So, I think…
+
+[Abhishek Pandey] 19:58:56
+Yeah.
+
+[Glenn Thomas] 19:59:02
+to work together,
+
+[Abhishek Pandey] 19:59:03
+Yeah.
+
+[Glenn Thomas] 19:59:04
+It may mean that we…
+
+[Glenn Thomas] 19:59:08
+float ideas to you.
+
+[Abhishek Pandey] 19:59:09
+Right.
+
+[Glenn Thomas] 19:59:11
+And you send them back as…
+
+[Glenn Thomas] 19:59:15
+projects.
+
+[Abhishek Pandey] 19:59:16
+Yeah, exactly. See, uh, you guys are close… closer to the…
+
+[Abhishek Pandey] 19:59:20
+Folks, right? You understand
+
+[Abhishek Pandey] 19:59:23
+it a bit more deeply than I do, at least right now, right?
+
+[Abhishek Pandey] 19:59:27
+So, that would help a lot. Some ideas coming from your way, right?
+
+[Abhishek Pandey] 19:59:31
+And then…
+
+[Abhishek Pandey] 19:59:34
+me suggesting it as projects or whatever, whichever makes sense. So that would help a lot.
+
+[Glenn Thomas] 19:59:41
+And I think… I think…
+
+[Abhishek Pandey] 19:59:41
+Yeah.
+
+[Glenn Thomas] 19:59:43
+It goes both ways, right?
+
+[Abhishek Pandey] 19:59:45
+Yeah, yeah, of course. For sure.
+
+[Glenn Thomas] 19:59:46
+The only things that we discover, and that will float to you and ideate with you.
+
+[Abhishek Pandey] 19:59:51
+Yeah. Right.
+
+[Glenn Thomas] 19:59:52
+And then the things that you discover, and you'll ask us about them and say, do you know anything about this? And is this a great idea? And we'll float them both ways. I think…
+
+[Abhishek Pandey] 19:59:57
+Perfect.
+
+[Abhishek Pandey] 20:00:01
+Yeah.
+
+[Glenn Thomas] 20:00:02
+I think us doing that at our level,
+
+[Glenn Thomas] 20:00:07
+uh… actually makes a lot of sense.
+
+[Abhishek Pandey] 20:00:09
+Yeah.
+
+[Glenn Thomas] 20:00:09
+And it's a lot more collaborative?
+
+[Glenn Thomas] 20:00:11
+But that's not the sense that I'm getting from management. They… they want…
+
+[Glenn Thomas] 20:00:16
+product to dictate to us what you want us…
+
+[Glenn Thomas] 20:00:19
+to do, and then we'll… and then we'll do it, and I think that's short-sighted. I think it needs…
+
+[Abhishek Pandey] 20:00:20
+But…
+
+[Abhishek Pandey] 20:00:24
+Yeah, that's… that's not how it should work.
+
+[Glenn Thomas] 20:00:26
+Right? It needs to go both ways.
+
+[Abhishek Pandey] 20:00:27
+Yeah. Of course.
+
+[Abhishek Pandey] 20:00:29
+totally aligned with you on that.
+
+[Glenn Thomas] 20:00:31
+Okay.
+
+[Abhishek Pandey] 20:00:32
+Perfect, yeah. And we'll set up that between us. Uh…
+
+[Abhishek Pandey] 20:00:37
+Maybe between Muthu, you, and myself.
+
+[Abhishek Pandey] 20:00:40
+Because that pretty much covers everything in partnership, right?
+
+[Glenn Thomas] 20:00:45
+Well, and possibly Joseph and Venked as well, but I think they're more specialized. I think the, uh, starting with the two of us,
+
+[Abhishek Pandey] 20:00:48
+Okay.
+
+[Abhishek Pandey] 20:00:56
+Yeah.
+
+[Glenn Thomas] 20:00:57
+would be ideal, and then we can expand it to others if necessary.
+
+[Abhishek Pandey] 20:01:00
+Perfect. Perfect, yeah.
+
+[Abhishek Pandey] 20:01:02
+Sounds like a plan, Glenn.
+
+[Glenn Thomas] 20:01:04
+I think we have a…
+
+[Abhishek Pandey] 20:01:05
+Oh yeah, we need to meet. Sure.
+
+[Abhishek Pandey] 20:01:07
+We'll talk soon, more on this.
+
+[Glenn Thomas] 20:01:08
+Yeah.
+

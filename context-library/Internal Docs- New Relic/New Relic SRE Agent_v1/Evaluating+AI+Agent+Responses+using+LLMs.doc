@@ -1,0 +1,1227 @@
+Date: Thu, 19 Mar 2026 16:16:06 +0000 (UTC)
+Message-ID: <1196790694.99.1773936966804@ec014e1b892f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_98_1016354346.1773936966803"
+
+------=_Part_98_1016354346.1773936966803
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Evaluating AI Agent Responses using LLMs</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Evaluating AI Agent Responses using LLMs</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"EvaluatingAIAgentResponsesusingLLMs-SREAgentChangeDesignD=
+ocument"><em>SRE Agent </em>Change Design Document</h1>
+<hr>
+<div class=3D"plugin-tabmeta-details">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c5b78610-b9b8-427a-a64b-43a=
+60eabf8ec" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 363.0px;">
+<col style=3D"width: 363.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Status</strong></p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-complete">IN REVIEW</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Date</strong></p></td>
+<td class=3D"confluenceTd">
+<p>08/28/2025</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Effort to reverse</strong></p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-current">MEDIUM</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Impact</strong></p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-current">MEDIUM</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Risk Level</strong></p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-success">LOW</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Jira Link to the CDD and SLCRev</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p>
+<table class=3D"confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">Type</th>
+<th class=3D"confluenceTh">Key</th>
+<th class=3D"confluenceTh">Summary</th>
+<th class=3D"confluenceTh">Assignee</th>
+<th class=3D"confluenceTh">Priority</th>
+<th class=3D"confluenceTh">Status</th>
+<th class=3D"confluenceTh">Updated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><img src=3D"https://new-relic.atlassian.net/rest=
+/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=3Dmedium" alt=
+=3D"Story"></td>
+<td class=3D"confluenceTd"><a href=3D"https://new-relic.atlassian.net/brows=
+e/NR-456700">NR-456700</a></td>
+<td class=3D"confluenceTd">Develop a CDD for evaluation framework</td>
+<td class=3D"confluenceTd">Dinesh Papineni</td>
+<td class=3D"confluenceTd">P3 - Medium</td>
+<td class=3D"confluenceTd">Closed</td>
+<td class=3D"confluenceTd">11 Sep 2025, 16:27</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><img src=3D"https://new-relic.atlassian.net/rest=
+/api/2/universal_avatar/view/type/issuetype/avatar/10322?size=3Dmedium" alt=
+=3D"Epic"></td>
+<td class=3D"confluenceTd"><a href=3D"https://new-relic.atlassian.net/brows=
+e/NR-432744">NR-432744</a></td>
+<td class=3D"confluenceTd">Evaluation Framework</td>
+<td class=3D"confluenceTd">Akhilesh Chander Myakala</td>
+<td class=3D"confluenceTd">P2 - High</td>
+<td class=3D"confluenceTd">In Progress</td>
+<td class=3D"confluenceTd">11 Dec 2025, 09:27</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Team (e.x. AIOps)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://team-store.datanerd.one/teams=
+?teamId=3D1218" rel=3D"nofollow">AEON</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Driver</strong></p></td>
+<td class=3D"confluenceTd">
+<p>This should be a member of the team for smaller tasks.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Designer</strong></p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;<a class=3D"confluence-userlink user-mention" data-account-id=3D"6=
+2914b181c97b5006f0d9b98" href=3D"https://newrelic.atlassian.net/wiki/people=
+/62914b181c97b5006f0d9b98?ref=3Dconfluence" target=3D"_blank" data-linked-r=
+esource-id=3D"2519138360" data-linked-resource-version=3D"1" data-linked-re=
+source-type=3D"userinfo" data-base-url=3D"https://newrelic.atlassian.net/wi=
+ki">Dinesh Papineni</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Product Manager</strong></p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Repos (Code repositories of the Team systems in scope for this t=
+hreat model)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" href=3D"https://source.datanerd.us/mind/agent=
+ic-platform" rel=3D"nofollow">https://source.datanerd.us/mind/agentic-platf=
+orm</a></p>
+<p><a class=3D"external-link" href=3D"https://source.datanerd.us/Alerting/s=
+re-agent-mcp-server" rel=3D"nofollow">https://source.datanerd.us/Alerting/s=
+re-agent-mcp-server</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3rd Parties (Org external systems (i.e. not managed by Org), rel=
+evant to this threat model, whether in-scope or not)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://github.com/confident-ai/deepeval" rel=3D"nofollow">https://github.com/co=
+nfident-ai/deepeval</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Reviewers and dates reviewed </strong></p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"61ae5c9=
+b3618cd006f3577d6" href=3D"https://newrelic.atlassian.net/wiki/people/61ae5=
+c9b3618cd006f3577d6?ref=3Dconfluence" target=3D"_blank" data-linked-resourc=
+e-id=3D"2359690055" data-linked-resource-version=3D"1" data-linked-resource=
+-type=3D"userinfo" data-base-url=3D"https://newrelic.atlassian.net/wiki">Al=
+ex Elia</a> <a class=3D"confluence-userlink user-mention" data-account-id=
+=3D"5f3394cbfdc3f5003f6bdd0d" href=3D"https://newrelic.atlassian.net/wiki/p=
+eople/5f3394cbfdc3f5003f6bdd0d?ref=3Dconfluence" target=3D"_blank" data-lin=
+ked-resource-id=3D"1196326986" data-linked-resource-version=3D"1" data-link=
+ed-resource-type=3D"userinfo" data-base-url=3D"https://newrelic.atlassian.n=
+et/wiki">Hiranmayi Duvvuri</a> <a class=3D"confluence-userlink user-mention=
+" data-account-id=3D"62a8cdd7d0132d006880423b" href=3D"https://newrelic.atl=
+assian.net/wiki/people/62a8cdd7d0132d006880423b?ref=3Dconfluence" target=3D=
+"_blank" data-linked-resource-id=3D"2523332615" data-linked-resource-versio=
+n=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://new=
+relic.atlassian.net/wiki">Younghwan Jang</a> <a class=3D"confluence-userlin=
+k user-mention" data-account-id=3D"6226495594f7e2006900ab82" href=3D"https:=
+//newrelic.atlassian.net/wiki/people/6226495594f7e2006900ab82?ref=3Dconflue=
+nce" target=3D"_blank" data-linked-resource-id=3D"2421915717" data-linked-r=
+esource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=
+=3D"https://newrelic.atlassian.net/wiki">Caleb Ehlers</a> <a class=3D"confl=
+uence-userlink user-mention" data-account-id=3D"712020:4d9eec26-afb0-4ac2-8=
+aa0-565ff85169b9" href=3D"https://newrelic.atlassian.net/wiki/people/712020=
+:4d9eec26-afb0-4ac2-8aa0-565ff85169b9?ref=3Dconfluence" target=3D"_blank" d=
+ata-linked-resource-id=3D"3397191774" data-linked-resource-version=3D"1" da=
+ta-linked-resource-type=3D"userinfo" data-base-url=3D"https://newrelic.atla=
+ssian.net/wiki">Akhilesh Chander Myakala</a> <a class=3D"confluence-userlin=
+k user-mention" data-account-id=3D"712020:2783016d-571f-4107-b910-edbbc82b2=
+139" href=3D"https://newrelic.atlassian.net/wiki/people/712020:2783016d-571=
+f-4107-b910-edbbc82b2139?ref=3Dconfluence" target=3D"_blank" data-linked-re=
+source-id=3D"3857874957" data-linked-resource-version=3D"1" data-linked-res=
+ource-type=3D"userinfo" data-base-url=3D"https://newrelic.atlassian.net/wik=
+i">Vijay Ram Sevagapandian</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Final Approver</strong> (Tag the approver)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773936966342 {padding: 0px;}
+div.rbtoc1773936966342 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1773936966342 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1773936966342">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-SREAgentChangeDesignDoc=
+ument">SRE Agent Change Design Document</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-Context/ProblemStatemen=
+t">Context / Problem Statement</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-Design">Design</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-ArchitectureDiagram">Ar=
+chitecture Diagram</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-Proposed/LeadingSolutio=
+n">Proposed / Leading Solution</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-ImplementationDetails">=
+Implementation Details</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-DeepEvalFrameworkIntegr=
+ation">DeepEval Framework Integration</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-ScheduledTestEngine">Sc=
+heduled Test Engine</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-ObservabilityandMonitor=
+ingStrategy">Observability and Monitoring Strategy</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-Exampleevaluation">Exam=
+ple evaluation</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-OtherSolutionsConsidere=
+d">Other Solutions Considered</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-ArizeAIPhoenix">Arize A=
+I Phoenix</a></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-RAGAsFramework">RAGAs F=
+ramework</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-CostofGoodsSold(COGS)">=
+Cost of Goods Sold (COGS)</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-OperationalCosts:">Oper=
+ational Costs:</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#EvaluatingAIAgentResponsesusingLLMs-Decision">Decision</a><=
+/li>
+</ul></li>
+</ul>
+</div>
+<h2 id=3D"EvaluatingAIAgentResponsesusingLLMs-Context/ProblemStatement">Con=
+text / Problem Statement</h2>
+<p>Our agentic platform serves as a foundation for building various AI agen=
+ts. This platform handles requests, plans and orchestrates the agent and to=
+ol selection along with execution. Currently multiple AI agents like SRE ag=
+ent, Critic agent and Security agent are built on this platform that serves=
+ different use cases and domains.</p>
+<p>The platform enables agent orchestration and integration but lacks compr=
+ehensive evaluation tools to assess the quality and effectiveness of the ag=
+ent responses. We have resorted to manual evaluation to fill this gap. This=
+ has resulted in quite a few challenges.<br><br><strong>Scalability concern=
+s</strong> - Manual evaluations are tedious and resource intensive. This ap=
+proach do not scale with increasing number of agents and use cases to solve=
+. It also resulted in inconsistent evaluations based on who performed the e=
+valuation.</p>
+<p><strong>Lack of standardized evaluation methodology</strong> - There are=
+ no consistent research backed methodologies or frameworks to assess the qu=
+ality of the agent response. This would mean that different agents may have=
+ varying response quality standards without common measurement unit.</p>
+<p><strong>No historical performance data </strong>- Manual evaluations doe=
+s not have numeric measure of quality thus making it impossible to analyze =
+the response quality patterns over time.</p>
+<h2 id=3D"EvaluatingAIAgentResponsesusingLLMs-Design">Design</h2>
+<p>Implement an automated evaluation system using <a class=3D"external-link=
+" href=3D"https://github.com/confident-ai/deepeval" rel=3D"nofollow">DeepEv=
+al</a> that uses LLM as a Judge technique to asses the agent response quali=
+ty against a predefined criteria for each scenario. This system will integr=
+ate with the agentic platform to provide batch evaluation capabilities. Thi=
+s approach will result in a consistent and scalable assessment of response =
+quality across all agents on the platform</p>
+<h3 id=3D"EvaluatingAIAgentResponsesusingLLMs-ArchitectureDiagram">Architec=
+ture Diagram</h3><span class=3D"confluence-embedded-file-wrapper image-cent=
+er-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embedd=
+ed-image image-center" alt=3D"AgenticEval Architecture.png" width=3D"468" l=
+oading=3D"lazy" src=3D"41c9ea20da41ab2d10b801f412bed9661631e6e93077fed632ca=
+98593012514e" data-image-src=3D"https://newrelic.atlassian.net/wiki/downloa=
+d/attachments/4591125302/AgenticEval%20Architecture.png?version=3D1&amp;mod=
+ificationDate=3D1756412848184&amp;cacheVersion=3D1&amp;api=3Dv2" data-heigh=
+t=3D"3659" data-width=3D"3840" data-unresolved-comment-count=3D"0" data-lin=
+ked-resource-id=3D"4592828425" data-linked-resource-version=3D"1" data-link=
+ed-resource-type=3D"attachment" data-linked-resource-default-alias=3D"Agent=
+icEval Architecture.png" data-base-url=3D"https://newrelic.atlassian.net/wi=
+ki" data-linked-resource-content-type=3D"image/png" data-linked-resource-co=
+ntainer-id=3D"4591125302" data-linked-resource-container-version=3D"12" dat=
+a-media-id=3D"316693df-fcb5-4d5c-9b8d-36cf5d269326" data-media-type=3D"file=
+" height=3D"446"></span>
+<p></p>
+<h3 id=3D"EvaluatingAIAgentResponsesusingLLMs-Proposed/LeadingSolution">Pro=
+posed / Leading Solution</h3>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-ImplementationDetails">Implem=
+entation Details</h4>
+<p>The proposed solution implements an evaluation engine that leverages Dee=
+pEval framework to assess agent response quality via scheduled evaluation r=
+uns. This approach transforms the current manual process into a repeatable =
+data driven system that helps provides insights into the quality of agents.=
+</p>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-DeepEvalFrameworkIntegration"=
+>DeepEval Framework Integration</h4>
+<p>The DeepEval serves as our underlying evaluation framework that orchestr=
+ates and plans the evaluation flow. The framework support several state of =
+the art metrics like G-Eval and RAG metrics( Answer Relevancy and Faithfuln=
+ess ) that are becoming a standard for evaluating AI agents quality. The fr=
+amework's G-Eval implementation uses LLM-as-a-judge methodology with chain-=
+of-thought reasoning, providing human-like evaluation accuracy.</p>
+<p>Integration with DeepEval allows for highly customizable evaluation crit=
+eria that suits each agent=E2=80=99s specific requirements. For instance SR=
+E agent might leverage DeepEval's <strong>G-Eval</strong> framework to defi=
+ne custom evaluation criteria that assess incident response quality, techni=
+cal accuracy of troubleshooting steps, and the actionability of recommended=
+ solutions. While Security agent might focus on threat analysis using metri=
+cs like <strong>Contextual Precision</strong> to verify that identified thr=
+eats are genuinely present and not false positives, while <strong>Contextua=
+l Recall</strong> ensures no critical security indicators are missed in the=
+ assessment</p>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-ScheduledTestEngine">Schedule=
+d Test Engine</h4>
+<p>The Scheduled Test Engine is a lightweight orchestration engine that aut=
+omates the execution of DeepEval tests for all the AI agents on the platfor=
+m. The test engine runs periodically ( every hour as of now) and executes a=
+ll the defined tests against the platform, evaluate the responses using Dee=
+pEval and posts the results to New Relic as custom events. It is a long run=
+ning background process that gracefully handles test execution failures and=
+ continues with next scheduled execution.</p>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-ObservabilityandMonitoringStr=
+ategy">Observability and Monitoring Strategy</h4>
+<p>Results from each evaluations cycle are processed and formatted as custo=
+m events for submission to New Relic. Each evaluation generate overall qual=
+ity scores, reasoning for the score and execution metadata. This allows us =
+to facet the metrics by different criteria to understand the the evaluation=
+ scores. Historical data accumulation in New Relic supports trend analysis =
+and helps identify gradual performance improvements or degradation. Teams c=
+an also leverage New Relic alerts to be notified when evaluation scores dro=
+p below the acceptable thresholds.</p>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-Exampleevaluation">Example ev=
+aluation</h4>
+<ul>
+<li>
+<p>In this case we evaluate SRE agent response based on correctness metric =
+( G-Eval )</p></li>
+<li>
+<p>We have chosen OpenAI as the LLM and config is passed as a pytest marker=
+.</p></li>
+<li>
+<p>Prompt - Input to the agent (either by user or by automation such as ale=
+rt destination)</p></li>
+<li>
+<p>actual_response - Actual response via execution of the deployed agent</p=
+></li>
+<li>
+<p>expected_response - A desirable response from the agent</p></li>
+<li>
+<p>correctness_metric - Instructions for DeepEval on how to evaluate the ac=
+tual response and the difference between actual and expected answers</p></l=
+i>
+<li>
+<p>Finally we capture the results and report them to New Relic as custom ev=
+ent<br></p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">    @py=
+test.mark.entity_lookup
+    @pytest.mark.openai
+    def test_entity_guid_lookup_alert_service(self, model_name, setup_agent=
+ic_client):
+        """Test SRE agent's ability to find Alert Service entity GUID"""
+        question =3D "What is the entity guid for Alert Service - Productio=
+n?"
+        test_name =3D "test_entity_guid_lookup_alert_service"
+        threshold =3D 0.7
+
+        actual_response =3D setup_agentic_client.call_agent("sre_agent", qu=
+estion)
+
+        expected_response =3D "Entity GUID for Alert Service - Production i=
+s: MTA5NDU4MTh8QVBNfEFQUExJQ0FUSU9OfDk4MTc2NDU4"
+
+        correctness_metric =3D create_correctness_metric(
+            criteria=3D"Does the response provide the correct entity GUID f=
+or Alert Service - Production?",
+            threshold=3Dthreshold,
+            model_name=3Dmodel_name
+        )
+
+        test_case =3D create_test_case(
+            input_query=3Dquestion,
+            actual_output=3Dactual_response,
+            expected_output=3Dexpected_response
+        )
+
+        results =3D evaluate([test_case], [correctness_metric])
+        metric_data =3D results.test_results[0].metrics_data[0]
+
+        event_data =3D {
+            "score": metric_data.score,
+            "reason": metric_data.reason,
+            "success": metric_data.success,
+            "metricName": metric_data.name,
+            "testName": test_name,
+            "inputQuery": question,
+            "expectedResponse": expected_response,
+            "actualResponse": actual_response,
+            "threshold": threshold,
+            "evalModel": model_name,
+            "timestamp": int(time.time() * 1000)
+        }
+
+        send_custom_event_to_new_relic("AgenticTestResult", event_data)
+</pre>
+</div>
+</div>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-OtherSolutionsConsidered">Oth=
+er Solutions Considered</h4>
+<h5 id=3D"EvaluatingAIAgentResponsesusingLLMs-ArizeAIPhoenix">Arize AI Phoe=
+nix</h5>
+<p>Arize AI evaluates LLM applications through extensive observability into=
+ LLM traces, but is extremely limited as it only offers three evaluation cr=
+iteria: QA Correctness, Hallucination, and Toxicity.</p>
+<p>Pros</p>
+<ul>
+<li>
+<p>Strong observability and tracing capabilities.</p></li>
+<li>
+<p>Good for debugging and understanding LLM application behavior.</p></li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>
+<p>Very limited evaluation metrics (only 3 criteria).</p></li>
+<li>
+<p>Insufficient coverage for comprehensive agent evaluation.</p></li>
+</ul>
+<h5 id=3D"EvaluatingAIAgentResponsesusingLLMs-RAGAsFramework">RAGAs Framewo=
+rk</h5>
+<p>RAGAs was built specifically for RAG pipelines, offering 5 core metrics:=
+ Faithfulness, Contextual Relevancy, Answer Relevancy, Contextual Recall, a=
+nd Contextual Precision that make up the final RAGAs score. This framework =
+focuses specifically on Retrieval Augmented Generation use cases.</p>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>
+<p>Purpose-built for RAG evaluation with proven metrics.</p></li>
+<li>
+<p>Incorporates latest research in RAG evaluation methodologies.</p></li>
+</ul>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li>
+<p>Limited to RAG specific evaluation, may not cover all agent types effect=
+ively.</p></li>
+<li>
+<p>Less suitable for non-RAG agent evaluation scenarios.</p></li>
+</ul>
+<h3 id=3D"EvaluatingAIAgentResponsesusingLLMs-CostofGoodsSold(COGS)">Cost o=
+f Goods Sold (COGS)</h3>
+<h4 id=3D"EvaluatingAIAgentResponsesusingLLMs-OperationalCosts:"><strong>Op=
+erational Costs</strong>:</h4>
+<p>Assuming 10 test scenarios per agent, running every hour using GPT 4.1 a=
+s the model</p>
+<ul>
+<li>
+<p>Average Cost for one LLM evaluation run: $0.015929 ( 1000 tokens * $0.00=
+0015929)</p>
+<ul>
+<li>
+<p><a class=3D"external-link" href=3D"https://staging.onenr.io/01wZKgNp4R6"=
+ rel=3D"nofollow">Average tokens</a> used per each call: ~500</p></li>
+<li>
+<p>We are making about 2 LLM calls per each evaluation</p></li>
+<li>
+<p>Average tokens for each LLM evaluation run: ~1000</p></li>
+</ul></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://staging.onenr.io/0vwB1lZKVQp"=
+ rel=3D"nofollow">Average Agentic Platform </a>cost for each request: ~ $0.=
+50</p></li>
+<li>
+<p>Average cost for one evaluation run including platform cost: ~ $0.52</p>=
+</li>
+<li>
+<p>Monthly cost breakdown for one agent running in one env: $3715/month</p>
+<ul>
+<li>
+<p>Evaluation cost: 10 test cases =C3=97 720 cycles =C3=97 $0.015929 =3D $1=
+15/month</p></li>
+<li>
+<p>Platform cost: 10 test cases =C3=97 720 cycles =C3=97 $0.5 =3D $3600/mon=
+th</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"EvaluatingAIAgentResponsesusingLLMs-Decision">Decision</h2>
+<p><em>High-level summary of the discussion(s) that took place (when who wa=
+s involved), what was discussed, and ultimately which solution was selected=
+ as the best one to go forward with. If applicable, include the rationale/a=
+rgument for the decision.</em></p>
+    </div>
+</body>
+</html>
+------=_Part_98_1016354346.1773936966803
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/41c9ea20da41ab2d10b801f412bed9661631e6e93077fed632ca98593012514e
+
+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
+GIaBJzzhCfzBH/wBf/3Xf81qteIRj3gEr/d6r8fLvMzLcOzYMa76z1Fr5dGPfjSPfvSj+cAP/EDu
+u+8+/uRP/oSf//mf55u+6Zu49tpredVXfVVe5VVehZtuuon/byTxH0kSAJIAkMR/Ayr/Q9133338
+2Z/9GX/wB3/AbbfdxokTJ3j5l395Pv7jP56HPvShlFK46r/eNddcw1u8xVvwFm/xFiyXS/7u7/6O
+3/3d3+Xnf/7nKaXw0i/90rzma74mj33sY+n7nqv+V6LyP8R6veYJT3gCv//7v89f//Vfs16veeQj
+H8kbvuEb8jIv8zIcO3aMq/5nWSwWvOIrviKv+IqviG1uvfVW/uAP/oBv//Zv5+LFizzkIQ/hNV7j
+NXiFV3gFTp48yVX/a1D5b3TvvffyZ3/2Z/zRH/0Rt956KydOnOAVXuEV+KRP+iQe8pCHUErhqv8d
+JPGQhzyEhzzkIbz7u787u7u7/MVf/AW/+7u/y/d+7/dy7NgxXumVXonXeI3X4MEPfjARwVX/Y1H5
+L/aEJzyB3/zN3+Rv/uZvWK/XPOpRj+KN3/iNeamXeil2dna46v+G48eP83qv93q83uu9HuM48oQn
+PIHf//3f50u+5EsYhoHHPvaxvP7rvz4v/dIvjSSu+h+Fyn+RYRj4rM/6LO655x5e7/Vej0/6pE/i
+wQ9+MBHBVf+3dV3HS7zES/ASL/ESANx999388R//Md/yLd9C13V84Rd+Idvb21z1PwbBf5Ev+7Iv
+4/jx43zXd30X7/7u785DH/pQIoKr/v+5/vrreZu3eRu++Zu/mZd8yZfkcz/3c7nqfxSC/wIHBwc8
+4QlP4MM//MO56qoHer/3ez/uu+8+7rnnHq76H4Pgv8CFCxfY2tpic3OTq656oIjgmmuu4d577+Wq
+KyTx34zgv0BrjYjgqquen1IKrTX+v/vZn/1ZPvVTP5U//dM/5aM+6qP4sz/7M/6bULnqqqv+R7jh
+hhv4gR/4AY6Ojjg8POTTPu3T+G9CcNVVV/2P8PIv//J8/Md/PABf9EVfxDXXXMN/Eyr/yS5dusTF
+ixdZrVbs7u7S9z0bGxv8f2Wb/f19Ll26xHK5ZH9/n77vmc1m/H+zWq0YhoHlcsnu7i6XLl1iZ2cH
+Sfx/9aEf+mG0lrzN27wN/42QbfOf6Eu+5Ev4nM/5HDKTM2fO8Iu/+Iu8xEu8BP+ffeiHfijf+Z3f
+CcAjHvEIfv3Xf51rr72W/29uu+023uAN3oBnPOMZSOLDPuzD+PIv/3L+5zDkAJj/MhLpIEjA/JdR
+gHqeCdk2/4nOnTvHq7zKq/CUpzyFj/zIj+RrvuZr+P/u8Y9/PK/6qq/K7u4uX/VVX8VHf/RH8//V
+F3zBF/Dpn/7pXHPNNfzxH/8xD3nIQ/gfY7gH9v8Y6g5g/k+bDuD4G0DZAEC2zX+yH/iBH+DTP/3T
++eM//mOuvfZaroLP/dzP5ed+7uf4/d//fWazGf9fHR4e8iqv8iq813u9Fx/3cR/H/yir22C6CzYf
+Dm78n6WC9/6Wob44dX6GUoRsm/9ky+WSpzzlKbzES7wEV11x8eJFzt53H4981KP4/+7xj388N954
+Izs7O/yPsr4Npjth4+Hgxv9ZKnjv79ibHsFi53r6riLbBliu16zWA5L4jyaJWivjOPKfZWtjg1qC
+f6v1MHK0WiPxXyIiiAimaeK/goGuFLY2Fvx77B8e0TL5j1RrR2YjM/mPYsPGYsas6/g3W98G052w
+8XBw4/8sFbz3d+y3R7LYvo6uq1Se6dLBEQC1FP4zjFPjP4MkDpcrailsbSz4tzpYLlkPI7Ouw/wX
+aMl/JdvsHy7ZXMyRxL+FbS7uH7Axn/MfaWpr/iMJWI8jLZPZ8Y7/lSSweQ4SGFCAG/+JqDxTSMz7
+GbUW/jeRRGvJ4dEhXQlmsxn/FkIsZjPmsxm2+b9ouVqzv7/P1tYWEcG/loFaChvzOf+TSSKicLQ8
+ZHlUWWxs8D9DAMllEWDzPGwyk9ZGap0jARHgZByWRKkcXDrHsRPXQRRwgs1/MCoPYIxt/rexDQYw
+/x422MY2/zcZ2/x72GCb/+mMsY35HyBm/PUf/gi132Cxsc2Z6x9ORDCbbyMMUcDG2ejmOzz5736F
+2576l5w4fTMv92rvyP6Fu9g5cQOP/+tf54ZbHsulC/ewc/x6Lt53K9s7p+lmG2DzH4jKVVdd9Z/M
+oODOW/+GE6cfxOpoj/vufjIbm8fZ3D7FcnnANKyYLTZ52Vd7F/rZFls7Z1gt93jC3/46d9/2OE5f
+9xBscXS4x313P5mWE+fvvZUXe9k3optvgRv/gQj+BZLouo5SCi8KSdRaAai1UmvlfrVWuq6jRNB1
+lVoLEUHfdXS18kARgSTuFxGUUvjvUGslInggSUQISZQIXhSSkMRzq7XSdR3/WhHBc4sIJPFfrZRC
+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
+V1111bPxjy8w5CIUXaHoAAAAAElFTkSuQmCC
+------=_Part_98_1016354346.1773936966803--

@@ -1,0 +1,373 @@
+Date: Thu, 19 Mar 2026 16:15:36 +0000 (UTC)
+Message-ID: <415323080.127.1773936936583@adf2a39115a0>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_126_2134500010.1773936936583"
+
+------=_Part_126_2134500010.1773936936583
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>2026-03-16 SRE agent customer InfoSec questions</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>2026-03-16 SRE agent customer InfoSec questions</h1>
+    <div class=3D"Section1">
+        <ul local-id=3D"69b96038-6561-46f4-aaa0-974ddf859f87">
+<li local-id=3D"e1729024-01c0-45c5-811e-b6e67adccedc">
+<p local-id=3D"bf8fa4d212bc">How does NR ingest data from other data source=
+s.&nbsp; Define available sources and scopes.</p>
+<ul local-id=3D"f94025efbffa">
+<li local-id=3D"3558dc17513f">
+<p local-id=3D"462397ba5dfc">The agent queries data already in the customer=
+'s New Relic account =E2=80=94 metrics, logs, traces, events, alerts, and e=
+ntity metadata =E2=80=94 via NerdGraph (GraphQL API) and internal MCP (Mode=
+l Context Protocol) tool servers</p></li>
+</ul></li>
+<li local-id=3D"5b95228c1bdf">
+<p local-id=3D"53e4e43871e1"><span class=3D"inline-comment-marker" data-ref=
+=3D"1e279511-4990-420a-a0d1-8e718c78f12b">What AI models are used and where=
+ are they hosted</span></p>
+<ul local-id=3D"16538a016c7b">
+<li local-id=3D"cfebe2489d05">
+<p local-id=3D"c74468050a64">This is subject to change without notice, but =
+currently the SRE agent uses GPT 5.1 for general purpose and GPT 4o for con=
+text summarization</p></li>
+</ul></li>
+<li local-id=3D"8e1fbdea547b">
+<p local-id=3D"35a3263e0fac">where is the data stored and how is it segment=
+ed from other data</p>
+<ul local-id=3D"64b240a4440e">
+<li local-id=3D"c662924b615e">
+<p local-id=3D"25d609c290bc">Stays in the customer's existing NR <span clas=
+s=3D"inline-comment-marker" data-ref=3D"b2bcfa18-0cb3-45a7-b368-d80d6910589=
+b">data region (US or EU)</span></p></li>
+</ul></li>
+<li local-id=3D"f5df160b-4d0a-445d-b4a7-8516df91bef4">
+<p local-id=3D"6996d719c357">How is data stored and transmitted?&nbsp; Encr=
+yption?</p>
+<ul local-id=3D"a6655b7b3e49">
+<li local-id=3D"d0ac9ba0d8f8">
+<p local-id=3D"699377e6091e">Aligned with our public documentation:</p>
+<ul local-id=3D"44dc4f3148e6">
+<li local-id=3D"c332c1a760bb">
+<p local-id=3D"56617db5d9b3"><a class=3D"external-link" data-card-appearanc=
+e=3D"inline" href=3D"https://docs.newrelic.com/docs/security/security-priva=
+cy/data-privacy/security-controls-privacy/" local-id=3D"ee07555facaf" rel=
+=3D"nofollow">https://docs.newrelic.com/docs/security/security-privacy/data=
+-privacy/security-controls-privacy/</a></p></li>
+<li local-id=3D"f4a1d726bfbb">
+<p local-id=3D"9e7697780b0a"><a class=3D"external-link" data-card-appearanc=
+e=3D"inline" href=3D"https://docs.newrelic.com/docs/security/security-priva=
+cy/compliance/data-encryption/" local-id=3D"2fdb511a9557" rel=3D"nofollow">=
+https://docs.newrelic.com/docs/security/security-privacy/compliance/data-en=
+cryption/</a></p></li>
+</ul></li>
+</ul></li>
+<li local-id=3D"afcf8d46-12b9-4304-b3d4-2fa364bd2479">
+<p local-id=3D"d54b63ab754d">How does NR monitor model behavior?</p>
+<ul local-id=3D"726935aaec3a">
+<li local-id=3D"22afdb5f8b3d">
+<p local-id=3D"47929869c3f9">NR instruments LLM calls via its own <a class=
+=3D"external-link" href=3D"https://docs.newrelic.com/docs/ai-monitoring/int=
+ro-to-ai-monitoring" rel=3D"nofollow">AI Monitoring product</a> =E2=80=94 t=
+racking latency, token usage, error rates, and model responses.</p></li>
+</ul></li>
+<li local-id=3D"ed15df0d-6c00-4fcc-8062-0b520676a17e">
+<p local-id=3D"b5a7c0885b38">What 3rd party software/tools are used?</p>
+<ul local-id=3D"1eae25609daa">
+<li local-id=3D"a2b34eec8715">
+<p local-id=3D"35739f358321">N/A</p></li>
+</ul></li>
+<li local-id=3D"e3221f2e-849d-4346-8644-3b444b4e4f52">
+<p local-id=3D"0fad541e0b9d">Are we able to filter personal information fro=
+m ingestion?</p>
+<ul local-id=3D"29a3c24e8735">
+<li local-id=3D"1cb2df1948e3">
+<p local-id=3D"f105449609d5">The SRE Agent operates on telemetry data alrea=
+dy present in the customer's New Relic account. Customers control what data=
+ is ingested using NR's data management tools (drop rules, obfuscation, log=
+ parsing pipelines). The agent does not introduce new ingestion paths.</p><=
+/li>
+</ul></li>
+<li local-id=3D"8ab72f8ad206">
+<p local-id=3D"683bb4a997c3">What is your data deletion process?</p>
+<ul local-id=3D"9d3f2fa26f64">
+<li local-id=3D"b740334bd1d1">
+<p local-id=3D"b60aa7ccdcab">Subject to standard <span class=3D"inline-comm=
+ent-marker" data-ref=3D"d7291b4a-e7a5-48e9-8714-01a98d632a99">NR data reten=
+tion policies </span>(customer-configurable). The agent doesn't create sepa=
+rate copies.</p></li>
+</ul></li>
+<li local-id=3D"d02becb2-67cf-42d2-99e0-586984c862dd">
+<p local-id=3D"aa3889ad9ab0">Do you log inputs and outputs?</p>
+<ul local-id=3D"1b32a325f5eb">
+<li local-id=3D"91559a743f95">
+<p local-id=3D"5adafc0706ee">Yes =E2=80=94 the SRE Agent is instrumented wi=
+th <a class=3D"external-link" href=3D"https://docs.newrelic.com/docs/ai-mon=
+itoring/intro-to-ai-monitoring" rel=3D"nofollow">AI Monitoring (AIM)</a>, N=
+R's observability product for LLM-powered applications. AIM captures sample=
+d LLM request/response data as events in NRDB.</p></li>
+</ul></li>
+<li local-id=3D"c4e01799-e186-45e6-b2c9-157934ce2445">
+<p local-id=3D"448d51d44bfd">Do we have the ability to limit scopes and fun=
+ctionality of the agent?</p>
+<ul local-id=3D"14cbc97d5b56">
+<li local-id=3D"08a13ada3544">
+<p local-id=3D"47277b0732b2">The agent's access is controlled by the System=
+ Identity's role grants. Customers can limit which accounts, capabilities, =
+and resources the agent can access</p></li>
+</ul></li>
+<li local-id=3D"19d2b78f-1758-40d6-92bc-39f663c41532">
+<p local-id=3D"e0809a8fc613">What types of controls do we have to manage us=
+age/cost?</p>
+<ul local-id=3D"eb1023743457">
+<li local-id=3D"fed4a994dd3a">
+<p local-id=3D"3a1683fb050d"><a class=3D"external-link" href=3D"https://doc=
+s.newrelic.com/docs/accounts/accounts-billing/new-relic-one-pricing-billing=
+/compute-budgets/overview" rel=3D"nofollow"><strong>Compute Budgets</strong=
+></a> - NR's built-in cost management feature can help with monitoring the =
+usage/cost of the <span class=3D"inline-comment-marker" data-ref=3D"c0aa9c3=
+d-9c8d-458d-ad40-3bcb1140184d">SRE agent feature</span></p></li>
+</ul></li>
+<li local-id=3D"28fb4ee6-1d90-471c-b865-8bb51c7bfded">
+<p local-id=3D"e69feacb1e31">What controls are in place to ensure agents do=
+ not store, leak or misuse sensitive user data?</p>
+<ul local-id=3D"e2c08187e565">
+<li local-id=3D"f005ef703335">
+<p local-id=3D"e8377e1ea466">Each agent operates within a single customer's=
+ organization boundary via System Identity auth</p></li>
+<li local-id=3D"f299211db8ae">
+<p local-id=3D"4a5e6643a160">The agent can read customer data and query a c=
+urated list of New Relic APIs, but has no capability to send data to extern=
+al endpoints</p></li>
+</ul></li>
+<li local-id=3D"71c2cb9d-c351-4f02-ad47-a6018718edd8">
+<p local-id=3D"6fea25732c20">Will AI SRE use MCP servers?</p>
+<ul local-id=3D"8785dfd66f6a">
+<li local-id=3D"d65e3a77a65d">
+<p local-id=3D"ef2e51a195e0">Yes. MCP (Model Context Protocol) is central t=
+o the architecture.</p></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_126_2134500010.1773936936583--

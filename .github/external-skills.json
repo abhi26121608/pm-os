@@ -1,0 +1,72 @@
+{
+  "sources": [
+    {
+      "name": "pm-skills",
+      "repo": "phuryn/pm-skills",
+      "branch": "main",
+      "skills": [
+        {
+          "source": "pm-product-discovery/skills/opportunity-solution-tree",
+          "target": "opportunity-solution-tree"
+        },
+        {
+          "source": "pm-execution/skills/pre-mortem",
+          "target": "pre-mortem"
+        },
+        {
+          "source": "pm-product-strategy/skills/swot-analysis",
+          "target": "swot-analysis"
+        },
+        {
+          "source": "pm-product-strategy/skills/lean-canvas",
+          "target": "lean-canvas"
+        },
+        {
+          "source": "pm-market-research/skills/market-sizing",
+          "target": "market-sizing"
+        },
+        {
+          "source": "pm-go-to-market/skills/growth-loops",
+          "target": "growth-loops"
+        },
+        {
+          "source": "pm-market-research/skills/user-personas",
+          "target": "user-personas"
+        },
+        {
+          "source": "pm-product-strategy/skills/porters-five-forces",
+          "target": "porters-five-forces"
+        },
+        {
+          "source": "pm-execution/skills/stakeholder-map",
+          "target": "stakeholder-map"
+        },
+        {
+          "source": "pm-execution/skills/prioritization-frameworks",
+          "target": "prioritization-frameworks"
+        },
+        {
+          "source": "pm-data-analytics/skills/ab-test-analysis",
+          "target": "ab-test-analysis"
+        },
+        {
+          "source": "pm-data-analytics/skills/sql-queries",
+          "target": "sql-queries"
+        },
+        {
+          "source": "pm-go-to-market/skills/beachhead-segment",
+          "target": "beachhead-segment"
+        },
+        {
+          "source": "pm-go-to-market/skills/ideal-customer-profile",
+          "target": "ideal-customer-profile"
+        },
+        {
+          "source": "pm-go-to-market/skills/competitive-battlecard",
+          "target": "competitive-battlecard"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-03-24"
+}

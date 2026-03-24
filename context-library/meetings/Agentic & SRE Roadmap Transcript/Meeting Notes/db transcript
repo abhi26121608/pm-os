@@ -1,0 +1,2286 @@
+WEBVTT
+
+1
+00:00:00.190 --> 00:00:01.400
+Abhishek Pandey: How's it going?
+
+2
+00:00:01.840 --> 00:00:05.630
+Sreekanth Tadakaluru: Everything is good, what about you?
+
+3
+00:00:05.630 --> 00:00:07.370
+Abhishek Pandey: You're back at home? All good, all good.
+
+4
+00:00:07.370 --> 00:00:08.460
+Sreekanth Tadakaluru: Yes, yes.
+
+5
+00:00:09.850 --> 00:00:11.160
+Abhishek Pandey: Okay, awesome.
+
+6
+00:00:11.430 --> 00:00:18.629
+Abhishek Pandey: So, she can't meet Arshad. So, Arshad, is a part of Infra Team. He takes care of…
+
+7
+00:00:18.970 --> 00:00:22.919
+Abhishek Pandey: database specifically, he's their PM, in short.
+
+8
+00:00:24.050 --> 00:00:25.789
+Sreekanth Tadakaluru: Got it. Hi, Ashant.
+
+9
+00:00:26.520 --> 00:00:27.220
+Arshad Nawaz: Hello?
+
+10
+00:00:27.590 --> 00:00:39.839
+Abhishek Pandey: So he's someone who has in-depth knowledge about the database, and what kind of data they are tracking, and all those sort of things. So I thought if we get in one place, that would be a good idea.
+
+11
+00:00:40.000 --> 00:00:55.190
+Abhishek Pandey: Arksha Srikant manages an ML team, they have been building solutions, some small language models, large language models, and other things. So their idea is to do, prepare…
+
+12
+00:00:58.430 --> 00:00:59.430
+Arshad Nawaz: Buddy, yes.
+
+13
+00:01:00.080 --> 00:01:03.260
+Abhishek Pandey: Yeah, no problem. So, they try to…
+
+14
+00:01:03.420 --> 00:01:08.420
+Abhishek Pandey: create a POC, and then, you know, a production-ready,
+
+15
+00:01:08.580 --> 00:01:14.819
+Abhishek Pandey: Model sort of a thing, and then they push it out and hand it over to respective teams to take care of.
+
+16
+00:01:15.140 --> 00:01:20.249
+Abhishek Pandey: So with Sri Khanth, I was thinking of, you know, working on a specialized agent.
+
+17
+00:01:20.420 --> 00:01:22.660
+Abhishek Pandey: For database specifically.
+
+18
+00:01:23.400 --> 00:01:29.220
+Abhishek Pandey: And… For the same reason I asked you for our documentation yesterday, yeah.
+
+19
+00:01:31.500 --> 00:01:35.119
+Arshad Nawaz: Cool, Any, any help, happy to assist.
+
+20
+00:01:35.520 --> 00:01:46.370
+Sreekanth Tadakaluru: Sure. So, I went through the document, session, so it is a really cool information that we are capturing, correct, into our system.
+
+21
+00:01:47.110 --> 00:01:53.939
+Sreekanth Tadakaluru: Just, I had, like, a couple of questions, actually, like, one… Yes,
+
+22
+00:01:54.100 --> 00:02:04.130
+Sreekanth Tadakaluru: with respect to… maybe if you go to, like, the Microsoft SQL Server, or maybe, like, the Oracle, I checked the Oracle, Microsoft SQL Server, and few other databases, which I'm…
+
+23
+00:02:04.380 --> 00:02:05.800
+Sreekanth Tadakaluru: Very comfortable.
+
+24
+00:02:06.420 --> 00:02:07.350
+Sreekanth Tadakaluru: So…
+
+25
+00:02:07.520 --> 00:02:16.230
+Sreekanth Tadakaluru: what exactly this, DB monitoring, whatever that we do, it brings the value on top of, like, the native tools that have been provided by this particular
+
+26
+00:02:16.910 --> 00:02:22.770
+Sreekanth Tadakaluru: DBs. So, in a sense, Microsoft, they have, like, a dev own visualization tool.
+
+27
+00:02:23.210 --> 00:02:26.830
+Sreekanth Tadakaluru: And if you go to Oracle, they have something called AWS.
+
+28
+00:02:26.970 --> 00:02:33.050
+Sreekanth Tadakaluru: Automatic workload. Yes. PWA report, and they have something called the AHS
+
+29
+00:02:33.240 --> 00:02:38.960
+Sreekanth Tadakaluru: automated session history or something, like, you know, so they have the session histories.
+
+30
+00:02:39.360 --> 00:02:46.809
+Sreekanth Tadakaluru: So, whatever, like, they built is better capabilities than those existing tools, assert.
+
+31
+00:02:48.810 --> 00:02:51.720
+Arshad Nawaz: Better capabilities than existing tools? No.
+
+32
+00:02:51.720 --> 00:02:52.990
+Sreekanth Tadakaluru: the Institutes.
+
+33
+00:02:53.350 --> 00:03:03.059
+Arshad Nawaz: No, okay, I'll give you… I'll give you a difference. First of all, if you want to enable performance insights on these databases, for SQL Server, you need something called as a query store.
+
+34
+00:03:03.270 --> 00:03:11.379
+Arshad Nawaz: And for Oracle, you need that performance schema, the JWR thing which you were talking about. Both are paid. SQL Server, it is not paid. Oracle, it is paid.
+
+35
+00:03:11.620 --> 00:03:16.549
+Arshad Nawaz: But most of our implementations, or most of our customers have an enterprise license, so they have it.
+
+36
+00:03:17.120 --> 00:03:20.349
+Arshad Nawaz: Now, where is the problem? The problem is…
+
+37
+00:03:20.670 --> 00:03:30.579
+Arshad Nawaz: Most of the customers which we have right now are running, Oracle 12C onwards up till 18C, which essentially means, like, these are not necessarily hosted on a cloud.
+
+38
+00:03:30.900 --> 00:03:43.870
+Arshad Nawaz: For SQL Server, we have a mix. Half of the customer footprint is on RDS, AWS RDS, and the other one is, like, on-host installation. Starting from SQL Server, I think version 2013 or something.
+
+39
+00:03:44.470 --> 00:03:51.919
+Arshad Nawaz: So… Now, where does New Relic come into the picture is, standalone database monitoring, people…
+
+40
+00:03:53.890 --> 00:03:57.690
+Arshad Nawaz: only plain database manila monitoring. People,
+
+41
+00:03:57.860 --> 00:04:00.949
+Arshad Nawaz: Want something which can cover their entire infrastructure.
+
+42
+00:04:01.060 --> 00:04:09.660
+Arshad Nawaz: So, if you have AWS, SQL Server, all these things, like, this is, like, very specific tooling for that particular team, and you cannot integrate it to the wider audience, number one.
+
+43
+00:04:10.510 --> 00:04:13.110
+Arshad Nawaz: Number two,
+
+44
+00:04:14.810 --> 00:04:23.560
+Arshad Nawaz: the way we pitch, or the value we add is… the biggest value we can add here is connecting your APM application to the database application, database intra.
+
+45
+00:04:23.790 --> 00:04:28.070
+Arshad Nawaz: These things… this is not possible in any of the native tools, straightforward.
+
+46
+00:04:28.230 --> 00:04:35.140
+Arshad Nawaz: So, as you would see, like, the documentation is pretty intensive, but the product is not that great right now, as of today.
+
+47
+00:04:35.240 --> 00:04:42.840
+Arshad Nawaz: So that is the reason, like, I was hired, and this entire team has been formed since the last 3 months, to make, or to bring it to parity with some other players.
+
+48
+00:04:43.150 --> 00:04:47.250
+Arshad Nawaz: So, on a competitive landscape, there are two things which any customer does.
+
+49
+00:04:47.380 --> 00:04:51.970
+Arshad Nawaz: First is… first is, like, query monitoring, performance, monitoring.
+
+50
+00:04:52.590 --> 00:04:58.490
+Arshad Nawaz: So for that, most of the takeout opportunities we have is something for, something called a SolarWinds DPA.
+
+51
+00:04:58.710 --> 00:05:03.779
+Arshad Nawaz: So it's a standalone tool altogether, which only and only does tuning, that's all, nothing more than that.
+
+52
+00:05:04.540 --> 00:05:10.440
+Arshad Nawaz: The second part is monitoring. You know, for monitoring, our existing product is decent.
+
+53
+00:05:10.920 --> 00:05:12.909
+Arshad Nawaz: But the best in the market is Datadog.
+
+54
+00:05:14.010 --> 00:05:32.739
+Arshad Nawaz: So, Datadog has also been trying to combine both these pieces, monitoring and performance, but it doesn't, like, it is not working for most of the customers right now. What we want to do is we want to integrate both of them, because we have that APM connectivity. Datadog doesn't have a lot of APM customers. They're trying to go… they started with Infra, and then they are trying to go into APM.
+
+55
+00:05:32.790 --> 00:05:42.210
+Arshad Nawaz: We, on the other hand, we have a strong presence on APM. We are trying to do database. Just to give a little business context, only 5% of APM customers today use database.
+
+56
+00:05:42.800 --> 00:05:46.900
+Arshad Nawaz: Like, we have good, good, decent enough, like, growth opportunity in that area.
+
+57
+00:05:47.160 --> 00:06:00.019
+Arshad Nawaz: So, value add… there are two things only. Like, APM to DB connection, we can do it. And second thing, since we are covering the breadth of all infrastructure within that particular customer, so database is, like, a given, like, it's a…
+
+58
+00:06:00.190 --> 00:06:03.930
+Arshad Nawaz: kind of a bread and butter for your, intra-monitoring.
+
+59
+00:06:04.290 --> 00:06:14.559
+Arshad Nawaz: Similarly, like, host is another bread and butter. If they are on Kubernetes, Kubernetes is another bread and butter. Some good, sexy features to have is, like, network monitoring. You might have heard something about eBPF.
+
+60
+00:06:14.820 --> 00:06:29.019
+Arshad Nawaz: You might have heard about, like, queues and streams, Kafka monitoring. These are things, like, not super high adoption, but then, like, but we are trying to go there, but for database at least, like, this is bread and butter. And it is a customer ask consistently since the last 3 years.
+
+61
+00:06:29.090 --> 00:06:37.180
+Arshad Nawaz: I have some feature requests which are live since 3 years, and nobody has done anything about it. So we're just trying to bring parity to our DB monitoring as of today.
+
+62
+00:06:37.460 --> 00:06:51.289
+Sreekanth Tadakaluru: Got it, got it. So I… I know, like, this is very, very important for the customers, because when, around, 2020, when I was working with Affiliate Investments.
+
+63
+00:06:51.870 --> 00:06:53.739
+Arshad Nawaz: So, Apacon, working with?
+
+64
+00:06:53.740 --> 00:06:54.549
+Sreekanth Tadakaluru: Fidelity investment.
+
+65
+00:06:54.550 --> 00:06:55.810
+Arshad Nawaz: Fertility investments, okay.
+
+66
+00:06:55.810 --> 00:07:06.429
+Sreekanth Tadakaluru: So, Fidelity Investments, so we had, like, this plank, which covers, like, one aspect of, like, the monitoring, and we had, like, the data deck and, Dynatrace.
+
+67
+00:07:06.650 --> 00:07:06.980
+Arshad Nawaz: But I…
+
+68
+00:07:06.980 --> 00:07:22.559
+Sreekanth Tadakaluru: So Dana tries also, like, is doing, like, some of, like, the monitoring. So that time, we had, like, the biggest problem, even I tried building, internally for the facility, where we can combine the monitoring information from the data, like, sorry, data duct.
+
+69
+00:07:22.670 --> 00:07:33.890
+Sreekanth Tadakaluru: the infra monitoring, along with, like, the database, so that we can do, like, all the correlation. So, the main problem that time, like, we had is, somebody will identify on the infra side.
+
+70
+00:07:34.000 --> 00:07:39.759
+Sreekanth Tadakaluru: Then, from there, coming to, like, the database is going to take so much of time. After getting into, like, the database.
+
+71
+00:07:39.760 --> 00:07:59.590
+Sreekanth Tadakaluru: So it is, whenever, like, we have, like, any kind of issues, it is maybe, like, the 50 people in a kind of, like, the group discussing about, like, whether it is the database issue, they will ask, check in the database. Do we have, like, anything on this particular site? Which is problematic, especially banking and finance, where they want to run, 24 by 7 operations, batch operations. Batch operations,
+
+72
+00:07:59.820 --> 00:08:08.749
+Sreekanth Tadakaluru: their batch operations, banking and finance, heavily depending on the databases. They use, like, the databases for all the batch operations, ETL operations and everything.
+
+73
+00:08:08.940 --> 00:08:16.659
+Sreekanth Tadakaluru: So, definitely, it is, like, a very good thing, but when I've seen, like, the documentation, I've seen, like, whatever the tables that you query.
+
+74
+00:08:16.840 --> 00:08:21.650
+Sreekanth Tadakaluru: Maybe, especially from Oracle, GV dollar tables, GV underscore dollar tables.
+
+75
+00:08:21.930 --> 00:08:32.370
+Sreekanth Tadakaluru: Those were the tables. We were using that particular time to collect all the information. Right. And do, like, a kind of, like, the correlation and everything, come up with the proper recommendations.
+
+76
+00:08:32.370 --> 00:08:33.480
+Arshad Nawaz: Right, right.
+
+77
+00:08:33.870 --> 00:08:42.889
+Arshad Nawaz: Similar thing which we are also trying, we are also doing. Now, there is a fundamental difference, the document which you have is for the OHI collector on-host integration.
+
+78
+00:08:43.110 --> 00:08:57.009
+Arshad Nawaz: As a strategy for entire infra, we are moving towards OTEL, so any new announcements on data side, like collecting the data side, will be happening on OTEL. So we have written those collectors, and will be… that particular collector will be released as an LP on Monday.
+
+79
+00:08:57.480 --> 00:08:58.700
+Sreekanth Tadakaluru: Got it.
+
+80
+00:08:58.700 --> 00:09:12.719
+Arshad Nawaz: So you can use… you can use that collector, like, the new hotel collector, to see what data we have. But, like, what the OI does is, like, 60-70% till there already. So the documentation still holds good, like, it is not, like, completely shit.
+
+81
+00:09:12.850 --> 00:09:19.259
+Arshad Nawaz: So you can still figure it out. Another thing which I wanted to point out is the… the exact problem statement which you said.
+
+82
+00:09:19.840 --> 00:09:23.150
+Arshad Nawaz: Where is the problem? Is it on the application, or is it on the database?
+
+83
+00:09:23.710 --> 00:09:27.480
+Arshad Nawaz: So… since we are, like, APM heavy.
+
+84
+00:09:27.690 --> 00:09:34.069
+Arshad Nawaz: Most of our customer footprint is not a DBA today, but it is an application developer.
+
+85
+00:09:34.070 --> 00:09:35.240
+Sreekanth Tadakaluru: Get it, get it.
+
+86
+00:09:35.240 --> 00:09:41.069
+Arshad Nawaz: So, giving them that visibility from a trace, how can you come to your database and see what's happening on the database?
+
+87
+00:09:41.340 --> 00:09:57.129
+Arshad Nawaz: Otherwise, what happens is, they see something. Something went to a database, they just create a ticket that my query is slow, or some database issue. So we want to eliminate that, and we want to present this information, so any recommendations which we are building also, it should be appe-friendly.
+
+88
+00:09:58.020 --> 00:09:59.549
+Sreekanth Tadakaluru: Got it, got it.
+
+89
+00:09:59.640 --> 00:10:19.280
+Sreekanth Tadakaluru: Understood, understood. So here, for, like, the DB monitoring, do you collect, both the information, Shad, in this sense, one is, database-specific, like, maybe, like, the query-level information, or the instant-level information, or maybe SQL-level information, where you collect, and how it is downloaded.
+
+90
+00:10:19.280 --> 00:10:24.030
+Arshad Nawaz: The second one, you might be having the golden matrix for, like, the database, correct?
+
+91
+00:10:24.030 --> 00:10:31.190
+Sreekanth Tadakaluru: their CPU utilization, memory, and everything. So, are you collecting both, or is it only on one particular side of the predictor?
+
+92
+00:10:31.190 --> 00:10:32.560
+Arshad Nawaz: No, no, we are collecting both.
+
+93
+00:10:32.970 --> 00:10:38.259
+Sreekanth Tadakaluru: Okay, okay. See, currently, we are building, like, a solution, Ashed, the…
+
+94
+00:10:38.360 --> 00:10:43.550
+Sreekanth Tadakaluru: the solution that, currently covers APM and intra-entities.
+
+95
+00:10:43.550 --> 00:10:45.120
+Arshad Nawaz: Okay.
+
+96
+00:10:45.120 --> 00:10:49.449
+Sreekanth Tadakaluru: Which we are planning to release, as a kind of, ELP.
+
+97
+00:10:49.620 --> 00:10:58.060
+Sreekanth Tadakaluru: Our plan was, like, a December end, so maybe I think, like, we are not there, but we are building, like, a feature called Intelligent Rucas Analysis.
+
+98
+00:10:58.340 --> 00:10:58.700
+Arshad Nawaz: Okay.
+
+99
+00:10:58.700 --> 00:11:08.240
+Sreekanth Tadakaluru: we have presented that, like, as a part of, like, the demo days also, interesting to look as analysis. So what exactly it does is, like, maybe when you have, like, any kind of, like, the issue.
+
+100
+00:11:08.990 --> 00:11:15.910
+Sreekanth Tadakaluru: It will try to take that as a kind of, like, this symptom, so take a very simple example. There's a high latency and different things.
+
+101
+00:11:16.770 --> 00:11:26.659
+Sreekanth Tadakaluru: So, you have… you would have set up some kind of alerts on the front end. The alert would have been fired. So, once the alert would have been fired, so it calls our,
+
+102
+00:11:27.510 --> 00:11:28.740
+Sreekanth Tadakaluru: ISE engine.
+
+103
+00:11:29.270 --> 00:11:30.730
+Sreekanth Tadakaluru: What it does is.
+
+104
+00:11:30.800 --> 00:11:48.219
+Sreekanth Tadakaluru: it goes to, like, the dependency map, starting from, like, the front end till, like, whatever the end hop levels. Maybe, first off is going to be backend services, second is going to be maybe databases, third is going to be, like, the intra. So it checks all the golden metrics, and then try to identify
+
+105
+00:11:48.260 --> 00:12:03.149
+Sreekanth Tadakaluru: where exactly, like, which metrics are correlating? So, are the parts for this particular failure. So, from the front-end service to maybe a recommendation service, from the recommendation service to a machine learning service, to a kind of, like, the database, from there,
+
+106
+00:12:03.270 --> 00:12:16.530
+Sreekanth Tadakaluru: maybe the infra… maybe the Kubernetes, or maybe, like, any kind of, like, the host-level metrics. We scan everything and then identify which might be, like, the root cause for this particular issue, along with, like, a kind of, like, the path.
+
+107
+00:12:16.780 --> 00:12:22.439
+Sreekanth Tadakaluru: So here, currently, We are doing completely on the golden metric analysis.
+
+108
+00:12:23.550 --> 00:12:27.630
+Sreekanth Tadakaluru: So, whatever the golden matrix, like, we collect, and then we do this complete analysis.
+
+109
+00:12:27.730 --> 00:12:36.980
+Sreekanth Tadakaluru: But we haven't expanded this to the specific skill-based. Maybe if you're going to, like, the Kubernetes Golden Matrix, and if it is a Kubernetes problem.
+
+110
+00:12:37.220 --> 00:12:50.270
+Sreekanth Tadakaluru: So we do not have anything to go in-depth into, like, the Kubernetes metrics, and then try to identify what is the real cause in the Kubernetes. The same with respect to, like, the Kafka, same with respect to, like, the DB.
+
+111
+00:12:50.390 --> 00:12:57.690
+Sreekanth Tadakaluru: So, when we have any issues in a kind of, like, DB, my ESA have identified the DB node is the issue.
+
+112
+00:12:58.180 --> 00:13:02.999
+Sreekanth Tadakaluru: But in the DB node, again, like, you have so many things. Either it might be, like, one single query.
+
+113
+00:13:03.020 --> 00:13:10.280
+Sreekanth Tadakaluru: Or maybe, like, the multiple query, if it is a single query, whether it is a kind of, like, the plan change, or maybe start-selector issues.
+
+114
+00:13:10.290 --> 00:13:29.820
+Sreekanth Tadakaluru: Or maybe it might be something, related to resource or not available, any kind of batch process that is running. So, we want to build a kind of, like, the skilled agents. Again, we do not want to own it completely, but we build, like, the complete, the modules or, like, the agents, or whatever. We build it.
+
+115
+00:13:29.820 --> 00:13:38.539
+Sreekanth Tadakaluru: And we will hand it over to the respective teams, so that, like, they can… if they want to do, like, any kind of, like, announcements and other things, they can do it very easily.
+
+116
+00:13:38.720 --> 00:13:51.040
+Sreekanth Tadakaluru: So, that is both, like, our thought process, and here, as I said, ISEA is not going to give you, even though we are saying it is a root cause analysis, it might be, like, a 50%, 60%. It is going to identify a specific note.
+
+117
+00:13:51.200 --> 00:14:08.199
+Sreekanth Tadakaluru: If it identifies a specific note, and handing over to, like, the DBA to investigation doesn't make any sense, correct? So when we have, like, the information, we can go and then check the additional metrics, or maybe query ID level, or, like, we call it as a SQL ID and everything, we can check
+
+118
+00:14:08.230 --> 00:14:23.260
+Sreekanth Tadakaluru: analyze, similar to, like, whatever, we have the transactions, we can do the transaction level analysis on the DB, come up with, like, a kind of proper problem statement, allowing with a kind of, like, the recommendation, saying that maybe you haven't gathered the stats on this particular table, go and then gather data. It's going to get resolved.
+
+119
+00:14:23.390 --> 00:14:26.970
+Sreekanth Tadakaluru: Or maybe kill this particular session, move it with other processes.
+
+120
+00:14:27.250 --> 00:14:45.040
+Sreekanth Tadakaluru: Or maybe, in that particular query, if you're doing, like, a kind of, like, the explain plan, GVTables has, like, the explained plans and everything. You can go on and get, like, the explain plan, and then see how many times the plan has been changed, what is the better plan, and we can give that to, like, the DBAs. Maybe you need to make this as a kind of, like, the baseline.
+
+121
+00:14:45.180 --> 00:15:01.599
+Sreekanth Tadakaluru: So that the next time, the query is going to take this particular baseline and run this particular query. So that process is, like, since we have that particular practice, yeah, both on the machine learning side, and technical domain level, and the Kubernetes, and other things, whatever, like, we have the knowledge.
+
+122
+00:15:01.670 --> 00:15:16.159
+Sreekanth Tadakaluru: we can build these particular agents, or maybe, like, the system, and then give it to, like, the respective teams. That's where I explained the concept to Abhishek, and Abhishek was discussing with the multiple people, and then finally he has set up, like, this particular discussion.
+
+123
+00:15:16.160 --> 00:15:17.989
+Arshad Nawaz: Okay, perfect, perfect, sure.
+
+124
+00:15:21.200 --> 00:15:25.750
+Sreekanth Tadakaluru: So here, just, maybe Abshik, like, do you want to add anything?
+
+125
+00:15:26.740 --> 00:15:35.219
+Abhishek Pandey: No, I'm good, Srikant. I actually already had my conversation with Arshad about these things, so I am good.
+
+126
+00:15:35.260 --> 00:15:49.090
+Abhishek Pandey: in terms of how do we want to tackle it, right? So there could be a bunch of things that we can do, right? As you said, Srikan, right? The easiest thing could be to analyze the explain plan, right? And if it needs any sort of…
+
+127
+00:15:51.160 --> 00:16:02.710
+Abhishek Pandey: any sort of changes or something like that? Like, how do we want to go about that? Like, we'll have to do it in stages. So, as a very first step, what do we want to tackle? Like, in the…
+
+128
+00:16:02.990 --> 00:16:13.710
+Abhishek Pandey: basic DB plan that I laid out. I've talked about the explain plan only in the first POC that we would want to develop, or you are thinking about it in some other way.
+
+129
+00:16:13.710 --> 00:16:24.099
+Sreekanth Tadakaluru: No, explained plan is going to be your last step here, Abhishek. Please correct me, I said the thing wrong. The first thing here, once you are identifying a kind of like the DB node.
+
+130
+00:16:24.470 --> 00:16:26.860
+Sreekanth Tadakaluru: Then we have, like, the DB level matrix.
+
+131
+00:16:27.130 --> 00:16:34.470
+Sreekanth Tadakaluru: the DB-level metrics at that particular point of time, so what are the queries that were running in that particular databases, correct?
+
+132
+00:16:34.610 --> 00:16:42.380
+Sreekanth Tadakaluru: And from there, like, we need to check whether it is going to be a kind of, like, the regular workload, or maybe something, like, it came up.
+
+133
+00:16:43.200 --> 00:17:01.920
+Sreekanth Tadakaluru: So, first, like, we need to nail down what exactly is the problem, whether it is going to be a problem with respect to a kind of, like, the query, so which is consuming more resources. Or maybe the other way it is, the number of queries that particular time would have been increased because of some reasons. Because of that, you might be having, like, the memory-related issues.
+
+134
+00:17:02.040 --> 00:17:12.880
+Sreekanth Tadakaluru: So, first, like, we need to do, like, the metric things. So, from this particular metric, so then we need to think about it. So, yeah, if it is something like the disk creates this shift.
+
+135
+00:17:13.190 --> 00:17:22.119
+Sreekanth Tadakaluru: Earlier, not much of, like, the disk rates. Now, it is going, like, more disk rates, so that means the number of queries in that particular database, it might vanish.
+
+136
+00:17:22.619 --> 00:17:27.739
+Sreekanth Tadakaluru: So, explain plan is going to be, like, the last step, but when we are going to, like, the explain plan.
+
+137
+00:17:27.859 --> 00:17:43.050
+Sreekanth Tadakaluru: Especially, like, in the Oracle, because I'm very comfortable in Oracle performance tuning, that's what I'm saying with respect to, like, the Oracle. So, in Oracle, there is something called AWS reports. In the AWR reports, when you give, like, one particular SQL ID,
+
+138
+00:17:43.050 --> 00:17:50.040
+Sreekanth Tadakaluru: So that is how, like, they say. So it gives us the complete information about, in the last 7 sessions, or, like, the 10 sessions.
+
+139
+00:17:50.140 --> 00:17:54.280
+Sreekanth Tadakaluru: What are, like, the different plans that Query is using, and then what is the cost and dividend?
+
+140
+00:17:54.390 --> 00:18:12.220
+Sreekanth Tadakaluru: So, explain plan is something, like, once if you're identifying this, it is a SQL issue, then we can do that, but there are some kind of, like, the memory-related issues, then we need to boil down to, like, the table spaces, saying that a table space memory is reaching, like, the 90%, 95%, you need to add it.
+
+141
+00:18:12.280 --> 00:18:23.349
+Sreekanth Tadakaluru: So, there are, like, so many other things before going to the explain plan, but Explain Plan is going to be, like, a very big use case, because most of, like, the application DBAs check, like, the plan.
+
+142
+00:18:23.420 --> 00:18:27.470
+Sreekanth Tadakaluru: And then from there, they will try to figure it out, whether it is a SQL issue or something.
+
+143
+00:18:31.020 --> 00:18:34.659
+Sreekanth Tadakaluru: But here, to get started, Ashed,
+
+144
+00:18:35.030 --> 00:18:40.060
+Sreekanth Tadakaluru: So, if you see, like, in our internal Neuralink.
+
+145
+00:18:40.650 --> 00:18:50.439
+Sreekanth Tadakaluru: We do not have any standalone databases, correct? So, everything is, they're cloud-managed databases, which is, like, our Postgres.
+
+146
+00:18:50.830 --> 00:18:55.179
+Sreekanth Tadakaluru: Or maybe any other databases is a kind of, like, the cloud-managed services.
+
+147
+00:18:55.180 --> 00:18:56.269
+Arshad Nawaz: Right, right, right.
+
+148
+00:18:56.270 --> 00:19:00.839
+Sreekanth Tadakaluru: So, do we have, like, any internal, customer Jira?
+
+149
+00:19:01.420 --> 00:19:03.650
+Sreekanth Tadakaluru: Who uses, like, the DB monitoring?
+
+150
+00:19:04.890 --> 00:19:11.709
+Arshad Nawaz: No. Our DB team… so most of our footprint is SQL Server and Oracle. Both of these databases nobody uses within New Relic.
+
+151
+00:19:11.820 --> 00:19:17.070
+Arshad Nawaz: If you just want to test it out, try it out, we have some instances which we use for tests. We can give it to you.
+
+152
+00:19:17.650 --> 00:19:20.049
+Sreekanth Tadakaluru: Okay, okay, sure, sure.
+
+153
+00:19:20.270 --> 00:19:26.289
+Sreekanth Tadakaluru: Testing, and at the same time there, can we simulate certain scenarios, Ashit?
+
+154
+00:19:26.290 --> 00:19:29.279
+Arshad Nawaz: Yeah, yeah, yeah, yeah. Okay, okay. On the TV, right?
+
+155
+00:19:29.280 --> 00:19:30.220
+Sreekanth Tadakaluru: And the DB, kid.
+
+156
+00:19:30.220 --> 00:19:36.589
+Arshad Nawaz: Or else, like, if you need live data also, I'll give you the customer name. You can go into their account and take out, if you want to.
+
+157
+00:19:36.910 --> 00:19:40.109
+Sreekanth Tadakaluru: Got it. So, it is allowed, to get, like.
+
+158
+00:19:40.110 --> 00:19:41.290
+Abhishek Pandey: Yeah.
+
+159
+00:19:41.290 --> 00:19:44.319
+Sreekanth Tadakaluru: No, here, recently, I think,
+
+160
+00:19:44.670 --> 00:19:48.220
+Arshad Nawaz: It is anonymized, let me put it like that. We don't collect any actual data.
+
+161
+00:19:48.630 --> 00:19:49.599
+Sreekanth Tadakaluru: Got it, got it.
+
+162
+00:19:49.600 --> 00:19:58.930
+Arshad Nawaz: So, any, like, everything is, like, starts only, like, in that sense. Like, all… they are normalized queries or anonymized queries in most cases? In 100% cases.
+
+163
+00:19:59.210 --> 00:19:59.850
+Arshad Nawaz: So…
+
+164
+00:20:00.320 --> 00:20:03.430
+Arshad Nawaz: We don't have a PII or a taking-out problem.
+
+165
+00:20:03.780 --> 00:20:08.739
+Sreekanth Tadakaluru: But, are we not getting, like, any kind of SQL-level information as yet?
+
+166
+00:20:08.740 --> 00:20:20.069
+Arshad Nawaz: SQL itself will be anonymized. Anywhere which you have a value, for example, if you are updating a statement set, column name is equal to something, that something will be a question mark. So we don't get to see anything.
+
+167
+00:20:20.960 --> 00:20:25.960
+Sreekanth Tadakaluru: No, if somebody, would have written in a kind of, like, a parameterized approach, yes.
+
+168
+00:20:26.090 --> 00:20:32.560
+Sreekanth Tadakaluru: But, there are some people, like, who… they run, like, the other queries. Other queries might be having it devalue.
+
+169
+00:20:32.560 --> 00:20:37.760
+Arshad Nawaz: The document is also when we are pulling. For SQL Server, there is a view which anonymizes the query by default.
+
+170
+00:20:38.180 --> 00:20:38.740
+Sreekanth Tadakaluru: Oh, go ahead.
+
+171
+00:20:38.740 --> 00:20:42.849
+Arshad Nawaz: There, you know, and for Oracle, we do the anonymization on the agent level.
+
+172
+00:20:43.420 --> 00:20:46.000
+Sreekanth Tadakaluru: Got it, got it. Understood, understood.
+
+173
+00:20:46.000 --> 00:20:48.840
+Arshad Nawaz: So you will never have any PII data in New Relic.
+
+174
+00:20:49.670 --> 00:20:51.920
+Sreekanth Tadakaluru: Mmm, understood, understood.
+
+175
+00:20:52.980 --> 00:21:05.039
+Sreekanth Tadakaluru: Dan, I think, like, it is good because, two days before, one of the customers has raised the concern to SLC that we are sending, like, data completely to, the open source LLMs.
+
+176
+00:21:05.480 --> 00:21:20.950
+Sreekanth Tadakaluru: And customers was asking me, like, did you do, like, any of these particular set of things, where you send it, without any kind of, like, the customer comes in. So, if you're anonymizing, that's sort of, like, we are going to take the snapshot, and then build, like, our own theories around that.
+
+177
+00:21:20.950 --> 00:21:22.130
+Arshad Nawaz: Yeah, yes.
+
+178
+00:21:26.940 --> 00:21:32.839
+Sreekanth Tadakaluru: That customer data, do we have the access to fetch the information?
+
+179
+00:21:32.990 --> 00:21:37.740
+Arshad Nawaz: Yeah, you can query it, no? You can log into the… impersonate it into their account, and you can query whatever you want.
+
+180
+00:21:37.740 --> 00:21:39.529
+Sreekanth Tadakaluru: Got it, got it, understood.
+
+181
+00:21:41.240 --> 00:21:49.009
+Sreekanth Tadakaluru: I think, like, we'll check on this particular data, actually. It is… currently, the support is only for SQL Server and Oracle, correct?
+
+182
+00:21:49.460 --> 00:21:54.649
+Arshad Nawaz: No, no. So we have SQL Server, Oracle, Mongo, Postgres, Cassandra, Mariga, and MySQL.
+
+183
+00:21:55.600 --> 00:22:01.060
+Sreekanth Tadakaluru: Okay, but, we have, like, the internal Postgres databases also, correct? Which is cloud-managed.
+
+184
+00:22:01.060 --> 00:22:02.010
+Arshad Nawaz: Yes.
+
+185
+00:22:02.150 --> 00:22:07.770
+Arshad Nawaz: But the new hotel collector is not written for everyone. The new hotel collector is only for SQL Server and Oracle.
+
+186
+00:22:08.120 --> 00:22:09.839
+Sreekanth Tadakaluru: Got it, got it, got it.
+
+187
+00:22:11.930 --> 00:22:23.259
+Sreekanth Tadakaluru: Maybe if you can pass that customer account ID, and at the same time, if you can give the access to, like, your internal playground, the databases.
+
+188
+00:22:23.260 --> 00:22:23.850
+Arshad Nawaz: True.
+
+189
+00:22:24.200 --> 00:22:36.749
+Sreekanth Tadakaluru: We can check the data, and then we'll come up with a kind of, like, the plan. So, these are something, like, maybe even, very, very important, so we can do, like, this collaborative work, Ashed, if you're okay.
+
+190
+00:22:36.750 --> 00:22:38.899
+Arshad Nawaz: Sure, sure, I'm okay.
+
+191
+00:22:39.110 --> 00:22:46.110
+Sreekanth Tadakaluru: We'll just get the buy-in from my engineering counterpart as well, once. That is Raghu. Raghavendra Duvedi.
+
+192
+00:22:47.580 --> 00:22:50.999
+Sreekanth Tadakaluru: I mean, I think, like, he reports to Prabhu only.
+
+193
+00:22:51.000 --> 00:22:52.679
+Arshad Nawaz: Correct, correct, yes.
+
+194
+00:22:55.330 --> 00:22:56.180
+Sreekanth Tadakaluru: Okay.
+
+195
+00:22:58.900 --> 00:23:02.869
+Sreekanth Tadakaluru: I had explained this to, Prabhu also.
+
+196
+00:23:03.730 --> 00:23:06.770
+Sreekanth Tadakaluru: Because now our group,
+
+197
+00:23:06.950 --> 00:23:13.249
+Sreekanth Tadakaluru: Reports to Prabhu, because Vair has resigned. Yes. Today is Vaid's, last working day.
+
+198
+00:23:13.250 --> 00:23:13.760
+Arshad Nawaz: Right.
+
+199
+00:23:13.760 --> 00:23:29.300
+Sreekanth Tadakaluru: So, now ours, this complete NRA team reports to Prabhu. So, in my introduction, to Prabhu, I've explained, like, the similar concept. He said, like, he's very much interested. Even we can go to, like, a Prabhu and then get his buy-in as well.
+
+200
+00:23:29.440 --> 00:23:38.899
+Arshad Nawaz: Sure, sure, sure, we can do that, no problem. Actually, this DB agent thing was already in my roadmap, so Visay came along like a archangel from heaven and told…
+
+201
+00:23:39.930 --> 00:23:40.770
+Arshad Nawaz: We can do.
+
+202
+00:23:44.250 --> 00:23:53.180
+Arshad Nawaz: So, yeah. But if you want, like, Customer Zero within Postgres also, that also is, like, we can do, like, for our internal team, we can give the Postgres collector to you.
+
+203
+00:23:53.690 --> 00:23:59.790
+Arshad Nawaz: And, maybe you can do that. But the problem is, for Postgres, see, there are problems everywhere.
+
+204
+00:24:06.720 --> 00:24:07.810
+Arshad Nawaz: One minute.
+
+205
+00:24:16.360 --> 00:24:24.230
+Arshad Nawaz: Okay, okay. We have for Postgres, so you can use Postgres as well. So the query monitoring piece is available for only 3 databases.
+
+206
+00:24:24.900 --> 00:24:26.039
+Sreekanth Tadakaluru: Got it, got it.
+
+207
+00:24:26.040 --> 00:24:28.589
+Arshad Nawaz: Sql Server, MySQL, and Postgres.
+
+208
+00:24:29.390 --> 00:24:30.520
+Sreekanth Tadakaluru: Okay, okay.
+
+209
+00:24:30.780 --> 00:24:33.060
+Arshad Nawaz: You can pick whatever you want, and you can start.
+
+210
+00:24:33.670 --> 00:24:35.540
+Sreekanth Tadakaluru: Got it, got it, understood.
+
+211
+00:24:36.130 --> 00:24:39.960
+Arshad Nawaz: For the hotel thing, you will not have any customer data, because it is being released on Monday.
+
+212
+00:24:40.020 --> 00:24:41.480
+Sreekanth Tadakaluru: So…
+
+213
+00:24:42.480 --> 00:24:45.469
+Arshad Nawaz: There's a lot of moving pieces here and there, so please bear with me.
+
+214
+00:24:45.470 --> 00:24:46.510
+Sreekanth Tadakaluru: How much is that?
+
+215
+00:24:46.820 --> 00:24:48.950
+Sreekanth Tadakaluru: Understood.
+
+216
+00:24:49.590 --> 00:24:52.270
+Arshad Nawaz: So, Shikant, I think,
+
+217
+00:24:53.260 --> 00:24:56.880
+Arshad Nawaz: So this is something which we are building. So we are revamping the entire product.
+
+218
+00:24:57.000 --> 00:25:00.220
+Arshad Nawaz: The product is, like, not that great, as I told Earl now.
+
+219
+00:25:00.400 --> 00:25:05.799
+Arshad Nawaz: So we are revamping, and this is one of the flows. If you want to debug a slow query.
+
+220
+00:25:05.950 --> 00:25:08.649
+Arshad Nawaz: We show the slow query here, you can click it.
+
+221
+00:25:08.980 --> 00:25:11.980
+Arshad Nawaz: You can see what is the performance timeline over a period of time.
+
+222
+00:25:12.350 --> 00:25:14.649
+Arshad Nawaz: What are the wait events happening for that query?
+
+223
+00:25:14.960 --> 00:25:16.939
+Arshad Nawaz: What is the explain plan of the query?
+
+224
+00:25:17.180 --> 00:25:28.130
+Arshad Nawaz: And finally, what is the infra-analysis of that query? As in, like, first one talks about if any other query is causing a problem, second tab talks about, like, internal stuff. Is the query even executing properly?
+
+225
+00:25:28.390 --> 00:25:37.219
+Arshad Nawaz: And the third one talks about, like, if you eliminated externality, if you eliminated internals, then finally we jump to the host to figure out if something went wrong there.
+
+226
+00:25:37.580 --> 00:25:41.109
+Arshad Nawaz: So this is one flow. This is also going live on Monday.
+
+227
+00:25:41.440 --> 00:25:42.210
+Sreekanth Tadakaluru: Got it.
+
+228
+00:25:43.020 --> 00:25:51.939
+Arshad Nawaz: Second thing is, like, we are building this entire new experience for the landing page itself, like the, say, what you call a single entity page, or a detailed page.
+
+229
+00:25:53.240 --> 00:25:57.500
+Arshad Nawaz: So here, we'll be catching queries, transactions, sessions.
+
+230
+00:25:57.500 --> 00:25:57.920
+Sreekanth Tadakaluru: Absolutely.
+
+231
+00:25:57.920 --> 00:25:58.570
+Arshad Nawaz: tables.
+
+232
+00:25:59.740 --> 00:26:07.770
+Arshad Nawaz: Tables will also have data around, like, what is the growth, who is doing it, how many full scans it is going, what is the common query pattern being detected on that table.
+
+233
+00:26:08.140 --> 00:26:11.930
+Arshad Nawaz: And who are the, like, the top clients who are querying the table?
+
+234
+00:26:14.180 --> 00:26:18.349
+Arshad Nawaz: Same about clients and resource health and weight events, like, we are trying to do this.
+
+235
+00:26:19.140 --> 00:26:22.120
+Arshad Nawaz: Also, further down the roadmap is something like this.
+
+236
+00:26:23.900 --> 00:26:29.069
+Arshad Nawaz: So we want a map, which will tell, like, what clients are connected to my database.
+
+237
+00:26:29.290 --> 00:26:29.900
+Arshad Nawaz: And this.
+
+238
+00:26:29.900 --> 00:26:30.290
+Sreekanth Tadakaluru: Correct.
+
+239
+00:26:30.290 --> 00:26:41.560
+Arshad Nawaz: thing is the recommendation which we want to do, that this is my, some client which is causing a problem, or firing too many queries, or putting a lot of throughput load on the DB.
+
+240
+00:26:42.190 --> 00:26:47.130
+Arshad Nawaz: Another variant is, like, even if, on the same…
+
+241
+00:26:47.420 --> 00:26:55.819
+Arshad Nawaz: VM or on the same compute, if two databases are sitting, how does it look like? Can we say that because of… since it is the same compute.
+
+242
+00:26:56.190 --> 00:27:05.810
+Arshad Nawaz: Db2 is consuming a lot of resources, which is causing problem in DB1, and going backtrack, that is why you are seeing application performance downgrade in application A.
+
+243
+00:27:06.120 --> 00:27:07.480
+Sreekanth Tadakaluru: Got it, got it.
+
+244
+00:27:07.480 --> 00:27:15.080
+Arshad Nawaz: this is, like, the ultimate aim and goal. Nobody's doing this in the market today, and our customers
+
+245
+00:27:15.590 --> 00:27:19.740
+Arshad Nawaz: I think 35-40% of them are, like, financial services.
+
+246
+00:27:20.500 --> 00:27:27.580
+Arshad Nawaz: So I don't know why, like, but everybody has, like, a similar architecture wherein they have a massive vertically scaled database.
+
+247
+00:27:28.350 --> 00:27:39.779
+Arshad Nawaz: And, each of their client or their customers has one schema within that database, or one… in Oracle's case, it is a schema. In SQL Server's case, it's a database.
+
+248
+00:27:39.780 --> 00:27:40.620
+Sreekanth Tadakaluru: database, kind of.
+
+249
+00:27:40.620 --> 00:27:42.519
+Arshad Nawaz: Like, within the server, there'll be a database.
+
+250
+00:27:42.660 --> 00:27:48.079
+Arshad Nawaz: And so they want to identify which database… which logical database is causing problem to others.
+
+251
+00:27:48.240 --> 00:28:04.149
+Sreekanth Tadakaluru: I think, like, the main thing, is since, you said, like, you have started something like Oracle 12C. Oracle 12C, before, like, Oracle 12C, so 11C, there is no, container concept.
+
+252
+00:28:04.610 --> 00:28:09.910
+Sreekanth Tadakaluru: Yeah. In Oracle, there is no container concept. From 12C, they came up with CDB and TDB concepts.
+
+253
+00:28:09.910 --> 00:28:10.590
+Arshad Nawaz: Yes, yes.
+
+254
+00:28:10.590 --> 00:28:14.459
+Sreekanth Tadakaluru: CDB is a container database, PDB, I think I forgot, primary
+
+255
+00:28:15.490 --> 00:28:22.689
+Sreekanth Tadakaluru: applicable database. So, when you get into that one, so what the people are doing is, they are massively computing… just one second.
+
+256
+00:28:23.180 --> 00:28:24.100
+Arshad Nawaz: Sure, sure.
+
+257
+00:28:30.980 --> 00:28:34.450
+Arshad Nawaz: a verbier.
+
+258
+00:28:37.120 --> 00:28:38.839
+Abhishek Pandey: How much did I ambigu teasing.
+
+259
+00:28:40.310 --> 00:28:45.510
+Abhishek Pandey: database kevare mein.
+
+260
+00:28:46.240 --> 00:28:52.400
+Arshad Nawaz: I think, Oh, BI… I think she can come from BI experience.
+
+261
+00:28:56.050 --> 00:28:58.410
+Arshad Nawaz: We'll be laughing once he's back.
+
+262
+00:29:00.370 --> 00:29:05.719
+Abhishek Pandey: Yito, interesting haird ki padhi se charyh person financial client hai, ito me APM ka batar hau.
+
+263
+00:29:05.720 --> 00:29:07.000
+Arshad Nawaz: Maybe mirror AWSC.
+
+264
+00:29:07.000 --> 00:29:08.630
+Abhishek Pandey: That's a database ka, okay.
+
+265
+00:29:12.370 --> 00:29:15.750
+Abhishek Pandey: Purga Pura.
+
+266
+00:29:16.360 --> 00:29:16.870
+Arshad Nawaz: Minimum what.
+
+267
+00:29:16.870 --> 00:29:17.359
+Abhishek Pandey: That's like…
+
+268
+00:29:19.890 --> 00:29:21.510
+Arshad Nawaz: Apply humbi sample karte.
+
+269
+00:29:21.510 --> 00:29:22.810
+Abhishek Pandey: Yeah, hoja at all.
+
+270
+00:29:23.600 --> 00:29:24.270
+Abhishek Pandey: Hmm.
+
+271
+00:29:24.520 --> 00:29:27.060
+Arshad Nawaz: sample karta.
+
+272
+00:29:27.350 --> 00:29:27.980
+Abhishek Pandey: Okay.
+
+273
+00:29:31.430 --> 00:29:34.610
+Abhishek Pandey: database use karte hain?
+
+274
+00:29:35.050 --> 00:29:36.260
+Arshad Nawaz: Si conno.
+
+275
+00:29:36.260 --> 00:29:38.080
+Sreekanth Tadakaluru: Kitna, Sibazin.
+
+276
+00:29:40.170 --> 00:29:41.449
+Abhishek Pandey: Pacha stolen.
+
+277
+00:29:43.740 --> 00:29:47.379
+Arshad Nawaz: Shikan, do you come from BI experience?
+
+278
+00:29:48.040 --> 00:29:56.359
+Sreekanth Tadakaluru: Ba… so initially I started my career as a, data engineer, so then, data analysis and VA.
+
+279
+00:29:56.360 --> 00:29:57.300
+Arshad Nawaz: Same here.
+
+280
+00:29:57.470 --> 00:30:15.060
+Sreekanth Tadakaluru: So here, like, what I was saying, after, like, Article 12C, so people, because of the container database concept, like, they have the heavy compute, and then trying to make each and every schema, like, the database as a kind of, the container, so everything is running on, like, the same, hardware.
+
+281
+00:30:15.060 --> 00:30:20.439
+Arshad Nawaz: The other one is, in SQL Server, there's something called always-on consult.
+
+282
+00:30:20.500 --> 00:30:21.890
+Sreekanth Tadakaluru: High availability, and .
+
+283
+00:30:21.890 --> 00:30:22.610
+Arshad Nawaz: Group, yeah.
+
+284
+00:30:22.610 --> 00:30:35.670
+Sreekanth Tadakaluru: Correct. Alvation and high availability. Along with that one, that particular time, this SSD concept was becoming more popular because of, like, the SSDs. People are having, like, the very high compute. Earlier,
+
+285
+00:30:35.810 --> 00:30:41.569
+Sreekanth Tadakaluru: The network storage is, like, the bigger problem. Whenever you're storing so much… too much of information, it is going to pass.
+
+286
+00:30:41.900 --> 00:30:43.130
+Arshad Nawaz: creatives, right?
+
+287
+00:30:43.130 --> 00:30:55.350
+Sreekanth Tadakaluru: Correct. So now, when they came up with the kind of, like, the SST and other things, people were, taking, like, the transient information to, like, the SSTs. So that's where, like, people were thinking, like, the massive parallelism kind of magic.
+
+288
+00:30:55.350 --> 00:30:56.420
+Arshad Nawaz: Right, right.
+
+289
+00:30:57.530 --> 00:31:08.849
+Sreekanth Tadakaluru: And that too, like, I worked, my initial 12 years with, banking and finance, Barclays Capital and Fidelity Investments. We are the largest, investment bankers, in U.S.
+
+290
+00:31:08.960 --> 00:31:13.199
+Sreekanth Tadakaluru: UK, and, even some, like, the Asian markets.
+
+291
+00:31:13.390 --> 00:31:19.099
+Sreekanth Tadakaluru: So, whatever, like, you are showing, so definitely it is going to be very, very useful for the financial customers.
+
+292
+00:31:19.100 --> 00:31:20.450
+Arshad Nawaz: Yes.
+
+293
+00:31:21.050 --> 00:31:21.530
+Arshad Nawaz: So…
+
+294
+00:31:21.530 --> 00:31:27.540
+Abhishek Pandey: I read that we are working on DB Agent as our first agent, then Shakanth. I didn't know about your experience.
+
+295
+00:31:29.830 --> 00:31:34.830
+Arshad Nawaz: It is good, it is good, actually, it is coming. So this is the ultimate, Shikant, if you are able to build this visualization now.
+
+296
+00:31:34.960 --> 00:31:35.840
+Arshad Nawaz: Done.
+
+297
+00:31:37.280 --> 00:31:37.920
+Sreekanth Tadakaluru: Headache.
+
+298
+00:31:38.150 --> 00:31:46.460
+Arshad Nawaz: I've also ran this through some customers, like, 5 or 6 customers, and everybody, can you really do it? So, like, this is the question.
+
+299
+00:31:46.600 --> 00:31:49.810
+Arshad Nawaz: Like, this is, like, wow, what can you really do, is the question.
+
+300
+00:31:49.810 --> 00:31:56.450
+Sreekanth Tadakaluru: The reason here why they would have asked is, one is…
+
+301
+00:31:56.630 --> 00:32:01.410
+Sreekanth Tadakaluru: Getting, like, an application is very difficult, I think, because in the database.
+
+302
+00:32:01.840 --> 00:32:10.779
+Sreekanth Tadakaluru: Maybe you might be having the client information, I'm not sure, like, how you are going to get, like, the application information until… unless if you have, like, the transaction-related information.
+
+303
+00:32:11.170 --> 00:32:12.390
+Sreekanth Tadakaluru: Because if you go…
+
+304
+00:32:12.390 --> 00:32:14.329
+Arshad Nawaz: Connecting APM trace to DB trace.
+
+305
+00:32:14.330 --> 00:32:20.339
+Sreekanth Tadakaluru: Correct. So that is, something, like, very important. The second one here.
+
+306
+00:32:20.340 --> 00:32:25.719
+Arshad Nawaz: But just a caveat there also, Shikan. Tracing itself is a sampling.
+
+307
+00:32:25.990 --> 00:32:26.849
+Sreekanth Tadakaluru: That's what I'm saying.
+
+308
+00:32:26.850 --> 00:32:30.320
+Arshad Nawaz: And we are also sampling. We are also not getting full information.
+
+309
+00:32:30.640 --> 00:32:35.659
+Sreekanth Tadakaluru: Your sampling and their sampling, matching is going to be, like, a very, very, very, very less…
+
+310
+00:32:36.100 --> 00:32:51.360
+Sreekanth Tadakaluru: The second thing here is, when it comes to, like, the banking and finance, the heavy workload comes from the batch process. Python. So they might be having, like, a kind of shell scripting, which is triggering, like, a Python script, that is going to have, like, this one.
+
+311
+00:32:51.370 --> 00:32:56.119
+Sreekanth Tadakaluru: So… and, even… you can go to, like, the Tableau Power BI,
+
+312
+00:32:56.190 --> 00:33:01.119
+Sreekanth Tadakaluru: If you go to, like, the tab view on Power BI and everything, so they connect through, like, one of the connectors.
+
+313
+00:33:01.390 --> 00:33:02.970
+Arshad Nawaz: Hmm. Woody BC has something.
+
+314
+00:33:03.210 --> 00:33:05.010
+Arshad Nawaz: JDBC, JDBC.
+
+315
+00:33:05.010 --> 00:33:07.499
+Sreekanth Tadakaluru: Jdb… JDBC,
+
+316
+00:33:07.500 --> 00:33:09.829
+Arshad Nawaz: Our database center always oracle.
+
+317
+00:33:09.830 --> 00:33:14.019
+Sreekanth Tadakaluru: Correct. So, they use those particular things
+
+318
+00:33:14.390 --> 00:33:29.269
+Sreekanth Tadakaluru: So, because of that, getting, like, at application level is very, very difficult. But anyway, see, here in this particular side, if I'm taking, like, the left side, which is application, might be something difficult, but right side, like, you can get it very easy.
+
+319
+00:33:29.850 --> 00:33:30.460
+Arshad Nawaz: Yeah.
+
+320
+00:33:33.360 --> 00:33:35.610
+Arshad Nawaz: But the left side is the meat.
+
+321
+00:33:35.620 --> 00:33:39.720
+Abhishek Pandey: Me, because we sell easily to application developers.
+
+322
+00:33:39.720 --> 00:33:40.240
+Arshad Nawaz: Versus.
+
+323
+00:33:40.240 --> 00:33:41.080
+Sreekanth Tadakaluru: No, no kidding.
+
+324
+00:33:41.720 --> 00:33:47.509
+Sreekanth Tadakaluru: In banking, why it is very important is, say, somebody creates a kind of, like, the database.
+
+325
+00:33:47.510 --> 00:33:53.649
+Arshad Nawaz: And then they give, like, the read-only credentials to one particular team. They might be sharing that with, like, other things.
+
+326
+00:33:53.690 --> 00:33:58.349
+Sreekanth Tadakaluru: And they might be sharing with, like, others. Actually, these are debut owners, they do not know.
+
+327
+00:33:58.510 --> 00:34:09.989
+Sreekanth Tadakaluru: It is queried from the application EA, because they would have given the credential to application C. In turn, like, it would have gone to, like, the application A. So they do not have, like, that information. If you are able to get it.
+
+328
+00:34:10.110 --> 00:34:13.690
+Sreekanth Tadakaluru: It is a very good thing for them to think about, like, the capacity.
+
+329
+00:34:13.980 --> 00:34:19.340
+Arshad Nawaz: So, this is the simple, Shikan. So, this is an entity which we have.
+
+330
+00:34:19.510 --> 00:34:23.510
+Arshad Nawaz: the entity will use a DB call to connect through some DB user.
+
+331
+00:34:24.120 --> 00:34:28.710
+Arshad Nawaz: So we… so till here… let me annotate. This information we have.
+
+332
+00:34:29.460 --> 00:34:34.620
+Arshad Nawaz: Correct, correct. So what I'm saying here… I think this is… Correct. Oh, man, yeah.
+
+333
+00:34:34.980 --> 00:34:38.939
+Sreekanth Tadakaluru: So, what I'm saying here is, hmm…
+
+334
+00:34:42.190 --> 00:34:52.879
+Sreekanth Tadakaluru: So what I'm… what I'm saying here is, application A and application C, connecting through the same user, through a kind of, like, the database, customers might not be knowing.
+
+335
+00:34:53.130 --> 00:34:53.719
+Arshad Nawaz: Yeah.
+
+336
+00:34:54.170 --> 00:35:02.720
+Sreekanth Tadakaluru: So, what I'm saying is, like, if, DB owners, this, DB user information, they would have given to application here.
+
+337
+00:35:03.050 --> 00:35:03.680
+Arshad Nawaz: Yeah.
+
+338
+00:35:04.120 --> 00:35:07.310
+Sreekanth Tadakaluru: But application A would have shared with application C.
+
+339
+00:35:08.120 --> 00:35:12.740
+Sreekanth Tadakaluru: But these DBE owners, they might not be knowing that application C
+
+340
+00:35:13.220 --> 00:35:17.780
+Sreekanth Tadakaluru: calls this particular database through this particular database. That is the biggest problem for them.
+
+341
+00:35:18.260 --> 00:35:18.860
+Arshad Nawaz: Cheers.
+
+342
+00:35:20.860 --> 00:35:21.720
+Sreekanth Tadakaluru: Beautiful.
+
+343
+00:35:23.370 --> 00:35:24.510
+Sreekanth Tadakaluru: Beautiful.
+
+344
+00:35:29.100 --> 00:35:31.860
+Arshad Nawaz: Sure. So, Abhishek, what to do?
+
+345
+00:35:34.580 --> 00:35:38.999
+Arshad Nawaz: This is another concert, by the way. I think this is what Sheikhand was also saying.
+
+346
+00:35:41.860 --> 00:35:49.200
+Arshad Nawaz: So, they have removed it. So, if one particular metric goes down, or something happens, how is it affecting all clients?
+
+347
+00:35:51.330 --> 00:35:59.660
+Arshad Nawaz: So, this is also one angle which we can start recommending on. But then it's okay. I'll leave it up to you how best you want to implement.
+
+348
+00:36:01.500 --> 00:36:04.639
+Abhishek Pandey: But you guys are already showing it here now, in the new…
+
+349
+00:36:04.640 --> 00:36:10.039
+Arshad Nawaz: This is your placeholder. We don't know how to do this. Okay, okay, okay.
+
+350
+00:36:10.330 --> 00:36:16.509
+Abhishek Pandey: I thought… What exactly are you guys able to do, from this particular view right now?
+
+351
+00:36:17.340 --> 00:36:19.340
+Abhishek Pandey: Nothing here. Actually, nothing here.
+
+352
+00:36:19.340 --> 00:36:20.610
+Arshad Nawaz: everything here.
+
+353
+00:36:21.270 --> 00:36:23.909
+Arshad Nawaz: So this is a 360 product which you were thinking of?
+
+354
+00:36:23.910 --> 00:36:25.280
+Abhishek Pandey: Got it, got it, got it.
+
+355
+00:36:25.830 --> 00:36:33.380
+Arshad Nawaz: So how do we actually… tell what's happening around my database, and who's getting affected, why, if somebody.
+
+356
+00:36:33.380 --> 00:36:36.839
+Abhishek Pandey: Yeah, yeah, I got it, I got it. I thought you were already able to do this.
+
+357
+00:36:36.840 --> 00:36:37.410
+Arshad Nawaz: Let me…
+
+358
+00:36:38.290 --> 00:36:39.350
+Abhishek Pandey: If you were.
+
+359
+00:36:39.520 --> 00:36:42.560
+Abhishek Pandey: So, anything beyond tables, tables and beyond tables, right?
+
+360
+00:36:42.830 --> 00:36:45.080
+Arshad Nawaz: This is the current product, so…
+
+361
+00:36:45.420 --> 00:36:46.490
+Abhishek Pandey: Okay.
+
+362
+00:36:46.660 --> 00:36:49.640
+Arshad Nawaz: So, anything… Anything.
+
+363
+00:36:49.640 --> 00:36:50.450
+Abhishek Pandey: I think it's better than this.
+
+364
+00:36:50.450 --> 00:36:51.810
+Arshad Nawaz: Literally easier.
+
+365
+00:36:53.080 --> 00:36:53.809
+Abhishek Pandey: Got it.
+
+366
+00:36:56.580 --> 00:36:58.349
+Arshad Nawaz: Yeah, so I'll stop my screen share.
+
+367
+00:36:58.560 --> 00:36:59.190
+Sreekanth Tadakaluru: Headache.
+
+368
+00:37:01.200 --> 00:37:09.249
+Sreekanth Tadakaluru: I think, like, you have, like, pretty good plans, Hashed. It looks like very cool, things.
+
+369
+00:37:09.430 --> 00:37:13.459
+Sreekanth Tadakaluru: If you are able to expand this to, like, the other databases.
+
+370
+00:37:13.460 --> 00:37:17.850
+Arshad Nawaz: No, no, we have to do that, we have to do that, and let… just so that even…
+
+371
+00:37:18.270 --> 00:37:21.619
+Arshad Nawaz: You get a little excited about what is the opportunity here.
+
+372
+00:37:21.620 --> 00:37:22.470
+Sreekanth Tadakaluru: They lose the…
+
+373
+00:37:22.470 --> 00:37:28.610
+Arshad Nawaz: So… We have many dates which we lose, because database capability is not available.
+
+374
+00:37:28.950 --> 00:37:29.650
+Sreekanth Tadakaluru: Peanut butter.
+
+375
+00:37:29.650 --> 00:37:32.029
+Arshad Nawaz: At that level, which customers expect.
+
+376
+00:37:32.250 --> 00:37:43.619
+Arshad Nawaz: So, in projections only, we see the revenue doubling, if you are able to deliver minus recommendation, not even recommendations. If you go to recommendations, then, like, it is, like, a leaps and bounds ahead now.
+
+377
+00:37:43.620 --> 00:37:44.989
+Sreekanth Tadakaluru: Get it, get it.
+
+378
+00:37:45.010 --> 00:37:47.939
+Arshad Nawaz: 2x revenue is, like, straightforward, and…
+
+379
+00:37:47.940 --> 00:37:49.060
+Sreekanth Tadakaluru: online order.
+
+380
+00:37:49.060 --> 00:37:52.810
+Arshad Nawaz: If recommendations come in, we can 3X our revenue. Right now, our revenue stands at 2.4.
+
+381
+00:37:54.140 --> 00:37:59.049
+Arshad Nawaz: It can easily go to, like, 7.5 if we can get a decent amount of recommendations in as well.
+
+382
+00:37:59.470 --> 00:38:02.659
+Abhishek Pandey: Got it, got it. With the existing clients, you're saying?
+
+383
+00:38:02.940 --> 00:38:03.860
+Abhishek Pandey: Or with the…
+
+384
+00:38:03.860 --> 00:38:16.620
+Arshad Nawaz: existing clients. We… so I connect… so my part of my job is to also increase the revenue. Actually, that is my job, to increase the revenue. So I connect with a lot of customers on a weekly basis. Like, every week I connect, like, at least 3-4 customers.
+
+385
+00:38:16.990 --> 00:38:21.910
+Arshad Nawaz: So, they have some specific problems to solve, like this noisy neighbor problem.
+
+386
+00:38:22.650 --> 00:38:24.450
+Arshad Nawaz: This application is causing issues.
+
+387
+00:38:25.100 --> 00:38:28.100
+Arshad Nawaz: But otherwise, they also say that,
+
+388
+00:38:28.410 --> 00:38:33.940
+Arshad Nawaz: So, important metric which we, try to do is MTTD and MTTR.
+
+389
+00:38:34.440 --> 00:38:43.900
+Arshad Nawaz: mean time to detect, and mean time to upload is always not in our hands, because it has to be outside New Relic most of the times. MTTD is something which we control, or we can control.
+
+390
+00:38:44.090 --> 00:38:47.950
+Arshad Nawaz: If you are able to give them an actual thing in a live production scenario.
+
+391
+00:38:47.950 --> 00:38:48.560
+Sreekanth Tadakaluru: Good luck.
+
+392
+00:38:48.560 --> 00:38:54.950
+Arshad Nawaz: Instead of going to 10… so I have one flow chart I can show you. If you want to detect a database issue, it takes at least 7 steps.
+
+393
+00:38:57.720 --> 00:39:04.250
+Arshad Nawaz: So, and that 7 steps starts with the fact that which database is this application connecting to? They don't even know that.
+
+394
+00:39:04.930 --> 00:39:05.840
+Sreekanth Tadakaluru: Okay.
+
+395
+00:39:06.660 --> 00:39:21.109
+Arshad Nawaz: So they need to go to some configuration table, some Excel file, something somewhere which shows that, as a ticket, this reporting application is connected to this database. This is sitting in AWS, or is it sitting in my host? That also, like, information half of the times people don't have.
+
+396
+00:39:21.540 --> 00:39:25.940
+Arshad Nawaz: So if you can reduce all those details in one single line or flow, none.
+
+397
+00:39:26.310 --> 00:39:28.950
+Abhishek Pandey: Can you show it to me, that… that thing?
+
+398
+00:39:29.520 --> 00:39:30.110
+Arshad Nawaz: Resting?
+
+399
+00:39:30.110 --> 00:39:33.430
+Abhishek Pandey: Where you're trying to diagnose the 7 steps you're talking about.
+
+400
+00:39:34.370 --> 00:39:35.730
+Arshad Nawaz: If you have it.
+
+401
+00:39:36.010 --> 00:39:37.960
+Arshad Nawaz: Let me find… I have written somewhere.
+
+402
+00:39:43.010 --> 00:39:57.010
+Sreekanth Tadakaluru: And the reason, I said, like, why, I said that the other databases are important, most of, like, the banking and finance, they use DB2 as, like, their primary trading database. DB2 is a little difficult, Chikam, I know, I know that, like…
+
+403
+00:39:57.010 --> 00:39:59.440
+Arshad Nawaz: OLTP full high-speed transaction.
+
+404
+00:39:59.440 --> 00:39:59.860
+Sreekanth Tadakaluru: Okay.
+
+405
+00:39:59.860 --> 00:40:02.970
+Arshad Nawaz: It is a little difficult to do, number one, because it is…
+
+406
+00:40:03.600 --> 00:40:05.870
+Arshad Nawaz: I think it is written in 1960s or something.
+
+407
+00:40:05.870 --> 00:40:06.920
+Sreekanth Tadakaluru: 1960s clinic.
+
+408
+00:40:06.920 --> 00:40:07.370
+Arshad Nawaz: That's the one.
+
+409
+00:40:07.370 --> 00:40:08.770
+Sreekanth Tadakaluru: Till it is being used.
+
+410
+00:40:08.770 --> 00:40:12.899
+Arshad Nawaz: Till it is being used, and DB2 is, like, the mission-critical.
+
+411
+00:40:12.900 --> 00:40:13.770
+Sreekanth Tadakaluru: Okay, got it.
+
+412
+00:40:13.770 --> 00:40:17.140
+Arshad Nawaz: Patient critical, if you do some nonsense there, no, then…
+
+413
+00:40:17.140 --> 00:40:28.429
+Sreekanth Tadakaluru: The second one is, like, a Teradata. Also, like, the people uses, like, the Teradata. The third one is KDB. I'm not sure, like, whether it is in our plans.
+
+414
+00:40:28.600 --> 00:40:29.610
+Arshad Nawaz: KDB.
+
+415
+00:40:29.610 --> 00:40:35.700
+Sreekanth Tadakaluru: KDB. KDB is, so it is a high-speed trading, database.
+
+416
+00:40:36.570 --> 00:40:38.800
+Sreekanth Tadakaluru: All the exchanges, they use KDP.
+
+417
+00:40:39.410 --> 00:40:41.230
+Arshad Nawaz: Interesting, okay, I didn't know this, okay.
+
+418
+00:40:41.610 --> 00:40:43.350
+Abhishek Pandey: Same. I never heard about it.
+
+419
+00:40:45.080 --> 00:40:46.720
+Arshad Nawaz: I can explore this, you can.
+
+420
+00:40:46.720 --> 00:40:49.700
+Sreekanth Tadakaluru: It is a time series database, highly being used.
+
+421
+00:40:50.500 --> 00:40:58.060
+Arshad Nawaz: But now, understood, understood. So now the requirement is like this, like, offshoot here and there, people will ask for Snowflake.
+
+422
+00:40:58.660 --> 00:41:05.430
+Arshad Nawaz: Most of the times, people will ask for SQL Server, Oracle, Postgres, Mongo is one big.
+
+423
+00:41:05.570 --> 00:41:06.790
+Arshad Nawaz: But in cloud.
+
+424
+00:41:07.540 --> 00:41:08.030
+Sreekanth Tadakaluru: Mmm.
+
+425
+00:41:08.030 --> 00:41:09.380
+Arshad Nawaz: Things change in cloud.
+
+426
+00:41:09.630 --> 00:41:14.839
+Arshad Nawaz: Because it's managed, or, like, half-managed sometimes, you don't have a lot of views available to you.
+
+427
+00:41:15.730 --> 00:41:18.730
+Sreekanth Tadakaluru: Yeah, like, when it goes to, like, the cloud,
+
+428
+00:41:19.010 --> 00:41:29.540
+Sreekanth Tadakaluru: you can't monitor, especially, like, if it is a managed database. I think, like, I'm not sure how you are going to segregate that, whether the database has been installed into, like, the visitor machine.
+
+429
+00:41:29.540 --> 00:41:30.050
+Arshad Nawaz: We have…
+
+430
+00:41:30.050 --> 00:41:32.809
+Sreekanth Tadakaluru: managed, we are, like, the AWS managed.
+
+431
+00:41:32.810 --> 00:41:36.840
+Arshad Nawaz: So if it is AWS managed, it is detected from cloud integration.
+
+432
+00:41:37.030 --> 00:41:41.439
+Arshad Nawaz: And then that… the instrumentation process for our cloud is a little different.
+
+433
+00:41:41.440 --> 00:41:50.630
+Sreekanth Tadakaluru: Correct. So, if it is a cloud-managed, you do not have any control on the infra, you cannot run anything. The only thing, like, you need to restrict yourself at query level.
+
+434
+00:41:50.870 --> 00:41:56.309
+Arshad Nawaz: query level, but on the infra side, we do get data. We get CPU utilization and memory utilization.
+
+435
+00:41:57.250 --> 00:42:02.920
+Sreekanth Tadakaluru: Correct. That anyway, they might be getting it through the CloudWatch or, Azure monitor.
+
+436
+00:42:02.980 --> 00:42:03.800
+Arshad Nawaz: CloudWatch, yes.
+
+437
+00:42:03.800 --> 00:42:08.720
+Sreekanth Tadakaluru: The same, same information, like, we can install our own agent and then get the information.
+
+438
+00:42:08.880 --> 00:42:13.650
+Sreekanth Tadakaluru: But anyway, even if you're detecting the CPU utilization is very high.
+
+439
+00:42:14.000 --> 00:42:18.420
+Sreekanth Tadakaluru: I think, some matrix you can control, some you can't control. CPU utilization.
+
+440
+00:42:18.420 --> 00:42:25.070
+Arshad Nawaz: 90% are still available, like, 10% critical stuff will not be available, like, process level metric will not be available, all these things will not be there.
+
+441
+00:42:25.070 --> 00:42:26.030
+Sreekanth Tadakaluru: Correct.
+
+442
+00:42:26.030 --> 00:42:30.160
+Arshad Nawaz: But still doable. So, the trend or the ask which we are seeing in the market is.
+
+443
+00:42:30.740 --> 00:42:33.500
+Arshad Nawaz: We are moving from self-hosted to…
+
+444
+00:42:33.550 --> 00:42:34.070
+Abhishek Pandey: Cloud.
+
+445
+00:42:34.070 --> 00:42:38.719
+Arshad Nawaz: Cloud. Cloud has RDS, not, like, not Aurora fully managed types, RDS.
+
+446
+00:42:39.230 --> 00:42:44.520
+Arshad Nawaz: to help us monitor that, number one. Recently, we are seeing a lot of traction on OCI for some reason.
+
+447
+00:42:45.160 --> 00:42:46.569
+Arshad Nawaz: And oracle.
+
+448
+00:42:46.570 --> 00:42:47.130
+Abhishek Pandey: pen.
+
+449
+00:42:47.260 --> 00:42:51.950
+Arshad Nawaz: cheap hair, or what Oracle-specific demand bots are RIV.
+
+450
+00:42:52.480 --> 00:42:59.419
+Arshad Nawaz: For transactions, nobody has honestly asked till now. Like, I've been here, like, 4 months now.
+
+451
+00:42:59.690 --> 00:43:04.010
+Arshad Nawaz: Transaction in the sense, like, DB2 and KDB types.
+
+452
+00:43:04.580 --> 00:43:10.590
+Arshad Nawaz: But my hypothesis is it is, like, ultra-mission critical, so they will have someone monitoring for them, most likely.
+
+453
+00:43:10.590 --> 00:43:16.019
+Sreekanth Tadakaluru: IBM, they give, like, the very clear monitor, for.
+
+454
+00:43:16.020 --> 00:43:18.790
+Arshad Nawaz: And they normally do not expose it to other consumers.
+
+455
+00:43:18.790 --> 00:43:27.059
+Sreekanth Tadakaluru: Correct. KDB, it is not a very high demand. If you go to, like, any kind of finance systems, they might be having, like, a 2 to 3 databases on KDB.
+
+456
+00:43:27.220 --> 00:43:29.359
+Sreekanth Tadakaluru: Because it is the,
+
+457
+00:43:29.520 --> 00:43:39.430
+Sreekanth Tadakaluru: I think, like, the execution, whenever you want to execute, like, they are this, so it should be, like, very quick. So this is… this is highly being used in forex trading and other things.
+
+458
+00:43:39.430 --> 00:43:40.790
+Arshad Nawaz: understood, understood, understood.
+
+459
+00:43:41.510 --> 00:43:47.789
+Arshad Nawaz: And the third thing which we are seeing is, like, Azure, honestly, like, not much footprint, except Azure SQL.
+
+460
+00:43:47.880 --> 00:43:50.769
+Sreekanth Tadakaluru: Apart from that, nobody's asking anything on Azure.
+
+461
+00:43:50.780 --> 00:43:55.989
+Arshad Nawaz: GCP people are asking for Alloy. AlloyDB will give one… Aurora-type services there, they have.
+
+462
+00:43:56.240 --> 00:44:07.120
+Arshad Nawaz: But same, same story there also. Postgres, mostly Postgres. Postgres and MySQL, or GCP. AWS MySQL Server is the most sought after.
+
+463
+00:44:07.340 --> 00:44:14.900
+Arshad Nawaz: So, I also, like, wanted to solution this, or at least try with SQL Server being the… SQL Server is 35% of our footprint today.
+
+464
+00:44:15.220 --> 00:44:16.410
+Arshad Nawaz: 35, 40.
+
+465
+00:44:16.950 --> 00:44:21.460
+Arshad Nawaz: Like, our monitoring existing, so if… and it lacks…
+
+466
+00:44:21.760 --> 00:44:31.080
+Arshad Nawaz: Among every… all databases, SQL Server has the most shittiest out-of-the-box features. That is why people tend to, use, like, third-party monitoring tools.
+
+467
+00:44:31.400 --> 00:44:40.939
+Sreekanth Tadakaluru: Correct. So even, my wife, she works in, Decatur, and earlier, she worked in applied, applied materials.
+
+468
+00:44:41.210 --> 00:44:41.560
+Arshad Nawaz: Right.
+
+469
+00:44:42.060 --> 00:44:46.040
+Sreekanth Tadakaluru: materials. Even, whatever the…
+
+470
+00:44:46.160 --> 00:44:56.309
+Sreekanth Tadakaluru: companies that I have worked… so we had, like, a four database… 5 databases, not 5, 6 databases total. One is, SAP, AAC.
+
+471
+00:44:56.310 --> 00:44:57.470
+Arshad Nawaz: Is it behind me?
+
+472
+00:44:57.580 --> 00:45:02.260
+Sreekanth Tadakaluru: No, no, SAP EAC. So, which is like this high base in,
+
+473
+00:45:02.260 --> 00:45:02.750
+Arshad Nawaz: It's funny.
+
+474
+00:45:02.750 --> 00:45:07.979
+Sreekanth Tadakaluru: 2016, 2017, sorry, 2006, 2007, like, there's a database called Sitebase.
+
+475
+00:45:07.980 --> 00:45:08.570
+Arshad Nawaz: Good news.
+
+476
+00:45:08.570 --> 00:45:16.530
+Sreekanth Tadakaluru: SAP has bought it, and then they made it as a kind of EAC, Arape Server Enterprise, SA-based EAC. Sorry, SAP EAC, that is one.
+
+477
+00:45:16.710 --> 00:45:17.990
+Sreekanth Tadakaluru: SQL Server.
+
+478
+00:45:18.130 --> 00:45:19.170
+Sreekanth Tadakaluru: article?
+
+479
+00:45:19.240 --> 00:45:20.140
+Arshad Nawaz: So…
+
+480
+00:45:20.250 --> 00:45:24.430
+Sreekanth Tadakaluru: Most of the people prefer SQL Server because managing Oracle is very difficult, okay?
+
+481
+00:45:24.610 --> 00:45:42.509
+Sreekanth Tadakaluru: SQL Server, I can have in the Windows, it is very easy to use in the Windows ecosystem. But Oracle, you need to know the Linux, and deploying there is very, very difficult. Monitoring also, there are so many functionalities. Then MySQL, Postgres.
+
+482
+00:45:42.630 --> 00:45:47.960
+Sreekanth Tadakaluru: And when Oracle has bought MySQL, there's a database, open source database, called Maria.
+
+483
+00:45:48.110 --> 00:45:48.870
+Sreekanth Tadakaluru: So, Mariana…
+
+484
+00:45:49.100 --> 00:45:50.600
+Arshad Nawaz: We have that support.
+
+485
+00:45:50.600 --> 00:45:55.360
+Sreekanth Tadakaluru: Maria also. So, Maria is an extension, or like the other version of,
+
+486
+00:45:55.360 --> 00:45:57.650
+Arshad Nawaz: open source version of MySQL.
+
+487
+00:45:57.650 --> 00:46:08.069
+Sreekanth Tadakaluru: MySQL. So, now Oracle is making, MySQL is a kind of, like, the license database, then they came up with MariaData. These are, like, the 6 popular databases in the market.
+
+488
+00:46:08.070 --> 00:46:08.660
+Arshad Nawaz: You.
+
+489
+00:46:09.320 --> 00:46:12.290
+Arshad Nawaz: Correct, correct. We are also aligned, thankfully.
+
+490
+00:46:13.810 --> 00:46:14.400
+Arshad Nawaz: Beautiful.
+
+491
+00:46:15.530 --> 00:46:18.440
+Abhishek Pandey: It seems like a new analytics intern is sitting between two.
+
+492
+00:46:18.760 --> 00:46:21.190
+Abhishek Pandey: High-level database engineers.
+
+493
+00:46:21.190 --> 00:46:22.040
+Arshad Nawaz: Amazing.
+
+494
+00:46:22.040 --> 00:46:23.849
+Sreekanth Tadakaluru: Menting, minting.
+
+495
+00:46:23.850 --> 00:46:25.840
+Arshad Nawaz: I still don't know anything, I feel.
+
+496
+00:46:28.630 --> 00:46:32.210
+Sreekanth Tadakaluru: But anyway, it is a very nice area, and .
+
+497
+00:46:32.210 --> 00:46:47.690
+Arshad Nawaz: I'm glad that you also have experience in data as a data engineer. So, we can actually build, like, a world-class product. My vision is to take out one competitor after four months, and finally bring it at parity or better than Datadog.
+
+498
+00:46:47.970 --> 00:46:48.490
+Sreekanth Tadakaluru: Got it.
+
+499
+00:46:48.490 --> 00:46:50.979
+Arshad Nawaz: In the next 6 months, so…
+
+500
+00:46:51.420 --> 00:46:55.489
+Arshad Nawaz: I don't know whether we will have enough investments here, so…
+
+501
+00:46:56.020 --> 00:46:56.729
+Arshad Nawaz: The time we have.
+
+502
+00:46:56.730 --> 00:47:05.279
+Sreekanth Tadakaluru: So here, I'm the performance, so I used to deal during my data engineering, I used to deal only, like, the performance a little bit.
+
+503
+00:47:05.700 --> 00:47:07.300
+Arshad Nawaz: It's imperial.
+
+504
+00:47:07.740 --> 00:47:08.309
+Sreekanth Tadakaluru: That's what.
+
+505
+00:47:08.310 --> 00:47:08.949
+Arshad Nawaz: The second government.
+
+506
+00:47:08.950 --> 00:47:13.609
+Sreekanth Tadakaluru: OTSS, JWS, or maybe this one, Microsoft SQL Server.
+
+507
+00:47:13.810 --> 00:47:19.530
+Sreekanth Tadakaluru: So, it is a very nice area, and people, they tried solving it, but they were unable to solve it.
+
+508
+00:47:19.860 --> 00:47:23.619
+Sreekanth Tadakaluru: But we can do, like, the systematic way of solving these particular use cases.
+
+509
+00:47:23.620 --> 00:47:24.470
+Arshad Nawaz: Cool, cool.
+
+510
+00:47:24.780 --> 00:47:42.519
+Sreekanth Tadakaluru: So, as you rightly said, no investments, anyway, like, we are going to do, like, a kind of, like, the research. Once, if the POC is… everything is successful, then we can ask, the people for, like, the investments in this particular area. Especially, like, I do not want to create, one DB agent for all the databases.
+
+511
+00:47:42.650 --> 00:47:55.030
+Sreekanth Tadakaluru: It should be… Oracle should be, like, one database, Microsoft SQL Server one, MySQL and Maria can be, like, a one. Somewhere, like, we can group, like, the databases and then come up with, like, the proper things.
+
+512
+00:47:55.140 --> 00:47:55.920
+Sreekanth Tadakaluru: But…
+
+513
+00:47:56.130 --> 00:48:09.379
+Sreekanth Tadakaluru: There are, like, the commonalities, in the sense we can create, like, one data analysis agent, where you provide, like, the matrix, it is going to identify the anomalies, or, like, the changes, or, like, the trends. It can come up with that one, like, we can…
+
+514
+00:48:09.470 --> 00:48:19.589
+Sreekanth Tadakaluru: discuss about that, like, in the architecture. I'll come up with an architecture next week, and then we can discuss. But this is, like, a very good area, to explore, Ashant.
+
+515
+00:48:20.310 --> 00:48:27.070
+Arshad Nawaz: Perfect, perfect, Shigant. I totally echo your thoughts. And since you are also under Prabhu, so Prabhu is personally very excited about this product.
+
+516
+00:48:27.340 --> 00:48:31.469
+Arshad Nawaz: Because, two reasons. First, like, we are seeing a lot of traction.
+
+517
+00:48:31.620 --> 00:48:35.640
+Arshad Nawaz: And for infrastpace to grow, like, database is bread and butter types.
+
+518
+00:48:36.000 --> 00:48:36.510
+Arshad Nawaz: So…
+
+519
+00:48:36.510 --> 00:48:36.990
+Sreekanth Tadakaluru: about it.
+
+520
+00:48:36.990 --> 00:48:47.919
+Arshad Nawaz: Prabhu actually owns INFRA, everything about Infra, so he's excited because we have, like, a clear path to profitability and revenue, number one. Number two.
+
+521
+00:48:48.060 --> 00:48:54.630
+Arshad Nawaz: So this… so this modernization is actually part of a wider thing called Infinite360.
+
+522
+00:48:55.160 --> 00:48:58.259
+Arshad Nawaz: But other areas are a little lagging behind.
+
+523
+00:48:58.400 --> 00:49:04.389
+Arshad Nawaz: So, I think it is just that I joined, and then starting, starting wall at Jose Karna.
+
+524
+00:49:05.170 --> 00:49:12.349
+Arshad Nawaz: So, something like that I already did, and, like, it has… thankfully, it has, like, picked up a little speed.
+
+525
+00:49:12.570 --> 00:49:18.759
+Arshad Nawaz: So we have that momentum ongoing. We have one principal assigned to us, Mahesh, if you know Mahesh Raju.
+
+526
+00:49:20.290 --> 00:49:27.579
+Arshad Nawaz: There are lead, one lead and two seniors assigned already. So we have a decent, decent, big enough team also working on this.
+
+527
+00:49:27.830 --> 00:49:33.640
+Arshad Nawaz: So, yes, so if you… tomorrow, if you decide to pitch it to Prabhu, I think he'll take it in a very positive light.
+
+528
+00:49:34.210 --> 00:49:35.160
+Sreekanth Tadakaluru: Sure, sure.
+
+529
+00:49:39.200 --> 00:49:41.770
+Arshad Nawaz: Yes, product manager, sir. Anything else, sir?
+
+530
+00:49:42.120 --> 00:49:43.389
+Sreekanth Tadakaluru: No product managers.
+
+531
+00:49:43.390 --> 00:49:55.599
+Abhishek Pandey: I am good. You are the main guy. I am just a connector at this point in time, still trying to gauge in all the information. But this is super helpful, Archa, mother coffee knowledge.
+
+532
+00:49:55.760 --> 00:50:06.290
+Abhishek Pandey: Maybe Shikant and I will, touch base, right? And we'll try to come up with a plan, sort of a thing, right? And we'll take your perspective into it. What do you feel about it?
+
+533
+00:50:06.510 --> 00:50:07.420
+Arshad Nawaz: Sure, sure.
+
+534
+00:50:07.890 --> 00:50:12.399
+Arshad Nawaz: Just a little, one thought. Solving the entire thing is very difficult.
+
+535
+00:50:12.400 --> 00:50:14.160
+Abhishek Pandey: Yeah, yeah, we won't go for that.
+
+536
+00:50:14.160 --> 00:50:20.510
+Arshad Nawaz: So if you take piece by piece, we start releasing it to customers for their feedback, best case scenario.
+
+537
+00:50:20.820 --> 00:50:27.740
+Abhishek Pandey: And can we get one customer if we have some sort of a POC, right, and then we want to test it, we can get that.
+
+538
+00:50:27.740 --> 00:50:31.360
+Arshad Nawaz: What we will do is, we will bundle all your solutioning into our LP.
+
+539
+00:50:31.560 --> 00:50:32.250
+Abhishek Pandey: Hmm.
+
+540
+00:50:32.250 --> 00:50:35.540
+Arshad Nawaz: So people have… will be using LP starting from Monday.
+
+541
+00:50:35.940 --> 00:50:37.049
+Abhishek Pandey: So we've been…
+
+542
+00:50:37.050 --> 00:50:39.620
+Arshad Nawaz: Release it to them and ask for feedback then and there only.
+
+543
+00:50:39.620 --> 00:50:40.190
+Abhishek Pandey: Okay.
+
+544
+00:50:40.800 --> 00:50:42.400
+Abhishek Pandey: Tika, makes sense.
+
+545
+00:50:42.600 --> 00:50:50.800
+Abhishek Pandey: Okay, cool. Take care, Asher. Thanks a lot. Shikant, you want to connect Monday, or today, sometime later?
+
+546
+00:50:51.110 --> 00:50:54.269
+Sreekanth Tadakaluru: No, we'll connect on Monday, so before that, I'll come up with,
+
+547
+00:50:54.270 --> 00:50:56.260
+Abhishek Pandey: Yeah, yeah, I also tried to…
+
+548
+00:50:56.420 --> 00:51:04.919
+Sreekanth Tadakaluru: I'll send the document, maybe, like, by Monday morning to both of you, like, what exactly we can do with respect to
+
+549
+00:51:04.920 --> 00:51:23.919
+Sreekanth Tadakaluru: Oracle monitoring, because, we do not want, again… see, at the end, like, whatever the solution should be, in line with whatever, like, you have the product priorities, correct? So, I'll come up with, like, the proper use cases and thought process. We'll discuss, and then we'll see, like, what exactly the first phase that we can take it.
+
+550
+00:51:24.180 --> 00:51:25.710
+Abhishek Pandey: Yeah, sure. Sounds good.
+
+551
+00:51:26.230 --> 00:51:26.860
+Abhishek Pandey: Cool stuff.
+
+552
+00:51:26.860 --> 00:51:32.860
+Sreekanth Tadakaluru: One small thing, Ashed, all this particular data is available through NRDP events.
+
+553
+00:51:32.860 --> 00:51:35.329
+Arshad Nawaz: So everything is on InnerDB, everything is on InnerDB.
+
+554
+00:51:35.330 --> 00:51:45.170
+Sreekanth Tadakaluru: So, do we have, like, any kind of documentation or something, like the sample accounts, whatever you said? If you can share it, like, I'll try to query and then see, like, what the data and what are the events.
+
+555
+00:51:48.540 --> 00:51:51.290
+Arshad Nawaz: Do you know how to take out, impersonation links?
+
+556
+00:51:52.270 --> 00:51:52.810
+Sreekanth Tadakaluru: No.
+
+557
+00:51:52.810 --> 00:51:54.600
+Arshad Nawaz: If I give you the customer name?
+
+558
+00:51:55.390 --> 00:51:58.219
+Sreekanth Tadakaluru: No, maybe, like, I can do, like, the research and manually get it.
+
+559
+00:51:58.220 --> 00:51:59.220
+Arshad Nawaz: Okay, one…
+
+560
+00:51:59.220 --> 00:52:03.240
+Sreekanth Tadakaluru: And maybe, like, even if you're giving, like, your internal test accounts.
+
+561
+00:52:03.240 --> 00:52:09.210
+Arshad Nawaz: No, I think it will not have much data. Better to use customer account. There is some… the biggest customer is New York Life.
+
+562
+00:52:09.690 --> 00:52:10.230
+Sreekanth Tadakaluru: Booking.
+
+563
+00:52:10.230 --> 00:52:11.020
+Arshad Nawaz: Okay.
+
+564
+00:52:11.160 --> 00:52:13.840
+Arshad Nawaz: I'll try to get an impersonate link and send it to you.
+
+565
+00:52:14.040 --> 00:52:15.069
+Sreekanth Tadakaluru: Yes, for sure.
+
+566
+00:52:15.070 --> 00:52:18.880
+Arshad Nawaz: In case I don't get, like, if you can get well and good.
+
+567
+00:52:19.200 --> 00:52:22.260
+Sreekanth Tadakaluru: Because I don't remember how to get it, so I need to figure it out.
+
+568
+00:52:22.730 --> 00:52:23.330
+Sreekanth Tadakaluru: Shit.
+
+569
+00:52:25.660 --> 00:52:28.230
+Abhishek Pandey: Cool, thank you guys.
+
+570
+00:52:28.320 --> 00:52:28.970
+Arshad Nawaz: Bye.
+
+571
+00:52:28.970 --> 00:52:29.540
+Abhishek Pandey: Right.
+

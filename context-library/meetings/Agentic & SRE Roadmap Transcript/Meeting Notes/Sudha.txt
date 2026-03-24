@@ -1,0 +1,1014 @@
+[Sudha Krishnamurthy] 23:08:32
+partners to see what their interest is.
+
+[Sudha Krishnamurthy] 23:08:34
+Because there's no observability for the coding agents itself, so it's a huge market.
+
+[Sudha Krishnamurthy] 23:08:39
+That's growing, so we want to be the first to build something and test it out. So I would…
+
+[Sudha Krishnamurthy] 23:08:44
+I would think as evaluating partnerships, right? Not, uh, anything like in paper, formal agreement, be it we are testing out that space.
+
+[Sudha Krishnamurthy] 23:08:53
+So that's in general what I do, and I don't have enough context on why I wanted to…
+
+[Sudha Krishnamurthy] 23:09:00
+connected with us, but if you can, uh…
+
+[Abhishek Pandey] 23:09:01
+Sure.
+
+[Sudha Krishnamurthy] 23:09:03
+to that high level, but I think that would be the context, like, the partnerships and Agentic space, based on what you shared in Slack.
+
+[Abhishek Pandey] 23:09:10
+Yeah, right. Uh, so my charter is not very clear, but I'm supposed to figure out agentic AI-related
+
+[Abhishek Pandey] 23:09:17
+capabilities…
+
+[Abhishek Pandey] 23:09:19
+across New Relic, right? So, partner integration is a part of it.
+
+[Sudha Krishnamurthy] 23:09:21
+Okay.
+
+[Sudha Krishnamurthy] 23:09:23
+Yeah.
+
+[Abhishek Pandey] 23:09:23
+Uh, that's why I wanted to get in touch with you and Anush.
+
+[Abhishek Pandey] 23:09:27
+Um, because you… people are closer to the partner side of things, right?
+
+[Abhishek Pandey] 23:09:32
+So that was the main reason.
+
+[Abhishek Pandey] 23:09:35
+Uh, before I even move ahead, right, so the app, can you help me understand, like…
+
+[Abhishek Pandey] 23:09:39
+When you talk about ServiceNow, integrating ServiceNow, right? What exactly are we doing? Like,
+
+[Sudha Krishnamurthy] 23:09:43
+Yeah.
+
+[Abhishek Pandey] 23:09:46
+The service now comes and tells us, okay, these are the couple of things that you guys can build along with us.
+
+[Abhishek Pandey] 23:09:52
+and partner us for, and then we do a POC, and then ask product to build…
+
+[Abhishek Pandey] 23:09:57
+So, something, you know, which is good at production level.
+
+[Sudha Krishnamurthy] 23:09:59
+Yeah. Yeah, I think we never had any touch base with ServiceNow, and the boom of the Argentic space,
+
+[Abhishek Pandey] 23:10:03
+Okay.
+
+[Sudha Krishnamurthy] 23:10:06
+gave us the leverage for ServiceNow to work with us, right? So, right around that time, like, I'm talking 2 years back, right around when I joined, we didn't have any ServiceNow engagement at all.
+
+[Abhishek Pandey] 23:10:09
+Mm-hmm.
+
+[Sudha Krishnamurthy] 23:10:17
+But then they were… they released what is called knowledge, uh, I'm sorry, uh, the Now Assist knowledge is their event.
+
+[Sudha Krishnamurthy] 23:10:25
+Uh, novice. Novasist is their chat platform.
+
+[Sudha Krishnamurthy] 23:10:28
+And now, when they released, they were actively looking for partners, and they were actively looking for,
+
+[Sudha Krishnamurthy] 23:10:34
+kind of the… because they are big in workflow, right? So they were looking for one use case that makes more sense.
+
+[Sudha Krishnamurthy] 23:10:40
+That was the time the market doesn't know where to apply AI, where the customers would be interested to buy, because
+
+[Sudha Krishnamurthy] 23:10:47
+Novosis comes up with a…
+
+[Sudha Krishnamurthy] 23:10:49
+With a significant number of… significant amount, right? So, in order for them to convince customer to buy Navasys, they wanted a solid use case.
+
+[Abhishek Pandey] 23:10:58
+Okay.
+
+[Sudha Krishnamurthy] 23:10:58
+So, that's when, uh, they were already working with Dynatrace, and at that time, our Neuralink AI had a much bigger vision than Dynatrace.
+
+[Sudha Krishnamurthy] 23:11:07
+So, we presented to them what our Argentic platform capabilities can do.
+
+[Sudha Krishnamurthy] 23:11:12
+And at that time, there were no MCP. It was purely API.
+
+[Abhishek Pandey] 23:11:15
+Yeah, right.
+
+[Sudha Krishnamurthy] 23:11:16
+We were interacting to Navasis through Neuralink AI API, right? But then, the capability, we were able to bundle through that API
+
+[Sudha Krishnamurthy] 23:11:24
+it kind of got their attention. So we built one use case, right? So they have a platform, and often people think as an IT disk,
+
+[Sudha Krishnamurthy] 23:11:32
+It is not that product, it's called ITORM. It's an event management platform ServiceNow owns.
+
+[Sudha Krishnamurthy] 23:11:37
+So what basically it does is, anytime an event or alert happens, it centralizes all the alerts in one space. It's just not Neuralic.
+
+[Sudha Krishnamurthy] 23:11:44
+It could be done at raze, because often we hear customers have more
+
+[Sudha Krishnamurthy] 23:11:48
+more than 10 observability or APM tools in one, because ServiceNow has huge customers, right? We are talking 10 million ARR.
+
+[Abhishek Pandey] 23:11:51
+Okay.
+
+[Sudha Krishnamurthy] 23:11:55
+So, they have often not just Neuralink, they have 10 different tools, and they aggregate all that alert information in one place.
+
+[Sudha Krishnamurthy] 23:12:03
+So, for them, the simplest use case was when an alert happens, they don't have much information what's happening in the application or infrastructure.
+
+[Sudha Krishnamurthy] 23:12:10
+So, they wanted to simply… because these personas, the L1 and L2, they don't understand observability. They never touched any Neuralic login, right?
+
+[Sudha Krishnamurthy] 23:12:19
+So they just want to, hey, what's happening? I have this ticket.
+
+[Sudha Krishnamurthy] 23:12:22
+what's happening on the downstream, right? So they just… the analysis can in natural language. So that was the…
+
+[Sudha Krishnamurthy] 23:12:30
+breaking point, I wouldn't say breaking point. That becomes an opening door, because for the first time, the L1, L2 personas can talk in natural language.
+
+[Sudha Krishnamurthy] 23:12:37
+And ask, what's happening, because they don't know how to read the alerts and traces, they are not trained for that.
+
+[Abhishek Pandey] 23:12:42
+Yeah.
+
+[Sudha Krishnamurthy] 23:12:43
+Often, this L1 personas are non-technical. As we go above L2, L3, they become technical, but L1 are very
+
+[Sudha Krishnamurthy] 23:12:49
+looking at the tickets, trying to understand which teams to reach out to. That's all they are being equipped for, right?
+
+[Sudha Krishnamurthy] 23:12:55
+Their biggest objective is it shouldn't get escalated. The more they can reduce escalation, that is their pain point, right? So they're trying to understand what's happening in the downstreams, but now with the advent of AI, it makes much easier for them to talk in natural language.
+
+[Sudha Krishnamurthy] 23:13:10
+So they come to know with this at New Relic AI, they call the New Relic AI and ask some information, they can ask additional information.
+
+[Sudha Krishnamurthy] 23:13:17
+And then they will determine if it is… if it needs to be escalated, which teams have to be connected,
+
+[Sudha Krishnamurthy] 23:13:24
+What's the blast radius? So, in the simplest form, they can do that level 1 analysis.
+
+[Sudha Krishnamurthy] 23:13:28
+And if it requires any further attention, they send it to L2. So they found this use case very important.
+
+[Sudha Krishnamurthy] 23:13:35
+Uh, because to reduce the MTTR, reduce the escalation, know more about before escalation.
+
+[Sudha Krishnamurthy] 23:13:41
+So that wasn't happening before, because somebody has to come to New Relic, log in, get that information, so it was like swivel-sharing, so…
+
+[Sudha Krishnamurthy] 23:13:50
+This now is just a neural AI made it much easier. So it was the simplest use case.
+
+[Sudha Krishnamurthy] 23:13:54
+But still a most wanted or obvious use case, right?
+
+[Sudha Krishnamurthy] 23:13:58
+So that we acknowledge that we were at the key, we were launched at their, uh, main stage,
+
+[Sudha Krishnamurthy] 23:14:04
+So that opened up, uh, ServiceNow.
+
+[Sudha Krishnamurthy] 23:14:07
+So after then, Atlassian saw that, I don't know if you know, but Atlassian also have their own ITSM product now.
+
+[Sudha Krishnamurthy] 23:14:16
+So they said, we are also interested. So that led… very similar, they call it as Rovo.
+
+[Sudha Krishnamurthy] 23:14:21
+their AI chatbot is called Roho, so we do similar with Rovo.
+
+[Abhishek Pandey] 23:14:25
+So, uh… sorry.
+
+[Sudha Krishnamurthy] 23:14:25
+And GitHub…
+
+[Abhishek Pandey] 23:14:27
+Sorry to interrupt you.
+
+[Sudha Krishnamurthy] 23:14:27
+No, no, no, the GitHub is for the coding agent. Whenever you write a code, and then they wanted to know some information before deploying it, same. You ask a New Relic AI, it pops information,
+
+[Abhishek Pandey] 23:14:30
+Yeah, right.
+
+[Sudha Krishnamurthy] 23:14:39
+That gives them access. Sometimes, I mean, not sometimes, it creates GitHub actions, and then it comes back to it.
+
+[Sudha Krishnamurthy] 23:14:46
+So we are trying to close that up with Kita.
+
+[Abhishek Pandey] 23:14:47
+Got it. Okay, and sorry, I'm still very new to this whole space, so if I ask any dumb questions, bear with me.
+
+[Sudha Krishnamurthy] 23:14:54
+Yeah, yeah.
+
+[Abhishek Pandey] 23:14:55
+Uh, so when you were talking about the service now, right?
+
+[Abhishek Pandey] 23:14:59
+So, is it like…
+
+[Abhishek Pandey] 23:15:01
+they give us their data, and we fade it to already trained models that we had, and then…
+
+[Abhishek Pandey] 23:15:06
+give them inferences or conclusion, something of that sort, no? Okay.
+
+[Sudha Krishnamurthy] 23:15:10
+No. No, they don't provide data, right? They simply ask questions.
+
+[Abhishek Pandey] 23:15:12
+Yeah. Okay.
+
+[Sudha Krishnamurthy] 23:15:13
+They simply ask questions, and our, um, our AI does the background information, I mean, provides all the things that are happening in the background. Nobody is passing the data, right?
+
+[Sudha Krishnamurthy] 23:15:24
+they just ask questions, they might provide additional context. Our New York AI takes that and looks at the background. All the magic is happening in our background.
+
+[Sudha Krishnamurthy] 23:15:33
+We just present them back the response. So, no data is passed.
+
+[Abhishek Pandey] 23:15:37
+Right, I get it, but uh…
+
+[Abhishek Pandey] 23:15:39
+Sorry again. So, they ask a question, it gets hits to our server, right?
+
+[Sudha Krishnamurthy] 23:15:41
+Yeah.
+
+[Sudha Krishnamurthy] 23:15:44
+Yeah.
+
+[Abhishek Pandey] 23:15:44
+Now, for our server to respond with some relevancy, right?
+
+[Sudha Krishnamurthy] 23:15:49
+Yeah.
+
+[Abhishek Pandey] 23:15:50
+basis, what the ServiceNow customer is facing.
+
+[Sudha Krishnamurthy] 23:15:53
+Yeah.
+
+[Abhishek Pandey] 23:15:53
+we need to be fed in
+
+[Abhishek Pandey] 23:15:55
+the context and everything, right? So…
+
+[Abhishek Pandey] 23:15:57
+We must be getting something from ServiceNow, right? To respond back.
+
+[Abhishek Pandey] 23:16:01
+to customer's query. So, there must be some sort of data exchange, right? No?
+
+[Sudha Krishnamurthy] 23:16:03
+Yeah.
+
+[Sudha Krishnamurthy] 23:16:05
+some level of… let me… I'll share the demo with you. It's the simplest demo, and you will know what, uh…
+
+[Abhishek Pandey] 23:16:09
+Okay.
+
+[Sudha Krishnamurthy] 23:16:11
+what information it provides. Because you… you have to fundamentally understand
+
+[Abhishek Pandey] 23:16:14
+Okay.
+
+[Abhishek Pandey] 23:16:16
+Yeah.
+
+[Sudha Krishnamurthy] 23:16:17
+in which environment, in which interface, because once you see that, oh, then you'll… oh, it makes sense now, right?
+
+[Abhishek Pandey] 23:16:23
+So, yeah.
+
+[Sudha Krishnamurthy] 23:16:23
+So you… once you see the demo, it… it goes into their ops window, and within that window, there is analysis.
+
+[Sudha Krishnamurthy] 23:16:31
+And then they have to kick the newer leg. So you… once you see the workflow, it'll be much easier, okay, now I understand why that context is much easier. So I'll send you the demo.
+
+[Abhishek Pandey] 23:16:38
+Okay. Sure, sure, that works.
+
+[Sudha Krishnamurthy] 23:16:39
+Yeah.
+
+[Sudha Krishnamurthy] 23:16:41
+Yeah.
+
+[Abhishek Pandey] 23:16:41
+Okay. Yeah, the Geta one is something that I understand.
+
+[Sudha Krishnamurthy] 23:16:45
+I'll try to find all the videos so that, because it's everywhere.
+
+[Abhishek Pandey] 23:16:50
+Yeah.
+
+[Sudha Krishnamurthy] 23:16:50
+I'll try to send you so that you'll get an understanding. It's actually a pretty solid use case. We don't go launch at any partner event if it is not strategic, or if it is a… so we do very good due diligence what customers wanted.
+
+[Sudha Krishnamurthy] 23:17:04
+And we put a significant amount of time, and Cameron has spent hours and hours with ServiceNow, to figure out which use case to build.
+
+[Sudha Krishnamurthy] 23:17:11
+So, this thought process behind what use cases to build. That's what's important with the strategic partners.
+
+[Sudha Krishnamurthy] 23:17:18
+It might not be same for all partners, but for strategic partners, there's a lot of thought process around it.
+
+[Abhishek Pandey] 23:17:18
+Right.
+
+[Abhishek Pandey] 23:17:22
+Sure. And is there good conversion in terms of the customer that…
+
+[Sudha Krishnamurthy] 23:17:23
+Yeah.
+
+[Abhishek Pandey] 23:17:27
+we are getting from these partners, or…
+
+[Sudha Krishnamurthy] 23:17:28
+Yeah, that's what we are driving, right? So, so far, 20… we are working… and with ServiceNow, I told you, right, it comes a 50K license for Navasis, so they have to sell their 50K license on top of that, they should have New Relic AI. So the go-to-market has its own challenges.
+
+[Abhishek Pandey] 23:17:30
+Yeah.
+
+[Abhishek Pandey] 23:17:44
+Right.
+
+[Sudha Krishnamurthy] 23:17:44
+But definitely, it's helping driving joint, uh…
+
+[Sudha Krishnamurthy] 23:17:47
+customer conversations. Definitely, before customers were not interested in, uh,
+
+[Sudha Krishnamurthy] 23:17:53
+Uh, the Neuralic AI, but once we say, hey, here is how we touch base with novices, because every customer, uh, the fortune 500 companies have ServiceNow. So when you say, here is our story with ServiceNow, we talked…
+
+[Abhishek Pandey] 23:18:02
+Right.
+
+[Sudha Krishnamurthy] 23:18:04
+automatically gets your… gets their attention, and they're open for discussion. So, for many accounts, we see it open doors.
+
+[Abhishek Pandey] 23:18:11
+Got it, got it. Yeah, that makes a lot of sense. Okay.
+
+[Sudha Krishnamurthy] 23:18:12
+Yeah.
+
+[Abhishek Pandey] 23:18:15
+And if I want to figure out some agentic AI opportunity specifically, right?
+
+[Sudha Krishnamurthy] 23:18:20
+Yeah.
+
+[Abhishek Pandey] 23:18:21
+what's the best way to go about it?
+
+[Sudha Krishnamurthy] 23:18:24
+So, can you help me understand what your objective is? Is this, say, a next quarter, or, like, what's your term objectives? Like, what are you trying to achieve with partners?
+
+[Abhishek Pandey] 23:18:32
+Sure, uh, so with partners…
+
+[Abhishek Pandey] 23:18:36
+What I need to do is, uh…
+
+[Abhishek Pandey] 23:18:38
+We should be marketing ourselves.
+
+[Abhishek Pandey] 23:18:41
+as best as we can, right? Maybe we are on cursor, we are on GitHub,
+
+[Abhishek Pandey] 23:18:45
+And all of these places, so that is the first objective.
+
+[Sudha Krishnamurthy] 23:18:48
+Okay.
+
+[Abhishek Pandey] 23:18:48
+Second is the integration opportunities, the way you just discussed about it, right? What are other…
+
+[Sudha Krishnamurthy] 23:18:53
+Yeah.
+
+[Abhishek Pandey] 23:18:54
+AI-related opportunities within GitHub, right?
+
+[Sudha Krishnamurthy] 23:18:58
+Yeah.
+
+[Abhishek Pandey] 23:18:58
+And things like that. So that is what I'm trying to figure out and include it in my roadmap.
+
+[Abhishek Pandey] 23:19:03
+did okay if Microsoft is going to be our best partner, right? Like, in terms of customer acquisition.
+
+[Sudha Krishnamurthy] 23:19:07
+Yeah.
+
+[Abhishek Pandey] 23:19:08
+Then what are the capabilities for which we can specifically work for?
+
+[Sudha Krishnamurthy] 23:19:14
+Yeah.
+
+[Abhishek Pandey] 23:19:14
+I think we are working on the SRE agent of Microsoft right now, right? If I'm not wrong.
+
+[Sudha Krishnamurthy] 23:19:18
+Yeah. Yeah.
+
+[Abhishek Pandey] 23:19:19
+So, that is my main aim, apart from other things that I want to achieve, but with
+
+[Sudha Krishnamurthy] 23:19:23
+So, so you would be building capabilities in our platform to support the integration. So you're trying to see what integrations will make sense,
+
+[Abhishek Pandey] 23:19:28
+Yes, correct.
+
+[Sudha Krishnamurthy] 23:19:31
+So that you bring the… you revert… I mean, you bring that capabilities, or you roadmap the capabilities to support that integration.
+
+[Abhishek Pandey] 23:19:31
+Yep.
+
+[Abhishek Pandey] 23:19:39
+Right, so for instance, you guys worked on GitHub capability, right? But it is still not available for public review, right?
+
+[Sudha Krishnamurthy] 23:19:42
+Yeah.
+
+[Sudha Krishnamurthy] 23:19:45
+Yeah, yeah.
+
+[Abhishek Pandey] 23:19:45
+So, that might be your first priority, for us to get it.
+
+[Abhishek Pandey] 23:19:50
+listed in our MCP server, yeah.
+
+[Sudha Krishnamurthy] 23:19:50
+I see.
+
+[Sudha Krishnamurthy] 23:19:52
+Yeah. Okay.
+
+[Abhishek Pandey] 23:19:52
+So things like that. Things that can provide us with some push, yeah.
+
+[Sudha Krishnamurthy] 23:19:56
+Okay, so in that case, we need Anush, right? He has been… and for me, as I said, I work on the business side, and I know…
+
+[Abhishek Pandey] 23:20:03
+Okay.
+
+[Sudha Krishnamurthy] 23:20:04
+Uh, I don't know, uh, when he joined…
+
+[Abhishek Pandey] 23:20:06
+I met him yesterday, uh…
+
+[Sudha Krishnamurthy] 23:20:07
+Oh, you meant to? Okay.
+
+[Abhishek Pandey] 23:20:08
+Yeah, yeah, we may yesterday.
+
+[Sudha Krishnamurthy] 23:20:09
+Okay, cool. He wasn't feeling well, uh, it's been a rough week for him. Um…
+
+[Abhishek Pandey] 23:20:11
+Yeah.
+
+[Sudha Krishnamurthy] 23:20:15
+So he… did he… I mean, he should… you should have more information from him on… because he's painting the sheet on
+
+[Abhishek Pandey] 23:20:18
+Yeah, he did.
+
+[Sudha Krishnamurthy] 23:20:21
+all the different integrations,
+
+[Abhishek Pandey] 23:20:21
+Yes.
+
+[Sudha Krishnamurthy] 23:20:23
+And one thing he would know is, like, in order for this to go, these are the dependencies. In what we call as dependencies, it becomes as the capabilities that we want, right, from our platform.
+
+[Abhishek Pandey] 23:20:34
+Who's like…
+
+[Sudha Krishnamurthy] 23:20:34
+So it's much easier to look at a sheet, what we are building, and that'll be
+
+[Sudha Krishnamurthy] 23:20:40
+a starter place for you to look at.
+
+[Abhishek Pandey] 23:20:41
+Yeah, he did share his sheet with me, but he said that for ServiceNow, you are looking at it specifically.
+
+[Abhishek Pandey] 23:20:47
+So I thought I'll connect you with ServiceNow, at least, and if there are other things that you're working on as well, I'll just…
+
+[Sudha Krishnamurthy] 23:20:48
+Oh, okay.
+
+[Sudha Krishnamurthy] 23:20:50
+Yeah.
+
+[Sudha Krishnamurthy] 23:20:52
+Ah, I see. Okay, so with ServiceNow, the immediate next step, right, we haven't done the MCP integration. Whatever we did was the API. We don't promote API integration. We are just using it for go-to-market conversation. So the natural next step is the MCP integration.
+
+[Abhishek Pandey] 23:20:57
+Yeah.
+
+[Abhishek Pandey] 23:21:01
+EPA
+
+[Abhishek Pandey] 23:21:03
+Right.
+
+[Abhishek Pandey] 23:21:08
+Mm-hmm.
+
+[Sudha Krishnamurthy] 23:21:08
+And I don't know whether it would be any different from what we built. It's… I mean, once you look at the integration, then you would know for MCP what did it look like, right? So that's one.
+
+[Abhishek Pandey] 23:21:16
+Yeah.
+
+[Sudha Krishnamurthy] 23:21:18
+And then the next step is, we are still on the planning phase for next fiscal year. We are… we don't know exactly what we are going to build with ServiceNow.
+
+[Abhishek Pandey] 23:21:25
+Okay.
+
+[Sudha Krishnamurthy] 23:21:26
+So, I don't know, have you met our CPO, Brian, right? So, Brian has joined newly, so we're waiting for… we are waiting for some directions from Brian.
+
+[Sudha Krishnamurthy] 23:21:33
+What's the next with, uh…
+
+[Abhishek Pandey] 23:21:35
+Got it.
+
+[Sudha Krishnamurthy] 23:21:36
+services now, so that will trigger, right? So, often, as I said, product is our main interface.
+
+[Sudha Krishnamurthy] 23:21:42
+We understand what the gaps, what their priorities are, and then we take it back to partners. It's actually step one. Product will determine its strategy.
+
+[Abhishek Pandey] 23:21:48
+Got it.
+
+[Sudha Krishnamurthy] 23:21:51
+then we… so, okay, if you wanted to achieve that, then here are the partners you should go after. And specifically, there is a partnership strategy for ServiceNow, what's next?
+
+[Sudha Krishnamurthy] 23:22:00
+Something we rely on product leaders.
+
+[Abhishek Pandey] 23:22:02
+Got it, got it, okay.
+
+[Sudha Krishnamurthy] 23:22:03
+Yeah. So it's not yet?
+
+[Abhishek Pandey] 23:22:04
+Okay, wait. Hmm.
+
+[Sudha Krishnamurthy] 23:22:06
+Around Feb, uh, when the planning kicks off, for us, our fiscal year ends at, uh…
+
+[Sudha Krishnamurthy] 23:22:12
+April, uh, or March.
+
+[Sudha Krishnamurthy] 23:22:14
+So, around Feb, they would have already kicked off for the next year.
+
+[Abhishek Pandey] 23:22:18
+Got it, got it. Okay, makes sense.
+
+[Sudha Krishnamurthy] 23:22:21
+Yeah.
+
+[Abhishek Pandey] 23:22:21
+I thought it is the other way around. You guys discuss it with partners, what can be done.
+
+[Abhishek Pandey] 23:22:26
+And then you come back to product with some suggestions, then product finalizes what
+
+[Sudha Krishnamurthy] 23:22:31
+Yeah, sometimes when partners reach up… yeah, some partners reach out to us. For example, um, the white coding tools often approach us. Databricks approached us.
+
+[Abhishek Pandey] 23:22:32
+is the priority. Yeah.
+
+[Abhishek Pandey] 23:22:39
+Yeah.
+
+[Sudha Krishnamurthy] 23:22:42
+Uh, that is Bhumi who approached us. So, yes, we do that. If you're asking ServiceNow, it's actually the other way. We wanted to make sure exactly we put together what the partnership strategy is. I don't know how much you would be involved in Boomi or Databricks,
+
+[Abhishek Pandey] 23:22:48
+Got it.
+
+[Sudha Krishnamurthy] 23:22:56
+But if there are Argenti capabilities, I'll make sure to bring that to you. But right now, if you're asking ServiceNow, it's the other way. We are waiting for product.
+
+[Abhishek Pandey] 23:22:59
+Okay.
+
+[Abhishek Pandey] 23:23:03
+Got it. Got it.
+
+[Sudha Krishnamurthy] 23:23:04
+Yeah, yeah.
+
+[Abhishek Pandey] 23:23:05
+Makes sense. Okay, perfect, uh…
+
+[Sudha Krishnamurthy] 23:23:07
+Yeah.
+
+[Abhishek Pandey] 23:23:08
+That provides me with some context.
+
+[Sudha Krishnamurthy] 23:23:10
+Yeah, I think main thing, if you have a chance to connect with Varun,
+
+[Abhishek Pandey] 23:23:16
+What's the full name?
+
+[Sudha Krishnamurthy] 23:23:16
+On the white coding, it will give you Varun Burma.
+
+[Abhishek Pandey] 23:23:22
+Okay, um… GBP Engineering.
+
+[Sudha Krishnamurthy] 23:23:23
+Yeah.
+
+[Sudha Krishnamurthy] 23:23:26
+Yeah, uh, this is pretty… he's pretty cool to interact with, and uh, you will understand what the VIP coding… some things we need, uh…
+
+[Abhishek Pandey] 23:23:27
+based out of Washington.
+
+[Abhishek Pandey] 23:23:30
+Okay.
+
+[Sudha Krishnamurthy] 23:23:35
+I suggest to understand what's with the vibe coding, because Varun and Camden are putting together this strategy.
+
+[Abhishek Pandey] 23:23:42
+Okay.
+
+[Sudha Krishnamurthy] 23:23:44
+They are closely working with Oren and SIVAP.
+
+[Sudha Krishnamurthy] 23:23:46
+So, just understand from him, just learning. Don't, don't…
+
+[Abhishek Pandey] 23:23:49
+Sure.
+
+[Sudha Krishnamurthy] 23:23:50
+Don't expect there'll be some outcome, but just try to understand, hey, what are we doing with VIP coding, right? Once you understand, that's the most urgentic area I see.
+
+[Abhishek Pandey] 23:23:52
+Yeah.
+
+[Sudha Krishnamurthy] 23:23:59
+Uh, in terms of what's going to be the next with, uh, with our New Relic AI.
+
+[Abhishek Pandey] 23:24:03
+Okay, got it. Perfect.
+
+[Sudha Krishnamurthy] 23:24:05
+Yeah, that should be helpful. I'll keep you posted on ServiceNow, but I don't expect until February. And then, if there are any other partners where the New Relic AI comes in, I'll… I'll make sure, I'll inform you.
+
+[Abhishek Pandey] 23:24:05
+Thanks, that makes sense.
+
+[Abhishek Pandey] 23:24:09
+Yeah.
+
+[Abhishek Pandey] 23:24:17
+Sure, sure. That's super helpful, Sudha.
+
+[Sudha Krishnamurthy] 23:24:20
+Yeah. But keep in touch, at least connect with Anoush on a bi-weekly, or… just keep in touch.
+
+[Abhishek Pandey] 23:24:20
+I appreciate it, yeah, uh…
+
+[Abhishek Pandey] 23:24:23
+Yeah.
+
+[Abhishek Pandey] 23:24:27
+Yeah, that's what I asked him. So, I'm meeting Glenn every week… once every week. He's part of an estimate.
+
+[Sudha Krishnamurthy] 23:24:32
+Oh, that's in it. That's enough.
+
+[Abhishek Pandey] 23:24:34
+And then I've asked Van Noosh to meet.
+
+[Sudha Krishnamurthy] 23:24:34
+No, I think your meeting with Glenn, you don't have to.
+
+[Abhishek Pandey] 23:24:36
+Yeah.
+
+[Sudha Krishnamurthy] 23:24:39
+do it again, uh, but Glenn would have, but Anush…
+
+[Sudha Krishnamurthy] 23:24:44
+Glenn will have the Microsoft contacts. Anu should have all contacts.
+
+[Abhishek Pandey] 23:24:46
+Yeah.
+
+[Sudha Krishnamurthy] 23:24:49
+So that's the difference.
+
+[Abhishek Pandey] 23:24:49
+Yeah, so I've kept one meeting with him every month, with Glenn, it's every week.
+
+[Sudha Krishnamurthy] 23:24:52
+Yeah. Yeah.
+
+[Abhishek Pandey] 23:24:54
+So I want to stay in touch with you guys and work more closely, um, because I feel…
+
+[Abhishek Pandey] 23:24:59
+There's a lot of disconnect, at least that's what I've felt, which I want to break if I can in some way.
+
+[Sudha Krishnamurthy] 23:25:01
+Yeah.
+
+[Abhishek Pandey] 23:25:05
+So…
+
+[Sudha Krishnamurthy] 23:25:05
+Okay, so you report to Camden, right?
+
+[Abhishek Pandey] 23:25:07
+Yeah, yeah, I do report to Camden, yeah.
+
+[Sudha Krishnamurthy] 23:25:09
+Cool, cool, cool. Yeah, there's no shortage for your team. Neuralink AI is the most wanted, but our platform is slowly evolving.
+
+[Sudha Krishnamurthy] 23:25:18
+And uh… as we go to market and announce that these events, partners come in our way.
+
+[Sudha Krishnamurthy] 23:25:24
+But, as I said, strategic partnerships are a little different. It's often driven from the CXO level.
+
+[Abhishek Pandey] 23:25:30
+Yeah, that makes sense. There's a lot of need, but what I feel, like, there's a lot of chase game going on, um…
+
+[Abhishek Pandey] 23:25:38
+Rather than building solid foundational things, right?
+
+[Abhishek Pandey] 23:25:42
+We are always chasing competitors, their features.
+
+[Sudha Krishnamurthy] 23:25:43
+Yeah, yeah. Yeah.
+
+[Abhishek Pandey] 23:25:46
+So…
+
+[Sudha Krishnamurthy] 23:25:46
+Correct, correct. Because there are so many AI players, right, in the market,
+
+[Abhishek Pandey] 23:25:48
+Yeah, yeah.
+
+[Sudha Krishnamurthy] 23:25:50
+Uh, there's always going to be a chase game, but our main competitors are what Datadog and Dynatrace does, because they are the ones who
+
+[Sudha Krishnamurthy] 23:25:59
+they've got accounts.
+
+[Abhishek Pandey] 23:26:00
+Yeah.
+
+[Sudha Krishnamurthy] 23:26:00
+So, I would highly suggest watch what Datadog and Dianetrace often releases, that will give you enough information.
+
+[Abhishek Pandey] 23:26:06
+Sure. And so, if I can ask you one question, right? In terms of revenue, we haven't grown much, right, in the last 3 years.
+
+[Sudha Krishnamurthy] 23:26:07
+Yeah.
+
+[Sudha Krishnamurthy] 23:26:09
+Yeah.
+
+[Abhishek Pandey] 23:26:13
+at least…
+
+[Sudha Krishnamurthy] 23:26:13
+In this quarter, yeah, I mean, the last quarter was super good, uh, in this quarter, we faced little challenges.
+
+[Abhishek Pandey] 23:26:20
+Okay.
+
+[Sudha Krishnamurthy] 23:26:20
+But often, our best quarter is the last quarter, which is this happening quarter. We actually have very good, uh…
+
+[Sudha Krishnamurthy] 23:26:27
+bristles in the last quarter.
+
+[Abhishek Pandey] 23:26:29
+Got it.
+
+[Sudha Krishnamurthy] 23:26:30
+Yeah.
+
+[Abhishek Pandey] 23:26:31
+But is there any growth in terms of where we were 3 years back, and where we are right now?
+
+[Sudha Krishnamurthy] 23:26:36
+Yes, yes, yes. I think, uh, this company, since it's gone private, is having a good growth, right? I often, when people hire, um,
+
+[Abhishek Pandey] 23:26:38
+Okay, there it is.
+
+[Sudha Krishnamurthy] 23:26:47
+I tell them, like, why join Neuralink? Because the stocks are a little tricky area, right? But I often advise, like, even when I… when I interview candidates, I say, right, this is the growth phase of Neuralic. When I joined, it was public. I was offered stocks.
+
+[Abhishek Pandey] 23:26:52
+Yeah.
+
+[Abhishek Pandey] 23:27:02
+Yeah.
+
+[Sudha Krishnamurthy] 23:27:02
+And then I… I turned… I mean, again, I come from Salesforce. Salesforce is…
+
+[Abhishek Pandey] 23:27:06
+Yeah.
+
+[Sudha Krishnamurthy] 23:27:07
+very generous when it comes to stocks, right?
+
+[Sudha Krishnamurthy] 23:27:10
+So it was a little shock for me, but the reason I have been staying since it's gone private, because I joined, and then within one year they went private.
+
+[Sudha Krishnamurthy] 23:27:17
+But the reason I see is it is the most accelerated growth phase for Neuralink.
+
+[Sudha Krishnamurthy] 23:27:23
+And I have seen that growing, and we should expect, like Ashan, our CEO, has a goal of going IPO, right?
+
+[Abhishek Pandey] 23:27:30
+Okay.
+
+[Sudha Krishnamurthy] 23:27:30
+Uh, so what… for that to happen, they have, like,
+
+[Sudha Krishnamurthy] 23:27:35
+heavy targets. So… so you're in the most accelerated time. You might see the ups and downs, but once they have that goal,
+
+[Sudha Krishnamurthy] 23:27:43
+of IPO, uh, everybody runs so to it, and there is no, like, testing out. They're gonna test it out, if it doesn't work well, go back, revise.
+
+[Sudha Krishnamurthy] 23:27:51
+come up with a new strategy, right? So this is the best time for you to put something in your resume. Often, that's not the most attractive thing.
+
+[Sudha Krishnamurthy] 23:27:58
+Candidates want to hear, uh, because they want money, right? But I would say, uh, the…
+
+[Abhishek Pandey] 23:28:02
+Yeah.
+
+[Sudha Krishnamurthy] 23:28:04
+The amount of things you learn in this growth phase, you'll have significant things to put in your resume.
+
+[Sudha Krishnamurthy] 23:28:09
+And also, you'll be contributing towards that bigger goal, right? So that's what…
+
+[Abhishek Pandey] 23:28:13
+Yeah.
+
+[Sudha Krishnamurthy] 23:28:14
+allowed me to stay at least.
+
+[Abhishek Pandey] 23:28:16
+Yeah, yeah, for me as well, like, I found it…
+
+[Abhishek Pandey] 23:28:20
+not a big company, not a small company, somewhere in between.
+
+[Sudha Krishnamurthy] 23:28:23
+Yeah.
+
+[Abhishek Pandey] 23:28:24
+the startup thing has always, you know, given me some sort of a kick.
+
+[Sudha Krishnamurthy] 23:28:28
+Yeah.
+
+[Abhishek Pandey] 23:28:28
+I thought it will be another similar sort of experience, maybe.
+
+[Abhishek Pandey] 23:28:32
+So yeah, makes sense.
+
+[Sudha Krishnamurthy] 23:28:32
+Yeah. No, no, just hang on. I think it's… it might be a little shaky, but since our…
+
+[Abhishek Pandey] 23:28:34
+Yeah.
+
+[Sudha Krishnamurthy] 23:28:38
+since Brian joined as CPO, he brings immense experience from ServiceNow.
+
+[Sudha Krishnamurthy] 23:28:43
+And so is now is known for agility, for launching products, and the focus, right? You will see a lot in Brian.
+
+[Sudha Krishnamurthy] 23:28:49
+Um, and that's what we are very, very hopeful. This is actually a good time.
+
+[Abhishek Pandey] 23:28:49
+Sure.
+
+[Abhishek Pandey] 23:28:53
+Awesome, good to hear that, some positivity.
+
+[Sudha Krishnamurthy] 23:28:57
+All right, so good luck. Uh, so let me know how I can help, but I'll be more on the business side, um, but Anush and Glenn, so anytime you wanted to, hey, if you want to know about a partner, or hey, I wanted to…
+
+[Abhishek Pandey] 23:28:58
+Yeah. Thanks for that.
+
+[Abhishek Pandey] 23:29:01
+Yeah.
+
+[Abhishek Pandey] 23:29:03
+Sure.
+
+[Abhishek Pandey] 23:29:10
+Yeah.
+
+[Sudha Krishnamurthy] 23:29:11
+connect with this partner, I would be a point of contact.
+
+[Abhishek Pandey] 23:29:14
+Awesome, awesome. Makes sense.
+
+[Abhishek Pandey] 23:29:16
+Perfect, thank you, Sudha. I appreciate your time.
+
+[Sudha Krishnamurthy] 23:29:17
+All right, good luck
+
+[Abhishek Pandey] 23:29:18
+Have a good one. Bye-bye
+

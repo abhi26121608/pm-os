@@ -1,0 +1,744 @@
+[Arshad Nawaz] 19:08:19
+But this is slow query performance.
+
+[Arshad Nawaz] 19:08:28
+You get this percentile.
+
+[Arshad Nawaz] 19:08:30
+Last week, say, last month's here, whatever.
+
+[Abhishek Pandey] 19:08:33
+per use case.
+
+[Arshad Nawaz] 19:08:33
+If you saw in that commercial order, though.
+
+[Abhishek Pandey] 19:08:35
+How do you ASAP use cases?
+
+[Abhishek Pandey] 19:08:39
+Barely Gava, historically, Gava was very slow kinetic Unity.
+
+[Arshad Nawaz] 19:08:44
+Okay, I normally detectable.
+
+[Arshad Nawaz] 19:08:48
+insights available as a coach.
+
+[Arshad Nawaz] 19:08:52
+Yeah, maybe tick-tick, kar
+
+[Abhishek Pandey] 19:08:55
+Red color gum.
+
+[Abhishek Pandey] 19:09:02
+Karaga user queues.
+
+[Arshad Nawaz] 19:09:07
+Are there insights available here? So, Kulke Jandra Degray.
+
+[Arshad Nawaz] 19:09:10
+Or get a call to action over there. You have to alert firewall, or alert ka…
+
+[Arshad Nawaz] 19:09:15
+diagnosis dei avo que um
+
+[Arshad Nawaz] 19:09:19
+whatever alerting product, okay?
+
+[Arshad Nawaz] 19:09:21
+I'm getting.
+
+[Abhishek Pandey] 19:09:24
+Correct.
+
+[Arshad Nawaz] 19:09:25
+tohi sab
+
+[Arshad Nawaz] 19:09:28
+koja.
+
+[Arshad Nawaz] 19:09:31
+So we immediately summarized correctly, but atade ki camera.
+
+[Arshad Nawaz] 19:09:40
+This amount gets a
+
+[Arshad Nawaz] 19:09:49
+bonds overlays need my attention.
+
+[Arshad Nawaz] 19:09:54
+humanly possible.
+
+[Abhishek Pandey] 19:10:00
+Hmm.
+
+[Arshad Nawaz] 19:10:01
+Versa.
+
+[Abhishek Pandey] 19:10:05
+Malawba aegi, right?
+
+[Arshad Nawaz] 19:10:06
+Hmm, menus kesaya.
+
+[Abhishek Pandey] 19:10:15
+Take care.
+
+[Arshad Nawaz] 19:11:18
+But inside the variables.
+
+[Abhishek Pandey] 19:11:23
+Pre-compute Kuger correctly.
+
+[Abhishek Pandey] 19:11:26
+result, but live i kareenge.
+
+[Abhishek Pandey] 19:11:35
+Or user ko kuch
+
+[Abhishek Pandey] 19:11:39
+Exactly.
+
+[Arshad Nawaz] 19:11:41
+Okay. So, the compute connection button J, summarize this for me.
+
+[Arshad Nawaz] 19:11:46
+Yeah, so good. 2 key.
+
+[Abhishek Pandey] 19:11:48
+Meso… ha, bullo.
+
+[Arshad Nawaz] 19:11:49
+Yo quieto tokenung kapase lagaya.
+
+[Arshad Nawaz] 19:11:54
+generate karaoke.
+
+[Abhishek Pandey] 19:12:02
+batara hai.
+
+[Abhishek Pandey] 19:12:11
+Yetamari B is quite easy, you know?
+
+[Abhishek Pandey] 19:12:13
+top 20 slowest queries.
+
+[Arshad Nawaz] 19:12:16
+Many, many. This can be 100 also.
+
+[Abhishek Pandey] 19:12:19
+This can be…
+
+[Arshad Nawaz] 19:12:20
+100 also. The example might be some full karte hain.
+
+[Arshad Nawaz] 19:12:25
+But at the time period? Egdin kari.
+
+[Arshad Nawaz] 19:12:28
+JWR unique query.
+
+[Abhishek Pandey] 19:12:31
+Sorry, basically. Okay.
+
+[Abhishek Pandey] 19:12:34
+But I'm Tobi Top 20 pi karneval.
+
+[Abhishek Pandey] 19:12:37
+jaak
+
+[Abhishek Pandey] 19:12:46
+aegi us
+
+[Arshad Nawaz] 19:12:53
+So I'm not even.
+
+[Abhishek Pandey] 19:12:59
+B-square easy pull kar
+
+[Abhishek Pandey] 19:13:02
+Top 20 slowest queries is what we are able to pull, right? And those are the ones that we'll be able to analyze.
+
+[Arshad Nawaz] 19:13:08
+We are able to poll POLL.
+
+[Arshad Nawaz] 19:13:11
+agar wo top 20 change hogi ha.
+
+[Arshad Nawaz] 19:13:16
+Ignite.
+
+[Arshad Nawaz] 19:13:23
+Or you will have you change OK?
+
+[Abhishek Pandey] 19:13:26
+But just, hmm.
+
+[Arshad Nawaz] 19:13:26
+If aggregated, you will, right?
+
+[Arshad Nawaz] 19:13:31
+Although that is the intention. Consider data missing right here, guys, under the use of zero data, right?
+
+[Abhishek Pandey] 19:13:33
+Okay.
+
+[Arshad Nawaz] 19:13:37
+For the plan use keys kita weight event ka, wo subnehaga.
+
+[Abhishek Pandey] 19:13:41
+will be square is kaya aega Ferbi.
+
+[Arshad Nawaz] 19:13:41
+But we will be able to get.
+
+[Abhishek Pandey] 19:13:46
+Tom vivo biscuitis prefog
+
+[Abhishek Pandey] 19:13:50
+Tumbachaslaus owlau,
+
+[Abhishek Pandey] 19:13:54
+ko
+
+[Arshad Nawaz] 19:13:59
+How do you decide QOB's consci?
+
+[Abhishek Pandey] 19:14:07
+dikh
+
+[Abhishek Pandey] 19:14:12
+did in-depth wala.
+
+[Arshad Nawaz] 19:14:12
+Mahini… Mahini…
+
+[Arshad Nawaz] 19:14:17
+This is true for all queries which are running on the database.
+
+[Abhishek Pandey] 19:14:19
+Okay.
+
+[Arshad Nawaz] 19:14:21
+Even if we are missing it as part of our polling.
+
+[Abhishek Pandey] 19:14:24
+Okay.
+
+[Arshad Nawaz] 19:14:26
+additional data, yeah, thai.
+
+[Arshad Nawaz] 19:14:29
+Waiting Sab
+
+[Abhishek Pandey] 19:14:31
+Ah, TIG.
+
+[Arshad Nawaz] 19:14:33
+top 20 kilomiga.
+
+[Arshad Nawaz] 19:14:36
+that point of time.
+
+[Abhishek Pandey] 19:14:37
+So that we can figure out, right, who say filter legachem local language, figure out.
+
+[Abhishek Pandey] 19:14:42
+He retired engine queries ka, serfoni ko analyze karo.
+
+[Abhishek Pandey] 19:14:46
+Data gas addition.
+
+[Arshad Nawaz] 19:14:51
+You gotta hug. On my time pillagaya.
+
+[Abhishek Pandey] 19:14:51
+basic karao.
+
+[Arshad Nawaz] 19:14:56
+Yeah, the time, maybe, like, ayah to mergego redirection mail dan, this is the query which needs your attention.
+
+[Abhishek Pandey] 19:15:02
+Hmm. Then in that situation, we should be analyzing all, right?
+
+[Arshad Nawaz] 19:15:06
+Hmm.
+
+[Abhishek Pandey] 19:15:08
+Which is fine, but 20 ka constraint patata.
+
+[Abhishek Pandey] 19:15:13
+build karne, but…
+
+[Abhishek Pandey] 19:15:15
+fucked up ein.
+
+[Abhishek Pandey] 19:15:22
+Ex sortinga feature bide den
+
+[Abhishek Pandey] 19:15:25
+ni lag jo.
+
+[Arshad Nawaz] 19:15:35
+Hmm.
+
+[Abhishek Pandey] 19:15:37
+That is not an issue. It will just start taking more time,
+
+[Arshad Nawaz] 19:15:38
+There you go.
+
+[Abhishek Pandey] 19:15:41
+Or obviously, consumption badga kata toodasa.
+
+[Arshad Nawaz] 19:15:44
+Hmm.
+
+[Abhishek Pandey] 19:15:46
+But wo abhi ka headach to nahi
+
+[Abhishek Pandey] 19:15:50
+Kiosk SEO work, I'm getting
+
+[Arshad Nawaz] 19:15:53
+Tika?
+
+[Abhishek Pandey] 19:15:54
+uski ko
+
+[Abhishek Pandey] 19:15:56
+Peter.
+
+[Arshad Nawaz] 19:15:57
+Tiger?
+
+[Abhishek Pandey] 19:16:01
+I'm a so much
+
+[Abhishek Pandey] 19:16:03
+Use case is interesting, eh, give I…
+
+[Abhishek Pandey] 19:16:07
+My lab database, pas gya Tumara.
+
+[Abhishek Pandey] 19:16:09
+Malapchalna bandogia.
+
+[Abhishek Pandey] 19:16:11
+wo user ko ramse dikjayangi.
+
+[Abhishek Pandey] 19:16:20
+Usman solution bide deni ki ka solution hai.
+
+[Abhishek Pandey] 19:16:25
+And we will add that solute. Toska be a column at.
+
+[Arshad Nawaz] 19:16:31
+Josie as well.
+
+[Abhishek Pandey] 19:16:33
+Key, um, recommend
+
+[Arshad Nawaz] 19:16:40
+E querige against you.
+
+[Abhishek Pandey] 19:16:45
+ex…
+
+[Abhishek Pandey] 19:16:47
+Maybe I'm top pay.
+
+[Arshad Nawaz] 19:17:01
+SSG, SSG.
+
+[Abhishek Pandey] 19:17:03
+Okay, well, Hesa?
+
+[Abhishek Pandey] 19:17:09
+Right, man.
+
+[Abhishek Pandey] 19:17:14
+right ka lag
+
+[Arshad Nawaz] 19:17:15
+Ii por
+
+[Abhishek Pandey] 19:17:18
+Take it?
+
+[Arshad Nawaz] 19:17:18
+The very good detail there, right?
+
+[Abhishek Pandey] 19:17:20
+Take it?
+
+[Abhishek Pandey] 19:17:22
+Take it. Okay.
+
+[Arshad Nawaz] 19:17:24
+aap change kar
+
+[Arshad Nawaz] 19:17:30
+Getao execute the yoga, yoga, yoga, whatever.
+
+[Abhishek Pandey] 19:17:34
+This is good as well.
+
+[Arshad Nawaz] 19:17:40
+So senhi…
+
+[Abhishek Pandey] 19:17:47
+Pike.
+
+[Abhishek Pandey] 19:17:50
+A Bahar Jaf is.
+
+[Abhishek Pandey] 19:18:03
+Totally, I think I
+
+[Abhishek Pandey] 19:18:08
+hugi.
+
+[Abhishek Pandey] 19:18:13
+time, like,
+
+[Arshad Nawaz] 19:19:09
+Kayden's got Lona, bat, karling.
+
+[Arshad Nawaz] 19:19:17
+But anyway, with the…
+
+[Abhishek Pandey] 19:19:20
+Bonini.
+
+[Abhishek Pandey] 19:19:25
+But let me write to ID ita ki upar ke jo theme cards hai, usme seh card.
+
+[Abhishek Pandey] 19:19:30
+Matlavam.
+
+[Abhishek Pandey] 19:19:34
+His query plays Kazakhtemiris abzadum.
+
+[Arshad Nawaz] 19:19:38
+Karlo, takea?
+
+[Abhishek Pandey] 19:19:40
+His could replace Karin, Kuch lalal, highlight Karin is Kobe. In fact, Upar…
+
+[Abhishek Pandey] 19:19:45
+Proper Tino Golali highlight, karin.
+
+[Abhishek Pandey] 19:19:49
+kayaani, something like that.
+
+[Abhishek Pandey] 19:19:58
+alert issue.
+
+[Abhishek Pandey] 19:20:02
+Okay, third pay, uh…
+
+[Abhishek Pandey] 19:20:08
+Resolution, yeah, something like that.
+
+[Abhishek Pandey] 19:20:15
+kare, to
+
+[Abhishek Pandey] 19:20:18
+payroll query performance for Pontjagers, either.
+
+[Arshad Nawaz] 19:20:25
+Okay.
+
+[Abhishek Pandey] 19:20:28
+So what's it on, maybe.
+
+[Abhishek Pandey] 19:20:33
+BigQuery Performance Proposity.
+
+[Abhishek Pandey] 19:20:36
+already decide, kiya.
+
+[Abhishek Pandey] 19:20:41
+Vikapura, 3…
+
+[Abhishek Pandey] 19:20:46
+Recommendation.
+
+[Abhishek Pandey] 19:20:51
+Kavalta.
+
+[Arshad Nawaz] 19:20:57
+Mmm…
+
+[Arshad Nawaz] 19:21:01
+That is a damn, though.
+
+[Abhishek Pandey] 19:21:04
+Is symmetrotharika or Kalgam.
+
+[Arshad Nawaz] 19:21:04
+Okay,
+
+[Abhishek Pandey] 19:21:07
+habana women.
+
+[Arshad Nawaz] 19:21:11
+But love UI mock type, prototyping.
+
+[Abhishek Pandey] 19:21:13
+Haha mug, babe.
+
+[Abhishek Pandey] 19:21:15
+But I was like…
+
+[Arshad Nawaz] 19:21:32
+queries.
+
+[Abhishek Pandey] 19:21:35
+handed in.
+
+[Arshad Nawaz] 19:21:44
+processor, receiver.
+
+[Arshad Nawaz] 19:21:57
+New Relic Parker receiver.
+
+[Arshad Nawaz] 19:22:12
+Take a piece of it.
+
+[Abhishek Pandey] 19:22:14
+Take him.
+
+[Abhishek Pandey] 19:22:31
+Tigue, to main page bake card.
+
+[Abhishek Pandey] 19:22:35
+Postcards are out of Jagger, query performance PIAGA.
+
+[Abhishek Pandey] 19:22:39
+query performance paddig jayagosko.
+
+[Abhishek Pandey] 19:22:43
+Be good.
+
+[Arshad Nawaz] 19:22:44
+Yeah.
+
+[Abhishek Pandey] 19:22:44
+That'll be
+
+[Arshad Nawaz] 19:22:56
+Take a… auto-char toya.
+
+[Arshad Nawaz] 19:23:01
+a chat interface with Nancy, you know?
+
+[Arshad Nawaz] 19:23:04
+dual-use database-specific questions, answer kari.
+
+[Abhishek Pandey] 19:23:07
+Uh, there's a…
+
+[Abhishek Pandey] 19:23:22
+user usko accept kal
+
+[Abhishek Pandey] 19:23:28
+Levivi wants to ask some counter questions.
+
+[Abhishek Pandey] 19:23:33
+But for chat ko option, dengue toher, toh wo ekdam yalagi hojay gi na cheese.
+
+[Abhishek Pandey] 19:23:38
+separate product.
+
+[Arshad Nawaz] 19:23:39
+Q.
+
+[Arshad Nawaz] 19:23:46
+agarisk…
+
+[Arshad Nawaz] 19:23:48
+Appian was legal.
+
+[Arshad Nawaz] 19:23:53
+aur Answer
+
+[Abhishek Pandey] 19:24:01
+Correct. So, basically, egg just slow query yumari.
+
+[Abhishek Pandey] 19:24:04
+Oscar again, chat window cooler, eh?
+
+[Abhishek Pandey] 19:24:06
+Oper scare against what?
+
+[Arshad Nawaz] 19:24:10
+Hmm.
+
+[Abhishek Pandey] 19:24:10
+Got it. Huh.
+
+[Arshad Nawaz] 19:24:11
+Neither for a selling option nontay, rukoti khatang, uh…
+
+[Arshad Nawaz] 19:24:32
+Indigo.
+
+[Arshad Nawaz] 19:24:35
+Joby element, no?
+
+[Arshad Nawaz] 19:24:41
+click karke, kahang.
+
+[Arshad Nawaz] 19:24:48
+Excellent
+
+[Arshad Nawaz] 19:25:01
+Okay, sorry, hang on, uh…
+
+[Arshad Nawaz] 19:25:31
+Very good. Chalpunira.
+
+[Abhishek Pandey] 19:25:34
+Passani, thank you.
+
+[Arshad Nawaz] 19:25:37
+What about that?
+
+[Arshad Nawaz] 19:26:09
+what I'm trying to achieve.
+
+[Arshad Nawaz] 19:26:11
+It's been like button over there.
+
+[Arshad Nawaz] 19:26:18
+a particular agreement ko.
+
+[Arshad Nawaz] 19:26:23
+What particular visual element to Bhat Kregar?
+
+[Abhishek Pandey] 19:26:27
+I'm gonna…
+
+[Arshad Nawaz] 19:26:27
+Change color agar licki. See, the selector ligi change color. Toho sa change color, still wo sigo garage.
+
+[Arshad Nawaz] 19:26:34
+So, as a visual context setting, be cursor.
+
+[Abhishek Pandey] 19:26:36
+V0 mein.
+
+[Abhishek Pandey] 19:26:40
+Quieval elemente scop
+
+[Arshad Nawaz] 19:26:43
+Uh, something like that. Instead, quiti performance page mein.
+
+[Arshad Nawaz] 19:26:50
+Oh, yeah. Oh, yeah, we click here, man?
+
+[Arshad Nawaz] 19:26:54
+or see the solo.
+
+[Arshad Nawaz] 19:26:59
+particular wait time analysis ka line ka bh
+
+[Arshad Nawaz] 19:27:04
+or your particular query about. So, pay question-answer kamas alugar dia.
+
+[Arshad Nawaz] 19:27:08
+Because of the…
+
+[Abhishek Pandey] 19:27:09
+Correct, correct. Chat window kulagi?
+
+[Arshad Nawaz] 19:27:12
+Hmm.
+
+[Arshad Nawaz] 19:27:19
+Typat, powerful feature.
+
+[Arshad Nawaz] 19:27:21
+Let's param pujero.
+
+[Abhishek Pandey] 19:27:23
+an.
+
+[Arshad Nawaz] 19:27:31
+Recipito y cell selectoriano.
+
+[Arshad Nawaz] 19:27:33
+Your right clicker do, or rightlikari ito puzzle.
+
+[Abhishek Pandey] 19:27:37
+Vocelevotome
+
+[Abhishek Pandey] 19:27:40
+Que tome se…
+
+[Abhishek Pandey] 19:27:42
+Hykti banages
+
+[Abhishek Pandey] 19:27:45
+You're drawing ring banana ditin.
+
+[Arshad Nawaz] 19:27:47
+Yeah, zoom, uh, annotation.
+
+[Abhishek Pandey] 19:27:50
+Gotcha, okay.
+
+[Abhishek Pandey] 19:27:54
+Whiteboard.
+
+[Abhishek Pandey] 19:27:58
+Pige, tile.
+
+[Abhishek Pandey] 19:28:00
+Makes sense. Bharic Kardwanangay, yaan peel langenge.
+
+[Abhishek Pandey] 19:28:05
+For Jesse Kulega.
+
+[Abhishek Pandey] 19:28:07
+to a chat interface bhik hold
+
+[Abhishek Pandey] 19:28:10
+Next file is screenplay.
+
+[Arshad Nawaz] 19:28:11
+Hmm.
+
+[Abhishek Pandey] 19:28:13
+Hmm.
+
+[Abhishek Pandey] 19:28:15
+Cool. Mekartesco.
+
+[Abhishek Pandey] 19:28:18
+Caldwell.
+
+[Arshad Nawaz] 19:28:19
+to… culture tier.
+
+[Abhishek Pandey] 19:28:21
+Culture. Huh?
+
+[Arshad Nawaz] 19:28:23
+Hmm.
+
+[Abhishek Pandey] 19:28:24
+clear.
+
+[Arshad Nawaz] 19:28:26
+But yeah, SEO is only.
+
+[Abhishek Pandey] 19:28:27
+gathering by Kalide.
+
+[Arshad Nawaz] 19:28:30
+to be, you
+

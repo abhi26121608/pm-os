@@ -1,0 +1,900 @@
+[Camden Swita] 21:22:29
+So we decided that we were going to, um, standardize on MCP as our way of doing agentic integrations.
+
+[Abhishek Pandey] 21:22:36
+Right.
+
+[Camden Swita] 21:22:37
+And, uh, Elsa still did the… SLC did their review of…
+
+[Camden Swita] 21:22:43
+Um, the MCP server and decided that there were a number of, kind of, gaps in how we could, kind of, track and attribute use of the MCP server to certain partners.
+
+[Abhishek Pandey] 21:22:52
+Mm-hmm.
+
+[Camden Swita] 21:22:52
+That would require IAM to resolve.
+
+[Abhishek Pandey] 21:22:55
+Yeah, great.
+
+[Camden Swita] 21:22:56
+And, uh…
+
+[Camden Swita] 21:23:01
+I… I… the IAM team came back and said it would take them, like, 18 months.
+
+[Camden Swita] 21:23:07
+to resolve these issues, which is, like,
+
+[Camden Swita] 21:23:10
+It's just absurd to me.
+
+[Abhishek Pandey] 21:23:12
+Right.
+
+[Camden Swita] 21:23:13
+So this is… but then I'd heard from Hamdi that there was the opportunity… there was the chance that we could basically…
+
+[Camden Swita] 21:23:20
+accept some amount of risk in the meantime.
+
+[Camden Swita] 21:23:23
+by whitelisting certain strategic partners, and then resolving these issues over time.
+
+[Abhishek Pandey] 21:23:26
+Right.
+
+[Camden Swita] 21:23:28
+Which is what I'm advocating for, because otherwise, we're essentially blocked from using our MCP server.
+
+[Camden Swita] 21:23:33
+for these integrations,
+
+[Camden Swita] 21:23:36
+until IAM fixes their stuff, and I'm just not willing to wait on that.
+
+[Camden Swita] 21:23:41
+Um, so anyway, so we'll see. I mean, I may get overruled here, but I'm gonna try to push for it in the meantime. I really think it was a stupid idea, to be honest with you.
+
+[Abhishek Pandey] 21:23:49
+Yeah.
+
+[Camden Swita] 21:23:49
+to agree to forward with this without some path forward for partner support.
+
+[Abhishek Pandey] 21:23:57
+Yeah, got it. Makes sense.
+
+[Abhishek Pandey] 21:23:59
+Yeah, I mean, uh, Anoush has reached out to me quite a few people have been reaching out to me for the GenTech roadmap and all of that.
+
+[Abhishek Pandey] 21:24:06
+So that's what I'm trying to understand. Firstly, uh…
+
+[Abhishek Pandey] 21:24:09
+From the KT perspective, I don't have much of a KT. I do have access to the documentation.
+
+[Abhishek Pandey] 21:24:16
+Um, and all of that, um…
+
+[Abhishek Pandey] 21:24:19
+So I asked Anna if you could help me with some sort of a KT.
+
+[Abhishek Pandey] 21:24:23
+And then whatever is happening right now, how is it going to affect the agentic integration?
+
+[Abhishek Pandey] 21:24:29
+Specifically going ahead and… so that I can, you know, plan accordingly.
+
+[Camden Swita] 21:24:35
+Yeah, yeah, exactly. I mean, if for whatever reason there's an issue with…
+
+[Camden Swita] 21:24:39
+if there's for some reason, there's an issue with, um, using the MCP server, then we'll just have to go back to…
+
+[Abhishek Pandey] 21:24:41
+Yeah.
+
+[Camden Swita] 21:24:46
+using bespoke integrations for this or something.
+
+[Abhishek Pandey] 21:24:49
+Sure, yeah.
+
+[Camden Swita] 21:24:50
+I don't know what else we'll do, but we'll figure it out. So I'll keep kind of pushing, um, and uh…
+
+[Abhishek Pandey] 21:24:54
+Yeah.
+
+[Camden Swita] 21:24:56
+And see what we can kind of come up with here.
+
+[Abhishek Pandey] 21:24:57
+And why are these integrations that important? Like, are…
+
+[Abhishek Pandey] 21:25:03
+our customers using or asking for all of these things?
+
+[Abhishek Pandey] 21:25:06
+Um, I understand that computers are doing it as well.
+
+[Abhishek Pandey] 21:25:09
+So, my understanding is…
+
+[Camden Swita] 21:25:11
+I mean, yeah.
+
+[Abhishek Pandey] 21:25:13
+Yeah. So, for instance,
+
+[Camden Swita] 21:25:13
+Well, I mean, because imagine…
+
+[Abhishek Pandey] 21:25:14
+Yeah, sorry.
+
+[Camden Swita] 21:25:15
+Sorry, go ahead.
+
+[Abhishek Pandey] 21:25:16
+No, no, you go.
+
+[Camden Swita] 21:25:18
+I'm just saying, like,
+
+[Camden Swita] 21:25:21
+part of… part of what we're supposed to be positioning ourselves as…
+
+[Camden Swita] 21:25:25
+as, you know, New Relic is as a participant in this sort of, like, emerging agentic ecosystem, right?
+
+[Abhishek Pandey] 21:25:32
+But I…
+
+[Camden Swita] 21:25:32
+Integrate your agents with New Relic, whether that's…
+
+[Camden Swita] 21:25:37
+your own custom agents, whether that's, you know, agents you're using on other platforms, whatever it is.
+
+[Camden Swita] 21:25:44
+And yet, we're gonna come out with an MCP server and say, you can't actually integrate any of these third-party agents with our MCP server for an indefinite period of time. Like, what… what…
+
+[Camden Swita] 21:25:54
+What kind of message is that sending?
+
+[Abhishek Pandey] 21:25:56
+Yeah, right.
+
+[Camden Swita] 21:25:58
+I mean, it's just absurd, especially when…
+
+[Camden Swita] 21:26:01
+every other vendor I know of does this already.
+
+[Abhishek Pandey] 21:26:05
+Right.
+
+[Camden Swita] 21:26:06
+Like, why can't we…
+
+[Camden Swita] 21:26:08
+support this. So anyway, it's, um…
+
+[Camden Swita] 21:26:11
+Yeah, it's a problem. So anyway…
+
+[Abhishek Pandey] 21:26:13
+Sure. Um, but the goal of the company is to be able to build agentic solutions, right? Whether it's from the agentic integrations or building in-house,
+
+[Camden Swita] 21:26:15
+Um…
+
+[Abhishek Pandey] 21:26:23
+solutions, or there has to be a parity between the two, like a right balance between the two.
+
+[Camden Swita] 21:26:28
+No, it doesn't have to be parity, but we want to be able to do both, right? So we want to be able to build, you know, we want to be able to build Agentix Solutions
+
+[Abhishek Pandey] 21:26:29
+Yeah. Sure.
+
+[Abhishek Pandey] 21:26:35
+Yeah.
+
+[Camden Swita] 21:26:35
+that are… that are useful, you know, on the platform, but also…
+
+[Camden Swita] 21:26:41
+in con… like, in…
+
+[Camden Swita] 21:26:43
+conversation with other tools in someone's toolchain. So, you know…
+
+[Abhishek Pandey] 21:26:46
+Yeah.
+
+[Camden Swita] 21:26:48
+Obviously, we want them using our agents wherever we can, but if they're gonna use a third-party agent, which they're going to…
+
+[Abhishek Pandey] 21:26:51
+Right.
+
+[Camden Swita] 21:26:55
+In some cases, you know, we want them at least being able to use our MCP server.
+
+[Abhishek Pandey] 21:27:00
+Sure, yeah, yeah, that makes sense.
+
+[Camden Swita] 21:27:01
+And, right, because… yeah, I mean, because we want to be the…
+
+[Camden Swita] 21:27:05
+deliverer of insights.
+
+[Camden Swita] 21:27:09
+that are critical to those third-party agents functioning.
+
+[Abhishek Pandey] 21:27:12
+Sure. Yeah, yeah, of course, of course. If…
+
+[Abhishek Pandey] 21:27:15
+They are going to use third-party agent picker integrations.
+
+[Abhishek Pandey] 21:27:18
+then they need to have access to the MCP. Otherwise, it won't make much sense, uh, the results won't be that great, for sure.
+
+[Camden Swita] 21:27:25
+Yeah, I mean, it's… it's just… it's just… it feels to me like it's… I mean, to be honest with you, it feels to me like a short-sighted decision for the purpose of hitting a timeline.
+
+[Abhishek Pandey] 21:27:33
+Right.
+
+[Camden Swita] 21:27:33
+Versus, like, offering a full-featured solution.
+
+[Camden Swita] 21:27:38
+So…
+
+[Abhishek Pandey] 21:27:38
+Yeah. Sure, yeah.
+
+[Abhishek Pandey] 21:27:40
+That makes sense.
+
+[Camden Swita] 21:27:40
+Anyway, um, we'll see, we'll see what we can pull off here. I don't know, again, I think I'm kind of depending on there being a way that we can get an exception to…
+
+[Camden Swita] 21:27:52
+you know, if we're willing to accept the risk of white labeling some strategic partners in the meantime,
+
+[Camden Swita] 21:27:58
+Can we move forward with that? Security may say no, and if security says no, then the next step for us has to be going back to the IAM team.
+
+[Abhishek Pandey] 21:28:05
+Mm-hmm.
+
+[Camden Swita] 21:28:05
+And saying, you know,
+
+[Camden Swita] 21:28:08
+we have to… we have to do this, you know, we… we can't wait.
+
+[Camden Swita] 21:28:12
+18 months, like, what are our options here?
+
+[Abhishek Pandey] 21:28:15
+Yeah.
+
+[Abhishek Pandey] 21:28:17
+That makes sense.
+
+[Camden Swita] 21:28:18
+Yeah.
+
+[Abhishek Pandey] 21:28:21
+Okay.
+
+[Camden Swita] 21:28:22
+So we'll… we'll… we'll figure it out. I'll keep pushing…
+
+[Camden Swita] 21:28:25
+I'll keep pushing on this in the meantime. I've brought Hamdi in to try to get some clarity from him on…
+
+[Abhishek Pandey] 21:28:29
+Yeah.
+
+[Camden Swita] 21:28:32
+on what's going on, and then we'll, uh…
+
+[Camden Swita] 21:28:35
+we'll kind of go from there.
+
+[Abhishek Pandey] 21:28:37
+Yeah, makes sense, Camden.
+
+[Abhishek Pandey] 21:28:40
+Um, sure.
+
+[Abhishek Pandey] 21:28:45
+And, um, just one more thing just that I wanted to discuss about.
+
+[Abhishek Pandey] 21:28:49
+So, as you know, I'm working on this DB agent, right?
+
+[Abhishek Pandey] 21:28:55
+Going forward, if there is… if the use case that we are working on, right, it does show some crazy good results, right?
+
+[Abhishek Pandey] 21:29:03
+In terms of what it is able to handle and all of those things, right?
+
+[Abhishek Pandey] 21:29:07
+How do I balance my time
+
+[Abhishek Pandey] 21:29:09
+in these different things, right? Because all of these specialized agents would be a part of the SRE charter as well, from
+
+[Abhishek Pandey] 21:29:16
+what I understand, at a very broad level, right? Because that is what an SRE is all about.
+
+[Camden Swita] 21:29:19
+Yeah.
+
+[Abhishek Pandey] 21:29:20
+Solving specialized issues, as simple as that, right?
+
+[Camden Swita] 21:29:21
+Yeah, yeah.
+
+[Camden Swita] 21:29:24
+Yeah.
+
+[Abhishek Pandey] 21:29:24
+Uh, and then there is agentic integration, which is a bit chaotic right now.
+
+[Abhishek Pandey] 21:29:28
+Which has a lot of uncertainty in it right now.
+
+[Abhishek Pandey] 21:29:32
+So, how do I, uh…
+
+[Abhishek Pandey] 21:29:35
+like, tackle these two things, spend how much time, where, because my interest is in the duty agent, that is my forte as well.
+
+[Abhishek Pandey] 21:29:44
+Um, since it will be using a lot of ML and all those sort of things.
+
+[Abhishek Pandey] 21:29:48
+So, how should I go about it, for now, at least?
+
+[Camden Swita] 21:29:51
+Yeah, so I think, especially given the… especially given all the ambiguity around
+
+[Abhishek Pandey] 21:29:52
+Till the…
+
+[Abhishek Pandey] 21:29:55
+Yeah.
+
+[Camden Swita] 21:29:58
+Agentic Integrations right now, until we can figure out this MCP stuff.
+
+[Abhishek Pandey] 21:30:01
+Yeah.
+
+[Camden Swita] 21:30:02
+Um, I think… I think you should just kind of go all in on…
+
+[Camden Swita] 21:30:07
+Um… uh…
+
+[Camden Swita] 21:30:11
+like, working on the SR… like, helping me with the SRE agent user experience.
+
+[Abhishek Pandey] 21:30:16
+Sure.
+
+[Camden Swita] 21:30:16
+Including, um, you know, how that database agent
+
+[Camden Swita] 21:30:21
+is going to factor into the SRE agents' ability to answer questions about the database.
+
+[Abhishek Pandey] 21:30:24
+Yeah.
+
+[Abhishek Pandey] 21:30:26
+Yeah, yeah, sure.
+
+[Camden Swita] 21:30:28
+Um, so that functionality and other functionality that you can devise or come up with and help
+
+[Camden Swita] 21:30:34
+implement for the SRE agent?
+
+[Abhishek Pandey] 21:30:34
+Yep. Yep.
+
+[Camden Swita] 21:30:35
+Um, I think would be good. Now, I think I need to… I need to talk to the team about the best way to kind of integrate you.
+
+[Camden Swita] 21:30:44
+Um, into this process, because…
+
+[Camden Swita] 21:30:48
+Um…
+
+[Camden Swita] 21:30:49
+like, for example, as with this database agent,
+
+[Camden Swita] 21:30:55
+Um…
+
+[Abhishek Pandey] 21:30:55
+Yeah.
+
+[Camden Swita] 21:30:56
+I need to figure out what the best way is for the team to, like,
+
+[Camden Swita] 21:31:00
+receive that work?
+
+[Camden Swita] 21:31:01
+Right? And then, um, you know, and then kind of roll it into what they're doing.
+
+[Camden Swita] 21:31:06
+The front end's a little bit clearer. You just need to work with
+
+[Camden Swita] 21:31:10
+Maran and Emmanuel. You've met Emmanuel, uh, right?
+
+[Abhishek Pandey] 21:31:15
+I don't think so.
+
+[Camden Swita] 21:31:16
+Let me… let me… yeah, you should definitely set up a meeting with…
+
+[Abhishek Pandey] 21:31:17
+Amen. Oh, Emmanuel, yeah, yeah, yeah. I've met him multiple times. Yeah, many, yeah, yeah.
+
+[Camden Swita] 21:31:20
+Yeah, Manny. Yeah, yeah, so you just need to work with them, basically, on implementing the front end, so that's relatively straightforward, but when it comes to the database agent, that'll be a little bit… we'll just need to make sure that
+
+[Abhishek Pandey] 21:31:23
+Sure, sure.
+
+[Camden Swita] 21:31:30
+you know, everybody's aware that you're helping with that and that sort of thing.
+
+[Abhishek Pandey] 21:31:33
+Yeah, so…
+
+[Camden Swita] 21:31:34
+Now, the other thing that kind of came up last night with this is…
+
+[Abhishek Pandey] 21:31:36
+Yeah. Mm-hmm.
+
+[Camden Swita] 21:31:37
+We… we're in a conversation with…
+
+[Camden Swita] 21:31:40
+Ashley, Brian, others,
+
+[Abhishek Pandey] 21:31:42
+Yeah.
+
+[Camden Swita] 21:31:44
+Um, and the question came up of, like, hey, well, if the infra teams and the database teams are able to carve off some resources to help with this,
+
+[Camden Swita] 21:31:53
+Um, what, like,
+
+[Camden Swita] 21:31:56
+what do we actually need them to do? And so I was going to actually put this question
+
+[Camden Swita] 21:32:03
+put this question to you.
+
+[Camden Swita] 21:32:05
+And say, you know, like, I know you and Srikamp have been kind of devised this database agent
+
+[Abhishek Pandey] 21:32:11
+Yeah.
+
+[Camden Swita] 21:32:13
+plan, but what specifically would you want, say, if you could have the database team execute on any of that?
+
+[Abhishek Pandey] 21:32:19
+Sure.
+
+[Camden Swita] 21:32:20
+Can you clarify for me what would… what you would actually have them execute on?
+
+[Camden Swita] 21:32:26
+Um, and then… or ask Srikanth or somebody, and then we…
+
+[Abhishek Pandey] 21:32:29
+Yeah.
+
+[Camden Swita] 21:32:31
+And, um, uh…
+
+[Camden Swita] 21:32:33
+Uh, and then I can kind of work with SEVA BE on making sure that the resources are in the right place.
+
+[Abhishek Pandey] 21:32:38
+Sure. So, uh, yeah, that has been a little bit of struggle for now. Like, I've talked to pretty much everyone, Mahesh, who reports to Prabhu,
+
+[Abhishek Pandey] 21:32:46
+And then their lead engineer and everyone. Right now, we are struggling
+
+[Abhishek Pandey] 21:32:50
+With getting the data, and uh… and some…
+
+[Abhishek Pandey] 21:32:54
+detailed feedback on things, uh…
+
+[Abhishek Pandey] 21:32:56
+like, the plan that we have structured.
+
+[Abhishek Pandey] 21:32:59
+I'm hoping to get it done by today.
+
+[Abhishek Pandey] 21:33:02
+Uh, but I'll let you know. So, you need, uh…
+
+[Abhishek Pandey] 21:33:06
+you need understanding on, uh, what help we'd need from them probably right now as well, and going ahead in the future as well, right?
+
+[Camden Swita] 21:33:13
+Yeah, so, but yeah, it's like, basically, it's like, what is the… what is, what, what, like, based on your conversations with Sriconf and with the database team, what do we think the scope of this kind of database sub-agent is?
+
+[Abhishek Pandey] 21:33:16
+Yeah.
+
+[Abhishek Pandey] 21:33:19
+Yeah.
+
+[Abhishek Pandey] 21:33:22
+Sure. Yeah, yeah.
+
+[Camden Swita] 21:33:24
+And, uh, uh…
+
+[Camden Swita] 21:33:26
+And of that, like, where could we use the database team's help in terms of implementing?
+
+[Abhishek Pandey] 21:33:32
+Sure, sure.
+
+[Camden Swita] 21:33:33
+Um, because then I'll go… then I'll take that to SIVAB, and then SIVAB will see what he can arrange with them, right?
+
+[Abhishek Pandey] 21:33:39
+Yeah, that makes sense. That would be great.
+
+[Abhishek Pandey] 21:33:43
+It will help us expedite, uh, building of this agent.
+
+[Camden Swita] 21:33:46
+Yeah, for sure.
+
+[Abhishek Pandey] 21:33:49
+Perfect. I mean, I am personally very excited about this agent, because there is nothing like that.
+
+[Abhishek Pandey] 21:33:55
+exist right now, uh, within the company, and if it can show the real power, you know,
+
+[Abhishek Pandey] 21:33:59
+Uh, that we'll be able to get through this agent, I think that would be great.
+
+[Camden Swita] 21:34:04
+Yeah, I agree.
+
+[Abhishek Pandey] 21:34:04
+And it is actually an agentic agent, it's not just something that will just give you basic insights and all those sort of things, so…
+
+[Abhishek Pandey] 21:34:12
+Yeah, I'll tell you more about it once we have…
+
+[Abhishek Pandey] 21:34:16
+a basic POC ready, which you can probably play around with as well.
+
+[Abhishek Pandey] 21:34:21
+But yeah, yeah.
+
+[Abhishek Pandey] 21:34:23
+Yeah, so that's one thing.
+
+[Camden Swita] 21:34:24
+So yeah, I think… I think that, that, and then that, and then the… please do lean in hard on the front-end stuff.
+
+[Abhishek Pandey] 21:34:25
+Yeah.
+
+[Abhishek Pandey] 21:34:30
+Sure.
+
+[Camden Swita] 21:34:30
+Um, because we do… we do need to make some good progress on the… on the SRE agents front end relatively quickly here.
+
+[Abhishek Pandey] 21:34:36
+Yeah, I did reach out to Madhan, I think that's his name, right? Yeah, I did reach out to him today.
+
+[Abhishek Pandey] 21:34:42
+to check with him if he has some time where we can…
+
+[Abhishek Pandey] 21:34:46
+discuss about the…
+
+[Abhishek Pandey] 21:34:47
+whatever you have laid out in the document.
+
+[Abhishek Pandey] 21:34:51
+We'll meet tomorrow, uh…
+
+[Abhishek Pandey] 21:34:53
+Probably try to share our thoughts. I'll share my thoughts on it.
+
+[Abhishek Pandey] 21:34:57
+by tomorrow itself, so that you have something
+
+[Abhishek Pandey] 21:34:59
+end of this week. Like, how the visualization and everything. For V0, will it should at least look like.
+
+[Camden Swita] 21:35:02
+Okay, awesome.
+
+[Abhishek Pandey] 21:35:06
+V1, I think we do have some time, right? Yeah.
+
+[Camden Swita] 21:35:06
+Yeah.
+
+[Camden Swita] 21:35:09
+Yeah, yeah, definitely, yeah, by the end of this week, it's totally fine, so yeah, thanks for… thanks for…
+
+[Abhishek Pandey] 21:35:12
+Yeah, yeah. Perfect, yeah. That would happen.
+
+[Abhishek Pandey] 21:35:16
+And I did try to copy your, uh…
+
+[Abhishek Pandey] 21:35:19
+demo, by the way. So I've been using Claude extensively.
+
+[Abhishek Pandey] 21:35:23
+Since I didn't have the access to the GitHub repo, I thought, I'll just try and copy
+
+[Camden Swita] 21:35:27
+Oh, yeah, let me… sorry, let me… oh, that's good that you did that. Let me see if I can…
+
+[Abhishek Pandey] 21:35:28
+Yeah.
+
+[Abhishek Pandey] 21:35:31
+I did find your repo as well, but it's not updated, I guess. It's 3…
+
+[Abhishek Pandey] 21:35:36
+It has code which is… which hasn't been updated for 3 months.
+
+[Camden Swita] 21:35:40
+Right, let me… so I'm gonna get you access to the actual repo you need, because it's… it's, um…
+
+[Abhishek Pandey] 21:35:44
+Yeah.
+
+[Camden Swita] 21:35:45
+It's… I migrated the… I migrated the repo over…
+
+[Abhishek Pandey] 21:35:51
+Got it. So I was able to…
+
+[Camden Swita] 21:35:52
+Uh, we're sorry, I… I…
+
+[Camden Swita] 21:35:54
+I copied it over at one point, but then I… because of just, like, limitations in deploying that repo,
+
+[Camden Swita] 21:36:02
+Uh, under GitHub's… or under New Relic's Github.
+
+[Abhishek Pandey] 21:36:06
+Yeah.
+
+[Camden Swita] 21:36:06
+Um, license, I ended up, um…
+
+[Camden Swita] 21:36:10
+Uh, just continuing to kind of use my personal repo for it, so let me get you that.
+
+[Abhishek Pandey] 21:36:14
+Ah, got it, got it, okay.
+
+[Camden Swita] 21:36:16
+That way, you can at least start working on it, um…
+
+[Abhishek Pandey] 21:36:22
+So I tried copying your whole demo.
+
+[Abhishek Pandey] 21:36:26
+Uh, I made my, uh…
+
+[Abhishek Pandey] 21:36:29
+I built a bot, you know, which would just go and crawl
+
+[Abhishek Pandey] 21:36:33
+all of it. So it was able to do it decently well, but not all of it. Like, it was able to copy 70% of it.
+
+[Camden Swita] 21:36:40
+Nice.
+
+[Abhishek Pandey] 21:36:40
+But yeah, if I have access to the repo, that would be just great.
+
+[Camden Swita] 21:36:45
+Okay, so this one here…
+
+[Abhishek Pandey] 21:36:47
+And do you know that there's something like skill that Claude has, uh…
+
+[Abhishek Pandey] 21:36:53
+like, given out as a feature.
+
+[Camden Swita] 21:36:57
+Um, it's Quad Skills.
+
+[Abhishek Pandey] 21:37:00
+Yes, skills. So, skills…
+
+[Camden Swita] 21:37:01
+I've… I think I've heard of them, yeah.
+
+[Abhishek Pandey] 21:37:03
+Yeah, so skills are like…
+
+[Abhishek Pandey] 21:37:06
+added bonus thing on top of MCP. What skill would do is, so for instance, if you are working on this front-end thing, right?
+
+[Abhishek Pandey] 21:37:14
+Um, we'll… we can create a skill for our Cloud agent.
+
+[Abhishek Pandey] 21:37:18
+which is, you know, expert in front-end, uh, building front-end, uh, demos and all these sort of things.
+
+[Abhishek Pandey] 21:37:24
+And once you start using it, you'll see the change in the results. Like, it's pretty good.
+
+[Camden Swita] 21:37:30
+Nice, that's cool, that's cool.
+
+[Abhishek Pandey] 21:37:30
+You should try it out, yeah.
+
+[Camden Swita] 21:37:32
+Yeah, I would definitely will. Say, so I just added you as a… I added you as a, um…
+
+[Abhishek Pandey] 21:37:37
+Yeah.
+
+[Camden Swita] 21:37:38
+collaborator on the codebase?
+
+[Abhishek Pandey] 21:37:39
+Yeah, I got it.
+
+[Camden Swita] 21:37:40
+So you should be able to pull it down now, and at least start from there.
+
+[Abhishek Pandey] 21:37:43
+Sure, sure, yeah.
+
+[Camden Swita] 21:37:43
+And then…
+
+[Abhishek Pandey] 21:37:46
+Yep, I have the access. Perfect.
+
+[Abhishek Pandey] 21:37:49
+Great, uh, this will help a lot.
+
+[Abhishek Pandey] 21:37:53
+So, this is your personal, uh…
+
+[Abhishek Pandey] 21:37:56
+GitHub, is it?
+
+[Camden Swita] 21:37:57
+Yeah, yep.
+
+[Abhishek Pandey] 21:37:58
+Good, okay.
+
+[Abhishek Pandey] 21:38:01
+Cool. This will help a lot. Thanks, Cameron.
+
+[Camden Swita] 21:38:04
+Okay, cool.
+
+[Abhishek Pandey] 21:38:07
+And it…
+
+[Camden Swita] 21:38:07
+Um, so how's everything else going? How you doing, in general?
+
+[Abhishek Pandey] 21:38:11
+Uh, in general, it has been fine.
+
+[Abhishek Pandey] 21:38:13
+quite a few things in my personal life, but that is fine, yeah.
+
+[Camden Swita] 21:38:18
+Is everything alright?
+
+[Abhishek Pandey] 21:38:18
+Yeah, everything is alright. My marriage might not happen. It was on 20th February, yeah, so that…
+
+[Abhishek Pandey] 21:38:25
+is almost called off for certain reasons, so yeah, that's a bit messy.
+
+[Abhishek Pandey] 21:38:29
+But yeah, yeah, other than that…
+
+[Camden Swita] 21:38:30
+Okay. Okay, well, hopefully, hopefully everything ends up alright there.
+
+[Abhishek Pandey] 21:38:35
+Yeah, yeah.
+
+[Camden Swita] 21:38:37
+Um, but yeah.
+
+[Abhishek Pandey] 21:38:38
+Other than that, it's all pretty good, um…
+
+[Abhishek Pandey] 21:38:40
+I've been trying to get in touch with Anu, and…
+
+[Abhishek Pandey] 21:38:44
+Uh, what's his name? Anshul.
+
+[Abhishek Pandey] 21:38:46
+quite a bit, just to understand what are their requirements.
+
+[Abhishek Pandey] 21:38:50
+Specifically on the AI side of things, and where I can probably, you know, chip in.
+
+[Abhishek Pandey] 21:38:54
+So… yeah, that's there as well.
+
+[Abhishek Pandey] 21:38:58
+That's pretty much about it. Other than that, I've just… I'm just focusing on this DB agent for now.
+
+[Abhishek Pandey] 21:39:02
+Just trying to build something out, yeah.
+
+[Camden Swita] 21:39:04
+Cool. Yeah, I know things have been a little bit messy for you coming in here, so I apologize for that. I think the resourcing plan that we had, um…
+
+[Abhishek Pandey] 21:39:12
+we are good.
+
+[Camden Swita] 21:39:13
+But we'll… things will clear up.
+
+[Camden Swita] 21:39:16
+whether it's working on the integration stuff, or whether it's digging in more on the agentic stuff, one way or another, there's plenty to do, so…
+
+[Abhishek Pandey] 21:39:24
+Yeah. Sure, sure.
+
+[Abhishek Pandey] 21:39:28
+Awesome.
+
+[Camden Swita] 21:39:28
+Cool. Well, unless there's anything else, I'll
+

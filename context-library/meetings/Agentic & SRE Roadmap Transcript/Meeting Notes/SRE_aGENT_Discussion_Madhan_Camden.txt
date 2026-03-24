@@ -1,0 +1,687 @@
+[Camden Swita] 10:01:18
+can definitely kind of catch up on some stuff.
+
+[Camden Swita] 10:01:20
+So, uh, Abhishek, uh, I'm not sure…
+
+[Camden Swita] 10:01:24
+or actually, this is probably before your time, but…
+
+[Camden Swita] 10:01:27
+Maron was one of the, like, or was the original designer who was working on, uh, SRE agent stuff, and kind of, like, the overhaul of…
+
+[Camden Swita] 10:01:38
+Um, the NRAI UI, and so he was the… he was the designer who
+
+[Camden Swita] 10:01:43
+you know, kind of brought us, like, the new icon and some of the new color scheme, and…
+
+[Camden Swita] 10:01:47
+uh, you know, like, uh, the kind of toggle experience with the homepage and the settings, and so on, right?
+
+[Abhishek Pandey] 10:01:53
+Got it.
+
+[Camden Swita] 10:01:53
+He's been kind of off working on some other stuff more recently, but we're bringing him back.
+
+[Camden Swita] 10:01:58
+Uh, which is awesome, because we have a lot of, um…
+
+[Camden Swita] 10:02:02
+things to, I think, figure out with the SRE agent.
+
+[Camden Swita] 10:02:06
+Um, I don't know how recently you guys have played around with the S3 agent, but, um…
+
+[Camden Swita] 10:02:13
+If you do, you can ask it, obviously, you know, a series of questions, and it will go, and it'll produce a, um…
+
+[Camden Swita] 10:02:21
+you know, what amount… today amounts to a pretty lengthy kind of report.
+
+[Madhan Raj M A] 10:02:25
+Mm-hmm.
+
+[Camden Swita] 10:02:25
+About, um… its findings. And depending on what it does, interestingly, I'm not…
+
+[Camden Swita] 10:02:32
+seeing the intermediate steps in this case. Let me see if I can find an example of that.
+
+[Camden Swita] 10:02:39
+I wonder if they're not stored for an indefinite period of time.
+
+[Camden Swita] 10:02:43
+hold on, I want to find these.
+
+[Camden Swita] 10:02:47
+Uh…
+
+[Camden Swita] 10:02:49
+Interesting. So the intermediate steps must be temporary. But anyway, usually, if you… if you run it live, you'll see, like, a series of intermediate steps that kind of load over time.
+
+[Camden Swita] 10:02:59
+In fact, I wonder if I can just ask a follow-up question.
+
+[Camden Swita] 10:03:04
+Um…
+
+[Camden Swita] 10:03:08
+Uh, and so anyway, so…
+
+[Camden Swita] 10:03:13
+Um…
+
+[Camden Swita] 10:03:15
+Let me just tell it I want this…
+
+[Camden Swita] 10:03:20
+Under Account… this.
+
+[Camden Swita] 10:03:31
+Okay, so it's starting its planning process, as we can see here.
+
+[Camden Swita] 10:03:36
+Um… which is what we wanted to do, uh…
+
+[Camden Swita] 10:03:39
+it's now executing its plan.
+
+[Camden Swita] 10:03:44
+Um… this actually looks like an old version of the planning modal, but there's, like, a newer version where you'll see, like, a series of green circles that kind of, uh…
+
+[Madhan Raj M A] 10:03:48
+Mm-hmm.
+
+[Camden Swita] 10:03:55
+fell down, but anyway, as you begin playing with this more and talking to Manny and team, you'll see what I'm talking about.
+
+[Madhan Raj M A] 10:03:59
+Yep.
+
+[Camden Swita] 10:04:01
+The long… what I'm getting at, ultimately, though, is the responses today are extremely text-heavy.
+
+[Camden Swita] 10:04:07
+Obviously.
+
+[Camden Swita] 10:04:09
+Um, and what I think we want to try to do in a relatively short amount of time, hopefully, and what we're asking the engineering team to try to commit to,
+
+[Camden Swita] 10:04:19
+is move at least some of this to more of a visual representation.
+
+[Camden Swita] 10:04:23
+Um, and so…
+
+[Camden Swita] 10:04:25
+We already have the capability within the New Relic AI Chat interface to render things like charts and data visualization component and other…
+
+[Camden Swita] 10:04:36
+UI elements, like forms and buttons, like, all of that already exists.
+
+[Camden Swita] 10:04:40
+What's really needed is basically the engineering team just needs to go and say, okay,
+
+[Camden Swita] 10:04:46
+When we have a tool output like this,
+
+[Camden Swita] 10:04:49
+we need to format the output of that tool so that it will be interpreted by the front end in a way that will render it as a UI component, is basically the goal, right?
+
+[Camden Swita] 10:04:58
+And so, I had put together a quick and dirty doc,
+
+[Camden Swita] 10:05:04
+Um…
+
+[Camden Swita] 10:05:07
+the other day…
+
+[Camden Swita] 10:05:08
+And I'll share it with you too, Abhishek.
+
+[Camden Swita] 10:05:11
+Where I basically just kind of went through some…
+
+[Camden Swita] 10:05:14
+some, uh…
+
+[Camden Swita] 10:05:16
+responses I had gotten from the SRE agent.
+
+[Camden Swita] 10:05:19
+And, um…
+
+[Camden Swita] 10:05:21
+kind of, like, mapped out, okay, like,
+
+[Camden Swita] 10:05:24
+You know, ideally, this part of the response would be rendered as a…
+
+[Camden Swita] 10:05:29
+you know, chart, this one is okay to keep as, like, a text block.
+
+[Camden Swita] 10:05:33
+And so on, like, just my initial kind of swipe at it.
+
+[Camden Swita] 10:05:37
+it's just a suggestion, I think.
+
+[Camden Swita] 10:05:39
+between the two of you, you guys may have better opinions about what should be what and why.
+
+[Camden Swita] 10:05:44
+But we just need to give, um… we just need to basically kind of all align on how we think these intermediate responses should be rendered.
+
+[Camden Swita] 10:05:53
+And then give the engineering team the feedback.
+
+[Camden Swita] 10:05:57
+Um, now, because we're on kind of a relatively short timeline, what I've tried to do is I've tried to
+
+[Camden Swita] 10:06:03
+use only supported one-core components. Basically, I've gone through the One Core design library and said, okay, we already have a card component,
+
+[Camden Swita] 10:06:12
+Let's render this as a card, you know, let's render…
+
+[Camden Swita] 10:06:15
+This one is a data table,
+
+[Camden Swita] 10:06:17
+you know, you get it. So, um, first things first, what I'd ask is you two to just kind of go through this document and kind of begin to understand, um,
+
+[Camden Swita] 10:06:26
+the different parts of the responses,
+
+[Camden Swita] 10:06:28
+And kind of the recommendations that I've made right off the bat, and then leave comments, or if you have suggestions, make suggestions.
+
+[Camden Swita] 10:06:35
+Or if things look good, things look good, and then we'll… we'll kind of take this to the engineering team and say,
+
+[Camden Swita] 10:06:40
+pay for the very next iteration on the SRE agent's output, we… this is… this is what we want to do. We want to basically start moving to these…
+
+[Camden Swita] 10:06:48
+more visual representations of the data.
+
+[Madhan Raj M A] 10:06:52
+So, uh, Campbell.
+
+[Camden Swita] 10:06:52
+Now, that's kind of… yeah.
+
+[Madhan Raj M A] 10:06:54
+To pause you on that. So…
+
+[Madhan Raj M A] 10:06:57
+Last time, when we were developing this, right, we…
+
+[Madhan Raj M A] 10:07:00
+came into a blocker rate where…
+
+[Madhan Raj M A] 10:07:03
+Whatever one core components we have,
+
+[Madhan Raj M A] 10:07:05
+The bot cards are a little separate.
+
+[Madhan Raj M A] 10:07:07
+So, I'll paste it up.
+
+[Madhan Raj M A] 10:07:09
+Uh, you know, the document link here in this chat.
+
+[Camden Swita] 10:07:13
+Okay.
+
+[Madhan Raj M A] 10:07:14
+Zoom chat. So if you check only those components are allowed in the…
+
+[Madhan Raj M A] 10:07:18
+panel.
+
+[Camden Swita] 10:07:19
+Oh… okay, this is good to know.
+
+[Abhishek Pandey] 10:07:20
+Sorry, what is this one core?
+
+[Madhan Raj M A] 10:07:22
+So, OneCore is basically our design system.
+
+[Abhishek Pandey] 10:07:22
+component
+
+[Camden Swita] 10:07:23
+Oh, so what…
+
+[Madhan Raj M A] 10:07:26
+Library?
+
+[Abhishek Pandey] 10:07:28
+Define here at New Relic.
+
+[Madhan Raj M A] 10:07:30
+Yeah, only for Neuralink?
+
+[Abhishek Pandey] 10:07:30
+Got it. Okay.
+
+[Madhan Raj M A] 10:07:31
+And, uh, within the design system itself, each, uh, we have segregated into patterns, right?
+
+[Madhan Raj M A] 10:07:37
+For example, this AI tool,
+
+[Madhan Raj M A] 10:07:39
+the panel itself is considered as a pattern. We have restricted few components from there.
+
+[Madhan Raj M A] 10:07:44
+So that, uh, you know, not everyone kind of plays around it.
+
+[Abhishek Pandey] 10:07:44
+Got it.
+
+[Madhan Raj M A] 10:07:48
+So…
+
+[Camden Swita] 10:07:48
+Uh, got it, okay.
+
+[Camden Swita] 10:07:50
+Okay.
+
+[Madhan Raj M A] 10:07:50
+we have to talk to the platform team to open this up.
+
+[Madhan Raj M A] 10:07:53
+So that we will be able to explore.
+
+[Camden Swita] 10:07:55
+Okay, makes sense. So then I think probably what would be a good next step, if you two don't mind going through the document that I…
+
+[Camden Swita] 10:08:03
+put together and just, like, putting in comments or subbing in.
+
+[Abhishek Pandey] 10:08:03
+Yeah.
+
+[Camden Swita] 10:08:08
+actual, like, maybe create a new column and just put in, like, the supported…
+
+[Camden Swita] 10:08:13
+component that's roughly equivalent to what I've got. I didn't get super creative in my recommendations. It's all, like,
+
+[Madhan Raj M A] 10:08:19
+Yep, yep.
+
+[Camden Swita] 10:08:19
+cards or visualizations anyway.
+
+[Camden Swita] 10:08:22
+And then, maybe if there's anything that we're…
+
+[Camden Swita] 10:08:25
+really convinced should be…
+
+[Camden Swita] 10:08:27
+a component that's not supported in the bot, then we can make the case to the platform team.
+
+[Camden Swita] 10:08:32
+Um, but the, you know, obviously the immediate goal is just to get this looking a little less text-heavy, so I think any kind of visualizations would be… would be a
+
+[Abhishek Pandey] 10:08:38
+Yeah.
+
+[Camden Swita] 10:08:41
+step in the right direction.
+
+[Madhan Raj M A] 10:08:43
+Understood, yeah.
+
+[Camden Swita] 10:08:44
+Where we go from there, though, is where things get more interesting, Madhan, I think from the design perspective, and where I'm really excited to see you dig in more. And I know you've already done some thinking,
+
+[Madhan Raj M A] 10:08:55
+Mm-hmm.
+
+[Camden Swita] 10:08:56
+Um, but, you know,
+
+[Camden Swita] 10:08:58
+been… been vibe coding in the meantime as you've been working on some other stuff, but what I'm really eager to do is get you
+
+[Camden Swita] 10:09:05
+working with Abhishek on defining
+
+[Camden Swita] 10:09:08
+kind of what the longer-term…
+
+[Camden Swita] 10:09:12
+um, you know, kind of user experience looks like for the S3 agent and other specialist agents, right?
+
+[Madhan Raj M A] 10:09:19
+Yep.
+
+[Camden Swita] 10:09:19
+So, everything from, like, an improved thinking panel to…
+
+[Camden Swita] 10:09:23
+you know, more of, like, a, um…
+
+[Camden Swita] 10:09:26
+responsive layout for the cards.
+
+[Madhan Raj M A] 10:09:29
+Nice, okay.
+
+[Camden Swita] 10:09:30
+any kind of new cards we want to do, and I'll show you a link to this prototype so you can play around with it a little bit.
+
+[Camden Swita] 10:09:37
+Um, but, you know, you get it. Like, what is this… what is… what does it kind of look like for us to really take this to the next level and think about, like, a real generative experience?
+
+[Camden Swita] 10:09:45
+And then… and then taking that maybe even a step further,
+
+[Camden Swita] 10:09:48
+And, you know, going full…
+
+[Camden Swita] 10:09:51
+full bore on, like,
+
+[Camden Swita] 10:09:53
+What is the… what is the full-page generative UX?
+
+[Camden Swita] 10:09:58
+sort of look like, right? Um, where we're offering somebody more of, like, an open-ended,
+
+[Camden Swita] 10:10:03
+hey, I've got a… I've got a problem I want to solve, I don't really want to deal with, like, a curated UI, I just want to ask questions and get visualizations back, and so on, right?
+
+[Madhan Raj M A] 10:10:13
+Uh-huh.
+
+[Camden Swita] 10:10:14
+So, there's a… there's a natural progression here, but I think, first things first, we get the existing responses.
+
+[Camden Swita] 10:10:20
+a little bit more visual. Then we talk a little bit about, you know, what the… what the next native, like, natural iteration is from there, and then if we can go all the way to a true kind of responsive generative UX, great.
+
+[Camden Swita] 10:10:32
+If we have to do some milestones, we can, but, you know, we'll figure that out as we go.
+
+[Camden Swita] 10:10:38
+Um… but I, I mean, I want to encourage both of you to just to go pretty, um…
+
+[Camden Swita] 10:10:43
+ambitious and open-ended with what we want to try to pull off.
+
+[Camden Swita] 10:10:48
+Um, we'll… we'll handle the short-term as the short-term, but in terms of, like, what is, like, what is the impressive user experience we can really build that will be
+
+[Camden Swita] 10:10:57
+the front end for the SRE agent, but also the front end for other agents that will get built.
+
+[Camden Swita] 10:11:02
+Um, and then other things in general, I think that's really what I'm hoping to see you guys kick off and get going with.
+
+[Madhan Raj M A] 10:11:08
+Got it.
+
+[Abhishek Pandey] 10:11:08
+Cameron, which one of these agents were finalized? I think you told me last time, I've forgotten.
+
+[Abhishek Pandey] 10:11:14
+I'm gonna write it down now. I think you wanted to take off a few of these, right? Uh…
+
+[Camden Swita] 10:11:15
+So,
+
+[Camden Swita] 10:11:20
+Um… sorry, what do you take off? What do you mean, a few of them?
+
+[Abhishek Pandey] 10:11:23
+Uh, can you go back to the main page, landing page?
+
+[Camden Swita] 10:11:27
+Oh, yeah, yeah, the, uh, demo hub here.
+
+[Abhishek Pandey] 10:11:31
+Yeah, this one.
+
+[Camden Swita] 10:11:32
+Yeah, so… yeah, so these, um…
+
+[Abhishek Pandey] 10:11:35
+The first two? Yeah.
+
+[Camden Swita] 10:11:36
+Oh, yeah. Um…
+
+[Camden Swita] 10:11:38
+So, I would…
+
+[Camden Swita] 10:11:40
+I would just focus on…
+
+[Camden Swita] 10:11:43
+I would focus on the two… the two use… two first use cases under the…
+
+[Camden Swita] 10:11:48
+SRE agent use cases.
+
+[Camden Swita] 10:11:51
+Um, so the alert triage and then the deployment validation.
+
+[Abhishek Pandey] 10:11:55
+Yeah, got it.
+
+[Camden Swita] 10:11:56
+are the two use cases that we're thinking about, like, from a functional perspective.
+
+[Camden Swita] 10:12:01
+for the short term. And then the other stuff in here, like, a lot of these other S3 agent use cases in terms of the output is very similar. Like, it's not really fundamentally different. It's more about the content that's different.
+
+[Camden Swita] 10:12:13
+But, like, these are… I, like, put this together for, like, Oren. This is, like, a whole, like…
+
+[Camden Swita] 10:12:20
+other world of…
+
+[Camden Swita] 10:12:21
+things that… that we don't need to worry about for… for now. We're more just focused on, um…
+
+[Camden Swita] 10:12:27
+On these, here.
+
+[Abhishek Pandey] 10:12:32
+Yeah, cool.
+
+[Camden Swita] 10:12:33
+Makes it… yeah.
+
+[Abhishek Pandey] 10:12:34
+Yeah.
+
+[Camden Swita] 10:12:35
+Let me, um…
+
+[Camden Swita] 10:12:37
+Let me get this link over to you, Maran.
+
+[Camden Swita] 10:12:41
+Um, but that's kind of it. So, I mean, I think first things first, let's get the…
+
+[Camden Swita] 10:12:45
+Let's get the current output more visual, and then we'll, um, we'll start meeting regularly on…
+
+[Camden Swita] 10:12:52
+you know, getting the next…
+
+[Camden Swita] 10:12:54
+next version of this, uh, this UI underway.
+
+[Madhan Raj M A] 10:12:59
+Yep, sure, Camden.
+
+[Camden Swita] 10:13:02
+Um, I think, Maran, there may be other… there may be other aspects of all this that…
+
+[Camden Swita] 10:13:07
+I start… or you too, Abhishek, actually.
+
+[Camden Swita] 10:13:11
+But then I kind of start, maybe,
+
+[Camden Swita] 10:13:13
+quoting you guys into, like…
+
+[Camden Swita] 10:13:15
+One thing that we really haven't…
+
+[Camden Swita] 10:13:19
+um… dug into yet that I think is…
+
+[Camden Swita] 10:13:23
+a little bit of a miss on our part is…
+
+[Camden Swita] 10:13:27
+We don't really have a good way right now of… for, like, a user or a customer to, like, quote-unquote, teach our agent anything.
+
+[Camden Swita] 10:13:35
+Right? Right now, it's like, you know, the tools are the tools, and maybe they upload some stuff in the RAG platform, maybe the agent uses it.
+
+[Madhan Raj M A] 10:13:35
+Mm-hmm.
+
+[Camden Swita] 10:13:43
+But what I've noticed with a lot of other SRE agent
+
+[Camden Swita] 10:13:47
+platforms and startups out there.
+
+[Camden Swita] 10:13:49
+is they'll usually have some kind of, like, introductory experience.
+
+[Camden Swita] 10:13:52
+Where you sort of just give the agent, like, kind of like a baseline of information about
+
+[Madhan Raj M A] 10:13:52
+Okay.
+
+[Camden Swita] 10:13:59
+what are your priorities are, how does your system look?
+
+[Camden Swita] 10:14:03
+Like, things that we wouldn't be able to identify just by virtue of monitoring their systems, so things like runbooks…
+
+[Camden Swita] 10:14:09
+Maybe they upload their post-mortems,
+
+[Madhan Raj M A] 10:14:10
+Okay.
+
+[Camden Swita] 10:14:11
+you know, that sort of thing, and maybe some information about their architecture.
+
+[Camden Swita] 10:14:16
+And then, you know, a few other things. So, my point is, is that I think
+
+[Camden Swita] 10:14:19
+at some point in the near future, I'll be talking to you guys about
+
+[Camden Swita] 10:14:23
+getting started with, um… like, what is a…
+
+[Camden Swita] 10:14:26
+hey, let's teach the agent kind of experience look like.
+
+[Camden Swita] 10:14:30
+Uh, and I think that's another cool one, um, that we'll be able to work on, uh, relatively soon.
+
+[Camden Swita] 10:14:36
+So…
+
+[Abhishek Pandey] 10:14:38
+Sure.
+
+[Camden Swita] 10:14:40
+topic for another day, probably.
+
+[Camden Swita] 10:14:44
+So yeah, any… any other thoughts or questions, or anything I can clarify there?
+
+[Madhan Raj M A] 10:14:53
+Not as a flow.
+
+[Camden Swita] 10:14:55
+Okay, awesome.
+
+[Madhan Raj M A] 10:14:56
+I… yep.
+
+[Camden Swita] 10:14:58
+Manon, do you have, like, the tickets that you need and all that stuff, or is there anything we need to do as far as, like, the actual, like, JIRA request and stuff?
+
+[Madhan Raj M A] 10:15:08
+Okay, uh, so recent, uh…
+
+[Madhan Raj M A] 10:15:11
+Updates from TIA, right, on… to the product team that, uh…
+
+[Madhan Raj M A] 10:15:15
+designers would be put up under PLTs, so I'm not sure.
+
+[Madhan Raj M A] 10:15:19
+how the process is going to be. I'll check with my manager, and then I'll come back.
+
+[Camden Swita] 10:15:19
+Yep.
+
+[Camden Swita] 10:15:24
+Okay. Okay, because last time I talked to Vivian, I think she did say that she still wanted us to… wanted product to submit work requests.
+
+[Camden Swita] 10:15:32
+I don't think I've done it for this, um, so, uh,
+
+[Madhan Raj M A] 10:15:34
+Okay.
+
+[Camden Swita] 10:15:37
+Uh, Abhishek, if you don't mind, could you just kind of draft up a quick…
+
+[Camden Swita] 10:15:42
+uh… work request in JIRA that's, like, you know,
+
+[Camden Swita] 10:15:45
+outlines that we're gonna, like, do a V0, V1 of the S3 agent user experience, where V0 is…
+
+[Camden Swita] 10:15:53
+making the current output more visual using platform components in the V1 is a…
+
+[Abhishek Pandey] 10:15:58
+Sure.
+
+[Camden Swita] 10:15:59
+grid… grid-based…
+
+[Abhishek Pandey] 10:16:00
+Yeah.
+
+[Camden Swita] 10:16:01
+generative UX, and then, you know,
+
+[Camden Swita] 10:16:03
+send that over to me as a link, and I'll send it to Vivian.
+
+[Abhishek Pandey] 10:16:05
+Yeah, sure, that works.
+
+[Camden Swita] 10:16:07
+Awesome
+

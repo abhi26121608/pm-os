@@ -1,0 +1,795 @@
+[Camden Swita] 21:37:19
+UX in a way that, you know, and in a setting where we don't have to worry too much about, like, UI platform restrictions, or this, that, or the other thing.
+
+[Camden Swita] 21:37:31
+And so, what I want to do is I want to pair you with Inez,
+
+[Camden Swita] 21:37:36
+Um, who is in Spain, who has been thinking a lot about this, and… and Madhan.
+
+[Camden Swita] 21:37:43
+And who you know, and… and Manny's team.
+
+[Abhi] 21:37:45
+Yeah.
+
+[Camden Swita] 21:37:47
+And just have you guys…
+
+[Camden Swita] 21:37:49
+like, just start cranking on something that we can kind of incorporate into the platform as, like, a really good
+
+[Camden Swita] 21:37:56
+Um… and, like,
+
+[Camden Swita] 21:37:58
+novel and innovative user experience for…
+
+[Camden Swita] 21:38:02
+Because, you know, for our agents in general, right? Because
+
+[Camden Swita] 21:38:06
+you know, we've got this SRE orchestrator, and it will be…
+
+[Camden Swita] 21:38:10
+using skills and sub-agents and all that stuff, and like…
+
+[Camden Swita] 21:38:15
+We really haven't figured out the front-end side of this, really.
+
+[Abhi] 21:38:18
+Mm-hmm.
+
+[Camden Swita] 21:38:19
+And so, we need somebody thinking… thinking a lot about that, and executing with Manny and team against a vision there.
+
+[Camden Swita] 21:38:26
+Um, and I think this also… I think this also does involve
+
+[Camden Swita] 21:38:31
+Um, integrations, because what I want is I want someone… I want someone using our agent in our experience
+
+[Camden Swita] 21:38:39
+to be able to see how it's using external data sources, whether those are agents or MCP servers or whatever,
+
+[Camden Swita] 21:38:45
+And really understand how that context is being drawn in.
+
+[Camden Swita] 21:38:51
+Um, you know, and understand how it's reasoning across these various things. Does that make sense?
+
+[Abhi] 21:38:57
+Yeah, um, it does, it does.
+
+[Abhi] 21:38:59
+Uh, the only complex part with all of this is, and I'm just sharing my views, correct me if I'm wrong,
+
+[Abhi] 21:39:07
+Uh, it, uh, the complex part would be…
+
+[Abhi] 21:39:11
+you know, boiling down to the ownership, uh, specifically.
+
+[Camden Swita] 21:39:15
+Mm-hmm.
+
+[Abhi] 21:39:16
+Because even if I go on and try to own the front end, right, there will be a lot of things that I would be needing to touch on the backend side of things as well.
+
+[Abhi] 21:39:23
+And I need to understand backend really well, right? To be able to…
+
+[Camden Swita] 21:39:27
+Yeah, yeah.
+
+[Abhi] 21:39:27
+come up with something, uh, impressive on the front-end side of things.
+
+[Camden Swita] 21:39:29
+So… yeah, so I…
+
+[Abhi] 21:39:32
+Yeah.
+
+[Camden Swita] 21:39:33
+Yeah, so I… you… I… you'll… I will get you involved with… with Mariah and with the team on… so that you can understand the backend side of things, too. And… and Manny and team definitely understand the backend pretty well.
+
+[Camden Swita] 21:39:47
+So, it's not like… it's not like you won't… it's not like you won't be involved and you won't be…
+
+[Abhi] 21:39:47
+Yeah.
+
+[Camden Swita] 21:39:53
+in deep with the S3 agent, it's just that I…
+
+[Camden Swita] 21:39:55
+what I'm trying to do is I'm trying to create a group
+
+[Camden Swita] 21:39:58
+that can just go off and…
+
+[Camden Swita] 21:40:01
+not worry too much about
+
+[Camden Swita] 21:40:04
+the complexities of, like,
+
+[Camden Swita] 21:40:06
+navigating SLC and navigating, like,
+
+[Camden Swita] 21:40:10
+Well, we gotta, like, you know, we've gotta do a… we've got to get this NerdGraph thing approved through the API Review Board, you know what I'm saying? Like, so, yes, you need to understand how the S3 agent is working, and you need to spend time with the team and go deep with them, and work hand-in-hand with Mariah, which you will.
+
+[Abhi] 21:40:17
+Yeah.
+
+[Camden Swita] 21:40:26
+But ultimately, I want your ownership to be this new…
+
+[Camden Swita] 21:40:31
+generative user experience that, like, blurs the boundaries between New Relic and other platforms.
+
+[Abhi] 21:40:37
+And we still plan to do all of this within the chat.
+
+[Abhi] 21:40:40
+Right?
+
+[Camden Swita] 21:40:43
+that is the question. I mean, no, we don't have to… we don't have to use the chat panel.
+
+[Abhi] 21:40:43
+Got a… yeah. Okay, yeah.
+
+[Abhi] 21:40:46
+Yeah. Yeah, because it won't happen on the chat.
+
+[Camden Swita] 21:40:49
+Uh, in fact, I would almost… I would almost… I would almost prefer if we didn't.
+
+[Abhi] 21:40:50
+Yeah.
+
+[Abhi] 21:40:53
+Yeah, headache.
+
+[Camden Swita] 21:40:53
+I would almost prefer if we just took a completely blank slate and said,
+
+[Camden Swita] 21:40:58
+If there was just a new page, a new page… I mean, obviously, it probably need to be in the New Relic platform, but, like, there's just a new page,
+
+[Abhi] 21:40:58
+Yeah.
+
+[Abhi] 21:41:00
+Yeah.
+
+[Abhi] 21:41:03
+Yes, of course.
+
+[Camden Swita] 21:41:06
+forget about… forget about one core components, forget about UI platform, forget about…
+
+[Camden Swita] 21:41:12
+anything, and just, like, what is this… what does this look like?
+
+[Abhi] 21:41:12
+Got it.
+
+[Abhi] 21:41:16
+Sure. Yep. Then only it can work really well, yeah.
+
+[Camden Swita] 21:41:20
+I think it's exciting.
+
+[Abhi] 21:41:21
+It's interesting, for sure, but if we restrict it to the chat, right, then there will be a lot of constraints.
+
+[Camden Swita] 21:41:23
+Yeah.
+
+[Camden Swita] 21:41:28
+I don't… yeah, and don't… don't… don't think of it as being restricted to the chat.
+
+[Abhi] 21:41:33
+Makes sense, makes sense. And uh… just one more thing, Cameron. If you think that
+
+[Abhi] 21:41:38
+Uh, Maria can do all of this on her own. I don't want you to give me something just because…
+
+[Abhi] 21:41:43
+We talked about it. It is, like, completely fine. Trust me on that.
+
+[Camden Swita] 21:41:44
+No, no, no. I'm… I'm…
+
+[Camden Swita] 21:41:47
+I'm not… I'm… I… first of all, I don't think that she can do it all on her own. I think it's too much.
+
+[Camden Swita] 21:41:53
+Because they're sort of fund… they're fundamentally kind of two different problems. Like,
+
+[Abhi] 21:41:53
+Yeah.
+
+[Abhi] 21:41:57
+Yeah.
+
+[Camden Swita] 21:41:59
+they're related, but, like, so there's the SRE Orchestrator,
+
+[Camden Swita] 21:42:02
+And that S3 orchestrator needs to be good at
+
+[Camden Swita] 21:42:06
+forming the use cases we're trying to get it to do.
+
+[Abhi] 21:42:07
+Perfect. Yep.
+
+[Camden Swita] 21:42:08
+And that's… that's… that's her concern. That's the extent of her concern.
+
+[Camden Swita] 21:42:13
+Your concern is…
+
+[Camden Swita] 21:42:15
+If we believe that the future of user experience at New Relic is generative and adaptive and will require the use of multiple agents, both across New Relic, but also platforms,
+
+[Camden Swita] 21:42:30
+What does that look like? Like, what… like, that's… that's a much…
+
+[Abhi] 21:42:33
+Sure.
+
+[Camden Swita] 21:42:34
+That's a much broader… I mean, the SRE agent will show up in that UI, obviously.
+
+[Abhi] 21:42:39
+Yeah.
+
+[Camden Swita] 21:42:41
+But it's a much broader concern.
+
+[Camden Swita] 21:42:44
+Um…
+
+[Abhi] 21:42:45
+Agreed.
+
+[Camden Swita] 21:42:45
+In my opinion.
+
+[Abhi] 21:42:47
+Yep. Okay.
+
+[Camden Swita] 21:42:47
+Yeah.
+
+[Abhi] 21:42:49
+Makes sense.
+
+[Camden Swita] 21:42:50
+So… so I think… I think that the fir… and again, this is… this isn't a consolation prize by any means. It's… it literally came out of a conversation with Brian… Brian, where Brian and I were talking about
+
+[Abhi] 21:42:58
+Yeah.
+
+[Camden Swita] 21:43:01
+We were talking about the fact that we want to do this, and…
+
+[Camden Swita] 21:43:06
+also the fact that we didn't really have anybody sort of, like, leading the charge on it, and I brought you up, and so here we are, so…
+
+[Camden Swita] 21:43:13
+Um, I think the first… the first…
+
+[Camden Swita] 21:43:16
+thing to start with.
+
+[Camden Swita] 21:43:18
+is gonna be, like, let's get, like,
+
+[Camden Swita] 21:43:22
+two or three steel thread user journeys written.
+
+[Abhi] 21:43:25
+Yep.
+
+[Camden Swita] 21:43:26
+And one is, like,
+
+[Camden Swita] 21:43:28
+you know, focus one on, like,
+
+[Camden Swita] 21:43:30
+Okay, a user lands in New Relic,
+
+[Camden Swita] 21:43:34
+Um, you know, after getting…
+
+[Camden Swita] 21:43:37
+you know, a page.
+
+[Camden Swita] 21:43:40
+Does that make sense? Uh, and, like, what is this… what is this user experience doing? And, like, based off of what we know about our current AI functionality and where we want to take it,
+
+[Abhi] 21:43:42
+Yeah, it does.
+
+[Camden Swita] 21:43:52
+um, you know, what is that, uh…
+
+[Camden Swita] 21:43:54
+uh, you know, what does this user experience feel and look like?
+
+[Abhi] 21:43:58
+Sure.
+
+[Camden Swita] 21:43:58
+Um, I think that the… I think that… I think the next user experience will be
+
+[Camden Swita] 21:44:04
+that you should steal thread is, um, something like, uh…
+
+[Camden Swita] 21:44:10
+uh… you know, the user is…
+
+[Camden Swita] 21:44:13
+the user is using multiple agents across multiple tools.
+
+[Camden Swita] 21:44:19
+And, um…
+
+[Camden Swita] 21:44:21
+uh, you know, an ins…
+
+[Camden Swita] 21:44:23
+So, like, in other words, like, they've got a PagerDuty agent, they've got a…
+
+[Abhi] 21:44:27
+Yep.
+
+[Camden Swita] 21:44:28
+they've got a PagerDuty agent, they've got a New Relic agent, like, and, like, how do we show…
+
+[Camden Swita] 21:44:33
+like, the way I kind of think of it figuratively is, like,
+
+[Camden Swita] 21:44:37
+you want to get, like, it's just like during incident response, right? You want to get all the right people in the right room to solve a problem.
+
+[Abhi] 21:44:43
+Yep.
+
+[Camden Swita] 21:44:44
+And so, like, quite literally, you want the right people in the right Slack room, or the right Zoom bridge to solve a problem.
+
+[Camden Swita] 21:44:51
+Well, what does that look like? What does that look like when agents are involved?
+
+[Camden Swita] 21:44:55
+And is it… is it like a… is it like a collaborative chat thing where you can at-mention people in New Relic? And you know what I mean? Like, so SteelThread, that kind of experience out. And maybe we can start with kind of those two things, and then iterate from there.
+
+[Abhi] 21:44:55
+Yep.
+
+[Abhi] 21:45:10
+Yep, yep. No, I get your point.
+
+[Camden Swita] 21:45:13
+Or, you know, if you… or if you think it's… if you think that's wrong, and we should…
+
+[Camden Swita] 21:45:17
+focus on something else, then by all means, but… but let me…
+
+[Camden Swita] 21:45:21
+Uh, no.
+
+[Abhi] 21:45:22
+Sure, sure. Got it.
+
+[Abhi] 21:45:25
+Good to know, uh, that we are not restricting it to chat, and we can think about it, like, uh…
+
+[Abhi] 21:45:31
+blind slate, where we are designing everything from the scratch, maybe. Then how would the experience would look like?
+
+[Abhi] 21:45:38
+Got it.
+
+[Abhi] 21:45:40
+Okay. Uh, can you help me with the documentation? I know there is a lot in conference, but…
+
+[Abhi] 21:45:46
+I just keep getting confused which one is the updated one.
+
+[Abhi] 21:45:50
+So, if you could share me what is the latest over there, yeah.
+
+[Camden Swita] 21:45:52
+Could you… yeah, do you mind… do you actually mind, um…
+
+[Camden Swita] 21:45:57
+Uh…
+
+[Camden Swita] 21:45:59
+Uh, yeah, I'll share… I'll share it with you, um, and yeah, I'll share it, I'll send you links.
+
+[Abhi] 21:46:05
+Okay. Because, uh…
+
+[Abhi] 21:46:07
+what I've been doing lately is…
+
+[Abhi] 21:46:10
+I've been exploring the reports, the quotes, uh…
+
+[Abhi] 21:46:14
+the actual codes, basically.
+
+[Abhi] 21:46:16
+I'm trying to understand…
+
+[Abhi] 21:46:18
+like, what exactly exists, whatever exists, does it even make sense or not?
+
+[Abhi] 21:46:23
+For instance, from alerts perspective, I was able to find a couple of loopholes, you know, that exist.
+
+[Abhi] 21:46:29
+And then similarly in the smart alerts as well, but I just want to know if I'm looking at the right repos or not.
+
+[Abhi] 21:46:35
+For now, I'm just playing around with Claude, yeah.
+
+[Camden Swita] 21:46:37
+Okay.
+
+[Camden Swita] 21:46:39
+Okay, sounds good.
+
+[Abhi] 21:46:41
+Okay, cool. Uh…
+
+[Abhi] 21:46:43
+That helps. Okay, uh, did you have a chance to look at that whole DAZN and Vipro situation, like…
+
+[Abhi] 21:46:51
+How do we approach, uh…
+
+[Abhi] 21:46:53
+these integrations going ahead.
+
+[Abhi] 21:46:56
+Given that there is an altogether new process in…
+
+[Camden Swita] 21:46:58
+So…
+
+[Abhi] 21:46:59
+place, yeah.
+
+[Camden Swita] 21:47:01
+Yeah, so, um…
+
+[Camden Swita] 21:47:04
+right now, what's happening is… so that's basically getting escalated.
+
+[Camden Swita] 21:47:09
+by, um… so Esteban has escalated to CXO.
+
+[Camden Swita] 21:47:14
+So, as soon as I hear back from CXO on what we want to do here, and whether we want to accept this risk,
+
+[Camden Swita] 21:47:20
+I'll… I'll follow up. I don't… to be honest with you, I don't know. I mean, it…
+
+[Camden Swita] 21:47:23
+CXO could come back and say,
+
+[Camden Swita] 21:47:26
+we're, you know, we're reversing Oren's decision here. We can't whitelist any additional new MCP partners beyond the initial set until this is solved, and in that case, we just have to figure out
+
+[Camden Swita] 21:47:38
+how IAM and co. are gonna solve it, but…
+
+[Camden Swita] 21:47:41
+I don't know yet, so I'll have to follow up with you once I hear back.
+
+[Abhi] 21:47:44
+Got it. Because even in the current OAuth plan that we have given, right, for the P0,
+
+[Abhi] 21:47:50
+For the MCPGA, there are a couple of things that have been…
+
+[Abhi] 21:47:54
+that don't exist in the P0 line items.
+
+[Abhi] 21:47:57
+Because the MCP wants to go GA.
+
+[Abhi] 21:48:00
+For instance, if you have a client like Grow, right?
+
+[Abhi] 21:48:03
+we still will have to whitelist them. There is no other way of…
+
+[Abhi] 21:48:07
+going around the whitelisting thing, and if…
+
+[Abhi] 21:48:10
+Whitelisting is not gonna happen.
+
+[Abhi] 21:48:13
+Yeah.
+
+[Camden Swita] 21:48:13
+What? Yeah, I mean, so…
+
+[Camden Swita] 21:48:15
+whatever we're listing as Priority Zero for the MCP server should allow
+
+[Abhi] 21:48:18
+Yeah.
+
+[Camden Swita] 21:48:21
+new partners to onboard. I mean, if that's not already included in the P0 requirements, then make it a P0.
+
+[Abhi] 21:48:27
+So, I made it P0, but…
+
+[Camden Swita] 21:48:28
+We can't… we can't…
+
+[Abhi] 21:48:30
+they got pushed to P1 that, no, we have to go GA for MCP, we can't…
+
+[Abhi] 21:48:35
+Like, IM will push back on this, this and that. I was like, okay, let's push it to people, and then, like, I didn't have any options.
+
+[Camden Swita] 21:48:41
+No, I would… I would… I would push… push back on that, because, again, there's no… I mean, yeah, push back on that.
+
+[Abhi] 21:48:43
+Okay.
+
+[Abhi] 21:48:45
+Okay.
+
+[Abhi] 21:48:48
+Okay.
+
+[Camden Swita] 21:48:49
+And add me to the thread if you want. I mean, the whole point of this exercise is so that we can integrate this, so that partners can integrate with this.
+
+[Camden Swita] 21:48:56
+We're not gonna go GA with the MCP server without the ability to add new partners. It doesn't make any sense.
+
+[Abhi] 21:48:56
+Okay.
+
+[Abhi] 21:49:01
+Yeah, because that hinders my work directly then, right?
+
+[Abhi] 21:49:06
+So if… yeah, okay.
+
+[Camden Swita] 21:49:06
+Yeah. So if there's a thread or whatever, or, you know, there's commentary in a document, let me…
+
+[Abhi] 21:49:10
+Yeah, there's a conference page.
+
+[Abhi] 21:49:12
+there's a conference page on which we are continuously chatting.
+
+[Abhi] 21:49:16
+So, cool, uh, LL, I'll probably add those line items as well, and I'll…
+
+[Abhi] 21:49:20
+tag you to share your opinion, that why would we want it to be
+
+[Camden Swita] 21:49:24
+Yeah, tag me and tag Darmi, too, yeah.
+
+[Abhi] 21:49:25
+has a P0N atom. Okay.
+
+[Abhi] 21:49:27
+Sure, yeah, okay, okay.
+
+[Abhi] 21:49:29
+Great. 1, 2…
+
+[Abhi] 21:49:34
+Cool. Uh, okay.
+
+[Abhi] 21:49:35
+And then, Camden, on the DB agent that I was working on…
+
+[Abhi] 21:49:39
+So, the current state is that we haven't done anything for the last 3-4 weeks.
+
+[Abhi] 21:49:43
+I think there has been a pushback between Sri Kanth and DB team. They're asking for something, DB team is saying to them that we have our own
+
+[Abhi] 21:49:51
+They have given them alternative on, you know, how they can
+
+[Abhi] 21:49:55
+work around to get that particular thing. And there hasn't been any progress, basically.
+
+[Abhi] 21:50:01
+Like, what should I do? I have already taken a step back.
+
+[Abhi] 21:50:05
+I don't see… Aruna doing a lot on it right now.
+
+[Abhi] 21:50:09
+I think they're waiting for their PP to happen, which is on 11th of March.
+
+[Abhi] 21:50:14
+like, how should I be involved in that? How much?
+
+[Abhi] 21:50:17
+of my involvement should go there.
+
+[Camden Swita] 21:50:18
+So what is… so, sorry, what is the database team saying? They're saying they're not going to work on the agent anymore at all, or they're… or they're… they're trying…
+
+[Abhi] 21:50:19
+Yeah.
+
+[Abhi] 21:50:24
+So… so they're saying… saying that…
+
+[Camden Swita] 21:50:26
+PP, an agent.
+
+[Abhi] 21:50:27
+Yeah, they're saying that we won't be able to support anything till we go PP, which is on 11th March, for their own product.
+
+[Abhi] 21:50:35
+Post that, they will start supporting.
+
+[Camden Swita] 21:50:36
+What is their own product?
+
+[Abhi] 21:50:38
+Uh, so they are making…
+
+[Abhi] 21:50:41
+UI UX changes, to be very frank, within their DB product.
+
+[Camden Swita] 21:50:43
+Oh, okay, so that's fine. So just circle back with them after March 11th, and then we can get going on it again, and at least… I mean, I don't want you to…
+
+[Abhi] 21:50:44
+Yeah.
+
+[Camden Swita] 21:50:51
+have to manage it, but after March 11th, just make sure SHRICOT is talking to them about what they need to finish it up.
+
+[Abhi] 21:50:56
+Okay.
+
+[Camden Swita] 21:50:56
+And then we can hand it over to the SRE agent team.
+
+[Abhi] 21:50:59
+Yeah, and that has been my personal issue as well, like, I don't…
+
+[Abhi] 21:51:04
+have any ownership over anyone, right? And I'm into, like, 2-3 different things.
+
+[Abhi] 21:51:08
+And now, if I am, like, taking a backseat, because already a couple of people have gotten involved into it, like, high-level people, like, how do I approach this situation? Should I quietly take a backseat?
+
+[Camden Swita] 21:51:17
+Just… just don't worry about ownership. Just, yeah, don't worry about ownership. Just… just… when March 11th comes around, just start a thread with Sri Konth and the database team, and say, hey guys, I'm not, you know, I'm not trying to own this, I'm just trying to, like, make sure people are talking.
+
+[Abhi] 21:51:19
+Okay.
+
+[Abhi] 21:51:23
+Yeah.
+
+[Abhi] 21:51:30
+Okay, okay.
+
+[Camden Swita] 21:51:31
+Now that this PP is done, where do things stand, and can we move this forward?
+
+[Abhi] 21:51:36
+Okay. Okay. Makes sense.
+
+[Abhi] 21:51:42
+Uh, okay, and on the agentic integrations thing, I think I have a very clear picture what we want to do, how we want to do, and…
+
+[Abhi] 21:51:49
+I think a lot of it will support SRE engine directly as well.
+
+[Abhi] 21:51:53
+That is how I've been planning for it.
+
+[Abhi] 21:51:55
+Uh, we have our first team meeting on Monday.
+
+[Abhi] 21:51:59
+And yeah, by the way, we just have one engineer in the team right now.
+
+[Abhi] 21:52:03
+I'm not sure how soon we can onboard other engineers, because…
+
+[Abhi] 21:52:07
+There are a couple of integrations that we… that I want to probably, you know, conclude as soon as possible, because those will support
+
+[Abhi] 21:52:15
+the SRE agent directly.
+
+[Abhi] 21:52:17
+So one of them is Azure SRE, then Amazon DevOps, and then there is a PagerDuty.
+
+[Abhi] 21:52:24
+SRE agent as well.
+
+[Abhi] 21:52:26
+So, there are a couple of integrations that would directly support
+
+[Abhi] 21:52:30
+RSR reagent use case as well.
+
+[Abhi] 21:52:33
+So, when Siva comes here, I'll talk to him as well, whenever he's here. I think he's coming here on…
+
+[Abhi] 21:52:39
+11, 12th, right?
+
+[Abhi] 21:52:41
+When I'll be there as well, in Hyderabad, but if you…
+
+[Abhi] 21:52:44
+get a chance to talk to him, that would help a lot.
+
+[Camden Swita] 21:52:44
+Yeah.
+
+[Camden Swita] 21:52:50
+Okay, sounds good. Yeah, just add me to whatever meetings you need.
+
+[Abhi] 21:52:52
+Yeah.
+
+[Abhi] 21:52:54
+Okay. And for now, the project that we have prioritized just came from partner engineering team, and that project is not something that I wanted to prioritize.
+
+[Abhi] 21:53:03
+But for now, we'll go ahead with it.
+
+[Abhi] 21:53:05
+Because it won't take us much time to pull it off, uh, but going ahead, I have my own prioritization. I hope that works.
+
+[Abhi] 21:53:12
+I'll share it with you as well, uh, once we meet on Monday, Umesh, myself, and Justin.
+
+[Abhi] 21:53:18
+I'll share it with you. Let me know how you feel about it, the integration roadmap.
+
+[Camden Swita] 21:53:20
+Okay.
+
+[Abhi] 21:53:24
+And then we can go about it from there.
+
+[Camden Swita] 21:53:28
+Okay, sounds good.
+
+[Abhi] 21:53:29
+Yeah. Cool. I'll be waiting for SRE-related some threats from you.
+
+[Camden Swita] 21:53:35
+Okay, sounds good
+
