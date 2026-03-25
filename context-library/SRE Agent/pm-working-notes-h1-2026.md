@@ -101,7 +101,55 @@ Extends existing New Relic Slack integration:
 
 **What Slack Cannot Do**: Interactive charts, hypothesis steering, memory management, post-mortem editing. Everything rich goes back to canvas via `[View Full Investigation →]` links.
 
-### 7 Entry Points
+### Tertiary: Chrome Extension
+
+A lightweight companion that follows SREs across their tool ecosystem. Similar to Atlassian's Rovo browser extension, this brings SRE Agent context to where engineers already work.
+
+**Why Chrome Extension**: SREs don't live in New Relic. They context-switch constantly between PagerDuty, GitHub, AWS/GCP consoles, internal wikis, and runbook repositories. A Chrome extension provides:
+- **Ambient awareness**: Badge shows active investigation count, notification dot for findings
+- **Contextual injection**: When viewing a GitHub deployment PR, extension surfaces related golden metrics or recent incidents for that service
+- **Quick investigation triggers**: Right-click any error message, stack trace, or service name → "Investigate with SRE Agent"
+- **Cross-tool correlation**: On PagerDuty alert page, see if SRE Agent is already investigating
+
+**What the Extension Does**:
+- Investigation status notifications and progress indicators
+- Quick "Investigate this" context menu trigger
+- Sidebar panel showing relevant NR data for current page context
+- Approve/reject low-risk actions without switching tabs
+- Deep links to full canvas for rich interactions
+- Service health indicators when viewing related pages (GitHub repos, cloud consoles)
+
+**What the Extension Does NOT Do** (Canvas handles these):
+- Full investigation canvas experience
+- Memory management and pattern teaching
+- Post-mortem editing
+- Complex evidence exploration
+- Hypothesis steering and prioritization
+
+**Page-Specific Behaviors**:
+
+| Context | Extension Behavior |
+|---------|-------------------|
+| PagerDuty alert | "SRE Agent investigating..." with progress, approve/reject buttons |
+| GitHub PR (deployment) | Pre/post deploy golden metrics, related alerts, rollback recommendation |
+| AWS/GCP console | Service health overlay, recent investigations for this resource |
+| Internal wiki/runbook | Highlight if runbook is linked to memory patterns, suggest updates |
+| Jira incident ticket | Investigation summary sidebar, link to full canvas |
+
+**Technical Approach**:
+- Manifest V3 Chrome extension (future Firefox/Edge support)
+- Uses same authentication as New Relic platform (SSO passthrough)
+- Lightweight polling for investigation status (not websocket in extension)
+- Service worker for background notification handling
+- Content scripts for page-specific context injection
+
+**Why This Beats Competitors**:
+- Datadog has no browser extension
+- Dynatrace has no browser extension
+- PagerDuty's extension is notification-only, no investigation context
+- This becomes a unique differentiator for "AI that follows you"
+
+### 9 Entry Points
 
 1. **Auto-triggered**: Monitor enters ALERT → investigation starts automatically (if "Enable AI SRE" is configured)
 2. **From Alert/Issue Page**: Banner: "Investigate with SRE Agent" button
@@ -110,10 +158,12 @@ Extends existing New Relic Slack integration:
 5. **Free-form Prompt**: Navigate to `/ai/investigations/new` and describe
 6. **From Morning Brief**: Click "Investigate deeper" on a proactive finding
 7. **From Investigation List**: Open any past or active investigation
+8. **From Chrome Extension**: Right-click context menu on any page → "Investigate with SRE Agent"
+9. **From Extension Sidebar**: Click "Start Investigation" while viewing correlated service data
 
 ### Post-GA Exploration (Not in Scope Now)
 
-Chrome extension, dedicated mobile app, Microsoft Teams. We focus on two surfaces only.
+Dedicated mobile app, Microsoft Teams integration, VS Code extension. We focus on three surfaces (Canvas, Slack, Chrome Extension).
 
 ---
 
@@ -250,6 +300,7 @@ We're designing explicit autonomy controls in settings.
 | Risk-tiered action approvals | Chat commands | Workflow automation |
 | One-click post-mortem | None | Basic |
 | Morning brief | None | None |
+| **Chrome extension (cross-tool context)** | **None** | **None** |
 
 ### What Datadog Does NOT Have (Our Opportunities)
 
@@ -260,6 +311,7 @@ We're designing explicit autonomy controls in settings.
 - ❌ Auto-generated post-mortems
 - ❌ Memory of previous investigations
 - ❌ Intent preview before execution
+- ❌ Browser extension for cross-tool context (PagerDuty, GitHub, cloud consoles)
 
 ### Trust-Building Patterns (Industry Best Practices)
 
