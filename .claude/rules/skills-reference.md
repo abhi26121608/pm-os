@@ -1,6 +1,11 @@
-# PM-OS Skills Reference (59 Total)
+# PM-OS Skills Reference (60 Total)
 
 All skills are in `.claude/skills/<skill-name>/SKILL.md`. They auto-check workspace context and connect insights.
+
+## System & Learning
+| Skill | Purpose |
+|-------|---------|
+| `/capture-learnings` | Capture session learnings, update learning log, suggest rule improvements |
 
 ## Core PM Workflows
 | Skill | Purpose |
