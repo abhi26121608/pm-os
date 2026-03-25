@@ -56,6 +56,25 @@ Full list: `.claude/rules/skills-reference.md`
 - **Web Search**: Competitors, market data, technical specs
 - **Code Execution**: Data analysis, testing prompts, visualizations
 
+## MCP Integrations (Jira & Confluence)
+
+<important>
+**AUTO-OPEN ALL LINKS.** When any document contains Jira or Confluence links, automatically fetch their content WITHOUT waiting for user to ask. Fetch multiple links in parallel.
+</important>
+
+### Automatic Link Resolution
+- **Jira Issues**: Auto-fetch when seeing issue keys (`PROJ-123`) or Jira URLs
+- **Confluence Pages**: Auto-fetch when seeing Confluence URLs or wiki references
+- **Multiple Links**: Fetch ALL linked resources in parallel, summarize key info from each
+
+### Search Behavior
+- Use `searchAtlassian` (Rovo Search) for general searches
+- Use JQL/CQL only when explicitly requested
+
+### CloudId Handling
+- Extract hostname from URLs (e.g., `site.atlassian.net`) as cloudId
+- Fall back to `getAccessibleAtlassianResources` if needed
+
 ## Quick Reference
 
 | Need | Command |
